@@ -2,7 +2,7 @@
 
 Fair Aid QAOA selects three of six equal-cost aid projects, examines how a policy priority weight changes the allocation, and compares Qiskit QAOA with classical methods. The [project guide](../README.md) contains the implementation and results. Use the [submission notebook](../Track2_Submission.ipynb) and [HTML presentation](../Track2_Submission.html) for the presentation.
 
-**GitHub publication is being prepared. The video and event submission are still pending.** Every input is a synthetic teaching score; do not present the results as real relief data or validated social benefits.
+**The [public GitHub repository](https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa) is published and accessible without signing in. The video and event submission are still pending.** Every input is a synthetic teaching score; do not present the results as real relief data or validated social benefits.
 
 ## Official requirements
 
@@ -55,16 +55,17 @@ The humanitarian context draws on the [IFRC Code of Conduct](https://www.ifrc.or
 
 - [x] The 34 local mathematical, encoding, input, circuit, and analysis tests passed.
 - [x] The existing Python 3.13.7 environment executed all 16 code cells across the two notebooks without errors; HTML formulas and charts were checked in a browser.
+- [x] A fresh checkout from the public GitHub repository passed all source/data hash checks and executed the submission notebook's seven code cells using the existing environment. The 60 published text files, decoded notebook/JSON content, slide XML, and four notebook preview images were checked for English-only content.
 - [ ] In a fresh environment, follow the [reproduction instructions](../README.md#reproduce-from-a-fresh-checkout) to install, test, and execute the submission notebook. Set `RERUN_EXPERIMENTS=True` for a full recomputation.
 - [x] The comparison manifest matches its source and inputs, its `summary.csv` retains all 80 runs including unsuccessful optimizations, and the original 24 rows remain separate.
 - [x] The submission notebook has no error outputs, its HTML opens, its charts agree with the CSVs, and relative documentation links were checked.
-- [ ] Publish code, input CSVs, tests, dependency files, executed notebooks, HTML, results, and figures. Exclude `.venv/`, `downloads/`, caches, and temporary experiment directories.
+- [x] Published code, input CSVs, tests, dependency files, executed notebooks, HTML, results, and figures. Excluded `.venv/`, `downloads/`, caches, and temporary experiment directories.
 - [x] The event instructions and starter tutorial retain their attribution, and `Track 2/README.md` links to this project.
 
 ### Team and external steps
 
 - [ ] Fill in the team name, members, and responsibilities; confirm who will attend in person.
-- [ ] Publish the team's GitHub repository and check reviewer access in a signed-out browser.
+- [x] Published the GitHub repository and verified that its project content is accessible without signing in.
 - [ ] Record a 5-10 minute video using the outline, publish it, and check playback permissions.
 - [ ] Confirm the intended `PST` deadline label and appoint one member to submit the official form on time.
 - [ ] Save the submission confirmation and avoid duplicate submissions. In-person participants must check in on October 18.
@@ -72,7 +73,7 @@ The humanitarian context draws on the [IFRC Code of Conduct](https://www.ifrc.or
 | Information to complete | Status |
 |---|---|
 | Team name, members, and responsibilities | To be supplied by the team |
-| Team GitHub repository | Publication in progress; add the verified URL after publication |
+| Team GitHub repository | [gengx-prog/qompute-2026-fair-aid-qaoa](https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa) |
 | 5-10 minute video | To be recorded and published |
 
 The current instructions do not require paid compute or a hardware experiment. Prioritize verified results, clear explanations, and accessible submission materials. Real demand data, unequal project costs, larger instances, or noise experiments can follow as explicitly scoped extensions.

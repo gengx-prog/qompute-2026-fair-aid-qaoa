@@ -207,6 +207,6 @@ Downloaded reference copies are stored under the repository's `downloads/track2/
 
 ## Remaining submission work
 
-The computational materials, challenge mapping, and video outline are prepared. GitHub publication is being prepared; the video and event submission are still pending. Complete the team information, record and publish a 5–10 minute video, confirm reviewer access to the repository and video, and have one team member submit the official form. See the [submission guide](submission/README.md).
+The computational materials, challenge mapping, and video outline are prepared. The [public GitHub repository](https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa) is published and accessible without signing in. The video and event submission are still pending. Complete the team information, record and publish a 5–10 minute video, confirm playback access, and have one team member submit the official form. See the [submission guide](submission/README.md).
 
 The official README gives the deadline as **October 14, 2026, 11:59PM PST**. Preserve that timezone label and confirm its intended meaning with the organizers; October 18 is the separate in-person check-in date. Real hardware and real aid data are optional extensions, not mandatory challenge requirements.
