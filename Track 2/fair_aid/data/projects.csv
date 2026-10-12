@@ -1,0 +1,7 @@
+id,name,benefit,equity,underserved,unit_cost
+A,Central food hub,9,0,0,1
+B,Established distribution center,8.5,0.5,0,1
+C,Transit-accessible supply point,7,1,0,1
+D,Mobile outreach team,6.5,2,1,1
+E,Remote neighborhood delivery,6,3,1,1
+F,Accessible home delivery,5.5,4,1,1

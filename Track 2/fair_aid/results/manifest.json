@@ -1,0 +1,81 @@
+{
+  "generated_at_utc": "2026-10-12T09:05:54.214102+00:00",
+  "data_kind": "synthetic pedagogical scores; no real beneficiary or population records",
+  "problem": {
+    "n": 6,
+    "k": 3,
+    "cost_per_project": 1
+  },
+  "weights": [
+    0.0,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "depths": [
+    1,
+    2
+  ],
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "mixers": [
+    "x"
+  ],
+  "penalty": 20.0,
+  "maxiter": 160,
+  "shots_per_run": 2048,
+  "runs": 24,
+  "training": "Qiskit StatevectorEstimator, precision=0, COBYLA; exact ideal simulation",
+  "sampling": "Qiskit StatevectorSampler; seed=initialization_seed+100000; no repair",
+  "hardware": "none; resources include initial-state preparation, transpiled to h/rx/rz/cx on all-to-all logical connectivity",
+  "python": "3.13.7",
+  "packages": {
+    "qiskit": "2.5.2",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "sha256": {
+    "data/overlaps.csv": "1242ade7ccafab91b2fc6f06920b13ee27c762c219d33f6cf90f3e0cdb70dfbd",
+    "data/projects.csv": "8602c1dad40df9f1035015d4ee088d9c0e690bc21909b2bb2071742ef8305454",
+    "allocation.py": "dabc7c63ab69f8aafd80475d0b53de9402291f0ea9163f6d3bcbbbf3991a446f",
+    "mixers.py": "0f553d67fdaf601b2e600a10af42f6a002a1098e0c7cfc5f55ba1d295d32fefa",
+    "run_experiments.py": "ca4214edde3990578695580753877ba0fb3ce44dfc519be0939b301e08d8a68d",
+    "requirements.txt": "08f4e49fc80777e2f9fea1e0129884bb347b55987ff1b127c705ebac6eb0d3ff"
+  },
+  "elapsed_seconds": 8.943328599998495,
+  "encoding_validation": [
+    {
+      "weight": 0.0,
+      "states_checked": 64,
+      "max_energy_error": 3.730349362740526e-14
+    },
+    {
+      "weight": 0.5,
+      "states_checked": 64,
+      "max_energy_error": 3.730349362740526e-14
+    },
+    {
+      "weight": 1.0,
+      "states_checked": 64,
+      "max_energy_error": 3.730349362740526e-14
+    },
+    {
+      "weight": 2.0,
+      "states_checked": 64,
+      "max_energy_error": 3.730349362740526e-14
+    }
+  ],
+  "notes": [
+    "Classical exhaustive reference enumerates all 64 states / 20 feasible sets.",
+    "Exact statevector probabilities and finite-shot rates are distinct fields.",
+    "All initialization runs are reported, including non-converged optimizations.",
+    "Best-of-2048 samples is not evidence of a computational advantage.",
+    "Equity priority is a policy preference, not a fairness constraint or guarantee."
+  ]
+}

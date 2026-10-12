@@ -1,0 +1,16 @@
+first,second,penalty
+A,B,1.2
+A,C,1
+A,D,0.4
+A,E,0.2
+A,F,0.3
+B,C,0.8
+B,D,0.3
+B,E,0.5
+B,F,0.2
+C,D,0.2
+C,E,0.3
+C,F,0.4
+D,E,0.4
+D,F,0.3
+E,F,0.6

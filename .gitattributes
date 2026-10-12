@@ -1,0 +1,7 @@
+# Keep reproducibility hashes stable across Windows and Unix checkouts.
+* text=auto eol=lf
+*.png binary
+*.pdf binary
+*.pptx binary
+# Preserve the supplied challenge instructions byte for byte.
+CHALLENGE.md -text

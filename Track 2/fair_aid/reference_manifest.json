@@ -1,0 +1,23 @@
+[
+  {
+    "file": "downloads/track2/references/challenge_README.md",
+    "url": "https://raw.githubusercontent.com/sandraalhames/Qompute-2026/855f3b7b7849b30cd63a07b730df97096fc8e317/README.md",
+    "bytes": 23376,
+    "sha256": "14d44b60ed307624a91aad72a5bbcc070073ea5b97af2d432ba77ad535a0b381",
+    "downloaded_at_utc": "2026-10-12T08:36:33.179599+00:00"
+  },
+  {
+    "file": "downloads/track2/references/hadfield_alternating_operator.pdf",
+    "url": "https://arxiv.org/pdf/1709.03489",
+    "bytes": 935650,
+    "sha256": "6c80eaf37f472f4ab5da19b5427de6e1606314cfbff227b19d0907b449a5b450",
+    "downloaded_at_utc": "2026-10-12T08:36:33.274964+00:00"
+  },
+  {
+    "file": "downloads/track2/references/ifrc_code_of_conduct.pdf",
+    "url": "https://www.ifrc.org/sites/default/files/2021-07/code-of-conduct-movement-ngos-english.pdf",
+    "bytes": 37071,
+    "sha256": "15fce82bbd1239cc15b6d2f5e4a2b92ffb7c5f888833ea6ca8bf5dd73ee499b5",
+    "downloaded_at_utc": "2026-10-12T08:36:33.600181+00:00"
+  }
+]
