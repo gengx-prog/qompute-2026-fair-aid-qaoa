@@ -5,7 +5,7 @@
 How should a limited aid budget balance overall benefit and priority for underserved communities? This project selects three of six equal-cost aid projects, models the budget as a quantum optimization constraint, and compares Qiskit QAOA with exact and heuristic classical solutions.
 
 All inputs are synthetic teaching scores. The experiments use ideal simulation and do not establish quantum advantage or readiness for real aid allocation.
-
+ 
 ## Start here
 
 - [Project guide and reproduction instructions](Track%202/fair_aid/README.md)
