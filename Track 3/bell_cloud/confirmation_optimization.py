@@ -312,7 +312,7 @@ def evaluate_plan(plan_path, *, stage_names=None):
                                              screening_job_ids=plan["excluded_confirmation_job_ids"],
                                              matching_baseline_id=plan["matching_baseline_id"], alpha=ALPHA_PER_ATTEMPT,
                                              minimum_improvement=MINIMUM_IMPROVEMENT)
-        report.update(stage=name, frozen_plan_file=str(plan_path), attempt=plan["attempt"],
+        report.update(stage=name, frozen_plan_file=plan_path.name, attempt=plan["attempt"],
                       records_sha256=_canonical_hash(result["records"]), shots_per_basis=shots,
                       candidate_summaries=summaries, compiled_resources=resources)
         attribution_id = plan.get("attribution_baseline_id")
@@ -326,7 +326,7 @@ def evaluate_plan(plan_path, *, stage_names=None):
     if len(set(observed_jobs)) != 2:
         raise ValueError("The two confirmation stages reused one job.")
     aggregate = analysis.confirm_replicates(reports)
-    aggregate.update(attempt=plan["attempt"], frozen_plan_file=str(plan_path),
+    aggregate.update(attempt=plan["attempt"], frozen_plan_file=plan_path.name,
                      frozen_plan_sha256=_canonical_hash(plan), source_stage=plan["source_stage"],
                      screening_job_ids=plan["screening_job_ids"],
                      prior_confirmation_job_ids=plan["prior_confirmation_job_ids"],

@@ -1,0 +1,347 @@
+1
+00:00:00,000 --> 00:00:02,411
+Can we trust a noisy quantum computer?
+
+2
+00:00:02,411 --> 00:00:03,572
+We are team twelve.
+
+3
+00:00:03,572 --> 00:00:09,302
+Our project studies this question through a small Bell-state experiment on real IBM hardware.
+
+4
+00:00:09,302 --> 00:00:13,502
+The team members are Hung-Yu Lin, Xinchen Geng, and Daniel Cai.
+
+5
+00:00:13,502 --> 00:00:22,093
+We investigate two practical choices: where to place the experiment on a processor, and when adding error detection is worth its cost.
+
+6
+00:00:22,093 --> 00:00:27,196
+Our main finding is that a better physical placement helped in two new confirmation runs.
+
+7
+00:00:27,196 --> 00:00:34,610
+Error detection helped a declared injected-error mixture, but did not establish a general improvement under natural noise.
+
+8
+00:00:34,610 --> 00:00:39,567
+We prepare the Bell state Phi-plus with a Hadamard gate followed by a controlled NOT.
+
+9
+00:00:39,567 --> 00:00:45,349
+We measure the two data qubits in three settings: X X, Y Y, and Z Z.
+
+10
+00:00:45,349 --> 00:00:49,049
+These correlations estimate fidelity to the known target state.
+
+11
+00:00:49,049 --> 00:00:56,220
+The expression adds the X X and Z Z correlations and subtracts Y Y, before adding one and dividing by four.
+
+12
+00:00:56,220 --> 00:01:04,279
+Measuring only Z Z would be insufficient, because a classical mixture of zero zero and one one can show the same Z correlation.
+
+13
+00:01:04,279 --> 00:01:08,862
+The three-setting test checks the coherence that this simple classical check misses.
+
+14
+00:01:08,862 --> 00:01:14,072
+The project includes both ideal simulator counts and a synthetic noisy baseline.
+
+15
+00:01:14,072 --> 00:01:19,084
+Its noise assumptions are recorded rather than presented as IBM calibration data.
+
+16
+00:01:19,084 --> 00:01:23,818
+The protected circuit adds an auxiliary qubit that records odd Z Z parity.
+
+17
+00:01:23,818 --> 00:01:27,138
+We keep the shots whose measured auxiliary bit is zero.
+
+18
+00:01:27,138 --> 00:01:33,427
+This can detect a single X error occurring before the check, while a phase error can pass undetected.
+
+19
+00:01:33,427 --> 00:01:35,366
+All measurements happen at the end.
+
+20
+00:01:35,366 --> 00:01:38,021
+This is error detection with postselection.
+
+21
+00:01:38,021 --> 00:01:44,136
+It does not implement general error correction, and each extra operation can itself introduce noise.
+
+22
+00:01:44,136 --> 00:01:48,426
+Our initial hardware run illustrates why a protection method needs measurement.
+
+23
+00:01:48,426 --> 00:01:55,605
+On the original placement, the ordinary circuit gave a raw fidelity estimate of 96 point 85 percent.
+
+24
+00:01:55,605 --> 00:02:02,893
+The filtered circuit gave 95 point 13 percent and retained 97 point 36 percent of its shots.
+
+25
+00:02:02,893 --> 00:02:09,075
+The ordinary preparation used one native controlled Z gate, while the routed detector used six.
+
+26
+00:02:09,075 --> 00:02:12,752
+The added detector did not improve the measured result in this run.
+
+27
+00:02:12,752 --> 00:02:21,026
+Its extra gates and routing are possible contributors, but this experiment does not isolate the cause or prove that detection always hurts.
+
+28
+00:02:21,026 --> 00:02:30,035
+We next explored physical placement across all 176 unordered connected data-qubit pairs on the captured processor topology.
+
+29
+00:02:30,035 --> 00:02:36,811
+This scan covered one prescribed orientation per new pair, rather than every possible circuit configuration.
+
+30
+00:02:36,811 --> 00:02:43,383
+Screening maxima are exploratory because selecting the largest observed value can exaggerate performance.
+
+31
+00:02:43,383 --> 00:02:48,143
+We froze a candidate and its controls before running two new confirmation jobs.
+
+32
+00:02:48,143 --> 00:02:52,865
+Each candidate used 16,384 shots per basis.
+
+33
+00:02:52,865 --> 00:02:58,752
+Both new jobs had to pass a fixed improvement criterion and a conservative adjusted difference interval.
+
+34
+00:02:58,752 --> 00:03:03,060
+We preserved the exploration and the unsuccessful results for inspection.
+
+35
+00:03:03,060 --> 00:03:05,827
+Here are the independent confirmation results.
+
+36
+00:03:05,827 --> 00:03:17,166
+In confirmation A, the original configuration gave 95 point 81 percent fidelity, while the selected layout plus reset gave 97 point 63 percent.
+
+37
+00:03:17,166 --> 00:03:26,113
+In confirmation B, the original gave 90 point 53 percent and the selected configuration gave 97 point 73 percent.
+
+38
+00:03:26,113 --> 00:03:27,601
+All shots were retained.
+
+39
+00:03:27,601 --> 00:03:30,527
+Both adjusted difference intervals stayed above zero.
+
+40
+00:03:30,527 --> 00:03:35,226
+These results support a better-performing configuration among the tested choices.
+
+41
+00:03:35,226 --> 00:03:44,090
+They do not establish a global optimum across all placements, orientations, pulse schedules, or future calibration conditions.
+
+42
+00:03:44,090 --> 00:03:46,316
+The same-layout control is important.
+
+43
+00:03:46,316 --> 00:03:54,606
+Without the extra reset, the selected layout gave 97 point 79 percent and 97 point 65 percent.
+
+44
+00:03:54,606 --> 00:04:00,501
+The reset-specific differences were small, changed sign, and had intervals including zero.
+
+45
+00:04:00,501 --> 00:04:05,423
+We therefore cannot attribute the selected configuration's benefit to reset itself.
+
+46
+00:04:05,423 --> 00:04:09,565
+The original baseline also changed substantially between jobs.
+
+47
+00:04:09,565 --> 00:04:17,849
+Our intervals describe finite-shot variation, not calibration drift, measurement bias, or every other systematic effect.
+
+48
+00:04:17,849 --> 00:04:25,032
+The defensible claim is an observed configuration benefit in these confirmations, with its limits stated alongside it.
+
+49
+00:04:25,032 --> 00:04:29,804
+We separately tested the mechanism of error detection on a fixed physical layout.
+
+50
+00:04:29,804 --> 00:04:36,406
+Each setting used nine copies without an injected fault and one copy with an X fault after Bell preparation.
+
+51
+00:04:36,406 --> 00:04:42,490
+We combined these counts before postselection, producing a declared ten percent X-error mixture.
+
+52
+00:04:42,490 --> 00:04:48,976
+This is a fixed stratified allocation, rather than randomly deciding whether to add an error on each shot.
+
+53
+00:04:48,976 --> 00:04:53,117
+Two new jobs compared the ordinary Bell circuit with the bridge detector.
+
+54
+00:04:53,117 --> 00:05:00,881
+The no-injected-error comparison uses a subset of the same data and remains descriptive rather than a separate independent discovery.
+
+55
+00:05:00,881 --> 00:05:07,377
+Under the declared ten percent X-error mixture, ordinary fidelity was about 88 point 2 percent.
+
+56
+00:05:07,377 --> 00:05:13,167
+The bridge detector's retained-shot fidelity was about 97 point 3 percent in both jobs.
+
+57
+00:05:13,167 --> 00:05:17,638
+Both primary ninety-nine percent bootstrap difference intervals were positive.
+
+58
+00:05:17,638 --> 00:05:22,976
+The cost was that the detector discarded about eleven point one percent of attempted shots.
+
+59
+00:05:22,976 --> 00:05:26,773
+Without injected errors, it did not establish an improvement.
+
+60
+00:05:26,773 --> 00:05:36,229
+Higher quality among retained samples does not mean a higher unconditional output yield, and these results do not prove protection against arbitrary errors
+
+61
+00:05:36,229 --> 00:05:37,938
+or natural hardware noise.
+
+62
+00:05:37,938 --> 00:05:40,416
+Hardware resources are part of the result.
+
+63
+00:05:40,416 --> 00:05:44,174
+The ordinary preparation used one native controlled Z gate.
+
+64
+00:05:44,174 --> 00:05:50,612
+The original routed detector used six, and the equivalent bridge detector used four in the measured layouts.
+
+65
+00:05:50,612 --> 00:05:55,830
+Reducing gate count is useful, but does not by itself prove better noisy fidelity.
+
+66
+00:05:55,830 --> 00:06:05,380
+Across the initial experiment and the campaign, thirteen completed jobs executed 828 circuits and about one point sixteen million shots.
+
+67
+00:06:05,380 --> 00:06:12,032
+Finalized records show 338 charged quantum-compute seconds from a 600-second allowance.
+
+68
+00:06:12,032 --> 00:06:16,067
+Queue time and local preparation are additional wall-clock costs.
+
+69
+00:06:16,067 --> 00:06:19,605
+The recorded remaining allowance is not a live account balance.
+
+70
+00:06:19,605 --> 00:06:28,992
+Our recommendation is that quantum-cloud tools expose placement choices with repeated reference controls, raw counts, and explicit uncertainty.
+
+71
+00:06:28,992 --> 00:06:38,467
+Students and smaller research groups often have limited compute budgets, so an attractive but ineffective protection method has a real opportunity cost.
+
+72
+00:06:38,467 --> 00:06:42,757
+Reporting failures and discarded shots helps them make fair comparisons.
+
+73
+00:06:42,757 --> 00:06:48,808
+More broadly, users should not treat a high reported fidelity as a guarantee for high-stakes decisions.
+
+74
+00:06:48,808 --> 00:06:56,860
+A trustworthy report explains what it verified, which noise conditions it tested, and how much evidence or output it discarded.
+
+75
+00:06:56,860 --> 00:07:06,772
+The repository includes the executed notebook, plots, raw counts, logical and native quantum instructions, and finalized usage records.
+
+76
+00:07:06,772 --> 00:07:12,259
+Rebuilding the presentation reanalyzes saved evidence without submitting another quantum job.
+
+77
+00:07:12,259 --> 00:07:17,989
+A portability fix resolves historical plan paths locally and still checks their recorded hash.
+
+78
+00:07:17,989 --> 00:07:20,392
+We follow the general Track Three prompt.
+
+79
+00:07:20,392 --> 00:07:30,094
+The optional geometry challenge asks for three specified architectures and nine core cases; those complete common definitions were not supplied, and this
+
+80
+00:07:30,094 --> 00:07:33,236
+project does not claim to complete that comparison.
+
+81
+00:07:33,236 --> 00:07:37,052
+This boundary keeps our conclusion consistent with the evidence.
+
+82
+00:07:37,052 --> 00:07:46,566
+Our answer is that a noisy quantum result can become more trustworthy when we verify a known target, repeat the comparison on new data, and report the
+
+83
+00:07:46,566 --> 00:07:47,147
+cost.
+
+84
+00:07:47,147 --> 00:07:49,940
+Placement improved our recorded confirmations.
+
+85
+00:07:49,940 --> 00:07:54,834
+Error detection helped a specified X-error mixture while discarding samples.
+
+86
+00:07:54,834 --> 00:07:56,677
+The limits are part of the result.
+
+87
+00:07:56,677 --> 00:07:57,930
+Thank you for watching.

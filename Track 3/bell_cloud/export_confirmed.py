@@ -5,7 +5,7 @@ import argparse
 import hashlib
 import json
 import math
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 import re
 import shutil
 
@@ -57,8 +57,15 @@ def export(report_path: Path, output: Path):
         raise ValueError("The two replication reports do not confirm the same candidate.")
     if (len(report.get("job_ids", [])) != 2 or set(report["job_ids"]) != set(verified["job_ids"])):
         raise ValueError("Top-level report job IDs differ from the two verified replications.")
-    plan_name = Path(report["frozen_plan_file"])
-    plan_path = plan_name if plan_name.is_absolute() else campaign / plan_name
+    # Evidence is relocatable. Historical reports contain absolute Windows
+    # paths; resolve the plan beside this report and still verify its hash.
+    reference = report["frozen_plan_file"]
+    if not isinstance(reference, str):
+        raise ValueError("The frozen plan reference must be a filename or path.")
+    plan_name = PureWindowsPath(reference).name
+    if not re.fullmatch(r"confirmation-plan-\d+\.json", plan_name):
+        raise ValueError("Invalid frozen confirmation plan filename.")
+    plan_path = campaign / plan_name
     plan = read(plan_path)
     canonical_hash = canonical_digest(plan)
     if canonical_hash != report["frozen_plan_sha256"]:

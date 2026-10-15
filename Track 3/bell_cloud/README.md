@@ -1,5 +1,12 @@
 # Bell correlations on IBM quantum hardware
 
+## Submission presentation
+
+Start with the [executed Track 3 notebook, figures, video and checklist](submission/README.md).
+The [standalone HTML results](submission/Track3_Submission.html) reanalyze saved raw counts without cloud access.
+Team members supplied for this submission are HUNG-YU LIN, XINCHEN GENG and Daniel Cai.
+The project follows the general Track 3 prompt; the optional geometry benchmark remains incomplete as explained below.
+
 This starter implements the Bell-state experiment in the Track 3 **Geometry-aware quantum cloud challenge** PDF. It prepares two entangled data qubits, measures XX, YY and ZZ, and compares an unprotected circuit with a circuit that detects odd ZZ parity using an auxiliary qubit.
 
 Python and Qiskit construct and submit the quantum circuits. The `H`, `CX`, `Sdg` and measurement instructions are quantum operations. Each run exports **OpenQASM 3** files so the quantum instructions can be read independently of the Python controller.

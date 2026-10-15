@@ -1,4 +1,5 @@
 .venv/
+.venv-submission/
 downloads/
 __pycache__/
 .ipynb_checkpoints/
@@ -6,3 +7,5 @@ __pycache__/
 .playwright-mcp/
 # Local IBM account-page capture; reproducible usage records are published separately.
 Track 3/bell_cloud/results/ibm-20261015/platform-instance-verification.yml
+# Generated local movie is published as a GitHub release asset.
+Track 3/bell_cloud/submission/Track3_Presentation.mp4

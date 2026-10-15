@@ -1,0 +1,96 @@
+{
+  "generated_utc": "2026-10-15T06:11:26.486967+00:00",
+  "duration_seconds": 477.930476,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 12,
+  "voice": "macOS Samantha (synthetic)",
+  "rate_words_per_minute": 148,
+  "caption_segments": 87,
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "Can we trust a noisy quantum computer?",
+      "start": 0.0,
+      "end": 34.60966
+    },
+    {
+      "scene": 2,
+      "title": "Verification in three measurement bases",
+      "start": 34.60966,
+      "end": 68.862404
+    },
+    {
+      "scene": 3,
+      "title": "Ideal, noisy and protected baselines",
+      "start": 68.862404,
+      "end": 104.13555699999998
+    },
+    {
+      "scene": 4,
+      "title": "The first hardware check did not help",
+      "start": 104.13555699999998,
+      "end": 141.025716
+    },
+    {
+      "scene": 5,
+      "title": "Screening followed by new confirmation jobs",
+      "start": 141.025716,
+      "end": 183.05972999999997
+    },
+    {
+      "scene": 6,
+      "title": "Selected placement improves both confirmations",
+      "start": 183.05972999999997,
+      "end": 224.08975399999997
+    },
+    {
+      "scene": 7,
+      "title": "Reset benefit and hardware drift",
+      "start": 224.08975399999997,
+      "end": 265.032157
+    },
+    {
+      "scene": 8,
+      "title": "A declared controlled-X-error experiment",
+      "start": 265.032157,
+      "end": 300.8809559999999
+    },
+    {
+      "scene": 9,
+      "title": "Filtering improves quality at a yield cost",
+      "start": 300.8809559999999,
+      "end": 337.937735
+    },
+    {
+      "scene": 10,
+      "title": "Circuit and compute costs",
+      "start": 337.937735,
+      "end": 379.60549
+    },
+    {
+      "scene": 11,
+      "title": "Who benefits from trustworthy cloud results?",
+      "start": 379.60549,
+      "end": 416.86018299999995
+    },
+    {
+      "scene": 12,
+      "title": "Reproduction and scope",
+      "start": 416.86018299999995,
+      "end": 457.05174700000003
+    },
+    {
+      "scene": 13,
+      "title": "Trust depends on evidence and cost",
+      "start": 457.05174700000003,
+      "end": 477.93047800000005
+    }
+  ],
+  "video_sha256": "04d8832496709f0222f4e2f9cd85d307acd5c9ccf8958a41777a63bc3e67d963",
+  "video_bytes": 10535110,
+  "uploaded": false,
+  "script_sha256": "9e2cd893a283982304c35fed1cc3816496aeced126b1b593fac613f6fe78d924"
+}

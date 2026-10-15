@@ -1,0 +1,150 @@
+[
+  {
+    "title": "Can we trust a noisy quantum computer?",
+    "subtitle": "Bell correlations, placement and error detection",
+    "points": [
+      "team-12 / Qompute 2026 / Track 3",
+      "HUNG-YU LIN, XINCHEN GENG, Daniel Cai",
+      "IBM hardware experiments with auditable raw counts"
+    ],
+    "source": "Project README and recorded ibm_marrakesh jobs",
+    "narration": "Can we trust a noisy quantum computer? We are team twelve. Our project studies this question through a small Bell-state experiment on real IBM hardware. The team members are Hung-Yu Lin, Xinchen Geng, and Daniel Cai. We investigate two practical choices: where to place the experiment on a processor, and when adding error detection is worth its cost. Our main finding is that a better physical placement helped in two new confirmation runs. Error detection helped a declared injected-error mixture, but did not establish a general improvement under natural noise."
+  },
+  {
+    "title": "Verification in three measurement bases",
+    "subtitle": "F = (1 + <XX> - <YY> + <ZZ>) / 4",
+    "points": [
+      "Target: Bell state Phi-plus",
+      "Prepare with H, then CX",
+      "Measure XX, YY and ZZ",
+      "ZZ correlation alone cannot certify Bell coherence"
+    ],
+    "source": "bell_core.py / build_circuits and analyze_counts",
+    "narration": "We prepare the Bell state Phi-plus with a Hadamard gate followed by a controlled NOT. We measure the two data qubits in three settings: X X, Y Y, and Z Z. These correlations estimate fidelity to the known target state. The expression adds the X X and Z Z correlations and subtracts Y Y, before adding one and dividing by four. Measuring only Z Z would be insufficient, because a classical mixture of zero zero and one one can show the same Z correlation. The three-setting test checks the coherence that this simple classical check misses."
+  },
+  {
+    "title": "Ideal, noisy and protected baselines",
+    "subtitle": "Odd ZZ parity flags a class of errors",
+    "points": [
+      "Ideal reference and declared synthetic noise",
+      "Ancilla check, followed by terminal measurement",
+      "Keep measured ancilla = 0",
+      "Detect a single X fault before the check",
+      "A Z fault can pass undetected"
+    ],
+    "source": "results/local-demo and bell_core.py",
+    "narration": "The project includes both ideal simulator counts and a synthetic noisy baseline. Its noise assumptions are recorded rather than presented as IBM calibration data. The protected circuit adds an auxiliary qubit that records odd Z Z parity. We keep the shots whose measured auxiliary bit is zero. This can detect a single X error occurring before the check, while a phase error can pass undetected. All measurements happen at the end. This is error detection with postselection. It does not implement general error correction, and each extra operation can itself introduce noise."
+  },
+  {
+    "title": "The first hardware check did not help",
+    "subtitle": "Observed fidelity: 96.85% ordinary / 95.13% filtered",
+    "points": [
+      "Original physical placement [0, 1, 2]",
+      "Ordinary preparation: 1 native CZ",
+      "Routed detector: 6 native CZ",
+      "Filtered circuit retained 97.36% of shots",
+      "An observed decrease is not an isolated causal result"
+    ],
+    "source": "results/ibm-20261015 / job db852e6il99s73fpamcg",
+    "narration": "Our initial hardware run illustrates why a protection method needs measurement. On the original placement, the ordinary circuit gave a raw fidelity estimate of 96 point 85 percent. The filtered circuit gave 95 point 13 percent and retained 97 point 36 percent of its shots. The ordinary preparation used one native controlled Z gate, while the routed detector used six. The added detector did not improve the measured result in this run. Its extra gates and routing are possible contributors, but this experiment does not isolate the cause or prove that detection always hurts."
+  },
+  {
+    "title": "Screening followed by new confirmation jobs",
+    "subtitle": "A screening maximum is only exploratory",
+    "points": [
+      "176 connected data-qubit pairs covered",
+      "Freeze candidate and controls before confirmation",
+      "Two new jobs, 16,384 shots per basis",
+      "Require improvement and positive adjusted lower bound",
+      "Retain unsuccessful and negative results"
+    ],
+    "source": "confirmation-plan-01.json and edge-scan-plan.json",
+    "narration": "We next explored physical placement across all 176 unordered connected data-qubit pairs on the captured processor topology. This scan covered one prescribed orientation per new pair, rather than every possible circuit configuration. Screening maxima are exploratory because selecting the largest observed value can exaggerate performance. We froze a candidate and its controls before running two new confirmation jobs. Each candidate used 16,384 shots per basis. Both new jobs had to pass a fixed improvement criterion and a conservative adjusted difference interval. We preserved the exploration and the unsuccessful results for inspection."
+  },
+  {
+    "title": "Selected placement improves both confirmations",
+    "subtitle": "The measured benefit repeats in two new jobs",
+    "figure": "placement_confirmation.png",
+    "source": "confirm-01-a and confirm-01-b / raw counts reanalyzed offline",
+    "narration": "Here are the independent confirmation results. In confirmation A, the original configuration gave 95 point 81 percent fidelity, while the selected layout plus reset gave 97 point 63 percent. In confirmation B, the original gave 90 point 53 percent and the selected configuration gave 97 point 73 percent. All shots were retained. Both adjusted difference intervals stayed above zero. These results support a better-performing configuration among the tested choices. They do not establish a global optimum across all placements, orientations, pulse schedules, or future calibration conditions."
+  },
+  {
+    "title": "Reset benefit and hardware drift",
+    "subtitle": "Same-layout controls limit the attribution",
+    "points": [
+      "Selected layout without reset: 97.79% / 97.65%",
+      "Extra reset changes: -0.15 / +0.08 percentage points",
+      "Both reset-specific intervals include zero",
+      "Original baseline changes between jobs",
+      "Future improvement cannot be promised as a fixed gain"
+    ],
+    "source": "best-confirmed/best-config.json / secondary attribution controls",
+    "narration": "The same-layout control is important. Without the extra reset, the selected layout gave 97 point 79 percent and 97 point 65 percent. The reset-specific differences were small, changed sign, and had intervals including zero. We therefore cannot attribute the selected configuration's benefit to reset itself. The original baseline also changed substantially between jobs. Our intervals describe finite-shot variation, not calibration drift, measurement bias, or every other systematic effect. The defensible claim is an observed configuration benefit in these confirmations, with its limits stated alongside it."
+  },
+  {
+    "title": "A declared controlled-X-error experiment",
+    "subtitle": "Fixed 9:1 mixture, combined before filtering",
+    "points": [
+      "One frozen physical layout [6, 7, 8]",
+      "Ordinary Bell circuit and equivalent bridge detector",
+      "Nine no-fault copies, one injected-X copy",
+      "Two new jobs, 512 shots per circuit",
+      "0% result is descriptive and shares samples"
+    ],
+    "source": "controlled-noise-plan.json / stress-01 and stress-02",
+    "narration": "We separately tested the mechanism of error detection on a fixed physical layout. Each setting used nine copies without an injected fault and one copy with an X fault after Bell preparation. We combined these counts before postselection, producing a declared ten percent X-error mixture. This is a fixed stratified allocation, rather than randomly deciding whether to add an error on each shot. Two new jobs compared the ordinary Bell circuit with the bridge detector. The no-injected-error comparison uses a subset of the same data and remains descriptive rather than a separate independent discovery."
+  },
+  {
+    "title": "Filtering improves quality at a yield cost",
+    "subtitle": "Approximately 11.1% of attempted shots are discarded",
+    "figure": "controlled_noise_and_yield.png",
+    "source": "controlled-noise-report.json / raw counts and 99% bootstrap intervals",
+    "narration": "Under the declared ten percent X-error mixture, ordinary fidelity was about 88 point 2 percent. The bridge detector's retained-shot fidelity was about 97 point 3 percent in both jobs. Both primary ninety-nine percent bootstrap difference intervals were positive. The cost was that the detector discarded about eleven point one percent of attempted shots. Without injected errors, it did not establish an improvement. Higher quality among retained samples does not mean a higher unconditional output yield, and these results do not prove protection against arbitrary errors or natural hardware noise."
+  },
+  {
+    "title": "Circuit and compute costs",
+    "subtitle": "13 completed hardware jobs / 1,155,072 shots",
+    "figure": "hardware_cost.png",
+    "source": "Saved ISA resources and finalized hardware-usage.json records",
+    "narration": "Hardware resources are part of the result. The ordinary preparation used one native controlled Z gate. The original routed detector used six, and the equivalent bridge detector used four in the measured layouts. Reducing gate count is useful, but does not by itself prove better noisy fidelity. Across the initial experiment and the campaign, thirteen completed jobs executed 828 circuits and about one point sixteen million shots. Finalized records show 338 charged quantum-compute seconds from a 600-second allowance. Queue time and local preparation are additional wall-clock costs. The recorded remaining allowance is not a live account balance."
+  },
+  {
+    "title": "Who benefits from trustworthy cloud results?",
+    "subtitle": "A recommendation supported by this experiment",
+    "points": [
+      "Expose placement choices with reference controls",
+      "Export raw counts and resource costs",
+      "Report retained shots together with fidelity",
+      "Small compute budgets make failed methods costly",
+      "Claims should match measured evidence"
+    ],
+    "source": "General Track 3 societal-impact prompt and this experiment's measured limits",
+    "narration": "Our recommendation is that quantum-cloud tools expose placement choices with repeated reference controls, raw counts, and explicit uncertainty. Students and smaller research groups often have limited compute budgets, so an attractive but ineffective protection method has a real opportunity cost. Reporting failures and discarded shots helps them make fair comparisons. More broadly, users should not treat a high reported fidelity as a guarantee for high-stakes decisions. A trustworthy report explains what it verified, which noise conditions it tested, and how much evidence or output it discarded."
+  },
+  {
+    "title": "Reproduction and scope",
+    "subtitle": "Recorded evidence remains separate from new experiments",
+    "points": [
+      "Executed Notebook reanalyzes saved counts offline",
+      "Figures, raw counts, QASM and usage records included",
+      "Portable export verifies frozen-plan hashes",
+      "General Track 3 experiment",
+      "Optional official three-model benchmark remains incomplete"
+    ],
+    "source": "Track3_Submission.ipynb, build_submission.py and neighboring challenge PDF",
+    "narration": "The repository includes the executed notebook, plots, raw counts, logical and native quantum instructions, and finalized usage records. Rebuilding the presentation reanalyzes saved evidence without submitting another quantum job. A portability fix resolves historical plan paths locally and still checks their recorded hash. We follow the general Track Three prompt. The optional geometry challenge asks for three specified architectures and nine core cases; those complete common definitions were not supplied, and this project does not claim to complete that comparison. This boundary keeps our conclusion consistent with the evidence."
+  },
+  {
+    "title": "Trust depends on evidence and cost",
+    "subtitle": "Placement helped; detection helped a specified X-error mixture",
+    "points": [
+      "Known-answer verification across XX, YY and ZZ",
+      "Two new confirmations of the selected configuration",
+      "Conditional filtering with an explicit discarded fraction",
+      "team-12: HUNG-YU LIN, XINCHEN GENG, Daniel Cai",
+      "Narration: macOS Samantha synthetic voice"
+    ],
+    "source": "github.com/gengx-prog/qompute-2026-fair-aid-qaoa / Track 3 / bell_cloud",
+    "narration": "Our answer is that a noisy quantum result can become more trustworthy when we verify a known target, repeat the comparison on new data, and report the cost. Placement improved our recorded confirmations. Error detection helped a specified X-error mixture while discarding samples. The limits are part of the result. Thank you for watching."
+  }
+]

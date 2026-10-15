@@ -110,6 +110,26 @@ class ExportConfirmedTests(unittest.TestCase):
         self.change(path, lambda row: row["records"][0]["counts"].update({"000": 13999}))
         self.assert_rejected()
 
+    def test_export_accepts_historical_windows_plan_path_after_relocation(self):
+        self.change(self.report_path, lambda row: row.update(
+            frozen_plan_file=r"G:\Qompute-2026-main\results\confirmation-plan-01.json"))
+        with redirect_stdout(StringIO()):
+            export(self.report_path, self.root / "relocated-windows")
+        self.assertTrue((self.root / "relocated-windows" / self.plan_path.name).is_file())
+
+    def test_export_accepts_stale_posix_plan_path_after_relocation(self):
+        self.change(self.report_path, lambda row: row.update(
+            frozen_plan_file="/another/computer/results/confirmation-plan-01.json"))
+        with redirect_stdout(StringIO()):
+            export(self.report_path, self.root / "relocated-posix")
+        self.assertTrue((self.root / "relocated-posix" / self.plan_path.name).is_file())
+
+    def test_relocated_plan_still_requires_the_frozen_hash(self):
+        self.change(self.report_path, lambda row: row.update(
+            frozen_plan_file=r"G:\old\confirmation-plan-01.json"))
+        self.change(self.plan_path, lambda row: row.update(backend="changed"))
+        self.assert_rejected()
+
     def test_changed_spec_is_rejected(self):
         self.change(self.root / self.stage_names[0] / "spec.json", lambda row: row.update(shots=8192))
         self.assert_rejected()

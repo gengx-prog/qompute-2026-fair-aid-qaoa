@@ -1,0 +1,15 @@
+{
+  "tests_passed": 87,
+  "test_command": "python -m unittest discover -s 'Track 3/bell_cloud' -p 'test_*.py' -v",
+  "executed_notebook_code_cells": 6,
+  "notebook_error_outputs": 0,
+  "embedded_figures": 3,
+  "portable_export_verified": true,
+  "exported_evidence_files": 30,
+  "original_experiment_records_modified": false,
+  "new_qpu_jobs_submitted": false,
+  "video_duration_seconds": 477.930476,
+  "video_visual_review": "All 13 scene previews inspected; updated chart frame inspected at 1920x1080.",
+  "video_audio_check": "AAC mono 22050 Hz; nonempty audio; peak -1.4 dBFS.",
+  "form_submitted": false
+}
