@@ -73,7 +73,7 @@ The official repository specifies a 5-10 minute video and the team GitHub link, 
 - [x] Fix relocatable export and pass its regression checks.
 - [x] Confirm team name and Daniel Cai's role.
 - [ ] Team reviews the presentation and verifies all credits.
-- [x] Publish the submission branch and video release asset. [Review PR #1](https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/pull/1) before merging into main.
+- [x] Publish the submission branch and video release asset. [PR #1](https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/pull/1) is merged into main.
 - [x] Confirm with the team that nobody has already submitted.
 - [x] Submit once using the contact email confirmed by the team.
 - [x] Save the actual submission confirmation locally; public status is in `submission-status.json`.
@@ -83,4 +83,4 @@ GitHub repository: https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa
 
 Video file: `Track3_Presentation.mp4`, with synthetic English narration and burned-in captions. The MP4 is distributed as the release asset linked above, rather than duplicated in Git history. Publishing files does not establish a completed competition submission.
 
-The prepared submission branch is [track3-submission-20261014](https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/tree/track3-submission-20261014). PR #1 is open and has not been merged. The competition form was successfully submitted once. The uploaded ZIP snapshots commit `dfd36e5`; subsequent updates record submission status only.
+The prepared submission branch is [track3-submission-20261014](https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/tree/track3-submission-20261014). PR #1 was merged into `main` at commit `b074e86`. The current project files are available on [main](https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/tree/main/Track%203/bell_cloud/submission). The submitted branch remains available because the competition form references it. The competition form was successfully submitted once. The uploaded ZIP snapshots commit `dfd36e5`; subsequent updates record submission status only.

@@ -26,5 +26,8 @@
   ],
   "zip_source_commit": "dfd36e5",
   "optional_slideshow_uploaded": false,
-  "email_delivery": "Form states a copy was sent; inbox was not accessed."
+  "email_delivery": "Form states a copy was sent; inbox was not accessed.",
+  "repository_merge_status": "PR #1 merged into main",
+  "merge_commit": "b074e863c372a823cb0b690d75c55278996cca76",
+  "submitted_branch_preserved": true
 }

@@ -23,5 +23,8 @@
   "prior_submission": "Team explicitly confirmed no prior submission.",
   "submission_status": "Submitted once; official Google Form displayed the receipt confirmation.",
   "pull_request_url": "https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/pull/1",
-  "publication_status": "Submission branch and video release published; PR open, not merged."
+  "publication_status": "PR #1 merged into main; submission branch preserved for the submitted form link.",
+  "main_url": "https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/tree/main/Track%203/bell_cloud/submission",
+  "merge_commit": "b074e863c372a823cb0b690d75c55278996cca76",
+  "merged_at_utc": "2026-10-15T06:19:43Z"
 }
