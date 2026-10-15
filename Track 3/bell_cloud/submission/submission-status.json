@@ -1,0 +1,30 @@
+{
+  "team_name": "team-12",
+  "submitted": true,
+  "submission_count": 1,
+  "recorded_utc": "2026-10-15T06:17:46.128739+00:00",
+  "recorded_los_angeles": "2026-10-14T23:17:46.128739-07:00",
+  "members": [
+    "HUNG-YU LIN",
+    "XINCHEN GENG",
+    "Daniel Cai"
+  ],
+  "form": "https://docs.google.com/forms/d/e/1FAIpQLSffK6jWlW7L8uXGhQ_336lzX1qnckdqiC-M593KWLag3hKDBw/viewform",
+  "confirmation_text": "Your submission has been received and a copy has been sent to you. Good luck and see you Sunday!",
+  "repository_url": "https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/tree/track3-submission-20261014",
+  "uploaded_files": [
+    {
+      "name": "team-12-code.zip",
+      "bytes": 11223344,
+      "sha256": "48c8697ec221c1d17fdfad4022833a08adeca85b392a534d6b5d21138c2007be"
+    },
+    {
+      "name": "Track3_Presentation.mp4",
+      "bytes": 10535110,
+      "sha256": "04d8832496709f0222f4e2f9cd85d307acd5c9ccf8958a41777a63bc3e67d963"
+    }
+  ],
+  "zip_source_commit": "dfd36e5",
+  "optional_slideshow_uploaded": false,
+  "email_delivery": "Form states a copy was sent; inbox was not accessed."
+}

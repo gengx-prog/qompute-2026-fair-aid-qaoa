@@ -64,7 +64,7 @@ The narration uses the system's synthetic voice, with no imitation of any team m
 
 Use the [submission form confirmed by the team](https://docs.google.com/forms/d/e/1FAIpQLSffK6jWlW7L8uXGhQ_336lzX1qnckdqiC-M593KWLag3hKDBw/viewform).
 
-The older form ending `...fafnjAv0nPT38lwS_pa4oWEN3R26bjPpya_I5AeTX5MIz09A` displayed "no longer accepting responses" when inspected on October 14, 2026. The current entry requires Google reauthentication in this session. We have not submitted a response or verified the form's fields beyond that sign-in screen.
+The older form ending `...fafnjAv0nPT38lwS_pa4oWEN3R26bjPpya_I5AeTX5MIz09A` displayed "no longer accepting responses" when inspected on October 14, 2026. After Google reauthentication, the form required email, team name, member names, a GitHub link, a code ZIP and a compressed video. Both required files were uploaded and one response was submitted. The form displayed: "Your submission has been received and a copy has been sent to you. Good luck and see you Sunday!"
 
 The official repository specifies a 5-10 minute video and the team GitHub link, submitted once by one team member. It prints the deadline as **11:59PM PST, October 14, 2026**. Preserve this published label rather than assuming a timezone correction.
 
@@ -75,12 +75,12 @@ The official repository specifies a 5-10 minute video and the team GitHub link, 
 - [ ] Team reviews the presentation and verifies all credits.
 - [x] Publish the submission branch and video release asset. [Review PR #1](https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/pull/1) before merging into main.
 - [x] Confirm with the team that nobody has already submitted.
-- [ ] Have one member submit once.
-- [ ] Save the actual submission confirmation.
+- [x] Submit once using the contact email confirmed by the team.
+- [x] Save the actual submission confirmation locally; public status is in `submission-status.json`.
 - [ ] Confirm attendance arrangements for October 18.
 
 GitHub repository: https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa
 
 Video file: `Track3_Presentation.mp4`, with synthetic English narration and burned-in captions. The MP4 is distributed as the release asset linked above, rather than duplicated in Git history. Publishing files does not establish a completed competition submission.
 
-The prepared submission branch is [track3-submission-20261014](https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/tree/track3-submission-20261014). PR #1 is open and has not been merged. The competition form has not been submitted.
+The prepared submission branch is [track3-submission-20261014](https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/tree/track3-submission-20261014). PR #1 is open and has not been merged. The competition form was successfully submitted once. The uploaded ZIP snapshots commit `dfd36e5`; subsequent updates record submission status only.

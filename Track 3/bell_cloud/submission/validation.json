@@ -11,5 +11,6 @@
   "video_duration_seconds": 477.930476,
   "video_visual_review": "All 13 scene previews inspected; updated chart frame inspected at 1920x1080.",
   "video_audio_check": "AAC mono 22050 Hz; nonempty audio; peak -1.4 dBFS.",
-  "form_submitted": false
+  "form_submitted": true,
+  "code_zip_source_commit": "dfd36e5"
 }
