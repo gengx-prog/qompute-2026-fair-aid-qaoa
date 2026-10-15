@@ -1,0 +1,313 @@
+{
+  "stage": "stress-01",
+  "backend": "ibm_marrakesh",
+  "shots": 512,
+  "local_shots": 512,
+  "cap_seconds": 45,
+  "order_seed": 91371,
+  "candidates": [
+    {
+      "id": "stress_baseline_nofault_00",
+      "variant": "baseline",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_baseline_nofault_01",
+      "variant": "baseline",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_baseline_nofault_02",
+      "variant": "baseline",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_baseline_nofault_03",
+      "variant": "baseline",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_baseline_nofault_04",
+      "variant": "baseline",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_baseline_nofault_05",
+      "variant": "baseline",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_baseline_nofault_06",
+      "variant": "baseline",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_baseline_nofault_07",
+      "variant": "baseline",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_baseline_nofault_08",
+      "variant": "baseline",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_baseline_X_09",
+      "variant": "baseline",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": "X",
+      "stress_branch": "X"
+    },
+    {
+      "id": "stress_bridge_nofault_00",
+      "variant": "bridge",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_bridge_nofault_01",
+      "variant": "bridge",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_bridge_nofault_02",
+      "variant": "bridge",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_bridge_nofault_03",
+      "variant": "bridge",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_bridge_nofault_04",
+      "variant": "bridge",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_bridge_nofault_05",
+      "variant": "bridge",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_bridge_nofault_06",
+      "variant": "bridge",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_bridge_nofault_07",
+      "variant": "bridge",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_bridge_nofault_08",
+      "variant": "bridge",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": null,
+      "stress_branch": "nofault"
+    },
+    {
+      "id": "stress_bridge_X_09",
+      "variant": "bridge",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1,
+      "injected_fault": "X",
+      "stress_branch": "X"
+    }
+  ],
+  "statistics_plan": {
+    "version": 1,
+    "phase": "controlled_noise",
+    "scope": "Controlled X-noise mechanism verification only; not ambient optimization.",
+    "created_utc": "2026-10-15T05:13:08.859210+00:00",
+    "backend": "ibm_marrakesh",
+    "layout": [
+      6,
+      7,
+      8
+    ],
+    "stage_names": [
+      "stress-01",
+      "stress-02"
+    ],
+    "excluded_screening_job_ids": [
+      "db852e6il99s73fpamcg",
+      "db856uaraffc73fbo40g",
+      "db8592qraffc73fbo710",
+      "db85a5ur6oqs7388p7o0",
+      "db85e0qraffc73fboi00",
+      "db85e0ur6oqs7388pgc0",
+      "db85e10r1c5c738lp3tg",
+      "db85e12raffc73fboi0g",
+      "db85stmr6oqs7388qi20"
+    ],
+    "source_sha256": {
+      "optimize_bell.py": "c37fc9f6915a1ec8766b7743bf3152110acbe956792093b94b0c891dffc23698",
+      "optimization_circuits.py": "e1018c4e7d9e48ec619c231a87e695012d3217a16349d1989bbef29c56369e6a",
+      "optimization_analysis.py": "04b22a86e3d7f89c2bd166df73644826c29644bfb0e4ba70978742d33337ca94",
+      "stress_protocol.py": "bd767432ee9a0d9fb52ef3937df9d0cd43611aaf0961119cff5f47f9964f5e2e"
+    },
+    "p_values": [
+      0.0,
+      0.1
+    ],
+    "variants": [
+      "baseline",
+      "bridge"
+    ],
+    "shots_per_circuit": 512,
+    "no_fault_copies": 9,
+    "x_fault_copies": 1,
+    "circuits_per_job": 60,
+    "total_shots_per_job": 30720,
+    "cap_seconds": 45,
+    "order_seeds": [
+      91371,
+      91372
+    ],
+    "bootstrap_seed": 246810,
+    "bootstrap_replicates": 5000,
+    "confidence": 0.99,
+    "minimum_delta": 0.005,
+    "primary_endpoint": "F_bridge(p=0.10) minus F_baseline(p=0.10)",
+    "pass_rule": "point delta >= 0.005 and the two-sided 99% bootstrap lower bound > 0",
+    "confirmation_rule": "Both frozen new distinct non-screening jobs must pass; no extra retry selection.",
+    "p0_role": "Descriptive ambient result only; shares all no-fault samples with p=0.10.",
+    "ambient_optimization_success": false,
+    "fault_location": "X on physical layout[0], after Bell preparation and before parity checking.",
+    "statistical_scope": "Fixed 9:1 stratified mixture; finite-shot conditional inference, not random Bernoulli fault allocation.",
+    "protocol_id": "b806b21f0e34685407f1fde45155387a3d7165571dd094a31b716011abdbe7b7"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-10-15T04:22:38.457345+00:00",
+  "stage": "scan-02",
+  "backend": "ibm_marrakesh",
+  "shots": 1024,
+  "circuit_count": 108,
+  "cap_seconds": 90,
+  "rep_delay_seconds": 0.00025,
+  "estimated_system_seconds": 75.92627609600001,
+  "estimate_note": "20s overhead + 2 * shots * sum(circuit duration + explicitly set repetition delay); heuristic, not guarantee",
+  "remaining_seconds_before_submission": 547.0,
+  "source_sha256": {
+    "optimize_bell.py": "a61ab7dcf0a7e17931e3c03d52729f3abfab35941a5ce543ba7930381d785e65",
+    "optimization_circuits.py": "1984e4683c0d0eb453f41e5f7fbe24876b0dcbaf7f7150d5b87bc1dc327a35d5",
+    "optimization_analysis.py": "04b22a86e3d7f89c2bd166df73644826c29644bfb0e4ba70978742d33337ca94"
+  },
+  "isa_qpy_sha256": "59dcb9a37af9066750d1d08c76a4b7daaaa50e5cf39a47961b6d22a5c605359d",
+  "submission_state": "submitted",
+  "job_id": "db85a5ur6oqs7388p7o0",
+  "local_validation_passed": true,
+  "statistics_plan": {
+    "budget_seconds_total": 600,
+    "used_before_campaign": 5,
+    "maximum_candidate_confirmation_attempts": 3,
+    "confirmation_replicates_per_candidate": 2,
+    "confirmation_shots_per_basis": 8192,
+    "minimum_fidelity_improvement": 0.005,
+    "alpha_per_attempt": 0.016666666666666666,
+    "comparison": "Same-job original baseline; postselected winners additionally need same-layout baseline.",
+    "selection": "All new physical data pairs are screened; freeze one winner before two NEW independent confirmation jobs. A screening maximum is not a confirmed advantage.",
+    "scope": "All unordered hardware coupling edges, one prescribed orientation per new edge; not all orientations, pulse schedules, or circuit designs.",
+    "phase": "exploratory_full_edge_scan",
+    "batch_controls": "Repeat original_baseline and anchor_baseline within every scan job; inspect drift and compare within job.",
+    "preserve_all_results": true
+  },
+  "job_options": {},
+  "attempted_utc": "2026-10-15T04:22:46.309697+00:00"
+}

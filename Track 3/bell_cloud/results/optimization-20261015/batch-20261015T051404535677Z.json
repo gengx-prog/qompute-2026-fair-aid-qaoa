@@ -1,0 +1,101 @@
+{
+  "created_utc": "2026-10-15T05:14:04.537553+00:00",
+  "batch_id": "87885632-0ed4-47f2-9227-dab01caf0984",
+  "backend": "ibm_marrakesh",
+  "batch_ttl_wall_seconds": 600,
+  "per_job_execution_caps_seconds": {
+    "confirm-01-a": 120,
+    "confirm-01-b": 120,
+    "stress-01": 45,
+    "stress-02": 45
+  },
+  "budget_preflight": {
+    "total_budget_seconds": 600.0,
+    "initial_used_seconds": 5.0,
+    "known_final_used_seconds": 236.0,
+    "pending_caps_reserved_seconds": 0,
+    "uncommitted_seconds": 364.0,
+    "jobs": [
+      {
+        "job_id": "db85stmr6oqs7388qi20",
+        "state": "final",
+        "seconds": 50.0
+      },
+      {
+        "job_id": "db8592qraffc73fbo710",
+        "state": "final",
+        "seconds": 32.0
+      },
+      {
+        "job_id": "db85a5ur6oqs7388p7o0",
+        "state": "final",
+        "seconds": 32.0
+      },
+      {
+        "job_id": "db85e0ur6oqs7388pgc0",
+        "state": "final",
+        "seconds": 32.0
+      },
+      {
+        "job_id": "db85e0qraffc73fboi00",
+        "state": "final",
+        "seconds": 32.0
+      },
+      {
+        "job_id": "db85e10r1c5c738lp3tg",
+        "state": "final",
+        "seconds": 32.0
+      },
+      {
+        "job_id": "db85e12raffc73fboi0g",
+        "state": "final",
+        "seconds": 5.0
+      },
+      {
+        "job_id": "db856uaraffc73fbo40g",
+        "state": "final",
+        "seconds": 16.0
+      }
+    ],
+    "note": "Pending actual usage is unknown; its full execution cap is reserved, not counted as zero.",
+    "planned_caps_seconds": 330,
+    "unused_reserve_seconds": 10,
+    "worst_case_used_plus_reserve_seconds": 576.0
+  },
+  "submission_state": "submitted_and_batch_closed_to_new_jobs",
+  "job_ids": [
+    "db8627eil99s73fpco30",
+    "db8627gr1c5c738lqgr0",
+    "db86286r6oqs7388qudg",
+    "db8628eil99s73fpco50"
+  ],
+  "batch_source_sha256": "3c6e029922fc6e6183cafdfdcbbff86f481792b3ac88259ba0600581059aea89",
+  "stages": [
+    {
+      "stage": "confirm-01-a",
+      "job_id": "db8627eil99s73fpco30",
+      "state": "submitted",
+      "attempted_utc": "2026-10-15T05:14:04.702357+00:00"
+    },
+    {
+      "stage": "confirm-01-b",
+      "job_id": "db8627gr1c5c738lqgr0",
+      "state": "submitted",
+      "attempted_utc": "2026-10-15T05:14:05.782009+00:00"
+    },
+    {
+      "stage": "stress-01",
+      "job_id": "db86286r6oqs7388qudg",
+      "state": "submitted",
+      "attempted_utc": "2026-10-15T05:14:06.498858+00:00"
+    },
+    {
+      "stage": "stress-02",
+      "job_id": "db8628eil99s73fpco50",
+      "state": "submitted",
+      "attempted_utc": "2026-10-15T05:14:08.910951+00:00"
+    }
+  ],
+  "note": "TTL is batch wall-clock lifetime, not QPU allocation. Per-job execution caps and reserved budget apply. No automatic retries; existing queued jobs are not cancelled.",
+  "finished_submitting_utc": "2026-10-15T05:14:09.844711+00:00"
+}

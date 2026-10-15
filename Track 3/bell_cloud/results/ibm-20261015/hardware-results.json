@@ -1,0 +1,274 @@
+{
+  "job_id": "db852e6il99s73fpamcg",
+  "backend": "ibm_marrakesh",
+  "raw_counts": [
+    {
+      "000": 1026,
+      "011": 990,
+      "010": 13,
+      "001": 19
+    },
+    {
+      "010": 958,
+      "001": 1034,
+      "000": 42,
+      "011": 14
+    },
+    {
+      "000": 1052,
+      "011": 955,
+      "001": 13,
+      "010": 28
+    },
+    {
+      "000": 971,
+      "011": 953,
+      "001": 39,
+      "100": 18,
+      "101": 15,
+      "111": 12,
+      "010": 28,
+      "110": 12
+    },
+    {
+      "010": 990,
+      "001": 915,
+      "000": 54,
+      "011": 30,
+      "110": 8,
+      "111": 17,
+      "101": 18,
+      "100": 16
+    },
+    {
+      "000": 1016,
+      "011": 943,
+      "101": 14,
+      "111": 11,
+      "110": 11,
+      "001": 26,
+      "100": 10,
+      "010": 17
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "fidelity": 0.968505859375,
+      "fidelity_standard_error": 0.0027420801779538847,
+      "fidelity_interval_95": [
+        0.9550386277946941,
+        0.9779629680368723
+      ],
+      "correlations": {
+        "XX": {
+          "value": 0.96875,
+          "standard_error": 0.005480943437657141,
+          "simultaneous_interval_95": [
+            0.9526676857218404,
+            0.9794255294530341
+          ],
+          "even_parity_shots": 2016,
+          "accepted_shots": 2048,
+          "total_shots": 2048,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "value": -0.9453125,
+          "standard_error": 0.007207319052307378,
+          "simultaneous_interval_95": [
+            -0.9601053698488973,
+            -0.9252436546362627
+          ],
+          "even_parity_shots": 56,
+          "accepted_shots": 2048,
+          "total_shots": 2048,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "value": 0.9599609375,
+          "standard_error": 0.00619014299905034,
+          "simultaneous_interval_95": [
+            0.9422431708206731,
+            0.9723209728455582
+          ],
+          "even_parity_shots": 2007,
+          "accepted_shots": 2048,
+          "total_shots": 2048,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "accepted_shots": 6144,
+      "total_shots": 6144,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Standard errors describe independent shot noise only, conditional on the accepted count; plug-in errors may be zero at boundaries. Fidelity bounds combine three Bonferroni-adjusted Wilson intervals (approximate 95% joint coverage). They exclude calibration drift, readout bias, gate errors, and other systematic uncertainty. Fidelity assumes the same prepared state across XX, YY, and ZZ settings. Raw estimates are not clipped."
+    },
+    "protected": {
+      "fidelity": 0.9513188847767984,
+      "fidelity_standard_error": 0.0034339230218738814,
+      "fidelity_interval_95": [
+        0.9350696201320623,
+        0.9635484207754392
+      ],
+      "correlations": {
+        "XX": {
+          "value": 0.9326971371170265,
+          "standard_error": 0.008082822483122639,
+          "simultaneous_interval_95": [
+            0.9105131573419081,
+            0.9495269486763822
+          ],
+          "even_parity_shots": 1924,
+          "accepted_shots": 1991,
+          "total_shots": 2048,
+          "acceptance_fraction": 0.97216796875
+        },
+        "YY": {
+          "value": -0.9155354449472096,
+          "standard_error": 0.009019136379851925,
+          "simultaneous_interval_95": [
+            -0.9346254442672041,
+            -0.8911845249455104
+          ],
+          "even_parity_shots": 84,
+          "accepted_shots": 1989,
+          "total_shots": 2048,
+          "acceptance_fraction": 0.97119140625
+        },
+        "ZZ": {
+          "value": 0.957042957042957,
+          "standard_error": 0.006480154071505237,
+          "simultaneous_interval_95": [
+            0.9385807982408305,
+            0.9700412901581708
+          ],
+          "even_parity_shots": 1959,
+          "accepted_shots": 2002,
+          "total_shots": 2048,
+          "acceptance_fraction": 0.9775390625
+        }
+      },
+      "accepted_shots": 5982,
+      "total_shots": 6144,
+      "acceptance_fraction": 0.9736328125,
+      "postselected": true,
+      "uncertainty_note": "Standard errors describe independent shot noise only, conditional on the accepted count; plug-in errors may be zero at boundaries. Fidelity bounds combine three Bonferroni-adjusted Wilson intervals (approximate 95% joint coverage). They exclude calibration drift, readout bias, gate errors, and other systematic uncertainty. Fidelity assumes the same prepared state across XX, YY, and ZZ settings. Raw estimates are not clipped."
+    }
+  },
+  "runtime_metadata": {
+    "executor": "Metadata(chunk_timing=[ChunkSpan(start=datetime.datetime(2026, 10, 15, 4, 6, 20, 612987, tzinfo=datetime.timezone.utc), stop=datetime.datetime(2026, 10, 15, 4, 6, 24, 883861, tzinfo=datetime.timezone.utc), parts=[ChunkPart(idx_item=0, size=1), ChunkPart(idx_item=1, size=1), ChunkPart(idx_item=2, size=1), ChunkPart(idx_item=3, size=1), ChunkPart(idx_item=4, size=1), ChunkPart(idx_item=5, size=1)])])",
+    "options": {
+      "default_shots": 4096,
+      "dynamical_decoupling": {
+        "enable": false,
+        "extra_slack_distribution": "middle",
+        "scheduling_method": "alap",
+        "sequence_type": "XX",
+        "skip_reset_qubits": false
+      },
+      "environment": {
+        "image": null,
+        "job_tags": [],
+        "log_level": "WARNING",
+        "max_execution_time": null,
+        "private": false
+      },
+      "execution": {
+        "init_qubits": true,
+        "meas_type": "classified",
+        "rep_delay": null,
+        "scheduler_timing": false,
+        "stretch_values": false
+      },
+      "experimental": {},
+      "max_execution_time": 120,
+      "simulator": {
+        "angle_decimals": 5,
+        "layer_noise_model": null,
+        "seed_simulator": null,
+        "warn_absent": true
+      },
+      "twirling": {
+        "enable_gates": false,
+        "enable_measure": false,
+        "group": "pauli",
+        "num_randomizations": "auto",
+        "shots_per_randomization": "auto",
+        "strategy": "active-accum"
+      }
+    },
+    "shots": 2048
+  },
+  "pub_metadata": [
+    {
+      "circuit_metadata": {
+        "basis": "XX",
+        "variant": "baseline"
+      }
+    },
+    {
+      "circuit_metadata": {
+        "basis": "YY",
+        "variant": "baseline"
+      }
+    },
+    {
+      "circuit_metadata": {
+        "basis": "ZZ",
+        "variant": "baseline"
+      }
+    },
+    {
+      "circuit_metadata": {
+        "basis": "XX",
+        "variant": "protected"
+      }
+    },
+    {
+      "circuit_metadata": {
+        "basis": "YY",
+        "variant": "protected"
+      }
+    },
+    {
+      "circuit_metadata": {
+        "basis": "ZZ",
+        "variant": "protected"
+      }
+    }
+  ],
+  "usage": {
+    "captured_utc": "2026-10-15T04:06:36.747216+00:00",
+    "metrics": {
+      "caller": "qiskit",
+      "qiskit_version": "qiskit_ibm_runtime-0.50.0,qiskit-2.5.2*,qiskit_aer-0.17.2",
+      "timestamps": {
+        "created": "2026-10-15T04:06:16.708213Z",
+        "finished": "2026-10-15T04:06:26.148402Z",
+        "running": "2026-10-15T04:06:18.043673Z"
+      },
+      "usage": {
+        "qpu_charge_time_seconds": 5,
+        "value": 0.0826,
+        "unit": "resource_units",
+        "status": "complete",
+        "details": [
+          {
+            "value": 0.0826,
+            "unit": "resource_units",
+            "metric": {
+              "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+              "value": 5
+            }
+          }
+        ]
+      },
+      "circuits_execution_time_ns": 3245250560
+    },
+    "usage_method_seconds": 5,
+    "usage_status": "complete",
+    "reported_qpu_charge_time_seconds": 5,
+    "note": "Usage can remain pending after results arrive; a zero from usage() is not proof of zero charge. Fetch again to update billing metrics."
+  },
+  "uncertainty_scope": "Finite-shot intervals only; excludes drift and systematic measurement error."
+}

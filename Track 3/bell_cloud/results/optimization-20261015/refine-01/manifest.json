@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-10-15T05:02:05.185532+00:00",
+  "stage": "refine-01",
+  "backend": "ibm_marrakesh",
+  "shots": 2048,
+  "circuit_count": 84,
+  "cap_seconds": 120,
+  "rep_delay_seconds": 0.00025,
+  "estimated_system_seconds": 112.005859328,
+  "estimate_note": "20s overhead + 2 * shots * sum(circuit duration + explicitly set repetition delay); heuristic, not guarantee",
+  "remaining_seconds_before_submission": 414.0,
+  "source_sha256": {
+    "optimize_bell.py": "99171835e17d2a91cdfe19aaed937190e42c636135ede6f7fd03ba90c4778132",
+    "optimization_circuits.py": "e1018c4e7d9e48ec619c231a87e695012d3217a16349d1989bbef29c56369e6a",
+    "optimization_analysis.py": "04b22a86e3d7f89c2bd166df73644826c29644bfb0e4ba70978742d33337ca94"
+  },
+  "budget_value_kind": "Uncommitted lower bound after reserving caps of known pending jobs; submission checks again.",
+  "isa_qpy_sha256": "42b06c36e8e540131e0c0d8ced919c08b984d53059618f2299fa6a0dcde3aa3e",
+  "submission_state": "submitted",
+  "job_id": "db85stmr6oqs7388qi20",
+  "local_validation_passed": true,
+  "statistics_plan": {
+    "budget_seconds_total": 600,
+    "used_before_campaign": 5,
+    "maximum_candidate_confirmation_attempts": 3,
+    "confirmation_replicates_per_candidate": 2,
+    "confirmation_shots_per_basis": 8192,
+    "minimum_fidelity_improvement": 0.005,
+    "alpha_per_attempt": 0.016666666666666666,
+    "comparison": "Same-job original baseline; postselected winners additionally need same-layout baseline.",
+    "selection": "Exploratory screen, freeze candidate before independent confirmation, preserve all failures.",
+    "scope": "Best among tested layouts and circuits, not a global optimum proof.",
+    "selection_detail": "Compare all candidates; a postselected winner must beat the same-layout unprotected control as well as the original baseline in two fresh jobs. If postselection has no supported benefit, prefer all-shot baseline with strong fidelity and no discarded data. Screening rankings alone are exploratory.",
+    "phase": "exploratory_refinement"
+  },
+  "job_options": {},
+  "attempted_utc": "2026-10-15T05:02:45.845788+00:00"
+}

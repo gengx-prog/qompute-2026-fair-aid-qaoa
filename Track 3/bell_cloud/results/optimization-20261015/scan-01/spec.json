@@ -1,0 +1,625 @@
+{
+  "stage": "scan-01",
+  "backend": "ibm_marrakesh",
+  "shots": 1024,
+  "local_shots": 1024,
+  "cap_seconds": 90,
+  "order_seed": 1732,
+  "candidates": [
+    {
+      "id": "original_baseline",
+      "variant": "baseline",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "anchor_baseline",
+      "variant": "baseline",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "edge_069_070_baseline",
+      "variant": "baseline",
+      "layout": [
+        69,
+        70,
+        78
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        69,
+        70
+      ],
+      "data0_sx_error": 0.0001311604101561275,
+      "data1_sx_error": 0.00034433648725262837,
+      "ancilla_readout_error": 0.0079345703125
+    },
+    {
+      "id": "edge_056_063_baseline",
+      "variant": "baseline",
+      "layout": [
+        63,
+        56,
+        43
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        56,
+        63
+      ],
+      "data0_sx_error": 0.00022263732431943757,
+      "data1_sx_error": 0.0007073135057405951,
+      "ancilla_readout_error": 0.0162353515625
+    },
+    {
+      "id": "edge_063_064_baseline",
+      "variant": "baseline",
+      "layout": [
+        63,
+        64,
+        56
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        63,
+        64
+      ],
+      "data0_sx_error": 0.00022263732431943757,
+      "data1_sx_error": 0.0004300617474614082,
+      "ancilla_readout_error": 0.009033203125
+    },
+    {
+      "id": "edge_085_086_baseline",
+      "variant": "baseline",
+      "layout": [
+        85,
+        86,
+        87
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        85,
+        86
+      ],
+      "data0_sx_error": 0.00019748254911136927,
+      "data1_sx_error": 0.0004787323259724195,
+      "ancilla_readout_error": 0.0096435546875
+    },
+    {
+      "id": "edge_021_022_baseline",
+      "variant": "baseline",
+      "layout": [
+        21,
+        22,
+        20
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        21,
+        22
+      ],
+      "data0_sx_error": 0.0001298813694290075,
+      "data1_sx_error": 0.00032716650590372347,
+      "ancilla_readout_error": 0.005126953125
+    },
+    {
+      "id": "edge_049_050_baseline",
+      "variant": "baseline",
+      "layout": [
+        50,
+        49,
+        38
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        49,
+        50
+      ],
+      "data0_sx_error": 0.0003876926515414878,
+      "data1_sx_error": 0.00042650844773684974,
+      "ancilla_readout_error": 0.03125
+    },
+    {
+      "id": "edge_076_081_baseline",
+      "variant": "baseline",
+      "layout": [
+        81,
+        76,
+        61
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        76,
+        81
+      ],
+      "data0_sx_error": 0.0005118567433897281,
+      "data1_sx_error": 0.0006722638474888081,
+      "ancilla_readout_error": 0.017578125
+    },
+    {
+      "id": "edge_127_128_baseline",
+      "variant": "baseline",
+      "layout": [
+        127,
+        128,
+        137
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        127,
+        128
+      ],
+      "data0_sx_error": 0.0002525744608428784,
+      "data1_sx_error": 0.000557288922702512,
+      "ancilla_readout_error": 0.0048828125
+    },
+    {
+      "id": "edge_117_125_baseline",
+      "variant": "baseline",
+      "layout": [
+        125,
+        117,
+        105
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        117,
+        125
+      ],
+      "data0_sx_error": 0.00042127930454535794,
+      "data1_sx_error": 0.0004841694696129765,
+      "ancilla_readout_error": 0.0047607421875
+    },
+    {
+      "id": "edge_122_123_baseline",
+      "variant": "baseline",
+      "layout": [
+        122,
+        123,
+        136
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        122,
+        123
+      ],
+      "data0_sx_error": 0.00042233525369998244,
+      "data1_sx_error": 0.000510786913234986,
+      "ancilla_readout_error": 0.0107421875
+    },
+    {
+      "id": "edge_125_126_baseline",
+      "variant": "baseline",
+      "layout": [
+        125,
+        126,
+        117
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        125,
+        126
+      ],
+      "data0_sx_error": 0.00042127930454535794,
+      "data1_sx_error": 0.0006067417555350955,
+      "ancilla_readout_error": 0.007568359375
+    },
+    {
+      "id": "edge_008_009_baseline",
+      "variant": "baseline",
+      "layout": [
+        9,
+        8,
+        10
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        8,
+        9
+      ],
+      "data0_sx_error": 0.00017536965648931666,
+      "data1_sx_error": 0.028857418358599243,
+      "ancilla_readout_error": 0.0045166015625
+    },
+    {
+      "id": "edge_060_061_baseline",
+      "variant": "baseline",
+      "layout": [
+        61,
+        60,
+        76
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        60,
+        61
+      ],
+      "data0_sx_error": 0.00030567431811980424,
+      "data1_sx_error": 0.000470024053316488,
+      "ancilla_readout_error": 0.0467529296875
+    },
+    {
+      "id": "edge_012_013_baseline",
+      "variant": "baseline",
+      "layout": [
+        12,
+        13,
+        14
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        12,
+        13
+      ],
+      "data0_sx_error": 0.00014755321890451404,
+      "data1_sx_error": 0.00023889369116724215,
+      "ancilla_readout_error": 0.0152587890625
+    },
+    {
+      "id": "edge_061_062_baseline",
+      "variant": "baseline",
+      "layout": [
+        61,
+        62,
+        60
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        61,
+        62
+      ],
+      "data0_sx_error": 0.00030567431811980424,
+      "data1_sx_error": 0.0005664952278877176,
+      "ancilla_readout_error": 0.006591796875
+    },
+    {
+      "id": "edge_078_089_baseline",
+      "variant": "baseline",
+      "layout": [
+        78,
+        89,
+        90
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        78,
+        89
+      ],
+      "data0_sx_error": 0.0003044703441565297,
+      "data1_sx_error": 0.0003405906317088077,
+      "ancilla_readout_error": 0.015625
+    },
+    {
+      "id": "edge_095_099_baseline",
+      "variant": "baseline",
+      "layout": [
+        99,
+        95,
+        115
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        95,
+        99
+      ],
+      "data0_sx_error": 0.0005171802098273617,
+      "data1_sx_error": 0.0006653976088384345,
+      "ancilla_readout_error": 0.01220703125
+    },
+    {
+      "id": "edge_057_067_baseline",
+      "variant": "baseline",
+      "layout": [
+        57,
+        67,
+        66
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        57,
+        67
+      ],
+      "data0_sx_error": 0.00026708189000006514,
+      "data1_sx_error": 0.0002994605063247,
+      "ancilla_readout_error": 0.006591796875
+    },
+    {
+      "id": "edge_077_085_baseline",
+      "variant": "baseline",
+      "layout": [
+        85,
+        77,
+        65
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        77,
+        85
+      ],
+      "data0_sx_error": 0.00019748254911136927,
+      "data1_sx_error": 0.0004886507697684058,
+      "ancilla_readout_error": 0.0179443359375
+    },
+    {
+      "id": "edge_091_092_baseline",
+      "variant": "baseline",
+      "layout": [
+        92,
+        91,
+        98
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        91,
+        92
+      ],
+      "data0_sx_error": 0.0002490600719490452,
+      "data1_sx_error": 0.0004503148389535391,
+      "ancilla_readout_error": 0.0048828125
+    },
+    {
+      "id": "edge_083_096_baseline",
+      "variant": "baseline",
+      "layout": [
+        96,
+        83,
+        103
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        83,
+        96
+      ],
+      "data0_sx_error": 0.0005141631203453009,
+      "data1_sx_error": 0.0005842084097950298,
+      "ancilla_readout_error": 0.00830078125
+    },
+    {
+      "id": "edge_029_038_baseline",
+      "variant": "baseline",
+      "layout": [
+        29,
+        38,
+        30
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        29,
+        38
+      ],
+      "data0_sx_error": 0.0007167801269620245,
+      "data1_sx_error": 0.0007825079788545226,
+      "ancilla_readout_error": 0.0079345703125
+    },
+    {
+      "id": "edge_111_112_baseline",
+      "variant": "baseline",
+      "layout": [
+        111,
+        112,
+        98
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        111,
+        112
+      ],
+      "data0_sx_error": 0.00023730417788930333,
+      "data1_sx_error": 0.0002463312470840751,
+      "ancilla_readout_error": 0.0048828125
+    },
+    {
+      "id": "edge_039_053_baseline",
+      "variant": "baseline",
+      "layout": [
+        53,
+        39,
+        54
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        39,
+        53
+      ],
+      "data0_sx_error": 0.00013578654967841123,
+      "data1_sx_error": 0.0005205378069475616,
+      "ancilla_readout_error": 0.0042724609375
+    },
+    {
+      "id": "edge_020_021_baseline",
+      "variant": "baseline",
+      "layout": [
+        21,
+        20,
+        22
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        20,
+        21
+      ],
+      "data0_sx_error": 0.0001298813694290075,
+      "data1_sx_error": 0.0003843123931903454,
+      "ancilla_readout_error": 0.025146484375
+    },
+    {
+      "id": "edge_149_150_baseline",
+      "variant": "baseline",
+      "layout": [
+        149,
+        150,
+        151
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        149,
+        150
+      ],
+      "data0_sx_error": 0.0003011637735574742,
+      "data1_sx_error": 0.0004322060846434377,
+      "ancilla_readout_error": 0.0179443359375
+    },
+    {
+      "id": "edge_031_032_baseline",
+      "variant": "baseline",
+      "layout": [
+        31,
+        32,
+        33
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        31,
+        32
+      ],
+      "data0_sx_error": 0.0003166348145451872,
+      "data1_sx_error": 0.00037802489990477046,
+      "ancilla_readout_error": 0.0072021484375
+    },
+    {
+      "id": "edge_143_144_baseline",
+      "variant": "baseline",
+      "layout": [
+        143,
+        144,
+        136
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        143,
+        144
+      ],
+      "data0_sx_error": 0.0003507935626408347,
+      "data1_sx_error": 0.0004025314775186414,
+      "ancilla_readout_error": 0.0107421875
+    },
+    {
+      "id": "edge_025_037_baseline",
+      "variant": "baseline",
+      "layout": [
+        25,
+        37,
+        45
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        25,
+        37
+      ],
+      "data0_sx_error": 0.00043708516721154494,
+      "data1_sx_error": 0.0007313885066764502,
+      "ancilla_readout_error": 0.0111083984375
+    },
+    {
+      "id": "edge_025_026_baseline",
+      "variant": "baseline",
+      "layout": [
+        25,
+        26,
+        27
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        25,
+        26
+      ],
+      "data0_sx_error": 0.00043708516721154494,
+      "data1_sx_error": 0.0030976037827957032,
+      "ancilla_readout_error": 0.02001953125
+    },
+    {
+      "id": "edge_086_087_baseline",
+      "variant": "baseline",
+      "layout": [
+        87,
+        86,
+        97
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        86,
+        87
+      ],
+      "data0_sx_error": 0.0004467492492994409,
+      "data1_sx_error": 0.0004787323259724195,
+      "ancilla_readout_error": 0.0054931640625
+    },
+    {
+      "id": "edge_105_117_baseline",
+      "variant": "baseline",
+      "layout": [
+        105,
+        117,
+        104
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        105,
+        117
+      ],
+      "data0_sx_error": 0.00022322736788863725,
+      "data1_sx_error": 0.0004841694696129765,
+      "ancilla_readout_error": 0.0166015625
+    },
+    {
+      "id": "edge_055_059_baseline",
+      "variant": "baseline",
+      "layout": [
+        55,
+        59,
+        54
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        55,
+        59
+      ],
+      "data0_sx_error": 0.00012834716454454434,
+      "data1_sx_error": 0.00017519282198777105,
+      "ancilla_readout_error": 0.0042724609375
+    },
+    {
+      "id": "edge_087_097_baseline",
+      "variant": "baseline",
+      "layout": [
+        97,
+        87,
+        107
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        87,
+        97
+      ],
+      "data0_sx_error": 0.00021424974677264761,
+      "data1_sx_error": 0.0004467492492994409,
+      "ancilla_readout_error": 0.0045166015625
+    }
+  ],
+  "statistics_plan": {
+    "budget_seconds_total": 600,
+    "used_before_campaign": 5,
+    "maximum_candidate_confirmation_attempts": 3,
+    "confirmation_replicates_per_candidate": 2,
+    "confirmation_shots_per_basis": 8192,
+    "minimum_fidelity_improvement": 0.005,
+    "alpha_per_attempt": 0.016666666666666666,
+    "comparison": "Same-job original baseline; postselected winners additionally need same-layout baseline.",
+    "selection": "All new physical data pairs are screened; freeze one winner before two NEW independent confirmation jobs. A screening maximum is not a confirmed advantage.",
+    "scope": "All unordered hardware coupling edges, one prescribed orientation per new edge; not all orientations, pulse schedules, or circuit designs.",
+    "phase": "exploratory_full_edge_scan",
+    "batch_controls": "Repeat original_baseline and anchor_baseline within every scan job; inspect drift and compare within job.",
+    "preserve_all_results": true
+  },
+  "scan_plan": "edge-scan-plan.json",
+  "job_options": {}
+}

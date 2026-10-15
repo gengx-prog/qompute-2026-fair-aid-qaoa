@@ -1,0 +1,35 @@
+{
+  "job_id": "db85e0ur6oqs7388pgc0",
+  "job_status": "DONE",
+  "captured_utc": "2026-10-15T04:57:25.311704+00:00",
+  "metrics": {
+    "caller": "qiskit",
+    "qiskit_version": "qiskit_ibm_runtime-0.50.0,qiskit-2.5.2*,qiskit_aer-0.17.2*",
+    "timestamps": {
+      "created": "2026-10-15T04:30:59.279495Z",
+      "finished": "2026-10-15T04:57:13.227206Z",
+      "running": "2026-10-15T04:52:19.073247Z"
+    },
+    "usage": {
+      "qpu_charge_time_seconds": 32,
+      "value": 0.5203,
+      "unit": "resource_units",
+      "status": "complete",
+      "details": [
+        {
+          "value": 0.5203,
+          "unit": "resource_units",
+          "metric": {
+            "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+            "value": 32
+          }
+        }
+      ]
+    },
+    "circuits_execution_time_ns": 29303642368
+  },
+  "usage_method_seconds": 32,
+  "usage_status": "complete",
+  "reported_qpu_charge_time_seconds": 32,
+  "note": "Usage can remain pending after results arrive; a zero from usage() is not proof of zero charge. Fetch again to update billing metrics."
+}

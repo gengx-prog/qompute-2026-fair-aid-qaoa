@@ -1,0 +1,13 @@
+{
+  "budget_seconds_total": 600,
+  "used_before_campaign": 5,
+  "maximum_candidate_confirmation_attempts": 3,
+  "confirmation_replicates_per_candidate": 2,
+  "confirmation_shots_per_basis": 8192,
+  "minimum_fidelity_improvement": 0.005,
+  "alpha_per_attempt": 0.016666666666666666,
+  "comparison": "Same-job original baseline; postselected winners additionally need same-layout baseline.",
+  "selection": "Exploratory screen, freeze candidate before independent confirmation, preserve all failures.",
+  "scope": "Best among tested layouts and circuits, not a global optimum proof.",
+  "selection_detail": "Compare all candidates; a postselected winner must beat the same-layout unprotected control as well as the original baseline in two fresh jobs. If postselection has no supported benefit, prefer all-shot baseline with strong fidelity and no discarded data. Screening rankings alone are exploratory."
+}

@@ -1,0 +1,64 @@
+{
+  "stage": "scan-06",
+  "backend": "ibm_marrakesh",
+  "shots": 1024,
+  "local_shots": 1024,
+  "cap_seconds": 90,
+  "order_seed": 1737,
+  "candidates": [
+    {
+      "id": "original_baseline",
+      "variant": "baseline",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "anchor_baseline",
+      "variant": "baseline",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "edge_048_049_baseline",
+      "variant": "baseline",
+      "layout": [
+        49,
+        48,
+        50
+      ],
+      "optimization_level": 1,
+      "data_pair": [
+        48,
+        49
+      ],
+      "data0_sx_error": 0.00042650844773684974,
+      "data1_sx_error": 0.003394629627015909,
+      "ancilla_readout_error": 0.02392578125
+    }
+  ],
+  "statistics_plan": {
+    "budget_seconds_total": 600,
+    "used_before_campaign": 5,
+    "maximum_candidate_confirmation_attempts": 3,
+    "confirmation_replicates_per_candidate": 2,
+    "confirmation_shots_per_basis": 8192,
+    "minimum_fidelity_improvement": 0.005,
+    "alpha_per_attempt": 0.016666666666666666,
+    "comparison": "Same-job original baseline; postselected winners additionally need same-layout baseline.",
+    "selection": "All new physical data pairs are screened; freeze one winner before two NEW independent confirmation jobs. A screening maximum is not a confirmed advantage.",
+    "scope": "All unordered hardware coupling edges, one prescribed orientation per new edge; not all orientations, pulse schedules, or circuit designs.",
+    "phase": "exploratory_full_edge_scan",
+    "batch_controls": "Repeat original_baseline and anchor_baseline within every scan job; inspect drift and compare within job.",
+    "preserve_all_results": true
+  },
+  "scan_plan": "edge-scan-plan.json",
+  "job_options": {}
+}

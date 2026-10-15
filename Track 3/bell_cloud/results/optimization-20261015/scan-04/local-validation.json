@@ -1,0 +1,6315 @@
+{
+  "ideal_passed": true,
+  "compiled_circuit_count": 108,
+  "noise_kind": "Aer model constructed from compilation-time IBM calibration; not real measurements",
+  "noisy_records": [
+    {
+      "candidate_id": "edge_101_116_baseline",
+      "basis": "ZZ",
+      "layout": [
+        101,
+        116,
+        100
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 508,
+        "011": 465,
+        "010": 11,
+        "100": 12,
+        "001": 19,
+        "111": 9
+      }
+    },
+    {
+      "candidate_id": "edge_011_018_baseline",
+      "basis": "XX",
+      "layout": [
+        11,
+        18,
+        10
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 441,
+        "000": 439,
+        "001": 67,
+        "010": 74,
+        "111": 1,
+        "100": 2
+      }
+    },
+    {
+      "candidate_id": "edge_028_029_baseline",
+      "basis": "ZZ",
+      "layout": [
+        28,
+        29,
+        30
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 452,
+        "011": 435,
+        "010": 63,
+        "001": 64,
+        "111": 6,
+        "100": 4
+      }
+    },
+    {
+      "candidate_id": "edge_003_016_baseline",
+      "basis": "XX",
+      "layout": [
+        3,
+        16,
+        2
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 501,
+        "000": 479,
+        "111": 3,
+        "100": 6,
+        "001": 21,
+        "010": 13,
+        "101": 1
+      }
+    },
+    {
+      "candidate_id": "edge_123_136_baseline",
+      "basis": "YY",
+      "layout": [
+        123,
+        136,
+        122
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 493,
+        "001": 483,
+        "000": 19,
+        "011": 21,
+        "101": 5,
+        "110": 3
+      }
+    },
+    {
+      "candidate_id": "edge_082_083_baseline",
+      "basis": "ZZ",
+      "layout": [
+        83,
+        82,
+        84
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 283,
+        "001": 251,
+        "000": 243,
+        "010": 228,
+        "111": 5,
+        "101": 6,
+        "110": 4,
+        "100": 4
+      }
+    },
+    {
+      "candidate_id": "edge_150_151_baseline",
+      "basis": "YY",
+      "layout": [
+        151,
+        150,
+        152
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 509,
+        "010": 479,
+        "011": 18,
+        "000": 15,
+        "110": 2,
+        "101": 1
+      }
+    },
+    {
+      "candidate_id": "edge_119_133_baseline",
+      "basis": "XX",
+      "layout": [
+        133,
+        119,
+        132
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 93,
+        "000": 417,
+        "011": 415,
+        "001": 96,
+        "100": 1,
+        "110": 1,
+        "111": 1
+      }
+    },
+    {
+      "candidate_id": "edge_093_094_baseline",
+      "basis": "XX",
+      "layout": [
+        93,
+        94,
+        95
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 260,
+        "001": 253,
+        "000": 261,
+        "010": 238,
+        "111": 7,
+        "100": 1,
+        "101": 3,
+        "110": 1
+      }
+    },
+    {
+      "candidate_id": "edge_105_106_baseline",
+      "basis": "YY",
+      "layout": [
+        105,
+        106,
+        107
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 479,
+        "001": 468,
+        "011": 42,
+        "000": 31,
+        "110": 2,
+        "101": 2
+      }
+    },
+    {
+      "candidate_id": "edge_026_027_baseline",
+      "basis": "ZZ",
+      "layout": [
+        27,
+        26,
+        25
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 413,
+        "011": 420,
+        "010": 86,
+        "111": 5,
+        "001": 95,
+        "100": 3,
+        "101": 1,
+        "110": 1
+      }
+    },
+    {
+      "candidate_id": "edge_024_025_baseline",
+      "basis": "YY",
+      "layout": [
+        25,
+        24,
+        23
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 452,
+        "101": 37,
+        "010": 455,
+        "011": 20,
+        "110": 40,
+        "000": 20
+      }
+    },
+    {
+      "candidate_id": "edge_101_116_baseline",
+      "basis": "YY",
+      "layout": [
+        101,
+        116,
+        100
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 481,
+        "001": 479,
+        "000": 24,
+        "011": 18,
+        "110": 10,
+        "101": 12
+      }
+    },
+    {
+      "candidate_id": "edge_011_018_baseline",
+      "basis": "YY",
+      "layout": [
+        11,
+        18,
+        10
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 411,
+        "001": 476,
+        "000": 79,
+        "011": 54,
+        "110": 4
+      }
+    },
+    {
+      "candidate_id": "edge_064_065_baseline",
+      "basis": "ZZ",
+      "layout": [
+        64,
+        65,
+        66
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 474,
+        "000": 466,
+        "010": 40,
+        "111": 4,
+        "001": 38,
+        "100": 2
+      }
+    },
+    {
+      "candidate_id": "edge_116_121_baseline",
+      "basis": "YY",
+      "layout": [
+        121,
+        116,
+        120
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 471,
+        "010": 490,
+        "000": 29,
+        "011": 31,
+        "101": 3
+      }
+    },
+    {
+      "candidate_id": "edge_102_103_baseline",
+      "basis": "XX",
+      "layout": [
+        103,
+        102,
+        104
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 461,
+        "000": 501,
+        "111": 10,
+        "100": 16,
+        "010": 23,
+        "001": 13
+      }
+    },
+    {
+      "candidate_id": "edge_021_036_baseline",
+      "basis": "ZZ",
+      "layout": [
+        21,
+        36,
+        20
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 472,
+        "000": 445,
+        "010": 52,
+        "001": 52,
+        "111": 3
+      }
+    },
+    {
+      "candidate_id": "edge_101_116_baseline",
+      "basis": "XX",
+      "layout": [
+        101,
+        116,
+        100
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 478,
+        "011": 480,
+        "100": 8,
+        "001": 30,
+        "111": 9,
+        "010": 18,
+        "110": 1
+      }
+    },
+    {
+      "candidate_id": "edge_142_143_baseline",
+      "basis": "YY",
+      "layout": [
+        142,
+        143,
+        141
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 471,
+        "001": 500,
+        "000": 24,
+        "011": 25,
+        "110": 1,
+        "100": 1,
+        "101": 2
+      }
+    },
+    {
+      "candidate_id": "edge_028_029_baseline",
+      "basis": "XX",
+      "layout": [
+        28,
+        29,
+        30
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 483,
+        "010": 50,
+        "001": 56,
+        "011": 428,
+        "100": 5,
+        "111": 2
+      }
+    },
+    {
+      "candidate_id": "edge_112_113_baseline",
+      "basis": "YY",
+      "layout": [
+        112,
+        113,
+        111
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 254,
+        "000": 270,
+        "010": 245,
+        "011": 233,
+        "111": 7,
+        "101": 7,
+        "110": 5,
+        "100": 3
+      }
+    },
+    {
+      "candidate_id": "edge_026_027_baseline",
+      "basis": "YY",
+      "layout": [
+        27,
+        26,
+        25
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 420,
+        "010": 434,
+        "011": 91,
+        "000": 72,
+        "110": 5,
+        "101": 2
+      }
+    },
+    {
+      "candidate_id": "edge_091_098_baseline",
+      "basis": "ZZ",
+      "layout": [
+        98,
+        91,
+        90
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 496,
+        "011": 500,
+        "111": 5,
+        "001": 9,
+        "100": 8,
+        "010": 6
+      }
+    },
+    {
+      "candidate_id": "edge_034_035_baseline",
+      "basis": "XX",
+      "layout": [
+        35,
+        34,
+        33
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 428,
+        "000": 399,
+        "001": 110,
+        "010": 76,
+        "100": 5,
+        "110": 2,
+        "111": 2,
+        "101": 2
+      }
+    },
+    {
+      "candidate_id": "edge_131_138_baseline",
+      "basis": "XX",
+      "layout": [
+        131,
+        138,
+        132
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 463,
+        "000": 505,
+        "010": 30,
+        "100": 4,
+        "001": 20,
+        "111": 1,
+        "110": 1
+      }
+    },
+    {
+      "candidate_id": "edge_064_065_baseline",
+      "basis": "XX",
+      "layout": [
+        64,
+        65,
+        66
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 465,
+        "000": 497,
+        "010": 24,
+        "001": 29,
+        "100": 4,
+        "111": 4,
+        "110": 1
+      }
+    },
+    {
+      "candidate_id": "edge_093_094_baseline",
+      "basis": "ZZ",
+      "layout": [
+        93,
+        94,
+        95
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 244,
+        "001": 246,
+        "011": 275,
+        "000": 249,
+        "111": 4,
+        "100": 1,
+        "101": 3,
+        "110": 2
+      }
+    },
+    {
+      "candidate_id": "edge_064_065_baseline",
+      "basis": "YY",
+      "layout": [
+        64,
+        65,
+        66
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 466,
+        "001": 497,
+        "011": 28,
+        "000": 28,
+        "101": 3,
+        "110": 2
+      }
+    },
+    {
+      "candidate_id": "edge_034_035_baseline",
+      "basis": "YY",
+      "layout": [
+        35,
+        34,
+        33
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 79,
+        "001": 392,
+        "011": 98,
+        "010": 450,
+        "101": 3,
+        "110": 1,
+        "100": 1
+      }
+    },
+    {
+      "candidate_id": "edge_087_088_baseline",
+      "basis": "ZZ",
+      "layout": [
+        87,
+        88,
+        97
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 485,
+        "011": 463,
+        "010": 42,
+        "001": 30,
+        "111": 3,
+        "100": 1
+      }
+    },
+    {
+      "candidate_id": "edge_043_056_baseline",
+      "basis": "YY",
+      "layout": [
+        43,
+        56,
+        42
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 499,
+        "010": 476,
+        "000": 18,
+        "011": 25,
+        "101": 2,
+        "110": 3,
+        "100": 1
+      }
+    },
+    {
+      "candidate_id": "edge_114_115_baseline",
+      "basis": "YY",
+      "layout": [
+        115,
+        114,
+        99
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 392,
+        "110": 25,
+        "100": 7,
+        "001": 467,
+        "000": 58,
+        "011": 61,
+        "101": 12,
+        "111": 2
+      }
+    },
+    {
+      "candidate_id": "edge_043_056_baseline",
+      "basis": "XX",
+      "layout": [
+        43,
+        56,
+        42
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 479,
+        "011": 502,
+        "010": 19,
+        "100": 7,
+        "001": 15,
+        "111": 1,
+        "101": 1
+      }
+    },
+    {
+      "candidate_id": "edge_009_010_baseline",
+      "basis": "ZZ",
+      "layout": [
+        9,
+        10,
+        8
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 520,
+        "000": 479,
+        "001": 9,
+        "010": 11,
+        "111": 3,
+        "100": 2
+      }
+    },
+    {
+      "candidate_id": "anchor_baseline",
+      "basis": "YY",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 536,
+        "001": 470,
+        "011": 11,
+        "000": 6,
+        "110": 1
+      }
+    },
+    {
+      "candidate_id": "edge_150_151_baseline",
+      "basis": "XX",
+      "layout": [
+        151,
+        150,
+        152
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 477,
+        "000": 501,
+        "010": 21,
+        "001": 20,
+        "111": 4,
+        "100": 1
+      }
+    },
+    {
+      "candidate_id": "original_baseline",
+      "basis": "XX",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 496,
+        "011": 462,
+        "010": 40,
+        "001": 21,
+        "100": 3,
+        "111": 2
+      }
+    },
+    {
+      "candidate_id": "edge_098_111_baseline",
+      "basis": "ZZ",
+      "layout": [
+        111,
+        98,
+        112
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 513,
+        "001": 9,
+        "011": 483,
+        "010": 14,
+        "100": 5
+      }
+    },
+    {
+      "candidate_id": "edge_138_151_baseline",
+      "basis": "YY",
+      "layout": [
+        151,
+        138,
+        152
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 461,
+        "010": 502,
+        "011": 32,
+        "000": 24,
+        "110": 1,
+        "101": 4
+      }
+    },
+    {
+      "candidate_id": "edge_009_010_baseline",
+      "basis": "XX",
+      "layout": [
+        9,
+        10,
+        8
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 511,
+        "000": 480,
+        "010": 8,
+        "111": 8,
+        "001": 13,
+        "100": 4
+      }
+    },
+    {
+      "candidate_id": "edge_098_111_baseline",
+      "basis": "YY",
+      "layout": [
+        111,
+        98,
+        112
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 515,
+        "001": 476,
+        "000": 14,
+        "110": 3,
+        "111": 1,
+        "011": 13,
+        "101": 2
+      }
+    },
+    {
+      "candidate_id": "edge_082_083_baseline",
+      "basis": "YY",
+      "layout": [
+        83,
+        82,
+        84
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 235,
+        "011": 256,
+        "010": 269,
+        "001": 244,
+        "100": 7,
+        "101": 4,
+        "111": 3,
+        "110": 6
+      }
+    },
+    {
+      "candidate_id": "edge_066_067_baseline",
+      "basis": "YY",
+      "layout": [
+        67,
+        66,
+        57
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 507,
+        "001": 447,
+        "000": 18,
+        "011": 38,
+        "110": 6,
+        "101": 8
+      }
+    },
+    {
+      "candidate_id": "edge_131_138_baseline",
+      "basis": "YY",
+      "layout": [
+        131,
+        138,
+        132
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 491,
+        "001": 466,
+        "011": 29,
+        "000": 33,
+        "101": 2,
+        "110": 3
+      }
+    },
+    {
+      "candidate_id": "edge_024_025_baseline",
+      "basis": "XX",
+      "layout": [
+        25,
+        24,
+        23
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 473,
+        "000": 471,
+        "100": 28,
+        "111": 18,
+        "001": 8,
+        "010": 20,
+        "101": 5,
+        "110": 1
+      }
+    },
+    {
+      "candidate_id": "edge_150_151_baseline",
+      "basis": "ZZ",
+      "layout": [
+        151,
+        150,
+        152
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 479,
+        "011": 489,
+        "001": 23,
+        "010": 25,
+        "111": 2,
+        "100": 4,
+        "101": 2
+      }
+    },
+    {
+      "candidate_id": "edge_142_143_baseline",
+      "basis": "XX",
+      "layout": [
+        142,
+        143,
+        141
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 508,
+        "010": 22,
+        "000": 467,
+        "001": 24,
+        "111": 2,
+        "100": 1
+      }
+    },
+    {
+      "candidate_id": "edge_066_067_baseline",
+      "basis": "XX",
+      "layout": [
+        67,
+        66,
+        57
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 504,
+        "011": 459,
+        "001": 32,
+        "010": 22,
+        "110": 2,
+        "111": 2,
+        "100": 3
+      }
+    },
+    {
+      "candidate_id": "edge_145_146_baseline",
+      "basis": "YY",
+      "layout": [
+        145,
+        146,
+        147
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 14,
+        "010": 493,
+        "001": 503,
+        "011": 11,
+        "101": 1,
+        "110": 2
+      }
+    },
+    {
+      "candidate_id": "anchor_baseline",
+      "basis": "XX",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 13,
+        "000": 511,
+        "011": 490,
+        "001": 8,
+        "111": 2
+      }
+    },
+    {
+      "candidate_id": "edge_137_147_baseline",
+      "basis": "XX",
+      "layout": [
+        147,
+        137,
+        146
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 487,
+        "011": 512,
+        "001": 6,
+        "111": 4,
+        "100": 6,
+        "010": 9
+      }
+    },
+    {
+      "candidate_id": "edge_114_115_baseline",
+      "basis": "XX",
+      "layout": [
+        115,
+        114,
+        99
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 401,
+        "000": 392,
+        "010": 85,
+        "001": 85,
+        "111": 28,
+        "100": 23,
+        "110": 6,
+        "101": 4
+      }
+    },
+    {
+      "candidate_id": "anchor_baseline",
+      "basis": "ZZ",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 514,
+        "011": 486,
+        "010": 10,
+        "001": 12,
+        "111": 1,
+        "100": 1
+      }
+    },
+    {
+      "candidate_id": "edge_004_005_baseline",
+      "basis": "XX",
+      "layout": [
+        5,
+        4,
+        6
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 486,
+        "011": 524,
+        "010": 5,
+        "100": 2,
+        "111": 2,
+        "001": 5
+      }
+    },
+    {
+      "candidate_id": "edge_145_146_baseline",
+      "basis": "XX",
+      "layout": [
+        145,
+        146,
+        147
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 481,
+        "000": 511,
+        "010": 15,
+        "100": 5,
+        "001": 11,
+        "111": 1
+      }
+    },
+    {
+      "candidate_id": "edge_131_138_baseline",
+      "basis": "ZZ",
+      "layout": [
+        131,
+        138,
+        132
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 487,
+        "000": 481,
+        "001": 25,
+        "010": 27,
+        "100": 3,
+        "111": 1
+      }
+    },
+    {
+      "candidate_id": "edge_024_025_baseline",
+      "basis": "ZZ",
+      "layout": [
+        25,
+        24,
+        23
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "111": 32,
+        "011": 451,
+        "000": 474,
+        "100": 28,
+        "010": 22,
+        "001": 15,
+        "110": 1,
+        "101": 1
+      }
+    },
+    {
+      "candidate_id": "edge_123_136_baseline",
+      "basis": "ZZ",
+      "layout": [
+        123,
+        136,
+        122
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 495,
+        "000": 488,
+        "001": 18,
+        "010": 17,
+        "111": 4,
+        "101": 1,
+        "100": 1
+      }
+    },
+    {
+      "candidate_id": "edge_028_029_baseline",
+      "basis": "YY",
+      "layout": [
+        28,
+        29,
+        30
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 426,
+        "010": 453,
+        "000": 68,
+        "011": 71,
+        "110": 3,
+        "101": 3
+      }
+    },
+    {
+      "candidate_id": "edge_119_133_baseline",
+      "basis": "YY",
+      "layout": [
+        133,
+        119,
+        132
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 425,
+        "000": 90,
+        "010": 407,
+        "011": 98,
+        "101": 1,
+        "110": 3
+      }
+    },
+    {
+      "candidate_id": "edge_116_121_baseline",
+      "basis": "ZZ",
+      "layout": [
+        121,
+        116,
+        120
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 491,
+        "011": 472,
+        "001": 28,
+        "111": 5,
+        "010": 27,
+        "100": 1
+      }
+    },
+    {
+      "candidate_id": "original_baseline",
+      "basis": "YY",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 490,
+        "010": 464,
+        "000": 32,
+        "011": 26,
+        "110": 8,
+        "101": 3,
+        "100": 1
+      }
+    },
+    {
+      "candidate_id": "edge_021_036_baseline",
+      "basis": "YY",
+      "layout": [
+        21,
+        36,
+        20
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 436,
+        "001": 442,
+        "000": 77,
+        "011": 63,
+        "110": 3,
+        "101": 3
+      }
+    },
+    {
+      "candidate_id": "edge_119_133_baseline",
+      "basis": "ZZ",
+      "layout": [
+        133,
+        119,
+        132
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 427,
+        "000": 441,
+        "001": 79,
+        "010": 74,
+        "100": 1,
+        "111": 2
+      }
+    },
+    {
+      "candidate_id": "edge_123_136_baseline",
+      "basis": "XX",
+      "layout": [
+        123,
+        136,
+        122
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 481,
+        "011": 498,
+        "010": 15,
+        "001": 25,
+        "100": 3,
+        "111": 2
+      }
+    },
+    {
+      "candidate_id": "edge_145_146_baseline",
+      "basis": "ZZ",
+      "layout": [
+        145,
+        146,
+        147
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 509,
+        "000": 480,
+        "010": 11,
+        "100": 5,
+        "001": 17,
+        "111": 2
+      }
+    },
+    {
+      "candidate_id": "edge_087_088_baseline",
+      "basis": "XX",
+      "layout": [
+        87,
+        88,
+        97
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 502,
+        "001": 38,
+        "011": 440,
+        "010": 40,
+        "110": 2,
+        "111": 1,
+        "100": 1
+      }
+    },
+    {
+      "candidate_id": "edge_136_143_baseline",
+      "basis": "XX",
+      "layout": [
+        143,
+        136,
+        123
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 478,
+        "111": 10,
+        "011": 494,
+        "001": 11,
+        "100": 16,
+        "010": 15
+      }
+    },
+    {
+      "candidate_id": "edge_092_093_baseline",
+      "basis": "ZZ",
+      "layout": [
+        93,
+        92,
+        91
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 486,
+        "011": 490,
+        "010": 16,
+        "001": 22,
+        "111": 7,
+        "100": 3
+      }
+    },
+    {
+      "candidate_id": "edge_138_151_baseline",
+      "basis": "ZZ",
+      "layout": [
+        151,
+        138,
+        152
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 482,
+        "011": 480,
+        "100": 3,
+        "010": 21,
+        "001": 36,
+        "111": 2
+      }
+    },
+    {
+      "candidate_id": "edge_011_018_baseline",
+      "basis": "ZZ",
+      "layout": [
+        11,
+        18,
+        10
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 81,
+        "011": 421,
+        "000": 435,
+        "001": 82,
+        "100": 2,
+        "111": 3
+      }
+    },
+    {
+      "candidate_id": "edge_116_121_baseline",
+      "basis": "XX",
+      "layout": [
+        121,
+        116,
+        120
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 502,
+        "010": 25,
+        "011": 471,
+        "001": 24,
+        "111": 2
+      }
+    },
+    {
+      "candidate_id": "edge_137_147_baseline",
+      "basis": "ZZ",
+      "layout": [
+        147,
+        137,
+        146
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 490,
+        "011": 515,
+        "001": 5,
+        "111": 5,
+        "010": 5,
+        "100": 4
+      }
+    },
+    {
+      "candidate_id": "edge_136_143_baseline",
+      "basis": "ZZ",
+      "layout": [
+        143,
+        136,
+        123
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 491,
+        "000": 477,
+        "111": 11,
+        "001": 19,
+        "010": 14,
+        "100": 12
+      }
+    },
+    {
+      "candidate_id": "edge_030_031_baseline",
+      "basis": "YY",
+      "layout": [
+        31,
+        30,
+        18
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "101": 4,
+        "010": 436,
+        "001": 433,
+        "011": 68,
+        "000": 80,
+        "110": 3
+      }
+    },
+    {
+      "candidate_id": "edge_082_083_baseline",
+      "basis": "XX",
+      "layout": [
+        83,
+        82,
+        84
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 237,
+        "001": 241,
+        "010": 258,
+        "000": 260,
+        "101": 9,
+        "100": 6,
+        "111": 4,
+        "110": 9
+      }
+    },
+    {
+      "candidate_id": "edge_004_005_baseline",
+      "basis": "ZZ",
+      "layout": [
+        5,
+        4,
+        6
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 500,
+        "000": 499,
+        "001": 10,
+        "010": 10,
+        "100": 3,
+        "111": 2
+      }
+    },
+    {
+      "candidate_id": "edge_142_143_baseline",
+      "basis": "ZZ",
+      "layout": [
+        142,
+        143,
+        141
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 484,
+        "000": 487,
+        "010": 24,
+        "111": 3,
+        "001": 24,
+        "100": 2
+      }
+    },
+    {
+      "candidate_id": "edge_093_094_baseline",
+      "basis": "YY",
+      "layout": [
+        93,
+        94,
+        95
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 256,
+        "011": 276,
+        "010": 252,
+        "001": 233,
+        "100": 4,
+        "110": 1,
+        "101": 1,
+        "111": 1
+      }
+    },
+    {
+      "candidate_id": "edge_092_093_baseline",
+      "basis": "YY",
+      "layout": [
+        93,
+        92,
+        91
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 507,
+        "010": 467,
+        "000": 20,
+        "011": 22,
+        "101": 6,
+        "110": 2
+      }
+    },
+    {
+      "candidate_id": "edge_102_103_baseline",
+      "basis": "YY",
+      "layout": [
+        103,
+        102,
+        104
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 486,
+        "011": 22,
+        "010": 480,
+        "101": 11,
+        "000": 16,
+        "110": 8,
+        "100": 1
+      }
+    },
+    {
+      "candidate_id": "edge_136_143_baseline",
+      "basis": "YY",
+      "layout": [
+        143,
+        136,
+        123
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 487,
+        "001": 478,
+        "000": 18,
+        "011": 16,
+        "110": 12,
+        "101": 11,
+        "100": 1,
+        "111": 1
+      }
+    },
+    {
+      "candidate_id": "edge_092_093_baseline",
+      "basis": "XX",
+      "layout": [
+        93,
+        92,
+        91
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 480,
+        "011": 496,
+        "010": 26,
+        "111": 2,
+        "001": 14,
+        "100": 6
+      }
+    },
+    {
+      "candidate_id": "edge_138_151_baseline",
+      "basis": "XX",
+      "layout": [
+        151,
+        138,
+        152
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 473,
+        "011": 483,
+        "001": 40,
+        "010": 25,
+        "111": 2,
+        "100": 1
+      }
+    },
+    {
+      "candidate_id": "edge_004_005_baseline",
+      "basis": "YY",
+      "layout": [
+        5,
+        4,
+        6
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 488,
+        "011": 8,
+        "001": 519,
+        "000": 5,
+        "101": 2,
+        "100": 1,
+        "110": 1
+      }
+    },
+    {
+      "candidate_id": "edge_102_103_baseline",
+      "basis": "ZZ",
+      "layout": [
+        103,
+        102,
+        104
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 479,
+        "000": 502,
+        "111": 6,
+        "001": 17,
+        "010": 11,
+        "100": 7,
+        "101": 1,
+        "110": 1
+      }
+    },
+    {
+      "candidate_id": "original_baseline",
+      "basis": "ZZ",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 478,
+        "011": 491,
+        "010": 20,
+        "001": 28,
+        "111": 4,
+        "100": 3
+      }
+    },
+    {
+      "candidate_id": "edge_030_031_baseline",
+      "basis": "XX",
+      "layout": [
+        31,
+        30,
+        18
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 452,
+        "011": 435,
+        "010": 65,
+        "001": 65,
+        "100": 2,
+        "111": 4,
+        "101": 1
+      }
+    },
+    {
+      "candidate_id": "edge_087_088_baseline",
+      "basis": "YY",
+      "layout": [
+        87,
+        88,
+        97
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 470,
+        "001": 460,
+        "000": 57,
+        "011": 34,
+        "101": 2,
+        "110": 1
+      }
+    },
+    {
+      "candidate_id": "edge_098_111_baseline",
+      "basis": "XX",
+      "layout": [
+        111,
+        98,
+        112
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 515,
+        "011": 483,
+        "010": 10,
+        "001": 14,
+        "100": 2
+      }
+    },
+    {
+      "candidate_id": "edge_043_056_baseline",
+      "basis": "ZZ",
+      "layout": [
+        43,
+        56,
+        42
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 516,
+        "011": 473,
+        "010": 15,
+        "001": 11,
+        "100": 5,
+        "101": 1,
+        "111": 3
+      }
+    },
+    {
+      "candidate_id": "edge_105_106_baseline",
+      "basis": "XX",
+      "layout": [
+        105,
+        106,
+        107
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 506,
+        "011": 469,
+        "001": 26,
+        "010": 19,
+        "100": 2,
+        "111": 2
+      }
+    },
+    {
+      "candidate_id": "edge_137_147_baseline",
+      "basis": "YY",
+      "layout": [
+        147,
+        137,
+        146
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 514,
+        "001": 482,
+        "011": 12,
+        "101": 2,
+        "000": 7,
+        "110": 7
+      }
+    },
+    {
+      "candidate_id": "edge_030_031_baseline",
+      "basis": "ZZ",
+      "layout": [
+        31,
+        30,
+        18
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 457,
+        "000": 426,
+        "111": 7,
+        "001": 76,
+        "010": 55,
+        "100": 3
+      }
+    },
+    {
+      "candidate_id": "edge_112_113_baseline",
+      "basis": "ZZ",
+      "layout": [
+        112,
+        113,
+        111
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 243,
+        "011": 246,
+        "000": 266,
+        "001": 255,
+        "101": 5,
+        "100": 3,
+        "110": 5,
+        "111": 1
+      }
+    },
+    {
+      "candidate_id": "edge_003_016_baseline",
+      "basis": "YY",
+      "layout": [
+        3,
+        16,
+        2
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 474,
+        "010": 509,
+        "000": 13,
+        "101": 5,
+        "011": 16,
+        "110": 7
+      }
+    },
+    {
+      "candidate_id": "edge_105_106_baseline",
+      "basis": "ZZ",
+      "layout": [
+        105,
+        106,
+        107
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 479,
+        "000": 472,
+        "111": 4,
+        "010": 32,
+        "001": 36,
+        "110": 1
+      }
+    },
+    {
+      "candidate_id": "edge_026_027_baseline",
+      "basis": "XX",
+      "layout": [
+        27,
+        26,
+        25
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "010": 86,
+        "000": 421,
+        "001": 96,
+        "011": 414,
+        "111": 2,
+        "100": 5
+      }
+    },
+    {
+      "candidate_id": "edge_091_098_baseline",
+      "basis": "XX",
+      "layout": [
+        98,
+        91,
+        90
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 532,
+        "000": 455,
+        "111": 13,
+        "110": 1,
+        "100": 12,
+        "010": 7,
+        "001": 4
+      }
+    },
+    {
+      "candidate_id": "edge_114_115_baseline",
+      "basis": "ZZ",
+      "layout": [
+        115,
+        114,
+        99
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 72,
+        "000": 422,
+        "011": 413,
+        "100": 24,
+        "010": 61,
+        "111": 30,
+        "110": 1,
+        "101": 1
+      }
+    },
+    {
+      "candidate_id": "edge_091_098_baseline",
+      "basis": "YY",
+      "layout": [
+        98,
+        91,
+        90
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 500,
+        "010": 493,
+        "101": 9,
+        "110": 8,
+        "011": 8,
+        "000": 6
+      }
+    },
+    {
+      "candidate_id": "edge_034_035_baseline",
+      "basis": "ZZ",
+      "layout": [
+        35,
+        34,
+        33
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 430,
+        "011": 409,
+        "010": 92,
+        "001": 85,
+        "111": 5,
+        "100": 2,
+        "101": 1
+      }
+    },
+    {
+      "candidate_id": "edge_021_036_baseline",
+      "basis": "XX",
+      "layout": [
+        21,
+        36,
+        20
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 489,
+        "000": 420,
+        "001": 53,
+        "010": 58,
+        "111": 2,
+        "100": 2
+      }
+    },
+    {
+      "candidate_id": "edge_066_067_baseline",
+      "basis": "ZZ",
+      "layout": [
+        67,
+        66,
+        57
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 464,
+        "100": 5,
+        "000": 490,
+        "010": 26,
+        "001": 33,
+        "111": 5,
+        "110": 1
+      }
+    },
+    {
+      "candidate_id": "edge_009_010_baseline",
+      "basis": "YY",
+      "layout": [
+        9,
+        10,
+        8
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "001": 493,
+        "010": 502,
+        "011": 3,
+        "000": 9,
+        "101": 10,
+        "110": 7
+      }
+    },
+    {
+      "candidate_id": "edge_112_113_baseline",
+      "basis": "XX",
+      "layout": [
+        112,
+        113,
+        111
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "000": 237,
+        "001": 236,
+        "010": 283,
+        "110": 7,
+        "011": 247,
+        "100": 5,
+        "101": 5,
+        "111": 4
+      }
+    },
+    {
+      "candidate_id": "edge_003_016_baseline",
+      "basis": "ZZ",
+      "layout": [
+        3,
+        16,
+        2
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "counts": {
+        "011": 506,
+        "000": 487,
+        "001": 10,
+        "010": 14,
+        "100": 4,
+        "111": 3
+      }
+    }
+  ],
+  "noisy_summary": {
+    "edge_101_116_baseline": {
+      "fidelity": 0.94091796875,
+      "fidelity_standard_error": 0.005260167379578544,
+      "fidelity_interval": [
+        0.9150788607105518,
+        0.9590662399093244
+      ],
+      "fidelity_normal_interval": [
+        0.9306082301333736,
+        0.9512277073666264
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 478,
+            "011": 480,
+            "100": 8,
+            "001": 30,
+            "111": 9,
+            "010": 18,
+            "110": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 975,
+          "successes": 975,
+          "success_probability": 0.9521484375,
+          "value": 0.904296875,
+          "standard_error": 0.013340755001461422,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 481,
+            "001": 479,
+            "000": 24,
+            "011": 18,
+            "110": 10,
+            "101": 12
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 42,
+          "successes": 982,
+          "success_probability": 0.958984375,
+          "value": -0.91796875,
+          "standard_error": 0.012395397253406734,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 508,
+            "011": 465,
+            "010": 11,
+            "100": 12,
+            "001": 19,
+            "111": 9
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 994,
+          "successes": 994,
+          "success_probability": 0.970703125,
+          "value": 0.94140625,
+          "standard_error": 0.010539836654338353,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 478,
+          "011": 480,
+          "100": 8,
+          "001": 30,
+          "111": 9,
+          "010": 18,
+          "110": 1
+        },
+        "YY": {
+          "010": 481,
+          "001": 479,
+          "000": 24,
+          "011": 18,
+          "110": 10,
+          "101": 12
+        },
+        "ZZ": {
+          "000": 508,
+          "011": 465,
+          "010": 11,
+          "100": 12,
+          "001": 19,
+          "111": 9
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_101_116_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        101,
+        116,
+        100
+      ],
+      "variant": "baseline"
+    },
+    "edge_011_018_baseline": {
+      "fidelity": 0.78662109375,
+      "fidelity_standard_error": 0.009447507312199725,
+      "fidelity_interval": [
+        0.7444799339072308,
+        0.8227889463621996
+      ],
+      "fidelity_normal_interval": [
+        0.7681043196744097,
+        0.8051378678255903
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 441,
+            "000": 439,
+            "001": 67,
+            "010": 74,
+            "111": 1,
+            "100": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 883,
+          "successes": 883,
+          "success_probability": 0.8623046875,
+          "value": 0.724609375,
+          "standard_error": 0.02153624428793014,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 411,
+            "001": 476,
+            "000": 79,
+            "011": 54,
+            "110": 4
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 133,
+          "successes": 891,
+          "success_probability": 0.8701171875,
+          "value": -0.740234375,
+          "standard_error": 0.021010903746355895,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "010": 81,
+            "011": 421,
+            "000": 435,
+            "001": 82,
+            "100": 2,
+            "111": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 861,
+          "successes": 861,
+          "success_probability": 0.8408203125,
+          "value": 0.681640625,
+          "standard_error": 0.0228652228582413,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 441,
+          "000": 439,
+          "001": 67,
+          "010": 74,
+          "111": 1,
+          "100": 2
+        },
+        "YY": {
+          "010": 411,
+          "001": 476,
+          "000": 79,
+          "011": 54,
+          "110": 4
+        },
+        "ZZ": {
+          "010": 81,
+          "011": 421,
+          "000": 435,
+          "001": 82,
+          "100": 2,
+          "111": 3
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_011_018_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        11,
+        18,
+        10
+      ],
+      "variant": "baseline"
+    },
+    "edge_028_029_baseline": {
+      "fidelity": 0.818359375,
+      "fidelity_standard_error": 0.008821665375435451,
+      "fidelity_interval": [
+        0.778623468178878,
+        0.8517686852639037
+      ],
+      "fidelity_normal_interval": [
+        0.8010692285804825,
+        0.8356495214195175
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 483,
+            "010": 50,
+            "001": 56,
+            "011": 428,
+            "100": 5,
+            "111": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 918,
+          "successes": 918,
+          "success_probability": 0.896484375,
+          "value": 0.79296875,
+          "standard_error": 0.019039447165365174,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 426,
+            "010": 453,
+            "000": 68,
+            "011": 71,
+            "110": 3,
+            "101": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 139,
+          "successes": 885,
+          "success_probability": 0.8642578125,
+          "value": -0.728515625,
+          "standard_error": 0.021407162027351788,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 452,
+            "011": 435,
+            "010": 63,
+            "001": 64,
+            "111": 6,
+            "100": 4
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 897,
+          "successes": 897,
+          "success_probability": 0.8759765625,
+          "value": 0.751953125,
+          "standard_error": 0.02060051808839969,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 483,
+          "010": 50,
+          "001": 56,
+          "011": 428,
+          "100": 5,
+          "111": 2
+        },
+        "YY": {
+          "001": 426,
+          "010": 453,
+          "000": 68,
+          "011": 71,
+          "110": 3,
+          "101": 3
+        },
+        "ZZ": {
+          "000": 452,
+          "011": 435,
+          "010": 63,
+          "001": 64,
+          "111": 6,
+          "100": 4
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_028_029_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        28,
+        29,
+        30
+      ],
+      "variant": "baseline"
+    },
+    "edge_003_016_baseline": {
+      "fidelity": 0.95703125,
+      "fidelity_standard_error": 0.0045128368461981845,
+      "fidelity_interval": [
+        0.9340733514243023,
+        0.9721189494220448
+      ],
+      "fidelity_normal_interval": [
+        0.9481862523133462,
+        0.9658762476866538
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 501,
+            "000": 479,
+            "111": 3,
+            "100": 6,
+            "001": 21,
+            "010": 13,
+            "101": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 989,
+          "successes": 989,
+          "success_probability": 0.9658203125,
+          "value": 0.931640625,
+          "standard_error": 0.011355656021615798,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 474,
+            "010": 509,
+            "000": 13,
+            "101": 5,
+            "011": 16,
+            "110": 7
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 29,
+          "successes": 995,
+          "success_probability": 0.9716796875,
+          "value": -0.943359375,
+          "standard_error": 0.010367895232983334,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 506,
+            "000": 487,
+            "001": 10,
+            "010": 14,
+            "100": 4,
+            "111": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 1000,
+          "successes": 1000,
+          "success_probability": 0.9765625,
+          "value": 0.953125,
+          "standard_error": 0.009455525747576701,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 501,
+          "000": 479,
+          "111": 3,
+          "100": 6,
+          "001": 21,
+          "010": 13,
+          "101": 1
+        },
+        "YY": {
+          "001": 474,
+          "010": 509,
+          "000": 13,
+          "101": 5,
+          "011": 16,
+          "110": 7
+        },
+        "ZZ": {
+          "011": 506,
+          "000": 487,
+          "001": 10,
+          "010": 14,
+          "100": 4,
+          "111": 3
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_003_016_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        3,
+        16,
+        2
+      ],
+      "variant": "baseline"
+    },
+    "edge_123_136_baseline": {
+      "fidelity": 0.943359375,
+      "fidelity_standard_error": 0.0051584637831348056,
+      "fidelity_interval": [
+        0.9178297779591604,
+        0.9611709590586659
+      ],
+      "fidelity_normal_interval": [
+        0.9332489717695015,
+        0.9534697782304985
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 481,
+            "011": 498,
+            "010": 15,
+            "001": 25,
+            "100": 3,
+            "111": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 984,
+          "successes": 984,
+          "success_probability": 0.9609375,
+          "value": 0.921875,
+          "standard_error": 0.012108981218395747,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 493,
+            "001": 483,
+            "000": 19,
+            "011": 21,
+            "101": 5,
+            "110": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 40,
+          "successes": 984,
+          "success_probability": 0.9609375,
+          "value": -0.921875,
+          "standard_error": 0.012108981218395747,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 495,
+            "000": 488,
+            "001": 18,
+            "010": 17,
+            "111": 4,
+            "101": 1,
+            "100": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 988,
+          "successes": 988,
+          "success_probability": 0.96484375,
+          "value": 0.9296875,
+          "standard_error": 0.01151091331457645,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 481,
+          "011": 498,
+          "010": 15,
+          "001": 25,
+          "100": 3,
+          "111": 2
+        },
+        "YY": {
+          "010": 493,
+          "001": 483,
+          "000": 19,
+          "011": 21,
+          "101": 5,
+          "110": 3
+        },
+        "ZZ": {
+          "011": 495,
+          "000": 488,
+          "001": 18,
+          "010": 17,
+          "111": 4,
+          "101": 1,
+          "100": 1
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_123_136_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        123,
+        136,
+        122
+      ],
+      "variant": "baseline"
+    },
+    "edge_082_083_baseline": {
+      "fidelity": 0.26416015625,
+      "fidelity_standard_error": 0.013525838534654095,
+      "fidelity_interval": [
+        0.20815269204716824,
+        0.3200099990609422
+      ],
+      "fidelity_normal_interval": [
+        0.23764999986137397,
+        0.290670312638626
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 237,
+            "001": 241,
+            "010": 258,
+            "000": 260,
+            "101": 9,
+            "100": 6,
+            "111": 4,
+            "110": 9
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 507,
+          "successes": 507,
+          "success_probability": 0.4951171875,
+          "value": -0.009765625,
+          "standard_error": 0.031248509848351785,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "000": 235,
+            "011": 256,
+            "010": 269,
+            "001": 244,
+            "100": 7,
+            "101": 4,
+            "111": 3,
+            "110": 6
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 501,
+          "successes": 523,
+          "success_probability": 0.5107421875,
+          "value": -0.021484375,
+          "standard_error": 0.031242787005545555,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 283,
+            "001": 251,
+            "000": 243,
+            "010": 228,
+            "111": 5,
+            "101": 6,
+            "110": 4,
+            "100": 4
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 535,
+          "successes": 535,
+          "success_probability": 0.5224609375,
+          "value": 0.044921875,
+          "standard_error": 0.031218453219724288,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 237,
+          "001": 241,
+          "010": 258,
+          "000": 260,
+          "101": 9,
+          "100": 6,
+          "111": 4,
+          "110": 9
+        },
+        "YY": {
+          "000": 235,
+          "011": 256,
+          "010": 269,
+          "001": 244,
+          "100": 7,
+          "101": 4,
+          "111": 3,
+          "110": 6
+        },
+        "ZZ": {
+          "011": 283,
+          "001": 251,
+          "000": 243,
+          "010": 228,
+          "111": 5,
+          "101": 6,
+          "110": 4,
+          "100": 4
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_082_083_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        83,
+        82,
+        84
+      ],
+      "variant": "baseline"
+    },
+    "edge_150_151_baseline": {
+      "fidelity": 0.939453125,
+      "fidelity_standard_error": 0.005323240208419854,
+      "fidelity_interval": [
+        0.9133404555449818,
+        0.9578912632361245
+      ],
+      "fidelity_normal_interval": [
+        0.9290197659104416,
+        0.9498864840895584
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 477,
+            "000": 501,
+            "010": 21,
+            "001": 20,
+            "111": 4,
+            "100": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 983,
+          "successes": 983,
+          "success_probability": 0.9599609375,
+          "value": 0.919921875,
+          "standard_error": 0.01225317815503025,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 509,
+            "010": 479,
+            "011": 18,
+            "000": 15,
+            "110": 2,
+            "101": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 33,
+          "successes": 991,
+          "success_probability": 0.9677734375,
+          "value": -0.935546875,
+          "standard_error": 0.011037579835752038,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 479,
+            "011": 489,
+            "001": 23,
+            "010": 25,
+            "111": 2,
+            "100": 4,
+            "101": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 974,
+          "successes": 974,
+          "success_probability": 0.951171875,
+          "value": 0.90234375,
+          "standard_error": 0.013469284967476753,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 477,
+          "000": 501,
+          "010": 21,
+          "001": 20,
+          "111": 4,
+          "100": 1
+        },
+        "YY": {
+          "001": 509,
+          "010": 479,
+          "011": 18,
+          "000": 15,
+          "110": 2,
+          "101": 1
+        },
+        "ZZ": {
+          "000": 479,
+          "011": 489,
+          "001": 23,
+          "010": 25,
+          "111": 2,
+          "100": 4,
+          "101": 2
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_150_151_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        151,
+        150,
+        152
+      ],
+      "variant": "baseline"
+    },
+    "edge_119_133_baseline": {
+      "fidelity": 0.74072265625,
+      "fidelity_standard_error": 0.010223286186957167,
+      "fidelity_interval": [
+        0.6956624814354062,
+        0.7803204345525625
+      ],
+      "fidelity_normal_interval": [
+        0.7206853835199182,
+        0.7607599289800818
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "010": 93,
+            "000": 417,
+            "011": 415,
+            "001": 96,
+            "100": 1,
+            "110": 1,
+            "111": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 834,
+          "successes": 834,
+          "success_probability": 0.814453125,
+          "value": 0.62890625,
+          "standard_error": 0.024296285738653035,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 425,
+            "000": 90,
+            "010": 407,
+            "011": 98,
+            "101": 1,
+            "110": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 188,
+          "successes": 836,
+          "success_probability": 0.81640625,
+          "value": -0.6328125,
+          "standard_error": 0.024197033405536764,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 427,
+            "000": 441,
+            "001": 79,
+            "010": 74,
+            "100": 1,
+            "111": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 871,
+          "successes": 871,
+          "success_probability": 0.8505859375,
+          "value": 0.701171875,
+          "standard_error": 0.02228100897724181,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "010": 93,
+          "000": 417,
+          "011": 415,
+          "001": 96,
+          "100": 1,
+          "110": 1,
+          "111": 1
+        },
+        "YY": {
+          "001": 425,
+          "000": 90,
+          "010": 407,
+          "011": 98,
+          "101": 1,
+          "110": 3
+        },
+        "ZZ": {
+          "011": 427,
+          "000": 441,
+          "001": 79,
+          "010": 74,
+          "100": 1,
+          "111": 2
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_119_133_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        133,
+        119,
+        132
+      ],
+      "variant": "baseline"
+    },
+    "edge_093_094_baseline": {
+      "fidelity": 0.25439453125,
+      "fidelity_standard_error": 0.013521293336278316,
+      "fidelity_interval": [
+        0.19846010642647338,
+        0.3102800390898368
+      ],
+      "fidelity_normal_interval": [
+        0.22789328328649308,
+        0.28089577921350695
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 260,
+            "001": 253,
+            "000": 261,
+            "010": 238,
+            "111": 7,
+            "100": 1,
+            "101": 3,
+            "110": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 529,
+          "successes": 529,
+          "success_probability": 0.5166015625,
+          "value": 0.033203125,
+          "standard_error": 0.03123276950742192,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "000": 256,
+            "011": 276,
+            "010": 252,
+            "001": 233,
+            "100": 4,
+            "110": 1,
+            "101": 1,
+            "111": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 537,
+          "successes": 487,
+          "success_probability": 0.4755859375,
+          "value": 0.048828125,
+          "standard_error": 0.0312127248660456,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "010": 244,
+            "001": 246,
+            "011": 275,
+            "000": 249,
+            "111": 4,
+            "100": 1,
+            "101": 3,
+            "110": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 529,
+          "successes": 529,
+          "success_probability": 0.5166015625,
+          "value": 0.033203125,
+          "standard_error": 0.03123276950742192,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 260,
+          "001": 253,
+          "000": 261,
+          "010": 238,
+          "111": 7,
+          "100": 1,
+          "101": 3,
+          "110": 1
+        },
+        "YY": {
+          "000": 256,
+          "011": 276,
+          "010": 252,
+          "001": 233,
+          "100": 4,
+          "110": 1,
+          "101": 1,
+          "111": 1
+        },
+        "ZZ": {
+          "010": 244,
+          "001": 246,
+          "011": 275,
+          "000": 249,
+          "111": 4,
+          "100": 1,
+          "101": 3,
+          "110": 2
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_093_094_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        93,
+        94,
+        95
+      ],
+      "variant": "baseline"
+    },
+    "edge_105_106_baseline": {
+      "fidelity": 0.90869140625,
+      "fidelity_standard_error": 0.006462470970466758,
+      "fidelity_interval": [
+        0.8781749141059192,
+        0.9318757860610161
+      ],
+      "fidelity_normal_interval": [
+        0.8960251958967496,
+        0.9213576166032504
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 506,
+            "011": 469,
+            "001": 26,
+            "010": 19,
+            "100": 2,
+            "111": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 979,
+          "successes": 979,
+          "success_probability": 0.9560546875,
+          "value": 0.912109375,
+          "standard_error": 0.012810841662386574,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 479,
+            "001": 468,
+            "011": 42,
+            "000": 31,
+            "110": 2,
+            "101": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 73,
+          "successes": 951,
+          "success_probability": 0.9287109375,
+          "value": -0.857421875,
+          "standard_error": 0.016081692336011203,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 479,
+            "000": 472,
+            "111": 4,
+            "010": 32,
+            "001": 36,
+            "110": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 955,
+          "successes": 955,
+          "success_probability": 0.9326171875,
+          "value": 0.865234375,
+          "standard_error": 0.01566773768663325,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 506,
+          "011": 469,
+          "001": 26,
+          "010": 19,
+          "100": 2,
+          "111": 2
+        },
+        "YY": {
+          "010": 479,
+          "001": 468,
+          "011": 42,
+          "000": 31,
+          "110": 2,
+          "101": 2
+        },
+        "ZZ": {
+          "011": 479,
+          "000": 472,
+          "111": 4,
+          "010": 32,
+          "001": 36,
+          "110": 1
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_105_106_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        105,
+        106,
+        107
+      ],
+      "variant": "baseline"
+    },
+    "edge_026_027_baseline": {
+      "fidelity": 0.7421875,
+      "fidelity_standard_error": 0.010207320154118323,
+      "fidelity_interval": [
+        0.6971618479555861,
+        0.7817344498711527
+      ],
+      "fidelity_normal_interval": [
+        0.7221815201192583,
+        0.7621934798807417
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "010": 86,
+            "000": 421,
+            "001": 96,
+            "011": 414,
+            "111": 2,
+            "100": 5
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 842,
+          "successes": 842,
+          "success_probability": 0.822265625,
+          "value": 0.64453125,
+          "standard_error": 0.023893061471847797,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 420,
+            "010": 434,
+            "011": 91,
+            "000": 72,
+            "110": 5,
+            "101": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 163,
+          "successes": 861,
+          "success_probability": 0.8408203125,
+          "value": -0.681640625,
+          "standard_error": 0.0228652228582413,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 413,
+            "011": 420,
+            "010": 86,
+            "111": 5,
+            "001": 95,
+            "100": 3,
+            "101": 1,
+            "110": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 841,
+          "successes": 841,
+          "success_probability": 0.8212890625,
+          "value": 0.642578125,
+          "standard_error": 0.023944380401342273,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "010": 86,
+          "000": 421,
+          "001": 96,
+          "011": 414,
+          "111": 2,
+          "100": 5
+        },
+        "YY": {
+          "001": 420,
+          "010": 434,
+          "011": 91,
+          "000": 72,
+          "110": 5,
+          "101": 2
+        },
+        "ZZ": {
+          "000": 413,
+          "011": 420,
+          "010": 86,
+          "111": 5,
+          "001": 95,
+          "100": 3,
+          "101": 1,
+          "110": 1
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_026_027_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        27,
+        26,
+        25
+      ],
+      "variant": "baseline"
+    },
+    "edge_024_025_baseline": {
+      "fidelity": 0.94482421875,
+      "fidelity_standard_error": 0.005093670854655704,
+      "fidelity_interval": [
+        0.9195543702783247,
+        0.962359748578272
+      ],
+      "fidelity_normal_interval": [
+        0.9348408073257735,
+        0.9548076301742265
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 473,
+            "000": 471,
+            "100": 28,
+            "111": 18,
+            "001": 8,
+            "010": 20,
+            "101": 5,
+            "110": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 990,
+          "successes": 990,
+          "success_probability": 0.966796875,
+          "value": 0.93359375,
+          "standard_error": 0.011197913709536612,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 452,
+            "101": 37,
+            "010": 455,
+            "011": 20,
+            "110": 40,
+            "000": 20
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 40,
+          "successes": 984,
+          "success_probability": 0.9609375,
+          "value": -0.921875,
+          "standard_error": 0.012108981218395747,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "111": 32,
+            "011": 451,
+            "000": 474,
+            "100": 28,
+            "010": 22,
+            "001": 15,
+            "110": 1,
+            "101": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 985,
+          "successes": 985,
+          "success_probability": 0.9619140625,
+          "value": 0.923828125,
+          "standard_error": 0.011962734922057515,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 473,
+          "000": 471,
+          "100": 28,
+          "111": 18,
+          "001": 8,
+          "010": 20,
+          "101": 5,
+          "110": 1
+        },
+        "YY": {
+          "001": 452,
+          "101": 37,
+          "010": 455,
+          "011": 20,
+          "110": 40,
+          "000": 20
+        },
+        "ZZ": {
+          "111": 32,
+          "011": 451,
+          "000": 474,
+          "100": 28,
+          "010": 22,
+          "001": 15,
+          "110": 1,
+          "101": 1
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_024_025_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        25,
+        24,
+        23
+      ],
+      "variant": "baseline"
+    },
+    "edge_064_065_baseline": {
+      "fidelity": 0.908203125,
+      "fidelity_standard_error": 0.006480513882379266,
+      "fidelity_interval": [
+        0.8775738707317196,
+        0.9315057021556254
+      ],
+      "fidelity_normal_interval": [
+        0.8955015511892248,
+        0.9209046988107752
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 465,
+            "000": 497,
+            "010": 24,
+            "001": 29,
+            "100": 4,
+            "111": 4,
+            "110": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 970,
+          "successes": 970,
+          "success_probability": 0.947265625,
+          "value": 0.89453125,
+          "standard_error": 0.013968919279365711,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 466,
+            "001": 497,
+            "011": 28,
+            "000": 28,
+            "101": 3,
+            "110": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 56,
+          "successes": 968,
+          "success_probability": 0.9453125,
+          "value": -0.890625,
+          "standard_error": 0.014210578330913328,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 474,
+            "000": 466,
+            "010": 40,
+            "111": 4,
+            "001": 38,
+            "100": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 946,
+          "successes": 946,
+          "success_probability": 0.923828125,
+          "value": 0.84765625,
+          "standard_error": 0.016579557308411697,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 465,
+          "000": 497,
+          "010": 24,
+          "001": 29,
+          "100": 4,
+          "111": 4,
+          "110": 1
+        },
+        "YY": {
+          "010": 466,
+          "001": 497,
+          "011": 28,
+          "000": 28,
+          "101": 3,
+          "110": 2
+        },
+        "ZZ": {
+          "011": 474,
+          "000": 466,
+          "010": 40,
+          "111": 4,
+          "001": 38,
+          "100": 2
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_064_065_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        64,
+        65,
+        66
+      ],
+      "variant": "baseline"
+    },
+    "edge_116_121_baseline": {
+      "fidelity": 0.919921875,
+      "fidelity_standard_error": 0.006082689995638149,
+      "fidelity_interval": [
+        0.8907851613957565,
+        0.9416014662017491
+      ],
+      "fidelity_normal_interval": [
+        0.9080000216794272,
+        0.9318437283205728
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 502,
+            "010": 25,
+            "011": 471,
+            "001": 24,
+            "111": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 975,
+          "successes": 975,
+          "success_probability": 0.9521484375,
+          "value": 0.904296875,
+          "standard_error": 0.013340755001461422,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 471,
+            "010": 490,
+            "000": 29,
+            "011": 31,
+            "101": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 60,
+          "successes": 964,
+          "success_probability": 0.94140625,
+          "value": -0.8828125,
+          "standard_error": 0.014678923355036537,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 491,
+            "011": 472,
+            "001": 28,
+            "111": 5,
+            "010": 27,
+            "100": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 969,
+          "successes": 969,
+          "success_probability": 0.9462890625,
+          "value": 0.892578125,
+          "standard_error": 0.014090399087908323,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 502,
+          "010": 25,
+          "011": 471,
+          "001": 24,
+          "111": 2
+        },
+        "YY": {
+          "001": 471,
+          "010": 490,
+          "000": 29,
+          "011": 31,
+          "101": 3
+        },
+        "ZZ": {
+          "000": 491,
+          "011": 472,
+          "001": 28,
+          "111": 5,
+          "010": 27,
+          "100": 1
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_116_121_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        121,
+        116,
+        120
+      ],
+      "variant": "baseline"
+    },
+    "edge_102_103_baseline": {
+      "fidelity": 0.94873046875,
+      "fidelity_standard_error": 0.004916148828422775,
+      "fidelity_interval": [
+        0.9241709464479739,
+        0.9655121906453428
+      ],
+      "fidelity_normal_interval": [
+        0.9390949941036526,
+        0.9583659433963474
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 461,
+            "000": 501,
+            "111": 10,
+            "100": 16,
+            "010": 23,
+            "001": 13
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 988,
+          "successes": 988,
+          "success_probability": 0.96484375,
+          "value": 0.9296875,
+          "standard_error": 0.01151091331457645,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 486,
+            "011": 22,
+            "010": 480,
+            "101": 11,
+            "000": 16,
+            "110": 8,
+            "100": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 39,
+          "successes": 985,
+          "success_probability": 0.9619140625,
+          "value": -0.923828125,
+          "standard_error": 0.011962734922057515,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 479,
+            "000": 502,
+            "111": 6,
+            "001": 17,
+            "010": 11,
+            "100": 7,
+            "101": 1,
+            "110": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 994,
+          "successes": 994,
+          "success_probability": 0.970703125,
+          "value": 0.94140625,
+          "standard_error": 0.010539836654338353,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 461,
+          "000": 501,
+          "111": 10,
+          "100": 16,
+          "010": 23,
+          "001": 13
+        },
+        "YY": {
+          "001": 486,
+          "011": 22,
+          "010": 480,
+          "101": 11,
+          "000": 16,
+          "110": 8,
+          "100": 1
+        },
+        "ZZ": {
+          "011": 479,
+          "000": 502,
+          "111": 6,
+          "001": 17,
+          "010": 11,
+          "100": 7,
+          "101": 1,
+          "110": 1
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_102_103_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        103,
+        102,
+        104
+      ],
+      "variant": "baseline"
+    },
+    "edge_021_036_baseline": {
+      "fidelity": 0.82666015625,
+      "fidelity_standard_error": 0.008642228437342955,
+      "fidelity_interval": [
+        0.7876260629461398,
+        0.8592752542496722
+      ],
+      "fidelity_normal_interval": [
+        0.80972169976664,
+        0.84359861273336
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 489,
+            "000": 420,
+            "001": 53,
+            "010": 58,
+            "111": 2,
+            "100": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 913,
+          "successes": 913,
+          "success_probability": 0.8916015625,
+          "value": 0.783203125,
+          "standard_error": 0.019430185143663087,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 436,
+            "001": 442,
+            "000": 77,
+            "011": 63,
+            "110": 3,
+            "101": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 140,
+          "successes": 884,
+          "success_probability": 0.86328125,
+          "value": -0.7265625,
+          "standard_error": 0.02147188690678224,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 472,
+            "000": 445,
+            "010": 52,
+            "001": 52,
+            "111": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 920,
+          "successes": 920,
+          "success_probability": 0.8984375,
+          "value": 0.796875,
+          "standard_error": 0.01887950676677852,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 489,
+          "000": 420,
+          "001": 53,
+          "010": 58,
+          "111": 2,
+          "100": 2
+        },
+        "YY": {
+          "010": 436,
+          "001": 442,
+          "000": 77,
+          "011": 63,
+          "110": 3,
+          "101": 3
+        },
+        "ZZ": {
+          "011": 472,
+          "000": 445,
+          "010": 52,
+          "001": 52,
+          "111": 3
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_021_036_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        21,
+        36,
+        20
+      ],
+      "variant": "baseline"
+    },
+    "edge_142_143_baseline": {
+      "fidelity": 0.9296875,
+      "fidelity_standard_error": 0.005720234902216886,
+      "fidelity_interval": [
+        0.9019541049295328,
+        0.9498550682597733
+      ],
+      "fidelity_normal_interval": [
+        0.9184760456085459,
+        0.9408989543914541
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 508,
+            "010": 22,
+            "000": 467,
+            "001": 24,
+            "111": 2,
+            "100": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 978,
+          "successes": 978,
+          "success_probability": 0.955078125,
+          "value": 0.91015625,
+          "standard_error": 0.012945785412527298,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 471,
+            "001": 500,
+            "000": 24,
+            "011": 25,
+            "110": 1,
+            "100": 1,
+            "101": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 50,
+          "successes": 974,
+          "success_probability": 0.951171875,
+          "value": -0.90234375,
+          "standard_error": 0.013469284967476753,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 484,
+            "000": 487,
+            "010": 24,
+            "111": 3,
+            "001": 24,
+            "100": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 976,
+          "successes": 976,
+          "success_probability": 0.953125,
+          "value": 0.90625,
+          "standard_error": 0.013210692635223323,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 508,
+          "010": 22,
+          "000": 467,
+          "001": 24,
+          "111": 2,
+          "100": 1
+        },
+        "YY": {
+          "010": 471,
+          "001": 500,
+          "000": 24,
+          "011": 25,
+          "110": 1,
+          "100": 1,
+          "101": 2
+        },
+        "ZZ": {
+          "011": 484,
+          "000": 487,
+          "010": 24,
+          "111": 3,
+          "001": 24,
+          "100": 2
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_142_143_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        142,
+        143,
+        141
+      ],
+      "variant": "baseline"
+    },
+    "edge_112_113_baseline": {
+      "fidelity": 0.2421875,
+      "fidelity_standard_error": 0.013528394537664062,
+      "fidelity_interval": [
+        0.18629181615396884,
+        0.29817014737259084
+      ],
+      "fidelity_normal_interval": [
+        0.21567233393753005,
+        0.26870266606246995
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 237,
+            "001": 236,
+            "010": 283,
+            "110": 7,
+            "011": 247,
+            "100": 5,
+            "101": 5,
+            "111": 4
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 493,
+          "successes": 493,
+          "success_probability": 0.4814453125,
+          "value": -0.037109375,
+          "standard_error": 0.031228475310239777,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 254,
+            "000": 270,
+            "010": 245,
+            "011": 233,
+            "111": 7,
+            "101": 7,
+            "110": 5,
+            "100": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 513,
+          "successes": 511,
+          "success_probability": 0.4990234375,
+          "value": 0.001953125,
+          "standard_error": 0.03124994039529838,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "010": 243,
+            "011": 246,
+            "000": 266,
+            "001": 255,
+            "101": 5,
+            "100": 3,
+            "110": 5,
+            "111": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 516,
+          "successes": 516,
+          "success_probability": 0.50390625,
+          "value": 0.0078125,
+          "standard_error": 0.031249046311131234,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 237,
+          "001": 236,
+          "010": 283,
+          "110": 7,
+          "011": 247,
+          "100": 5,
+          "101": 5,
+          "111": 4
+        },
+        "YY": {
+          "001": 254,
+          "000": 270,
+          "010": 245,
+          "011": 233,
+          "111": 7,
+          "101": 7,
+          "110": 5,
+          "100": 3
+        },
+        "ZZ": {
+          "010": 243,
+          "011": 246,
+          "000": 266,
+          "001": 255,
+          "101": 5,
+          "100": 3,
+          "110": 5,
+          "111": 1
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_112_113_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        112,
+        113,
+        111
+      ],
+      "variant": "baseline"
+    },
+    "edge_091_098_baseline": {
+      "fidelity": 0.97998046875,
+      "fidelity_standard_error": 0.0031054166273625228,
+      "fidelity_interval": [
+        0.9624608845846008,
+        0.989374398402477
+      ],
+      "fidelity_normal_interval": [
+        0.9738939640033776,
+        0.9860669734966224
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 532,
+            "000": 455,
+            "111": 13,
+            "110": 1,
+            "100": 12,
+            "010": 7,
+            "001": 4
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 1012,
+          "successes": 1012,
+          "success_probability": 0.98828125,
+          "value": 0.9765625,
+          "standard_error": 0.006726063141580034,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 500,
+            "010": 493,
+            "101": 9,
+            "110": 8,
+            "011": 8,
+            "000": 6
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 14,
+          "successes": 1010,
+          "success_probability": 0.986328125,
+          "value": -0.97265625,
+          "standard_error": 0.007257796140720092,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 496,
+            "011": 500,
+            "111": 5,
+            "001": 9,
+            "100": 8,
+            "010": 6
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 1009,
+          "successes": 1009,
+          "success_probability": 0.9853515625,
+          "value": 0.970703125,
+          "standard_error": 0.00750881273352992,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 532,
+          "000": 455,
+          "111": 13,
+          "110": 1,
+          "100": 12,
+          "010": 7,
+          "001": 4
+        },
+        "YY": {
+          "001": 500,
+          "010": 493,
+          "101": 9,
+          "110": 8,
+          "011": 8,
+          "000": 6
+        },
+        "ZZ": {
+          "000": 496,
+          "011": 500,
+          "111": 5,
+          "001": 9,
+          "100": 8,
+          "010": 6
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_091_098_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        98,
+        91,
+        90
+      ],
+      "variant": "baseline"
+    },
+    "edge_034_035_baseline": {
+      "fidelity": 0.7333984375,
+      "fidelity_standard_error": 0.010344918836148015,
+      "fidelity_interval": [
+        0.6878508970121588,
+        0.7735651097819596
+      ],
+      "fidelity_normal_interval": [
+        0.7131227691581599,
+        0.7536741058418401
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 428,
+            "000": 399,
+            "001": 110,
+            "010": 76,
+            "100": 5,
+            "110": 2,
+            "111": 2,
+            "101": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 834,
+          "successes": 834,
+          "success_probability": 0.814453125,
+          "value": 0.62890625,
+          "standard_error": 0.024296285738653035,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "000": 79,
+            "001": 392,
+            "011": 98,
+            "010": 450,
+            "101": 3,
+            "110": 1,
+            "100": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 178,
+          "successes": 846,
+          "success_probability": 0.826171875,
+          "value": -0.65234375,
+          "standard_error": 0.02368510112844745,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 430,
+            "011": 409,
+            "010": 92,
+            "001": 85,
+            "111": 5,
+            "100": 2,
+            "101": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 846,
+          "successes": 846,
+          "success_probability": 0.826171875,
+          "value": 0.65234375,
+          "standard_error": 0.02368510112844745,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 428,
+          "000": 399,
+          "001": 110,
+          "010": 76,
+          "100": 5,
+          "110": 2,
+          "111": 2,
+          "101": 2
+        },
+        "YY": {
+          "000": 79,
+          "001": 392,
+          "011": 98,
+          "010": 450,
+          "101": 3,
+          "110": 1,
+          "100": 1
+        },
+        "ZZ": {
+          "000": 430,
+          "011": 409,
+          "010": 92,
+          "001": 85,
+          "111": 5,
+          "100": 2,
+          "101": 1
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_034_035_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        35,
+        34,
+        33
+      ],
+      "variant": "baseline"
+    },
+    "edge_131_138_baseline": {
+      "fidelity": 0.91943359375,
+      "fidelity_standard_error": 0.006099909670886001,
+      "fidelity_interval": [
+        0.8902324648360573,
+        0.9411830354818584
+      ],
+      "fidelity_normal_interval": [
+        0.9074779904861159,
+        0.9313891970138841
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 463,
+            "000": 505,
+            "010": 30,
+            "100": 4,
+            "001": 20,
+            "111": 1,
+            "110": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 973,
+          "successes": 973,
+          "success_probability": 0.9501953125,
+          "value": 0.900390625,
+          "standard_error": 0.013596325991994144,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 491,
+            "001": 466,
+            "011": 29,
+            "000": 33,
+            "101": 2,
+            "110": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 62,
+          "successes": 962,
+          "success_probability": 0.939453125,
+          "value": -0.87890625,
+          "standard_error": 0.014906079785156874,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 487,
+            "000": 481,
+            "001": 25,
+            "010": 27,
+            "100": 3,
+            "111": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 972,
+          "successes": 972,
+          "success_probability": 0.94921875,
+          "value": 0.8984375,
+          "standard_error": 0.013721919430074605,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 463,
+          "000": 505,
+          "010": 30,
+          "100": 4,
+          "001": 20,
+          "111": 1,
+          "110": 1
+        },
+        "YY": {
+          "010": 491,
+          "001": 466,
+          "011": 29,
+          "000": 33,
+          "101": 2,
+          "110": 3
+        },
+        "ZZ": {
+          "011": 487,
+          "000": 481,
+          "001": 25,
+          "010": 27,
+          "100": 3,
+          "111": 1
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_131_138_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        131,
+        138,
+        132
+      ],
+      "variant": "baseline"
+    },
+    "edge_087_088_baseline": {
+      "fidelity": 0.88134765625,
+      "fidelity_standard_error": 0.00730140630190483,
+      "fidelity_interval": [
+        0.8474671346461449,
+        0.9082004378637494
+      ],
+      "fidelity_normal_interval": [
+        0.8670371628617728,
+        0.8956581496382272
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 502,
+            "001": 38,
+            "011": 440,
+            "010": 40,
+            "110": 2,
+            "111": 1,
+            "100": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 944,
+          "successes": 944,
+          "success_probability": 0.921875,
+          "value": 0.84375,
+          "standard_error": 0.016773011755193034,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 470,
+            "001": 460,
+            "000": 57,
+            "011": 34,
+            "101": 2,
+            "110": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 91,
+          "successes": 933,
+          "success_probability": 0.9111328125,
+          "value": -0.822265625,
+          "standard_error": 0.01778449668138831,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 485,
+            "011": 463,
+            "010": 42,
+            "001": 30,
+            "111": 3,
+            "100": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 952,
+          "successes": 952,
+          "success_probability": 0.9296875,
+          "value": 0.859375,
+          "standard_error": 0.01597955876167341,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 502,
+          "001": 38,
+          "011": 440,
+          "010": 40,
+          "110": 2,
+          "111": 1,
+          "100": 1
+        },
+        "YY": {
+          "010": 470,
+          "001": 460,
+          "000": 57,
+          "011": 34,
+          "101": 2,
+          "110": 1
+        },
+        "ZZ": {
+          "000": 485,
+          "011": 463,
+          "010": 42,
+          "001": 30,
+          "111": 3,
+          "100": 1
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_087_088_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        87,
+        88,
+        97
+      ],
+      "variant": "baseline"
+    },
+    "edge_043_056_baseline": {
+      "fidelity": 0.9482421875,
+      "fidelity_standard_error": 0.0049362595333868,
+      "fidelity_interval": [
+        0.9236650573628609,
+        0.9650469524508656
+      ],
+      "fidelity_normal_interval": [
+        0.9385672965962194,
+        0.9579170784037806
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 479,
+            "011": 502,
+            "010": 19,
+            "100": 7,
+            "001": 15,
+            "111": 1,
+            "101": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 989,
+          "successes": 989,
+          "success_probability": 0.9658203125,
+          "value": 0.931640625,
+          "standard_error": 0.011355656021615798,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 499,
+            "010": 476,
+            "000": 18,
+            "011": 25,
+            "101": 2,
+            "110": 3,
+            "100": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 44,
+          "successes": 980,
+          "success_probability": 0.95703125,
+          "value": -0.9140625,
+          "standard_error": 0.012674167336345127,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 516,
+            "011": 473,
+            "010": 15,
+            "001": 11,
+            "100": 5,
+            "101": 1,
+            "111": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 997,
+          "successes": 997,
+          "success_probability": 0.9736328125,
+          "value": 0.947265625,
+          "standard_error": 0.010014044614654773,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 479,
+          "011": 502,
+          "010": 19,
+          "100": 7,
+          "001": 15,
+          "111": 1,
+          "101": 1
+        },
+        "YY": {
+          "001": 499,
+          "010": 476,
+          "000": 18,
+          "011": 25,
+          "101": 2,
+          "110": 3,
+          "100": 1
+        },
+        "ZZ": {
+          "000": 516,
+          "011": 473,
+          "010": 15,
+          "001": 11,
+          "100": 5,
+          "101": 1,
+          "111": 3
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_043_056_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        43,
+        56,
+        42
+      ],
+      "variant": "baseline"
+    },
+    "edge_114_115_baseline": {
+      "fidelity": 0.78369140625,
+      "fidelity_standard_error": 0.00948776485487441,
+      "fidelity_interval": [
+        0.7414525491959296,
+        0.8199895673959605
+      ],
+      "fidelity_normal_interval": [
+        0.7650957288406612,
+        0.8022870836593388
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 401,
+            "000": 392,
+            "010": 85,
+            "001": 85,
+            "111": 28,
+            "100": 23,
+            "110": 6,
+            "101": 4
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 844,
+          "successes": 844,
+          "success_probability": 0.82421875,
+          "value": 0.6484375,
+          "standard_error": 0.02378962173180427,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 392,
+            "110": 25,
+            "100": 7,
+            "001": 467,
+            "000": 58,
+            "011": 61,
+            "101": 12,
+            "111": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 128,
+          "successes": 896,
+          "success_probability": 0.875,
+          "value": -0.75,
+          "standard_error": 0.020669932117692115,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "001": 72,
+            "000": 422,
+            "011": 413,
+            "100": 24,
+            "010": 61,
+            "111": 30,
+            "110": 1,
+            "101": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 889,
+          "successes": 889,
+          "success_probability": 0.8681640625,
+          "value": 0.736328125,
+          "standard_error": 0.021144519743184206,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 401,
+          "000": 392,
+          "010": 85,
+          "001": 85,
+          "111": 28,
+          "100": 23,
+          "110": 6,
+          "101": 4
+        },
+        "YY": {
+          "010": 392,
+          "110": 25,
+          "100": 7,
+          "001": 467,
+          "000": 58,
+          "011": 61,
+          "101": 12,
+          "111": 2
+        },
+        "ZZ": {
+          "001": 72,
+          "000": 422,
+          "011": 413,
+          "100": 24,
+          "010": 61,
+          "111": 30,
+          "110": 1,
+          "101": 1
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_114_115_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        115,
+        114,
+        99
+      ],
+      "variant": "baseline"
+    },
+    "edge_009_010_baseline": {
+      "fidelity": 0.97412109375,
+      "fidelity_standard_error": 0.003522335377045143,
+      "fidelity_interval": [
+        0.9550680374684717,
+        0.9851137181635257
+      ],
+      "fidelity_normal_interval": [
+        0.9672174432695202,
+        0.9810247442304798
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 511,
+            "000": 480,
+            "010": 8,
+            "111": 8,
+            "001": 13,
+            "100": 4
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 1003,
+          "successes": 1003,
+          "success_probability": 0.9794921875,
+          "value": 0.958984375,
+          "standard_error": 0.008858091755931595,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 493,
+            "010": 502,
+            "011": 3,
+            "000": 9,
+            "101": 10,
+            "110": 7
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 12,
+          "successes": 1012,
+          "success_probability": 0.98828125,
+          "value": -0.9765625,
+          "standard_error": 0.006726063141580034,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 520,
+            "000": 479,
+            "001": 9,
+            "010": 11,
+            "111": 3,
+            "100": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 1004,
+          "successes": 1004,
+          "success_probability": 0.98046875,
+          "value": 0.9609375,
+          "standard_error": 0.008648920695272632,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 511,
+          "000": 480,
+          "010": 8,
+          "111": 8,
+          "001": 13,
+          "100": 4
+        },
+        "YY": {
+          "001": 493,
+          "010": 502,
+          "011": 3,
+          "000": 9,
+          "101": 10,
+          "110": 7
+        },
+        "ZZ": {
+          "011": 520,
+          "000": 479,
+          "001": 9,
+          "010": 11,
+          "111": 3,
+          "100": 2
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_009_010_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        9,
+        10,
+        8
+      ],
+      "variant": "baseline"
+    },
+    "anchor_baseline": {
+      "fidelity": 0.970703125,
+      "fidelity_standard_error": 0.0037446573067101818,
+      "fidelity_interval": [
+        0.9507170561576657,
+        0.9826668085172019
+      ],
+      "fidelity_normal_interval": [
+        0.9633637315444032,
+        0.9780425184555968
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "010": 13,
+            "000": 511,
+            "011": 490,
+            "001": 8,
+            "111": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 1003,
+          "successes": 1003,
+          "success_probability": 0.9794921875,
+          "value": 0.958984375,
+          "standard_error": 0.008858091755931595,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 536,
+            "001": 470,
+            "011": 11,
+            "000": 6,
+            "110": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 17,
+          "successes": 1007,
+          "success_probability": 0.9833984375,
+          "value": -0.966796875,
+          "standard_error": 0.007985815213199559,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 514,
+            "011": 486,
+            "010": 10,
+            "001": 12,
+            "111": 1,
+            "100": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 1002,
+          "successes": 1002,
+          "success_probability": 0.978515625,
+          "value": 0.95703125,
+          "standard_error": 0.009062025123519269,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "010": 13,
+          "000": 511,
+          "011": 490,
+          "001": 8,
+          "111": 2
+        },
+        "YY": {
+          "010": 536,
+          "001": 470,
+          "011": 11,
+          "000": 6,
+          "110": 1
+        },
+        "ZZ": {
+          "000": 514,
+          "011": 486,
+          "010": 10,
+          "001": 12,
+          "111": 1,
+          "100": 1
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "anchor_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "variant": "baseline"
+    },
+    "original_baseline": {
+      "fidelity": 0.91796875,
+      "fidelity_standard_error": 0.006151506578919413,
+      "fidelity_interval": [
+        0.8885740750341631,
+        0.9399280434449824
+      ],
+      "fidelity_normal_interval": [
+        0.9059120186546568,
+        0.9300254813453432
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 496,
+            "011": 462,
+            "010": 40,
+            "001": 21,
+            "100": 3,
+            "111": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 963,
+          "successes": 963,
+          "success_probability": 0.9404296875,
+          "value": 0.880859375,
+          "standard_error": 0.014793063509717931,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 490,
+            "010": 464,
+            "000": 32,
+            "011": 26,
+            "110": 8,
+            "101": 3,
+            "100": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 59,
+          "successes": 965,
+          "success_probability": 0.9423828125,
+          "value": -0.884765625,
+          "standard_error": 0.01456363289646265,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 478,
+            "011": 491,
+            "010": 20,
+            "001": 28,
+            "111": 4,
+            "100": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 976,
+          "successes": 976,
+          "success_probability": 0.953125,
+          "value": 0.90625,
+          "standard_error": 0.013210692635223323,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 496,
+          "011": 462,
+          "010": 40,
+          "001": 21,
+          "100": 3,
+          "111": 2
+        },
+        "YY": {
+          "001": 490,
+          "010": 464,
+          "000": 32,
+          "011": 26,
+          "110": 8,
+          "101": 3,
+          "100": 1
+        },
+        "ZZ": {
+          "000": 478,
+          "011": 491,
+          "010": 20,
+          "001": 28,
+          "111": 4,
+          "100": 3
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "original_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "variant": "baseline"
+    },
+    "edge_098_111_baseline": {
+      "fidelity": 0.96337890625,
+      "fidelity_standard_error": 0.0041763113325942345,
+      "fidelity_interval": [
+        0.9417028143761794,
+        0.9771141411048379
+      ],
+      "fidelity_normal_interval": [
+        0.9551934864498888,
+        0.9715643260501112
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 515,
+            "011": 483,
+            "010": 10,
+            "001": 14,
+            "100": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 1000,
+          "successes": 1000,
+          "success_probability": 0.9765625,
+          "value": 0.953125,
+          "standard_error": 0.009455525747576701,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 515,
+            "001": 476,
+            "000": 14,
+            "110": 3,
+            "111": 1,
+            "011": 13,
+            "101": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 28,
+          "successes": 996,
+          "success_probability": 0.97265625,
+          "value": -0.9453125,
+          "standard_error": 0.010192688352123096,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 513,
+            "001": 9,
+            "011": 483,
+            "010": 14,
+            "100": 5
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 1001,
+          "successes": 1001,
+          "success_probability": 0.9775390625,
+          "value": 0.955078125,
+          "standard_error": 0.009261066814438208,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 515,
+          "011": 483,
+          "010": 10,
+          "001": 14,
+          "100": 2
+        },
+        "YY": {
+          "010": 515,
+          "001": 476,
+          "000": 14,
+          "110": 3,
+          "111": 1,
+          "011": 13,
+          "101": 2
+        },
+        "ZZ": {
+          "000": 513,
+          "001": 9,
+          "011": 483,
+          "010": 14,
+          "100": 5
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_098_111_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        111,
+        98,
+        112
+      ],
+      "variant": "baseline"
+    },
+    "edge_138_151_baseline": {
+      "fidelity": 0.9130859375,
+      "fidelity_standard_error": 0.006322038749557817,
+      "fidelity_interval": [
+        0.88300735433708,
+        0.9357834913461653
+      ],
+      "fidelity_normal_interval": [
+        0.9006949692420001,
+        0.9254769057579999
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 473,
+            "011": 483,
+            "001": 40,
+            "010": 25,
+            "111": 2,
+            "100": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 959,
+          "successes": 959,
+          "success_probability": 0.9365234375,
+          "value": 0.873046875,
+          "standard_error": 0.015238634149904099,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 461,
+            "010": 502,
+            "011": 32,
+            "000": 24,
+            "110": 1,
+            "101": 4
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 56,
+          "successes": 968,
+          "success_probability": 0.9453125,
+          "value": -0.890625,
+          "standard_error": 0.014210578330913328,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 482,
+            "011": 480,
+            "100": 3,
+            "010": 21,
+            "001": 36,
+            "111": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 967,
+          "successes": 967,
+          "success_probability": 0.9443359375,
+          "value": 0.888671875,
+          "standard_error": 0.014329489731351994,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 473,
+          "011": 483,
+          "001": 40,
+          "010": 25,
+          "111": 2,
+          "100": 1
+        },
+        "YY": {
+          "001": 461,
+          "010": 502,
+          "011": 32,
+          "000": 24,
+          "110": 1,
+          "101": 4
+        },
+        "ZZ": {
+          "000": 482,
+          "011": 480,
+          "100": 3,
+          "010": 21,
+          "001": 36,
+          "111": 2
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_138_151_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        151,
+        138,
+        152
+      ],
+      "variant": "baseline"
+    },
+    "edge_066_067_baseline": {
+      "fidelity": 0.916015625,
+      "fidelity_standard_error": 0.00622169522648914,
+      "fidelity_interval": [
+        0.8863196998831522,
+        0.9382979094776331
+      ],
+      "fidelity_normal_interval": [
+        0.9038213264332965,
+        0.9282099235667035
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 504,
+            "011": 459,
+            "001": 32,
+            "010": 22,
+            "110": 2,
+            "111": 2,
+            "100": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 968,
+          "successes": 968,
+          "success_probability": 0.9453125,
+          "value": 0.890625,
+          "standard_error": 0.014210578330913328,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 507,
+            "001": 447,
+            "000": 18,
+            "011": 38,
+            "110": 6,
+            "101": 8
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 56,
+          "successes": 968,
+          "success_probability": 0.9453125,
+          "value": -0.890625,
+          "standard_error": 0.014210578330913328,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 464,
+            "100": 5,
+            "000": 490,
+            "010": 26,
+            "001": 33,
+            "111": 5,
+            "110": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 964,
+          "successes": 964,
+          "success_probability": 0.94140625,
+          "value": 0.8828125,
+          "standard_error": 0.014678923355036537,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 504,
+          "011": 459,
+          "001": 32,
+          "010": 22,
+          "110": 2,
+          "111": 2,
+          "100": 3
+        },
+        "YY": {
+          "010": 507,
+          "001": 447,
+          "000": 18,
+          "011": 38,
+          "110": 6,
+          "101": 8
+        },
+        "ZZ": {
+          "011": 464,
+          "100": 5,
+          "000": 490,
+          "010": 26,
+          "001": 33,
+          "111": 5,
+          "110": 1
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_066_067_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        67,
+        66,
+        57
+      ],
+      "variant": "baseline"
+    },
+    "edge_145_146_baseline": {
+      "fidelity": 0.96142578125,
+      "fidelity_standard_error": 0.004283645160024943,
+      "fidelity_interval": [
+        0.939320724298075,
+        0.9756117220645821
+      ],
+      "fidelity_normal_interval": [
+        0.9530299910138018,
+        0.9698215714861982
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "011": 481,
+            "000": 511,
+            "010": 15,
+            "100": 5,
+            "001": 11,
+            "111": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 998,
+          "successes": 998,
+          "success_probability": 0.974609375,
+          "value": 0.94921875,
+          "standard_error": 0.009831776678937015,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "000": 14,
+            "010": 493,
+            "001": 503,
+            "011": 11,
+            "101": 1,
+            "110": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 25,
+          "successes": 999,
+          "success_probability": 0.9755859375,
+          "value": -0.951171875,
+          "standard_error": 0.009645679095018986,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 509,
+            "000": 480,
+            "010": 11,
+            "100": 5,
+            "001": 17,
+            "111": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 996,
+          "successes": 996,
+          "success_probability": 0.97265625,
+          "value": 0.9453125,
+          "standard_error": 0.010192688352123096,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "011": 481,
+          "000": 511,
+          "010": 15,
+          "100": 5,
+          "001": 11,
+          "111": 1
+        },
+        "YY": {
+          "000": 14,
+          "010": 493,
+          "001": 503,
+          "011": 11,
+          "101": 1,
+          "110": 2
+        },
+        "ZZ": {
+          "011": 509,
+          "000": 480,
+          "010": 11,
+          "100": 5,
+          "001": 17,
+          "111": 2
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_145_146_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        145,
+        146,
+        147
+      ],
+      "variant": "baseline"
+    },
+    "edge_137_147_baseline": {
+      "fidelity": 0.978515625,
+      "fidelity_standard_error": 0.0032141399563370286,
+      "fidelity_interval": [
+        0.9606577841657109,
+        0.988264116982597
+      ],
+      "fidelity_normal_interval": [
+        0.9722160264443083,
+        0.9848152235556917
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 487,
+            "011": 512,
+            "001": 6,
+            "111": 4,
+            "100": 6,
+            "010": 9
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 1009,
+          "successes": 1009,
+          "success_probability": 0.9853515625,
+          "value": 0.970703125,
+          "standard_error": 0.00750881273352992,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 514,
+            "001": 482,
+            "011": 12,
+            "101": 2,
+            "000": 7,
+            "110": 7
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 19,
+          "successes": 1005,
+          "success_probability": 0.9814453125,
+          "value": -0.962890625,
+          "standard_error": 0.00843412225718422,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 490,
+            "011": 515,
+            "001": 5,
+            "111": 5,
+            "010": 5,
+            "100": 4
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 1014,
+          "successes": 1014,
+          "success_probability": 0.990234375,
+          "value": 0.98046875,
+          "standard_error": 0.006146091735924856,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 487,
+          "011": 512,
+          "001": 6,
+          "111": 4,
+          "100": 6,
+          "010": 9
+        },
+        "YY": {
+          "010": 514,
+          "001": 482,
+          "011": 12,
+          "101": 2,
+          "000": 7,
+          "110": 7
+        },
+        "ZZ": {
+          "000": 490,
+          "011": 515,
+          "001": 5,
+          "111": 5,
+          "010": 5,
+          "100": 4
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_137_147_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        147,
+        137,
+        146
+      ],
+      "variant": "baseline"
+    },
+    "edge_004_005_baseline": {
+      "fidelity": 0.978515625,
+      "fidelity_standard_error": 0.003213777738501164,
+      "fidelity_interval": [
+        0.9606769046287695,
+        0.9882449965195383
+      ],
+      "fidelity_normal_interval": [
+        0.9722167363782211,
+        0.9848145136217789
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 486,
+            "011": 524,
+            "010": 5,
+            "100": 2,
+            "111": 2,
+            "001": 5
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 1014,
+          "successes": 1014,
+          "success_probability": 0.990234375,
+          "value": 0.98046875,
+          "standard_error": 0.006146091735924856,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 488,
+            "011": 8,
+            "001": 519,
+            "000": 5,
+            "101": 2,
+            "100": 1,
+            "110": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 14,
+          "successes": 1010,
+          "success_probability": 0.986328125,
+          "value": -0.97265625,
+          "standard_error": 0.007257796140720092,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 500,
+            "000": 499,
+            "001": 10,
+            "010": 10,
+            "100": 3,
+            "111": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 1004,
+          "successes": 1004,
+          "success_probability": 0.98046875,
+          "value": 0.9609375,
+          "standard_error": 0.008648920695272632,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 486,
+          "011": 524,
+          "010": 5,
+          "100": 2,
+          "111": 2,
+          "001": 5
+        },
+        "YY": {
+          "010": 488,
+          "011": 8,
+          "001": 519,
+          "000": 5,
+          "101": 2,
+          "100": 1,
+          "110": 1
+        },
+        "ZZ": {
+          "011": 500,
+          "000": 499,
+          "001": 10,
+          "010": 10,
+          "100": 3,
+          "111": 2
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_004_005_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        5,
+        4,
+        6
+      ],
+      "variant": "baseline"
+    },
+    "edge_136_143_baseline": {
+      "fidelity": 0.95361328125,
+      "fidelity_standard_error": 0.004683702639410827,
+      "fidelity_interval": [
+        0.9299768683625382,
+        0.9694175415266786
+      ],
+      "fidelity_normal_interval": [
+        0.9444333927624596,
+        0.9627931697375404
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 478,
+            "111": 10,
+            "011": 494,
+            "001": 11,
+            "100": 16,
+            "010": 15
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 998,
+          "successes": 998,
+          "success_probability": 0.974609375,
+          "value": 0.94921875,
+          "standard_error": 0.009831776678937015,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 487,
+            "001": 478,
+            "000": 18,
+            "011": 16,
+            "110": 12,
+            "101": 11,
+            "100": 1,
+            "111": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 36,
+          "successes": 988,
+          "success_probability": 0.96484375,
+          "value": -0.9296875,
+          "standard_error": 0.01151091331457645,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 491,
+            "000": 477,
+            "111": 11,
+            "001": 19,
+            "010": 14,
+            "100": 12
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 991,
+          "successes": 991,
+          "success_probability": 0.9677734375,
+          "value": 0.935546875,
+          "standard_error": 0.011037579835752038,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 478,
+          "111": 10,
+          "011": 494,
+          "001": 11,
+          "100": 16,
+          "010": 15
+        },
+        "YY": {
+          "010": 487,
+          "001": 478,
+          "000": 18,
+          "011": 16,
+          "110": 12,
+          "101": 11,
+          "100": 1,
+          "111": 1
+        },
+        "ZZ": {
+          "011": 491,
+          "000": 477,
+          "111": 11,
+          "001": 19,
+          "010": 14,
+          "100": 12
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_136_143_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        143,
+        136,
+        123
+      ],
+      "variant": "baseline"
+    },
+    "edge_092_093_baseline": {
+      "fidelity": 0.94140625,
+      "fidelity_standard_error": 0.005243165051521809,
+      "fidelity_interval": [
+        0.9155430012523085,
+        0.9595732266471579
+      ],
+      "fidelity_normal_interval": [
+        0.9311298353340182,
+        0.9516826646659818
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 480,
+            "011": 496,
+            "010": 26,
+            "111": 2,
+            "001": 14,
+            "100": 6
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 984,
+          "successes": 984,
+          "success_probability": 0.9609375,
+          "value": 0.921875,
+          "standard_error": 0.012108981218395747,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 507,
+            "010": 467,
+            "000": 20,
+            "011": 22,
+            "101": 6,
+            "110": 2
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 42,
+          "successes": 982,
+          "success_probability": 0.958984375,
+          "value": -0.91796875,
+          "standard_error": 0.012395397253406734,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 486,
+            "011": 490,
+            "010": 16,
+            "001": 22,
+            "111": 7,
+            "100": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 986,
+          "successes": 986,
+          "success_probability": 0.962890625,
+          "value": 0.92578125,
+          "standard_error": 0.01181436316111753,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 480,
+          "011": 496,
+          "010": 26,
+          "111": 2,
+          "001": 14,
+          "100": 6
+        },
+        "YY": {
+          "001": 507,
+          "010": 467,
+          "000": 20,
+          "011": 22,
+          "101": 6,
+          "110": 2
+        },
+        "ZZ": {
+          "000": 486,
+          "011": 490,
+          "010": 16,
+          "001": 22,
+          "111": 7,
+          "100": 3
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_092_093_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        93,
+        92,
+        91
+      ],
+      "variant": "baseline"
+    },
+    "edge_030_031_baseline": {
+      "fidelity": 0.7998046875,
+      "fidelity_standard_error": 0.009201113066447893,
+      "fidelity_interval": [
+        0.7585868150186292,
+        0.8349025017997316
+      ],
+      "fidelity_normal_interval": [
+        0.7817708372720812,
+        0.8178385377279188
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 452,
+            "011": 435,
+            "010": 65,
+            "001": 65,
+            "100": 2,
+            "111": 4,
+            "101": 1
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 893,
+          "successes": 893,
+          "success_probability": 0.8720703125,
+          "value": 0.744140625,
+          "standard_error": 0.020875718789660155,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "101": 4,
+            "010": 436,
+            "001": 433,
+            "011": 68,
+            "000": 80,
+            "110": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 148,
+          "successes": 876,
+          "success_probability": 0.85546875,
+          "value": -0.7109375,
+          "standard_error": 0.021976724883726196,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 457,
+            "000": 426,
+            "111": 7,
+            "001": 76,
+            "010": 55,
+            "100": 3
+          },
+          "total_shots": 1024,
+          "accepted_shots": 1024,
+          "even_parity_shots": 893,
+          "successes": 893,
+          "success_probability": 0.8720703125,
+          "value": 0.744140625,
+          "standard_error": 0.020875718789660155,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 452,
+          "011": 435,
+          "010": 65,
+          "001": 65,
+          "100": 2,
+          "111": 4,
+          "101": 1
+        },
+        "YY": {
+          "101": 4,
+          "010": 436,
+          "001": 433,
+          "011": 68,
+          "000": 80,
+          "110": 3
+        },
+        "ZZ": {
+          "011": 457,
+          "000": 426,
+          "111": 7,
+          "001": 76,
+          "010": 55,
+          "100": 3
+        }
+      },
+      "total_shots": 3072,
+      "accepted_shots": 3072,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "edge_030_031_baseline",
+      "job_id": "LOCAL_CALIBRATION_MODEL",
+      "layout": [
+        31,
+        30,
+        18
+      ],
+      "variant": "baseline"
+    }
+  }
+}

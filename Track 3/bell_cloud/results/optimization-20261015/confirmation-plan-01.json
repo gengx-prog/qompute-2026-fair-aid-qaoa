@@ -1,0 +1,408 @@
+{
+  "phase": "confirmation_plan",
+  "attempt": 1,
+  "frozen_utc": "2026-10-15T05:07:01.978290+00:00",
+  "candidate_id": "top0_dir0_baseline_reset",
+  "source_stage": "refine-01",
+  "source_job_id": "db85stmr6oqs7388qi20",
+  "source_records_sha256": "a4b9798d172aa1291a743f392b640d2a3806888992e763e29062f04e2d319637",
+  "source_spec_sha256": "10ff07aea5e5d541836515bc778cafb0d7f712e9ace2bf34b9000593899e2b5a",
+  "screening_job_ids": [
+    "db856uaraffc73fbo40g",
+    "db8592qraffc73fbo710",
+    "db85a5ur6oqs7388p7o0",
+    "db85e0qraffc73fboi00",
+    "db85e0ur6oqs7388pgc0",
+    "db85e10r1c5c738lp3tg",
+    "db85e12raffc73fboi0g",
+    "db85stmr6oqs7388qi20"
+  ],
+  "screening_evidence": [
+    {
+      "stage": "refine-01",
+      "job_id": "db85stmr6oqs7388qi20",
+      "records_sha256": "a4b9798d172aa1291a743f392b640d2a3806888992e763e29062f04e2d319637"
+    },
+    {
+      "stage": "scan-01",
+      "job_id": "db8592qraffc73fbo710",
+      "records_sha256": "0c48813aff2b2ef1f077921e84f283c635280411dabf9e81b66388a09fb5dd55"
+    },
+    {
+      "stage": "scan-02",
+      "job_id": "db85a5ur6oqs7388p7o0",
+      "records_sha256": "697bb05a36f0012dcc59127ebbc6aff1beffe99a7054fe19c0068cf6c1848882"
+    },
+    {
+      "stage": "scan-03",
+      "job_id": "db85e0ur6oqs7388pgc0",
+      "records_sha256": "060e17a6c47fe6056a463f74a91f131e01fbbc651e7cf8e50e43027630929469"
+    },
+    {
+      "stage": "scan-04",
+      "job_id": "db85e0qraffc73fboi00",
+      "records_sha256": "c0a4fecbc88ab281def2dc6d41761c7cdeff79f24165ed21a0b166c88db60d2a"
+    },
+    {
+      "stage": "scan-05",
+      "job_id": "db85e10r1c5c738lp3tg",
+      "records_sha256": "29af5bc6651f6a6d5fc1e1bfb9e69e9f1f8f6891860acc6c130e32adf0139e84"
+    },
+    {
+      "stage": "scan-06",
+      "job_id": "db85e12raffc73fboi0g",
+      "records_sha256": "d36fb5e6ccb3520ddf84b79af354e29139df58f6faa0e31ad59f7e87f3d546f1"
+    },
+    {
+      "stage": "screen-01",
+      "job_id": "db856uaraffc73fbo40g",
+      "records_sha256": "98a641811265311d6e2424f9b5b9188890ac3f3d97f7fec3304b9faffeb19ad0"
+    }
+  ],
+  "prior_confirmation_job_ids": [],
+  "excluded_confirmation_job_ids": [
+    "db856uaraffc73fbo40g",
+    "db8592qraffc73fbo710",
+    "db85a5ur6oqs7388p7o0",
+    "db85e0qraffc73fboi00",
+    "db85e0ur6oqs7388pgc0",
+    "db85e10r1c5c738lp3tg",
+    "db85e12raffc73fboi0g",
+    "db85stmr6oqs7388qi20"
+  ],
+  "original_baseline_id": "original_baseline",
+  "matching_baseline_id": null,
+  "attribution_baseline_id": "top0_dir0_baseline",
+  "control_ids": [
+    "original_baseline",
+    "top0_dir0_baseline"
+  ],
+  "backend": "ibm_marrakesh",
+  "stage_names": [
+    "confirm-01-a",
+    "confirm-01-b"
+  ],
+  "candidate_definitions": [
+    {
+      "id": "original_baseline",
+      "variant": "baseline",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top0_dir0_baseline_reset",
+      "variant": "baseline_reset",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top0_dir0_baseline",
+      "variant": "baseline",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "optimization_level": 1
+    }
+  ],
+  "expected_postselection": {
+    "original_baseline": false,
+    "top0_dir0_baseline_reset": false,
+    "top0_dir0_baseline": false
+  },
+  "shots_per_basis": 16384,
+  "cap_seconds_per_job": 120,
+  "alpha_per_attempt": 0.016666666666666666,
+  "minimum_improvement": 0.005,
+  "required_replicates": 2,
+  "max_candidate_attempts": 3,
+  "statistics_plan": {
+    "phase": "independent_confirmation",
+    "attempt": 1,
+    "maximum_candidate_confirmation_attempts": 3,
+    "confirmation_replicates_per_candidate": 2,
+    "confirmation_shots_per_basis": 16384,
+    "minimum_fidelity_improvement": 0.005,
+    "alpha_per_attempt": 0.016666666666666666,
+    "comparison": "Same-job original baseline; postselected candidate additionally compares with the frozen same-layout baseline.",
+    "selection": "Candidate and both confirmation stages frozen before either new job; both replications must pass.",
+    "scope": "Independent confirmation among tested configurations, not proof of global optimality."
+  },
+  "analysis_source_sha256": "04b22a86e3d7f89c2bd166df73644826c29644bfb0e4ba70978742d33337ca94",
+  "helper_source_sha256": "a1676d91990404b60ca431f5ec3cbc2eaf6238077671dc9a233e6bba252cb46a",
+  "specs": {
+    "confirm-01-a": {
+      "stage": "confirm-01-a",
+      "backend": "ibm_marrakesh",
+      "shots": 16384,
+      "local_shots": 4096,
+      "cap_seconds": 120,
+      "order_seed": 20261116,
+      "candidates": [
+        {
+          "id": "original_baseline",
+          "variant": "baseline",
+          "layout": [
+            0,
+            1,
+            2
+          ],
+          "optimization_level": 1
+        },
+        {
+          "id": "top0_dir0_baseline_reset",
+          "variant": "baseline_reset",
+          "layout": [
+            7,
+            6,
+            5
+          ],
+          "optimization_level": 1
+        },
+        {
+          "id": "top0_dir0_baseline",
+          "variant": "baseline",
+          "layout": [
+            7,
+            6,
+            5
+          ],
+          "optimization_level": 1
+        }
+      ],
+      "statistics_plan": {
+        "phase": "independent_confirmation",
+        "attempt": 1,
+        "maximum_candidate_confirmation_attempts": 3,
+        "confirmation_replicates_per_candidate": 2,
+        "confirmation_shots_per_basis": 16384,
+        "minimum_fidelity_improvement": 0.005,
+        "alpha_per_attempt": 0.016666666666666666,
+        "comparison": "Same-job original baseline; postselected candidate additionally compares with the frozen same-layout baseline.",
+        "selection": "Candidate and both confirmation stages frozen before either new job; both replications must pass.",
+        "scope": "Independent confirmation among tested configurations, not proof of global optimality."
+      },
+      "job_options": {},
+      "confirmation_plan": "confirmation-plan-01.json"
+    },
+    "confirm-01-b": {
+      "stage": "confirm-01-b",
+      "backend": "ibm_marrakesh",
+      "shots": 16384,
+      "local_shots": 4096,
+      "cap_seconds": 120,
+      "order_seed": 20261117,
+      "candidates": [
+        {
+          "id": "original_baseline",
+          "variant": "baseline",
+          "layout": [
+            0,
+            1,
+            2
+          ],
+          "optimization_level": 1
+        },
+        {
+          "id": "top0_dir0_baseline_reset",
+          "variant": "baseline_reset",
+          "layout": [
+            7,
+            6,
+            5
+          ],
+          "optimization_level": 1
+        },
+        {
+          "id": "top0_dir0_baseline",
+          "variant": "baseline",
+          "layout": [
+            7,
+            6,
+            5
+          ],
+          "optimization_level": 1
+        }
+      ],
+      "statistics_plan": {
+        "phase": "independent_confirmation",
+        "attempt": 1,
+        "maximum_candidate_confirmation_attempts": 3,
+        "confirmation_replicates_per_candidate": 2,
+        "confirmation_shots_per_basis": 16384,
+        "minimum_fidelity_improvement": 0.005,
+        "alpha_per_attempt": 0.016666666666666666,
+        "comparison": "Same-job original baseline; postselected candidate additionally compares with the frozen same-layout baseline.",
+        "selection": "Candidate and both confirmation stages frozen before either new job; both replications must pass.",
+        "scope": "Independent confirmation among tested configurations, not proof of global optimality."
+      },
+      "job_options": {},
+      "confirmation_plan": "confirmation-plan-01.json"
+    }
+  },
+  "spec_sha256": {
+    "confirm-01-a": "027dd5a201c882ec382c152f0650eae8dcd1f9d934c1781ba9b98596c40822a4",
+    "confirm-01-b": "06076ba9a9af50dff8d16133fd17b4f39cf072361a2167ced73cf4afd23b75c5"
+  },
+  "screening_candidate_snapshot": {
+    "fidelity": 0.978759765625,
+    "fidelity_standard_error": 0.0022609990985304994,
+    "fidelity_interval": [
+      0.9671464604799143,
+      0.9863057187784023
+    ],
+    "fidelity_normal_interval": [
+      0.9743282888228026,
+      0.9831912424271974
+    ],
+    "confidence": 0.95,
+    "alpha": 0.050000000000000044,
+    "interval_method": "bonferroni_wilson",
+    "correlations": {
+      "XX": {
+        "raw_counts": {
+          "111": 20,
+          "011": 959,
+          "000": 1028,
+          "001": 12,
+          "010": 15,
+          "100": 13,
+          "110": 1
+        },
+        "total_shots": 2048,
+        "accepted_shots": 2048,
+        "even_parity_shots": 2020,
+        "successes": 2020,
+        "success_probability": 0.986328125,
+        "value": 0.97265625,
+        "standard_error": 0.005132036867572731,
+        "acceptance_fraction": 1.0
+      },
+      "YY": {
+        "raw_counts": {
+          "001": 1005,
+          "010": 956,
+          "000": 15,
+          "110": 23,
+          "101": 34,
+          "100": 2,
+          "011": 12,
+          "111": 1
+        },
+        "total_shots": 2048,
+        "accepted_shots": 2048,
+        "even_parity_shots": 30,
+        "successes": 2018,
+        "success_probability": 0.9853515625,
+        "value": -0.970703125,
+        "standard_error": 0.005309532402538903,
+        "acceptance_fraction": 1.0
+      },
+      "ZZ": {
+        "raw_counts": {
+          "000": 958,
+          "011": 1008,
+          "001": 11,
+          "010": 15,
+          "111": 27,
+          "100": 26,
+          "101": 2,
+          "110": 1
+        },
+        "total_shots": 2048,
+        "accepted_shots": 2048,
+        "even_parity_shots": 2019,
+        "successes": 2019,
+        "success_probability": 0.98583984375,
+        "value": 0.9716796875,
+        "standard_error": 0.005221583479477795,
+        "acceptance_fraction": 1.0
+      }
+    },
+    "raw_counts": {
+      "XX": {
+        "111": 20,
+        "011": 959,
+        "000": 1028,
+        "001": 12,
+        "010": 15,
+        "100": 13,
+        "110": 1
+      },
+      "YY": {
+        "001": 1005,
+        "010": 956,
+        "000": 15,
+        "110": 23,
+        "101": 34,
+        "100": 2,
+        "011": 12,
+        "111": 1
+      },
+      "ZZ": {
+        "000": 958,
+        "011": 1008,
+        "001": 11,
+        "010": 15,
+        "111": 27,
+        "100": 26,
+        "101": 2,
+        "110": 1
+      }
+    },
+    "total_shots": 6144,
+    "accepted_shots": 6144,
+    "retention": 1.0,
+    "acceptance_fraction": 1.0,
+    "postselected": false,
+    "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+    "candidate_id": "top0_dir0_baseline_reset",
+    "job_id": "db85stmr6oqs7388qi20",
+    "layout": [
+      7,
+      6,
+      5
+    ],
+    "variant": "baseline_reset"
+  },
+  "sample_size_amendment": {
+    "original_proposed_shots": 8192,
+    "frozen_shots": 16384,
+    "timing": "Frozen before the first holdout job, then unchanged across candidate attempts.",
+    "rationale": "Additional independent samples improve power under the conservative interval; alpha, improvement threshold, and maximum attempts are unchanged."
+  },
+  "registered_power_amendment": {
+    "file": "confirmation-power-amendment.json",
+    "sha256": "e5203010147dd45872af6da729c77b875aeb996b63b054ea7da590c7982a4ce6",
+    "content": {
+      "created_utc": "2026-10-15T04:36:02.792436+00:00",
+      "reason": "Offline power review: conservative primary intervals at baseline F near 0.97 need about 1.25 percentage points at 8192 shots per basis. Increase prospective confirmation sample size before any candidate is frozen or any holdout job submitted.",
+      "original_shots_per_basis": 8192,
+      "revised_shots_per_basis": 16384,
+      "unchanged": [
+        "minimum point improvement 0.005",
+        "alpha per candidate attempt 0.05/3",
+        "at most 3 attempts",
+        "two new independent passing jobs",
+        "same-job original baseline control",
+        "postselected candidate also beats same-layout unprotected control",
+        "primary Bonferroni-Wilson endpoint interval lower bound greater than zero"
+      ],
+      "status_at_amendment": "Only exploratory screen-01 and scan-01 results observed; scan-02 through scan-06 submitted and pending. No confirmation results or submissions exist.",
+      "budget_rule": "All actual completed charges and pending caps plus the new job caps and 10-second reserve must stay within 600 seconds.",
+      "note": "Prospective power increase only; no significance criterion relaxed and no failed confirmation discarded."
+    }
+  },
+  "attribution_note": "The combined configuration can succeed against the original baseline. Its same-layout ordinary baseline is an additional comparison to assess the added operation or readout change, not an extra primary success requirement.",
+  "quiet_attribution_note": null,
+  "note": "Immutable selection record. Preserve all failed attempts. Two later independent jobs must both pass; do not pool or choose passing subsets."
+}

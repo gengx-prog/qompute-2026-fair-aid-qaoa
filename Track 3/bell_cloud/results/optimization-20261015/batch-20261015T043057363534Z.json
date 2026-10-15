@@ -1,0 +1,71 @@
+{
+  "created_utc": "2026-10-15T04:30:57.365184+00:00",
+  "batch_id": "993d2d66-c897-4510-8037-8e6ba9103135",
+  "backend": "ibm_marrakesh",
+  "batch_ttl_wall_seconds": 1800,
+  "per_job_execution_cap_seconds": 90,
+  "budget_preflight": {
+    "total_budget_seconds": 600.0,
+    "initial_used_seconds": 5.0,
+    "known_final_used_seconds": 53.0,
+    "pending_caps_reserved_seconds": 90,
+    "uncommitted_seconds": 457.0,
+    "jobs": [
+      {
+        "job_id": "db8592qraffc73fbo710",
+        "state": "final",
+        "seconds": 32.0
+      },
+      {
+        "job_id": "db85a5ur6oqs7388p7o0",
+        "state": "pending_cap_reserved",
+        "seconds": 90
+      },
+      {
+        "job_id": "db856uaraffc73fbo40g",
+        "state": "final",
+        "seconds": 16.0
+      }
+    ],
+    "note": "Pending actual usage is unknown; its full execution cap is reserved, not counted as zero.",
+    "planned_caps_seconds": 360,
+    "unused_reserve_seconds": 10,
+    "worst_case_used_plus_reserve_seconds": 513.0
+  },
+  "submission_state": "submitted_and_batch_closed_to_new_jobs",
+  "job_ids": [
+    "db85e0ur6oqs7388pgc0",
+    "db85e0qraffc73fboi00",
+    "db85e10r1c5c738lp3tg",
+    "db85e12raffc73fboi0g"
+  ],
+  "batch_source_sha256": "88f144bf80f8b1932439cd5f4eff8cb3ae23ebab0c94c8a92d021bf85150841c",
+  "stages": [
+    {
+      "stage": "scan-03",
+      "job_id": "db85e0ur6oqs7388pgc0",
+      "state": "submitted",
+      "attempted_utc": "2026-10-15T04:30:58.125016+00:00"
+    },
+    {
+      "stage": "scan-04",
+      "job_id": "db85e0qraffc73fboi00",
+      "state": "submitted",
+      "attempted_utc": "2026-10-15T04:30:59.359416+00:00"
+    },
+    {
+      "stage": "scan-05",
+      "job_id": "db85e10r1c5c738lp3tg",
+      "state": "submitted",
+      "attempted_utc": "2026-10-15T04:31:00.025255+00:00"
+    },
+    {
+      "stage": "scan-06",
+      "job_id": "db85e12raffc73fboi0g",
+      "state": "submitted",
+      "attempted_utc": "2026-10-15T04:31:00.559163+00:00"
+    }
+  ],
+  "note": "TTL is batch wall-clock lifetime, not QPU allocation. Per-job execution caps and reserved budget apply. No automatic retries; existing queued jobs are not cancelled.",
+  "finished_submitting_utc": "2026-10-15T04:31:01.187087+00:00"
+}

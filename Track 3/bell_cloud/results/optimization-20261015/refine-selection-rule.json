@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-15T04:42:51.879497+00:00",
+  "rule": "One highest absolute-fidelity pair plus three distinct pairs with highest same-job improvement over original baseline. Anchor difference breaks ties; all selected controls are inspected. Each unordered pair uses its earliest preplanned optimization-level-1 baseline observation.",
+  "reason": "Diversify exploratory follow-up against cross-job drift; this is not a formal drift correction or independent confirmation.",
+  "observed_at_registration": [
+    "screen-01",
+    "scan-01"
+  ],
+  "pending_at_registration": [
+    "scan-02",
+    "scan-03",
+    "scan-04",
+    "scan-05",
+    "scan-06"
+  ],
+  "unchanged": "Two independent confirmation jobs and all registered statistical criteria."
+}

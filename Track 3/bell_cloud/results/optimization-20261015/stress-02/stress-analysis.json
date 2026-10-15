@@ -1,0 +1,494 @@
+{
+  "phase": "controlled_noise",
+  "protocol_id": "b806b21f0e34685407f1fde45155387a3d7165571dd094a31b716011abdbe7b7",
+  "scope": "Controlled X-noise mechanism verification only; not ambient optimization.",
+  "stage": "stress-02",
+  "job_id": "db8628eil99s73fpco50",
+  "backend": "ibm_marrakesh",
+  "layout": [
+    6,
+    7,
+    8
+  ],
+  "ambient_optimization_success": false,
+  "primary": {
+    "p": 0.1,
+    "delta_fidelity": 0.09212852436676466,
+    "confidence_interval_99": [
+      0.08615634224768731,
+      0.09783507179264367
+    ],
+    "minimum_delta": 0.005,
+    "passes": true
+  },
+  "scenarios": {
+    "p0": {
+      "delta_fidelity": -0.002024394906085303,
+      "delta_interval_99": [
+        -0.007991801441142622,
+        0.00366874643396381
+      ],
+      "baseline": {
+        "fidelity": 0.9779730902777778,
+        "fidelity_kind": "all shots",
+        "fidelity_interval_99": [
+          0.9740668402777778,
+          0.9819883897569445
+        ],
+        "postselected": false,
+        "retention": 1.0,
+        "retention_interval_99": [
+          1.0,
+          1.0
+        ],
+        "accepted_shots": 13824,
+        "discarded_shots": 0,
+        "total_shots": 13824,
+        "per_basis": {
+          "XX": {
+            "correlation": 0.9704861111111112,
+            "accepted_shots": 4608,
+            "total_shots": 4608,
+            "raw_counts_before_postselection": {
+              "000": 2313,
+              "001": 36,
+              "010": 32,
+              "011": 2221,
+              "100": 2,
+              "101": 0,
+              "110": 0,
+              "111": 4
+            }
+          },
+          "YY": {
+            "correlation": -0.9674479166666666,
+            "accepted_shots": 4608,
+            "total_shots": 4608,
+            "raw_counts_before_postselection": {
+              "000": 36,
+              "001": 2258,
+              "010": 2269,
+              "011": 39,
+              "100": 0,
+              "101": 3,
+              "110": 3,
+              "111": 0
+            }
+          },
+          "ZZ": {
+            "correlation": 0.9739583333333334,
+            "accepted_shots": 4608,
+            "total_shots": 4608,
+            "raw_counts_before_postselection": {
+              "000": 2358,
+              "001": 32,
+              "010": 28,
+              "011": 2181,
+              "100": 8,
+              "101": 0,
+              "110": 0,
+              "111": 1
+            }
+          }
+        }
+      },
+      "bridge": {
+        "fidelity": 0.9759486953716925,
+        "fidelity_kind": "conditional on measured ancilla=0",
+        "fidelity_interval_99": [
+          0.9716626119198664,
+          0.9800339835040283
+        ],
+        "postselected": true,
+        "retention": 0.9839409722222222,
+        "retention_interval_99": [
+          0.9811921296296297,
+          0.9864731626157408
+        ],
+        "accepted_shots": 13602,
+        "discarded_shots": 222,
+        "total_shots": 13824,
+        "per_basis": {
+          "XX": {
+            "correlation": 0.9665124476756995,
+            "accepted_shots": 4539,
+            "total_shots": 4608,
+            "raw_counts_before_postselection": {
+              "000": 2265,
+              "001": 46,
+              "010": 30,
+              "011": 2198,
+              "100": 28,
+              "101": 10,
+              "110": 13,
+              "111": 18
+            }
+          },
+          "YY": {
+            "correlation": -0.9610447100486941,
+            "accepted_shots": 4518,
+            "total_shots": 4608,
+            "raw_counts_before_postselection": {
+              "000": 46,
+              "001": 2232,
+              "010": 2198,
+              "011": 42,
+              "100": 26,
+              "101": 25,
+              "110": 23,
+              "111": 16
+            }
+          },
+          "ZZ": {
+            "correlation": 0.9762376237623762,
+            "accepted_shots": 4545,
+            "total_shots": 4608,
+            "raw_counts_before_postselection": {
+              "000": 2319,
+              "001": 29,
+              "010": 25,
+              "011": 2172,
+              "100": 7,
+              "101": 22,
+              "110": 19,
+              "111": 15
+            }
+          }
+        }
+      }
+    },
+    "p10": {
+      "delta_fidelity": 0.09212852436676466,
+      "delta_interval_99": [
+        0.08615634224768731,
+        0.09783507179264367
+      ],
+      "baseline": {
+        "fidelity": 0.8810546875,
+        "fidelity_kind": "all shots",
+        "fidelity_interval_99": [
+          0.87734375,
+          0.8848632812499999
+        ],
+        "postselected": false,
+        "retention": 1.0,
+        "retention_interval_99": [
+          1.0,
+          1.0
+        ],
+        "accepted_shots": 15360,
+        "discarded_shots": 0,
+        "total_shots": 15360,
+        "per_basis": {
+          "XX": {
+            "correlation": 0.970703125,
+            "accepted_shots": 5120,
+            "total_shots": 5120,
+            "raw_counts_before_postselection": {
+              "000": 2575,
+              "001": 39,
+              "010": 36,
+              "011": 2463,
+              "100": 3,
+              "101": 0,
+              "110": 0,
+              "111": 4
+            }
+          },
+          "YY": {
+            "correlation": -0.773828125,
+            "accepted_shots": 5120,
+            "total_shots": 5120,
+            "raw_counts_before_postselection": {
+              "000": 301,
+              "001": 2263,
+              "010": 2272,
+              "011": 277,
+              "100": 0,
+              "101": 3,
+              "110": 3,
+              "111": 1
+            }
+          },
+          "ZZ": {
+            "correlation": 0.7796875,
+            "accepted_shots": 5120,
+            "total_shots": 5120,
+            "raw_counts_before_postselection": {
+              "000": 2362,
+              "001": 292,
+              "010": 272,
+              "011": 2185,
+              "100": 8,
+              "101": 0,
+              "110": 0,
+              "111": 1
+            }
+          }
+        }
+      },
+      "bridge": {
+        "fidelity": 0.9731832118667647,
+        "fidelity_kind": "conditional on measured ancilla=0",
+        "fidelity_interval_99": [
+          0.9685967861260347,
+          0.9775397604851171
+        ],
+        "postselected": true,
+        "retention": 0.8889973958333334,
+        "retention_interval_99": [
+          0.8861328125,
+          0.8916666666666667
+        ],
+        "accepted_shots": 13655,
+        "discarded_shots": 1705,
+        "total_shots": 15360,
+        "per_basis": {
+          "XX": {
+            "correlation": 0.9649045843386708,
+            "accepted_shots": 4559,
+            "total_shots": 5120,
+            "raw_counts_before_postselection": {
+              "000": 2272,
+              "001": 47,
+              "010": 33,
+              "011": 2207,
+              "100": 253,
+              "101": 13,
+              "110": 19,
+              "111": 276
+            }
+          },
+          "YY": {
+            "correlation": -0.9554477282752536,
+            "accepted_shots": 4534,
+            "total_shots": 5120,
+            "raw_counts_before_postselection": {
+              "000": 49,
+              "001": 2234,
+              "010": 2199,
+              "011": 52,
+              "100": 267,
+              "101": 32,
+              "110": 29,
+              "111": 258
+            }
+          },
+          "ZZ": {
+            "correlation": 0.9723805348531346,
+            "accepted_shots": 4562,
+            "total_shots": 5120,
+            "raw_counts_before_postselection": {
+              "000": 2324,
+              "001": 36,
+              "010": 27,
+              "011": 2175,
+              "100": 11,
+              "101": 265,
+              "110": 265,
+              "111": 17
+            }
+          }
+        }
+      }
+    }
+  },
+  "shared_samples": {
+    "p0_is_subset_of_p10": true,
+    "delta_bootstrap_correlation": 0.9479482512506658,
+    "note": "The same resampled no-fault counts enter both p values; p0 is descriptive, not a second test."
+  },
+  "bootstrap": {
+    "replicates": 5000,
+    "seed": 346813,
+    "method": "Independent multinomial resampling within variant x basis x fault-branch, then combine shared draws.",
+    "interval": "two-sided 99% percentile; approximate, may degenerate at observed boundaries",
+    "pairing": "Same-job matched protocol; distinct circuits are not per-shot paired observations.",
+    "limits": "Assumes exchangeability within branch; excludes time drift, systematic readout bias and calibration uncertainty."
+  },
+  "cost": {
+    "circuit_count": 60,
+    "total_shots": 30720,
+    "p0_subset_shots": 27648,
+    "p10_shots": 30720,
+    "subset_costs_are_not_additive": true,
+    "logical_qubits": 3,
+    "logical_cx_per_circuit": {
+      "baseline": 1,
+      "bridge": 4
+    },
+    "native_resources": "Use the saved ISA resources; routing may change physical gate and qubit costs.",
+    "extra_x_gates_per_fault_branch_circuit": 1,
+    "runtime_usage": {
+      "captured_utc": "2026-10-15T05:22:45.015251+00:00",
+      "metrics": {
+        "caller": "qiskit",
+        "qiskit_version": "qiskit_ibm_runtime-0.50.0,qiskit-2.5.2*,qiskit_aer-0.17.2*",
+        "timestamps": {
+          "created": "2026-10-15T05:14:09.402204Z",
+          "finished": "2026-10-15T05:22:31.742964Z",
+          "running": "2026-10-15T05:20:52.717865Z"
+        },
+        "usage": {
+          "qpu_charge_time_seconds": 10,
+          "value": 0.1655,
+          "unit": "resource_units",
+          "status": "complete",
+          "details": [
+            {
+              "value": 0.1655,
+              "unit": "resource_units",
+              "metric": {
+                "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "circuits_execution_time_ns": 8111249408
+      },
+      "usage_method_seconds": 10,
+      "usage_status": "complete",
+      "reported_qpu_charge_time_seconds": 10,
+      "note": "Usage can remain pending after results arrive; a zero from usage() is not proof of zero charge. Fetch again to update billing metrics."
+    }
+  },
+  "branch_counts": {
+    "baseline": {
+      "XX": {
+        "nofault": {
+          "000": 2313,
+          "001": 36,
+          "010": 32,
+          "011": 2221,
+          "100": 2,
+          "101": 0,
+          "110": 0,
+          "111": 4
+        },
+        "X": {
+          "000": 262,
+          "001": 3,
+          "010": 4,
+          "011": 242,
+          "100": 1,
+          "101": 0,
+          "110": 0,
+          "111": 0
+        }
+      },
+      "YY": {
+        "nofault": {
+          "000": 36,
+          "001": 2258,
+          "010": 2269,
+          "011": 39,
+          "100": 0,
+          "101": 3,
+          "110": 3,
+          "111": 0
+        },
+        "X": {
+          "000": 265,
+          "001": 5,
+          "010": 3,
+          "011": 238,
+          "100": 0,
+          "101": 0,
+          "110": 0,
+          "111": 1
+        }
+      },
+      "ZZ": {
+        "nofault": {
+          "000": 2358,
+          "001": 32,
+          "010": 28,
+          "011": 2181,
+          "100": 8,
+          "101": 0,
+          "110": 0,
+          "111": 1
+        },
+        "X": {
+          "000": 4,
+          "001": 260,
+          "010": 244,
+          "011": 4,
+          "100": 0,
+          "101": 0,
+          "110": 0,
+          "111": 0
+        }
+      }
+    },
+    "bridge": {
+      "XX": {
+        "nofault": {
+          "000": 2265,
+          "001": 46,
+          "010": 30,
+          "011": 2198,
+          "100": 28,
+          "101": 10,
+          "110": 13,
+          "111": 18
+        },
+        "X": {
+          "000": 7,
+          "001": 1,
+          "010": 3,
+          "011": 9,
+          "100": 225,
+          "101": 3,
+          "110": 6,
+          "111": 258
+        }
+      },
+      "YY": {
+        "nofault": {
+          "000": 46,
+          "001": 2232,
+          "010": 2198,
+          "011": 42,
+          "100": 26,
+          "101": 25,
+          "110": 23,
+          "111": 16
+        },
+        "X": {
+          "000": 3,
+          "001": 2,
+          "010": 1,
+          "011": 10,
+          "100": 241,
+          "101": 7,
+          "110": 6,
+          "111": 242
+        }
+      },
+      "ZZ": {
+        "nofault": {
+          "000": 2319,
+          "001": 29,
+          "010": 25,
+          "011": 2172,
+          "100": 7,
+          "101": 22,
+          "110": 19,
+          "111": 15
+        },
+        "X": {
+          "000": 5,
+          "001": 7,
+          "010": 2,
+          "011": 3,
+          "100": 4,
+          "101": 243,
+          "110": 246,
+          "111": 2
+        }
+      }
+    }
+  }
+}

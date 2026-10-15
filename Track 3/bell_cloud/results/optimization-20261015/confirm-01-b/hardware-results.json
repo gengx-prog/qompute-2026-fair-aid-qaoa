@@ -1,0 +1,798 @@
+{
+  "job_id": "db8627gr1c5c738lqgr0",
+  "backend": "ibm_marrakesh",
+  "records": [
+    {
+      "candidate_id": "top0_dir0_baseline_reset",
+      "basis": "XX",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "variant": "baseline_reset",
+      "postselect_ancilla": false,
+      "injected_fault": null,
+      "job_id": "db8627gr1c5c738lqgr0",
+      "counts": {
+        "000": 8118,
+        "100": 161,
+        "011": 7668,
+        "111": 175,
+        "001": 123,
+        "010": 130,
+        "110": 4,
+        "101": 5
+      }
+    },
+    {
+      "candidate_id": "top0_dir0_baseline",
+      "basis": "YY",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "injected_fault": null,
+      "job_id": "db8627gr1c5c738lqgr0",
+      "counts": {
+        "010": 7847,
+        "000": 157,
+        "001": 7894,
+        "011": 138,
+        "110": 161,
+        "101": 176,
+        "100": 7,
+        "111": 4
+      }
+    },
+    {
+      "candidate_id": "top0_dir0_baseline_reset",
+      "basis": "YY",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "variant": "baseline_reset",
+      "postselect_ancilla": false,
+      "injected_fault": null,
+      "job_id": "db8627gr1c5c738lqgr0",
+      "counts": {
+        "001": 7934,
+        "010": 7801,
+        "110": 162,
+        "011": 149,
+        "000": 152,
+        "101": 173,
+        "100": 5,
+        "111": 8
+      }
+    },
+    {
+      "candidate_id": "top0_dir0_baseline",
+      "basis": "ZZ",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "injected_fault": null,
+      "job_id": "db8627gr1c5c738lqgr0",
+      "counts": {
+        "000": 8310,
+        "011": 7534,
+        "111": 209,
+        "010": 105,
+        "100": 150,
+        "001": 68,
+        "110": 5,
+        "101": 3
+      }
+    },
+    {
+      "candidate_id": "top0_dir0_baseline_reset",
+      "basis": "ZZ",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "variant": "baseline_reset",
+      "postselect_ancilla": false,
+      "injected_fault": null,
+      "job_id": "db8627gr1c5c738lqgr0",
+      "counts": {
+        "011": 7707,
+        "000": 8151,
+        "100": 169,
+        "111": 190,
+        "010": 95,
+        "110": 1,
+        "001": 69,
+        "101": 2
+      }
+    },
+    {
+      "candidate_id": "top0_dir0_baseline",
+      "basis": "XX",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "injected_fault": null,
+      "job_id": "db8627gr1c5c738lqgr0",
+      "counts": {
+        "000": 8086,
+        "011": 7653,
+        "111": 186,
+        "010": 151,
+        "100": 176,
+        "001": 123,
+        "101": 6,
+        "110": 3
+      }
+    },
+    {
+      "candidate_id": "original_baseline",
+      "basis": "YY",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "injected_fault": null,
+      "job_id": "db8627gr1c5c738lqgr0",
+      "counts": {
+        "001": 8072,
+        "010": 7250,
+        "000": 962,
+        "011": 97,
+        "101": 2,
+        "111": 1
+      }
+    },
+    {
+      "candidate_id": "original_baseline",
+      "basis": "XX",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "injected_fault": null,
+      "job_id": "db8627gr1c5c738lqgr0",
+      "counts": {
+        "000": 8399,
+        "011": 6972,
+        "001": 877,
+        "010": 135,
+        "100": 1
+      }
+    },
+    {
+      "candidate_id": "original_baseline",
+      "basis": "ZZ",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "variant": "baseline",
+      "postselect_ancilla": false,
+      "injected_fault": null,
+      "job_id": "db8627gr1c5c738lqgr0",
+      "counts": {
+        "011": 7000,
+        "000": 8351,
+        "010": 175,
+        "001": 855,
+        "110": 1,
+        "111": 2
+      }
+    }
+  ],
+  "summary": {
+    "top0_dir0_baseline_reset": {
+      "fidelity": 0.977325439453125,
+      "fidelity_standard_error": 0.0008251550602525624,
+      "fidelity_interval": [
+        0.9736675092718943,
+        0.9804747092589805
+      ],
+      "fidelity_normal_interval": [
+        0.975708165253369,
+        0.978942713652881
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 8118,
+            "100": 161,
+            "011": 7668,
+            "111": 175,
+            "001": 123,
+            "010": 130,
+            "110": 4,
+            "101": 5
+          },
+          "total_shots": 16384,
+          "accepted_shots": 16384,
+          "even_parity_shots": 16122,
+          "successes": 16122,
+          "success_probability": 0.9840087890625,
+          "value": 0.968017578125,
+          "standard_error": 0.0019600185913607004,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 7934,
+            "010": 7801,
+            "110": 162,
+            "011": 149,
+            "000": 152,
+            "101": 173,
+            "100": 5,
+            "111": 8
+          },
+          "total_shots": 16384,
+          "accepted_shots": 16384,
+          "even_parity_shots": 314,
+          "successes": 16070,
+          "success_probability": 0.9808349609375,
+          "value": -0.961669921875,
+          "standard_error": 0.002142263306704421,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 7707,
+            "000": 8151,
+            "100": 169,
+            "111": 190,
+            "010": 95,
+            "110": 1,
+            "001": 69,
+            "101": 2
+          },
+          "total_shots": 16384,
+          "accepted_shots": 16384,
+          "even_parity_shots": 16217,
+          "successes": 16217,
+          "success_probability": 0.98980712890625,
+          "value": 0.9796142578125,
+          "standard_error": 0.0015694358928082452,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 8118,
+          "100": 161,
+          "011": 7668,
+          "111": 175,
+          "001": 123,
+          "010": 130,
+          "110": 4,
+          "101": 5
+        },
+        "YY": {
+          "001": 7934,
+          "010": 7801,
+          "110": 162,
+          "011": 149,
+          "000": 152,
+          "101": 173,
+          "100": 5,
+          "111": 8
+        },
+        "ZZ": {
+          "011": 7707,
+          "000": 8151,
+          "100": 169,
+          "111": 190,
+          "010": 95,
+          "110": 1,
+          "001": 69,
+          "101": 2
+        }
+      },
+      "total_shots": 49152,
+      "accepted_shots": 49152,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "top0_dir0_baseline_reset",
+      "job_id": "db8627gr1c5c738lqgr0",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "variant": "baseline_reset"
+    },
+    "top0_dir0_baseline": {
+      "fidelity": 0.97650146484375,
+      "fidelity_standard_error": 0.0008398696400436354,
+      "fidelity_interval": [
+        0.9727767413617108,
+        0.9797181042030947
+      ],
+      "fidelity_normal_interval": [
+        0.9748553505975559,
+        0.9781475790899441
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 8086,
+            "011": 7653,
+            "111": 186,
+            "010": 151,
+            "100": 176,
+            "001": 123,
+            "101": 6,
+            "110": 3
+          },
+          "total_shots": 16384,
+          "accepted_shots": 16384,
+          "even_parity_shots": 16101,
+          "successes": 16101,
+          "success_probability": 0.98272705078125,
+          "value": 0.9654541015625,
+          "standard_error": 0.002035727903401777,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "010": 7847,
+            "000": 157,
+            "001": 7894,
+            "011": 138,
+            "110": 161,
+            "101": 176,
+            "100": 7,
+            "111": 4
+          },
+          "total_shots": 16384,
+          "accepted_shots": 16384,
+          "even_parity_shots": 306,
+          "successes": 16078,
+          "success_probability": 0.9813232421875,
+          "value": -0.962646484375,
+          "standard_error": 0.002115323587402687,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "000": 8310,
+            "011": 7534,
+            "111": 209,
+            "010": 105,
+            "100": 150,
+            "001": 68,
+            "110": 5,
+            "101": 3
+          },
+          "total_shots": 16384,
+          "accepted_shots": 16384,
+          "even_parity_shots": 16203,
+          "successes": 16203,
+          "success_probability": 0.98895263671875,
+          "value": 0.9779052734375,
+          "standard_error": 0.0016331914217756725,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 8086,
+          "011": 7653,
+          "111": 186,
+          "010": 151,
+          "100": 176,
+          "001": 123,
+          "101": 6,
+          "110": 3
+        },
+        "YY": {
+          "010": 7847,
+          "000": 157,
+          "001": 7894,
+          "011": 138,
+          "110": 161,
+          "101": 176,
+          "100": 7,
+          "111": 4
+        },
+        "ZZ": {
+          "000": 8310,
+          "011": 7534,
+          "111": 209,
+          "010": 105,
+          "100": 150,
+          "001": 68,
+          "110": 5,
+          "101": 3
+        }
+      },
+      "total_shots": 49152,
+      "accepted_shots": 49152,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "top0_dir0_baseline",
+      "job_id": "db8627gr1c5c738lqgr0",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "variant": "baseline"
+    },
+    "original_baseline": {
+      "fidelity": 0.905303955078125,
+      "fidelity_standard_error": 0.0016454137777101355,
+      "fidelity_interval": [
+        0.8982497238719169,
+        0.9118998946617749
+      ],
+      "fidelity_normal_interval": [
+        0.9020790033341471,
+        0.9085289068221029
+      ],
+      "confidence": 0.95,
+      "alpha": 0.050000000000000044,
+      "interval_method": "bonferroni_wilson",
+      "correlations": {
+        "XX": {
+          "raw_counts": {
+            "000": 8399,
+            "011": 6972,
+            "001": 877,
+            "010": 135,
+            "100": 1
+          },
+          "total_shots": 16384,
+          "accepted_shots": 16384,
+          "even_parity_shots": 15372,
+          "successes": 15372,
+          "success_probability": 0.938232421875,
+          "value": 0.87646484375,
+          "standard_error": 0.0037614520582244957,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "raw_counts": {
+            "001": 8072,
+            "010": 7250,
+            "000": 962,
+            "011": 97,
+            "101": 2,
+            "111": 1
+          },
+          "total_shots": 16384,
+          "accepted_shots": 16384,
+          "even_parity_shots": 1060,
+          "successes": 15324,
+          "success_probability": 0.935302734375,
+          "value": -0.87060546875,
+          "standard_error": 0.0038436080209311736,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "raw_counts": {
+            "011": 7000,
+            "000": 8351,
+            "010": 175,
+            "001": 855,
+            "110": 1,
+            "111": 2
+          },
+          "total_shots": 16384,
+          "accepted_shots": 16384,
+          "even_parity_shots": 15353,
+          "successes": 15353,
+          "success_probability": 0.93707275390625,
+          "value": 0.8741455078125,
+          "standard_error": 0.003794250886955906,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "raw_counts": {
+        "XX": {
+          "000": 8399,
+          "011": 6972,
+          "001": 877,
+          "010": 135,
+          "100": 1
+        },
+        "YY": {
+          "001": 8072,
+          "010": 7250,
+          "000": 962,
+          "011": 97,
+          "101": 2,
+          "111": 1
+        },
+        "ZZ": {
+          "011": 7000,
+          "000": 8351,
+          "010": 175,
+          "001": 855,
+          "110": 1,
+          "111": 2
+        }
+      },
+      "total_shots": 49152,
+      "accepted_shots": 49152,
+      "retention": 1.0,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "candidate_id": "original_baseline",
+      "job_id": "db8627gr1c5c738lqgr0",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "variant": "baseline"
+    }
+  },
+  "usage": {
+    "captured_utc": "2026-10-15T05:22:21.746427+00:00",
+    "metrics": {
+      "caller": "qiskit",
+      "qiskit_version": "qiskit_ibm_runtime-0.50.0,qiskit-2.5.2*,qiskit_aer-0.17.2*",
+      "timestamps": {
+        "created": "2026-10-15T05:14:06.48045Z",
+        "finished": "2026-10-15T05:22:15.433806Z",
+        "running": "2026-10-15T05:20:46.287489Z"
+      },
+      "usage": {
+        "qpu_charge_time_seconds": 41,
+        "value": 0.6793,
+        "unit": "resource_units",
+        "status": "complete",
+        "details": [
+          {
+            "value": 0.6793,
+            "unit": "resource_units",
+            "metric": {
+              "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+              "value": 41
+            }
+          }
+        ]
+      },
+      "circuits_execution_time_ns": 39041366528
+    },
+    "usage_method_seconds": 41,
+    "usage_status": "complete",
+    "reported_qpu_charge_time_seconds": 41,
+    "note": "Usage can remain pending after results arrive; a zero from usage() is not proof of zero charge. Fetch again to update billing metrics."
+  },
+  "runtime_metadata": {
+    "executor": "Metadata(chunk_timing=[ChunkSpan(start=datetime.datetime(2026, 10, 15, 5, 21, 31, 623625, tzinfo=datetime.timezone.utc), stop=datetime.datetime(2026, 10, 15, 5, 22, 11, 694813, tzinfo=datetime.timezone.utc), parts=[ChunkPart(idx_item=0, size=1), ChunkPart(idx_item=1, size=1), ChunkPart(idx_item=2, size=1), ChunkPart(idx_item=3, size=1), ChunkPart(idx_item=4, size=1), ChunkPart(idx_item=5, size=1), ChunkPart(idx_item=6, size=1), ChunkPart(idx_item=7, size=1), ChunkPart(idx_item=8, size=1)])])",
+    "options": {
+      "default_shots": 4096,
+      "dynamical_decoupling": {
+        "enable": false,
+        "extra_slack_distribution": "middle",
+        "scheduling_method": "alap",
+        "sequence_type": "XX",
+        "skip_reset_qubits": false
+      },
+      "environment": {
+        "image": null,
+        "job_tags": [],
+        "log_level": "WARNING",
+        "max_execution_time": null,
+        "private": false
+      },
+      "execution": {
+        "init_qubits": true,
+        "meas_type": "classified",
+        "rep_delay": 0.00025,
+        "scheduler_timing": false,
+        "stretch_values": false
+      },
+      "experimental": {},
+      "max_execution_time": 120,
+      "simulator": {
+        "angle_decimals": 5,
+        "layer_noise_model": null,
+        "seed_simulator": null,
+        "warn_absent": true
+      },
+      "twirling": {
+        "enable_gates": false,
+        "enable_measure": false,
+        "group": "pauli",
+        "num_randomizations": "auto",
+        "shots_per_randomization": "auto",
+        "strategy": "active-accum"
+      }
+    },
+    "shots": 16384
+  },
+  "pub_metadata": [
+    {
+      "circuit_metadata": {
+        "accepted_syndrome": 0,
+        "basis": "XX",
+        "candidate_id": "top0_dir0_baseline_reset",
+        "initial_layout": [
+          7,
+          6,
+          5
+        ],
+        "initialization_hypothesis": "Extra reset after service initialization may change residual excitation; benefit is not assumed.",
+        "injected_fault": null,
+        "optimization_level": 1,
+        "postselect": false,
+        "postselect_bit": 2,
+        "variant": "baseline_reset"
+      }
+    },
+    {
+      "circuit_metadata": {
+        "accepted_syndrome": 0,
+        "basis": "YY",
+        "candidate_id": "top0_dir0_baseline",
+        "initial_layout": [
+          7,
+          6,
+          5
+        ],
+        "injected_fault": null,
+        "optimization_level": 1,
+        "postselect": false,
+        "postselect_bit": 2,
+        "variant": "baseline"
+      }
+    },
+    {
+      "circuit_metadata": {
+        "accepted_syndrome": 0,
+        "basis": "YY",
+        "candidate_id": "top0_dir0_baseline_reset",
+        "initial_layout": [
+          7,
+          6,
+          5
+        ],
+        "initialization_hypothesis": "Extra reset after service initialization may change residual excitation; benefit is not assumed.",
+        "injected_fault": null,
+        "optimization_level": 1,
+        "postselect": false,
+        "postselect_bit": 2,
+        "variant": "baseline_reset"
+      }
+    },
+    {
+      "circuit_metadata": {
+        "accepted_syndrome": 0,
+        "basis": "ZZ",
+        "candidate_id": "top0_dir0_baseline",
+        "initial_layout": [
+          7,
+          6,
+          5
+        ],
+        "injected_fault": null,
+        "optimization_level": 1,
+        "postselect": false,
+        "postselect_bit": 2,
+        "variant": "baseline"
+      }
+    },
+    {
+      "circuit_metadata": {
+        "accepted_syndrome": 0,
+        "basis": "ZZ",
+        "candidate_id": "top0_dir0_baseline_reset",
+        "initial_layout": [
+          7,
+          6,
+          5
+        ],
+        "initialization_hypothesis": "Extra reset after service initialization may change residual excitation; benefit is not assumed.",
+        "injected_fault": null,
+        "optimization_level": 1,
+        "postselect": false,
+        "postselect_bit": 2,
+        "variant": "baseline_reset"
+      }
+    },
+    {
+      "circuit_metadata": {
+        "accepted_syndrome": 0,
+        "basis": "XX",
+        "candidate_id": "top0_dir0_baseline",
+        "initial_layout": [
+          7,
+          6,
+          5
+        ],
+        "injected_fault": null,
+        "optimization_level": 1,
+        "postselect": false,
+        "postselect_bit": 2,
+        "variant": "baseline"
+      }
+    },
+    {
+      "circuit_metadata": {
+        "accepted_syndrome": 0,
+        "basis": "YY",
+        "candidate_id": "original_baseline",
+        "initial_layout": [
+          0,
+          1,
+          2
+        ],
+        "injected_fault": null,
+        "optimization_level": 1,
+        "postselect": false,
+        "postselect_bit": 2,
+        "variant": "baseline"
+      }
+    },
+    {
+      "circuit_metadata": {
+        "accepted_syndrome": 0,
+        "basis": "XX",
+        "candidate_id": "original_baseline",
+        "initial_layout": [
+          0,
+          1,
+          2
+        ],
+        "injected_fault": null,
+        "optimization_level": 1,
+        "postselect": false,
+        "postselect_bit": 2,
+        "variant": "baseline"
+      }
+    },
+    {
+      "circuit_metadata": {
+        "accepted_syndrome": 0,
+        "basis": "ZZ",
+        "candidate_id": "original_baseline",
+        "initial_layout": [
+          0,
+          1,
+          2
+        ],
+        "injected_fault": null,
+        "optimization_level": 1,
+        "postselect": false,
+        "postselect_bit": 2,
+        "variant": "baseline"
+      }
+    }
+  ]
+}

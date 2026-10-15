@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-15T04:45:30.175632+00:00",
+  "batch_id": "993d2d66-c897-4510-8037-8e6ba9103135",
+  "backend": "ibm_marrakesh",
+  "state": "open",
+  "accepting_jobs": false,
+  "mode": "batch",
+  "started_at": null,
+  "closed_at": null,
+  "requested_ttl_wall_seconds": 1800,
+  "server_reported_max_time_seconds": 600,
+  "usage_time": null,
+  "interpretation": "Provider reports a 600-second batch TTL despite the requested 1800. It starts at first execution; no job has started. This wall-clock TTL is separate from the sum of charged QPU seconds. Four job caps sum to 360 seconds."
+}

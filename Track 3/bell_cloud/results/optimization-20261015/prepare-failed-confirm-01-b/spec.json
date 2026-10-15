@@ -1,0 +1,54 @@
+{
+  "stage": "confirm-01-b",
+  "backend": "ibm_marrakesh",
+  "shots": 16384,
+  "local_shots": 4096,
+  "cap_seconds": 120,
+  "order_seed": 20261117,
+  "candidates": [
+    {
+      "id": "original_baseline",
+      "variant": "baseline",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top0_dir0_baseline_reset",
+      "variant": "baseline_reset",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top0_dir0_baseline",
+      "variant": "baseline",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "optimization_level": 1
+    }
+  ],
+  "statistics_plan": {
+    "phase": "independent_confirmation",
+    "attempt": 1,
+    "maximum_candidate_confirmation_attempts": 3,
+    "confirmation_replicates_per_candidate": 2,
+    "confirmation_shots_per_basis": 16384,
+    "minimum_fidelity_improvement": 0.005,
+    "alpha_per_attempt": 0.016666666666666666,
+    "comparison": "Same-job original baseline; postselected candidate additionally compares with the frozen same-layout baseline.",
+    "selection": "Candidate and both confirmation stages frozen before either new job; both replications must pass.",
+    "scope": "Independent confirmation among tested configurations, not proof of global optimality."
+  },
+  "job_options": {},
+  "confirmation_plan": "confirmation-plan-01.json"
+}

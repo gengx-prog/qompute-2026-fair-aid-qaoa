@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-15T03:49:50.787204+00:00",
+  "packages": {
+    "qiskit": "2.5.2",
+    "qiskit-aer": "0.17.2",
+    "qiskit-ibm-runtime": "0.50.0",
+    "numpy": "2.5.4"
+  },
+  "source_sha256": {
+    "bell_core.py": "70ab113ffc7cae5c6a21fc184f7fbe48642d90ce6f42f67c81f0446540b2bf95",
+    "run_bell.py": "881722bb38f9c3dd1cfbf611803385b133cf3bff1c0139c739ebb951049aa951"
+  },
+  "scope": "Starter Bell experiment; not the official three-model benchmark.",
+  "mode": "local",
+  "shots_per_circuit": 4096,
+  "seed": 11,
+  "noise": {
+    "kind": "synthetic depolarization after gates and symmetric readout flips",
+    "one_qubit_depolarizing_parameter": 0.002,
+    "two_qubit_depolarizing_parameter": 0.02,
+    "readout_flip_probability": 0.02,
+    "note": "No thermal relaxation, routing, measured calibration, or official noise specification."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-10-15T04:15:35.339624+00:00",
+  "stage": "screen-01",
+  "backend": "ibm_marrakesh",
+  "shots": 1024,
+  "circuit_count": 51,
+  "cap_seconds": 90,
+  "rep_delay_seconds": 0.00025,
+  "estimated_system_seconds": 46.430824447999996,
+  "estimate_note": "20s overhead + 2 * shots * sum(circuit duration + explicitly set repetition delay); heuristic, not guarantee",
+  "remaining_seconds_before_submission": 595.0,
+  "source_sha256": {
+    "optimize_bell.py": "6f41da0c727b4c2edd36eb04058a370b0e0e640b51a2eb1c53eba4ad2e336d93",
+    "optimization_circuits.py": "7fda061cfe2f5113b20f4d37ffa1253c3f7c24ae94f54f2466ae032fbb851fbb",
+    "optimization_analysis.py": "04b22a86e3d7f89c2bd166df73644826c29644bfb0e4ba70978742d33337ca94"
+  },
+  "isa_qpy_sha256": "62a60f401bcc96e4849916ea29a0a3c09a362fb4af1ea451803ef934b94a988f",
+  "submission_state": "submitted",
+  "job_id": "db856uaraffc73fbo40g",
+  "local_validation_passed": true,
+  "statistics_plan": {
+    "budget_seconds_total": 600,
+    "used_before_campaign": 5,
+    "maximum_candidate_confirmation_attempts": 3,
+    "confirmation_replicates_per_candidate": 2,
+    "confirmation_shots_per_basis": 8192,
+    "minimum_fidelity_improvement": 0.005,
+    "alpha_per_attempt": 0.016666666666666666,
+    "comparison": "Same-job original baseline; postselected winners additionally need same-layout baseline.",
+    "selection": "Exploratory screen, freeze candidate before independent confirmation, preserve all failures.",
+    "scope": "Best among tested layouts and circuits, not a global optimum proof."
+  },
+  "job_options": {},
+  "attempted_utc": "2026-10-15T04:15:52.385886+00:00"
+}

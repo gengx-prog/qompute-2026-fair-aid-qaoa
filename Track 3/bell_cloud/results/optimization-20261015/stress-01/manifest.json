@@ -1,0 +1,89 @@
+{
+  "created_utc": "2026-10-15T05:13:35.952270+00:00",
+  "stage": "stress-01",
+  "backend": "ibm_marrakesh",
+  "shots": 512,
+  "circuit_count": 60,
+  "cap_seconds": 45,
+  "rep_delay_seconds": 0.00025,
+  "estimated_system_seconds": 35.546261504,
+  "estimate_note": "20s overhead + 2 * shots * sum(circuit duration + explicitly set repetition delay); heuristic, not guarantee",
+  "remaining_seconds_before_submission": 364.0,
+  "source_sha256": {
+    "optimize_bell.py": "c37fc9f6915a1ec8766b7743bf3152110acbe956792093b94b0c891dffc23698",
+    "optimization_circuits.py": "e1018c4e7d9e48ec619c231a87e695012d3217a16349d1989bbef29c56369e6a",
+    "optimization_analysis.py": "04b22a86e3d7f89c2bd166df73644826c29644bfb0e4ba70978742d33337ca94"
+  },
+  "budget_value_kind": "Uncommitted lower bound after reserving caps of known pending jobs; submission checks again.",
+  "isa_qpy_sha256": "872a541baab3b6219cfe1b80e897dab3cea1c33a8dd07aba770c970e8d45b683",
+  "submission_state": "submitted",
+  "job_id": "db86286r6oqs7388qudg",
+  "local_validation_passed": true,
+  "statistics_plan": {
+    "version": 1,
+    "phase": "controlled_noise",
+    "scope": "Controlled X-noise mechanism verification only; not ambient optimization.",
+    "created_utc": "2026-10-15T05:13:08.859210+00:00",
+    "backend": "ibm_marrakesh",
+    "layout": [
+      6,
+      7,
+      8
+    ],
+    "stage_names": [
+      "stress-01",
+      "stress-02"
+    ],
+    "excluded_screening_job_ids": [
+      "db852e6il99s73fpamcg",
+      "db856uaraffc73fbo40g",
+      "db8592qraffc73fbo710",
+      "db85a5ur6oqs7388p7o0",
+      "db85e0qraffc73fboi00",
+      "db85e0ur6oqs7388pgc0",
+      "db85e10r1c5c738lp3tg",
+      "db85e12raffc73fboi0g",
+      "db85stmr6oqs7388qi20"
+    ],
+    "source_sha256": {
+      "optimize_bell.py": "c37fc9f6915a1ec8766b7743bf3152110acbe956792093b94b0c891dffc23698",
+      "optimization_circuits.py": "e1018c4e7d9e48ec619c231a87e695012d3217a16349d1989bbef29c56369e6a",
+      "optimization_analysis.py": "04b22a86e3d7f89c2bd166df73644826c29644bfb0e4ba70978742d33337ca94",
+      "stress_protocol.py": "bd767432ee9a0d9fb52ef3937df9d0cd43611aaf0961119cff5f47f9964f5e2e"
+    },
+    "p_values": [
+      0.0,
+      0.1
+    ],
+    "variants": [
+      "baseline",
+      "bridge"
+    ],
+    "shots_per_circuit": 512,
+    "no_fault_copies": 9,
+    "x_fault_copies": 1,
+    "circuits_per_job": 60,
+    "total_shots_per_job": 30720,
+    "cap_seconds": 45,
+    "order_seeds": [
+      91371,
+      91372
+    ],
+    "bootstrap_seed": 246810,
+    "bootstrap_replicates": 5000,
+    "confidence": 0.99,
+    "minimum_delta": 0.005,
+    "primary_endpoint": "F_bridge(p=0.10) minus F_baseline(p=0.10)",
+    "pass_rule": "point delta >= 0.005 and the two-sided 99% bootstrap lower bound > 0",
+    "confirmation_rule": "Both frozen new distinct non-screening jobs must pass; no extra retry selection.",
+    "p0_role": "Descriptive ambient result only; shares all no-fault samples with p=0.10.",
+    "ambient_optimization_success": false,
+    "fault_location": "X on physical layout[0], after Bell preparation and before parity checking.",
+    "statistical_scope": "Fixed 9:1 stratified mixture; finite-shot conditional inference, not random Bernoulli fault allocation.",
+    "protocol_id": "b806b21f0e34685407f1fde45155387a3d7165571dd094a31b716011abdbe7b7"
+  },
+  "job_options": {},
+  "attempted_utc": "2026-10-15T05:14:06.498858+00:00",
+  "batch_id": "87885632-0ed4-47f2-9227-dab01caf0984",
+  "batch_ledger": "G:\\Qompute-2026-main\\Track 3\\bell_cloud\\results\\optimization-20261015\\batch-20261015T051404535677Z.json"
+}

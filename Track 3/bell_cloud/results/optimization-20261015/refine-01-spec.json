@@ -1,0 +1,321 @@
+{
+  "stage": "refine-01",
+  "backend": "ibm_marrakesh",
+  "shots": 2048,
+  "local_shots": 1024,
+  "cap_seconds": 120,
+  "order_seed": 812,
+  "candidates": [
+    {
+      "id": "original_baseline",
+      "variant": "baseline",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "original_baseline_quiet",
+      "variant": "baseline_quiet",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "original_protected",
+      "variant": "protected",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "original_bridge",
+      "variant": "bridge",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top0_dir0_baseline",
+      "variant": "baseline",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top0_dir0_quiet",
+      "variant": "baseline_quiet",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top0_dir0_bridge",
+      "variant": "bridge",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top0_dir1_baseline",
+      "variant": "baseline",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top0_dir1_quiet",
+      "variant": "baseline_quiet",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top0_dir1_bridge",
+      "variant": "bridge",
+      "layout": [
+        6,
+        7,
+        8
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top1_dir0_baseline",
+      "variant": "baseline",
+      "layout": [
+        129,
+        128,
+        127
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top1_dir0_quiet",
+      "variant": "baseline_quiet",
+      "layout": [
+        129,
+        128,
+        127
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top1_dir0_bridge",
+      "variant": "bridge",
+      "layout": [
+        129,
+        128,
+        127
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top1_dir1_baseline",
+      "variant": "baseline",
+      "layout": [
+        128,
+        129,
+        118
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top1_dir1_quiet",
+      "variant": "baseline_quiet",
+      "layout": [
+        128,
+        129,
+        118
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top1_dir1_bridge",
+      "variant": "bridge",
+      "layout": [
+        128,
+        129,
+        118
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top2_dir0_baseline",
+      "variant": "baseline",
+      "layout": [
+        2,
+        1,
+        0
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top2_dir0_quiet",
+      "variant": "baseline_quiet",
+      "layout": [
+        2,
+        1,
+        0
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top2_dir1_baseline",
+      "variant": "baseline",
+      "layout": [
+        1,
+        2,
+        3
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top2_dir1_quiet",
+      "variant": "baseline_quiet",
+      "layout": [
+        1,
+        2,
+        3
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top3_dir0_baseline",
+      "variant": "baseline",
+      "layout": [
+        14,
+        15,
+        19
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top3_dir0_quiet",
+      "variant": "baseline_quiet",
+      "layout": [
+        14,
+        15,
+        19
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top3_dir1_baseline",
+      "variant": "baseline",
+      "layout": [
+        15,
+        14,
+        13
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top3_dir1_quiet",
+      "variant": "baseline_quiet",
+      "layout": [
+        15,
+        14,
+        13
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "original_baseline_reset",
+      "variant": "baseline_reset",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "original_baseline_relax_200us",
+      "variant": "baseline_relax_200us",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top0_dir0_baseline_reset",
+      "variant": "baseline_reset",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "top0_dir0_baseline_relax_200us",
+      "variant": "baseline_relax_200us",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "optimization_level": 1
+    }
+  ],
+  "statistics_plan": {
+    "budget_seconds_total": 600,
+    "used_before_campaign": 5,
+    "maximum_candidate_confirmation_attempts": 3,
+    "confirmation_replicates_per_candidate": 2,
+    "confirmation_shots_per_basis": 8192,
+    "minimum_fidelity_improvement": 0.005,
+    "alpha_per_attempt": 0.016666666666666666,
+    "comparison": "Same-job original baseline; postselected winners additionally need same-layout baseline.",
+    "selection": "Exploratory screen, freeze candidate before independent confirmation, preserve all failures.",
+    "scope": "Best among tested layouts and circuits, not a global optimum proof.",
+    "selection_detail": "Compare all candidates; a postselected winner must beat the same-layout unprotected control as well as the original baseline in two fresh jobs. If postselection has no supported benefit, prefer all-shot baseline with strong fidelity and no discarded data. Screening rankings alone are exploratory.",
+    "phase": "exploratory_refinement"
+  },
+  "initialization_extension": {
+    "registered_utc": "2026-10-15T05:01:39.778227+00:00",
+    "purpose": "Compare extra data reset and a 200us pre-preparation wait with otherwise matched baseline circuits. Service initialization and repetition delay stay identical for all candidates.",
+    "selected_layouts": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        7,
+        6,
+        5
+      ]
+    ],
+    "local_noise_limitation": "Calibration-derived simulator is not a measured model of service initialization residuals or thermal population."
+  }
+}

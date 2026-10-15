@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-10-15T04:28:00.826692+00:00",
+  "stage": "scan-04",
+  "backend": "ibm_marrakesh",
+  "shots": 1024,
+  "circuit_count": 108,
+  "cap_seconds": 90,
+  "rep_delay_seconds": 0.00025,
+  "estimated_system_seconds": 75.926030336,
+  "estimate_note": "20s overhead + 2 * shots * sum(circuit duration + explicitly set repetition delay); heuristic, not guarantee",
+  "remaining_seconds_before_submission": 457.0,
+  "source_sha256": {
+    "optimize_bell.py": "99171835e17d2a91cdfe19aaed937190e42c636135ede6f7fd03ba90c4778132",
+    "optimization_circuits.py": "1984e4683c0d0eb453f41e5f7fbe24876b0dcbaf7f7150d5b87bc1dc327a35d5",
+    "optimization_analysis.py": "04b22a86e3d7f89c2bd166df73644826c29644bfb0e4ba70978742d33337ca94"
+  },
+  "budget_value_kind": "Uncommitted lower bound after reserving caps of known pending jobs; submission checks again.",
+  "isa_qpy_sha256": "bbc2014b12730f7da361db565458e55c40b646d65e4ed62fb87eb3ce9ed0f9d6",
+  "submission_state": "submitted",
+  "job_id": "db85e0qraffc73fboi00",
+  "local_validation_passed": true,
+  "statistics_plan": {
+    "budget_seconds_total": 600,
+    "used_before_campaign": 5,
+    "maximum_candidate_confirmation_attempts": 3,
+    "confirmation_replicates_per_candidate": 2,
+    "confirmation_shots_per_basis": 8192,
+    "minimum_fidelity_improvement": 0.005,
+    "alpha_per_attempt": 0.016666666666666666,
+    "comparison": "Same-job original baseline; postselected winners additionally need same-layout baseline.",
+    "selection": "All new physical data pairs are screened; freeze one winner before two NEW independent confirmation jobs. A screening maximum is not a confirmed advantage.",
+    "scope": "All unordered hardware coupling edges, one prescribed orientation per new edge; not all orientations, pulse schedules, or circuit designs.",
+    "phase": "exploratory_full_edge_scan",
+    "batch_controls": "Repeat original_baseline and anchor_baseline within every scan job; inspect drift and compare within job.",
+    "preserve_all_results": true
+  },
+  "job_options": {},
+  "attempted_utc": "2026-10-15T04:30:59.359416+00:00",
+  "batch_id": "993d2d66-c897-4510-8037-8e6ba9103135",
+  "batch_ledger": "G:\\Qompute-2026-main\\Track 3\\bell_cloud\\results\\optimization-20261015\\batch-20261015T043057363534Z.json"
+}

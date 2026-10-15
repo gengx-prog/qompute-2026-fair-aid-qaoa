@@ -1,0 +1,272 @@
+[
+  {
+    "layout": [
+      53,
+      54,
+      55
+    ],
+    "objective": "bridge",
+    "score": 0.01884226825399131,
+    "baseline_score": 0.00943416788083639,
+    "parity_score": 0.022488373300081146,
+    "balanced_score": 0.01596127059045877,
+    "bridge_score": 0.01884226825399131,
+    "readout_errors": {
+      "53": 0.00341796875,
+      "54": 0.0042724609375,
+      "55": 0.004150390625
+    },
+    "cz_errors": {
+      "53-54": 0.0017272371585950186,
+      "54-55": 0.001790007887727041
+    },
+    "baseline_cz_count": 1,
+    "parity_route_estimate": {
+      "cz_log_error_score": 0.010623908570033657,
+      "estimated_cz_count": 6,
+      "cz_counts_by_edge": {
+        "53-54": 2,
+        "54-55": 4
+      },
+      "estimated_swap_count": 1,
+      "final_logical_to_physical": [
+        53,
+        55,
+        54
+      ]
+    },
+    "bridge_route_estimate": {
+      "estimated_cz_count": 4,
+      "estimated_swap_count": 0,
+      "cz_counts_by_edge": {
+        "53-54": 3,
+        "54-55": 1
+      },
+      "final_logical_to_physical": [
+        53,
+        54,
+        55
+      ]
+    },
+    "backend": "ibm_marrakesh",
+    "calibration_captured_utc": "2026-10-15T04:06:15.181358+00:00",
+    "calibration_last_update": "2026-10-14 20:23:28-07:00",
+    "rank": 1
+  },
+  {
+    "layout": [
+      54,
+      53,
+      52
+    ],
+    "objective": "bridge",
+    "score": 0.022019251224631543,
+    "baseline_score": 0.00943416788083639,
+    "parity_score": 0.029306732738903222,
+    "balanced_score": 0.019370450309869808,
+    "bridge_score": 0.022019251224631543,
+    "readout_errors": {
+      "54": 0.0042724609375,
+      "53": 0.00341796875,
+      "52": 0.006103515625
+    },
+    "cz_errors": {
+      "52-53": 0.0030008923165779633,
+      "53-54": 0.0017272371585950186
+    },
+    "baseline_cz_count": 1,
+    "parity_route_estimate": {
+      "cz_log_error_score": 0.015479077194276113,
+      "estimated_cz_count": 6,
+      "cz_counts_by_edge": {
+        "53-54": 2,
+        "52-53": 4
+      },
+      "estimated_swap_count": 1,
+      "final_logical_to_physical": [
+        54,
+        52,
+        53
+      ]
+    },
+    "bridge_route_estimate": {
+      "estimated_cz_count": 4,
+      "estimated_swap_count": 0,
+      "cz_counts_by_edge": {
+        "53-54": 3,
+        "52-53": 1
+      },
+      "final_logical_to_physical": [
+        54,
+        53,
+        52
+      ]
+    },
+    "backend": "ibm_marrakesh",
+    "calibration_captured_utc": "2026-10-15T04:06:15.181358+00:00",
+    "calibration_last_update": "2026-10-14 20:23:28-07:00",
+    "rank": 2
+  },
+  {
+    "layout": [
+      107,
+      97,
+      87
+    ],
+    "objective": "bridge",
+    "score": 0.025263672416578592,
+    "baseline_score": 0.01135713685528407,
+    "parity_score": 0.02865823081055583,
+    "balanced_score": 0.02000768383291995,
+    "bridge_score": 0.025263672416578592,
+    "readout_errors": {
+      "107": 0.0045166015625,
+      "97": 0.0054931640625,
+      "87": 0.0096435546875
+    },
+    "cz_errors": {
+      "87-97": 0.0015709501161804418,
+      "97-107": 0.0013211242084960328
+    },
+    "baseline_cz_count": 1,
+    "parity_route_estimate": {
+      "cz_log_error_score": 0.008932736733509796,
+      "estimated_cz_count": 6,
+      "cz_counts_by_edge": {
+        "97-107": 2,
+        "87-97": 4
+      },
+      "estimated_swap_count": 1,
+      "final_logical_to_physical": [
+        107,
+        87,
+        97
+      ]
+    },
+    "bridge_route_estimate": {
+      "estimated_cz_count": 4,
+      "estimated_swap_count": 0,
+      "cz_counts_by_edge": {
+        "97-107": 3,
+        "87-97": 1
+      },
+      "final_logical_to_physical": [
+        107,
+        97,
+        87
+      ]
+    },
+    "backend": "ibm_marrakesh",
+    "calibration_captured_utc": "2026-10-15T04:06:15.181358+00:00",
+    "calibration_last_update": "2026-10-14 20:23:28-07:00",
+    "rank": 3
+  },
+  {
+    "layout": [
+      7,
+      6,
+      5
+    ],
+    "objective": "bridge",
+    "score": 0.025699397794579644,
+    "baseline_score": 0.014742238202217945,
+    "parity_score": 0.032055971008645316,
+    "balanced_score": 0.023399104605431632,
+    "bridge_score": 0.025699397794579644,
+    "readout_errors": {
+      "7": 0.007568359375,
+      "6": 0.0047607421875,
+      "5": 0.0032958984375
+    },
+    "cz_errors": {
+      "5-6": 0.0029056225048491313,
+      "6-7": 0.002370169550350215
+    },
+    "baseline_cz_count": 1,
+    "parity_route_estimate": {
+      "cz_log_error_score": 0.016385373780110808,
+      "estimated_cz_count": 6,
+      "cz_counts_by_edge": {
+        "6-7": 2,
+        "5-6": 4
+      },
+      "estimated_swap_count": 1,
+      "final_logical_to_physical": [
+        7,
+        5,
+        6
+      ]
+    },
+    "bridge_route_estimate": {
+      "estimated_cz_count": 4,
+      "estimated_swap_count": 0,
+      "cz_counts_by_edge": {
+        "6-7": 3,
+        "5-6": 1
+      },
+      "final_logical_to_physical": [
+        7,
+        6,
+        5
+      ]
+    },
+    "backend": "ibm_marrakesh",
+    "calibration_captured_utc": "2026-10-15T04:06:15.181358+00:00",
+    "calibration_last_update": "2026-10-14 20:23:28-07:00",
+    "rank": 4
+  },
+  {
+    "layout": [
+      54,
+      53,
+      39
+    ],
+    "objective": "bridge",
+    "score": 0.027777683605149803,
+    "baseline_score": 0.00943416788083639,
+    "parity_score": 0.03274825412606168,
+    "balanced_score": 0.021091211003449035,
+    "bridge_score": 0.027777683605149803,
+    "readout_errors": {
+      "54": 0.0042724609375,
+      "53": 0.00341796875,
+      "39": 0.0125732421875
+    },
+    "cz_errors": {
+      "39-53": 0.0022306088441697014,
+      "53-54": 0.0017272371585950186
+    },
+    "baseline_cz_count": 1,
+    "parity_route_estimate": {
+      "cz_log_error_score": 0.012389862536463044,
+      "estimated_cz_count": 6,
+      "cz_counts_by_edge": {
+        "53-54": 2,
+        "39-53": 4
+      },
+      "estimated_swap_count": 1,
+      "final_logical_to_physical": [
+        54,
+        39,
+        53
+      ]
+    },
+    "bridge_route_estimate": {
+      "estimated_cz_count": 4,
+      "estimated_swap_count": 0,
+      "cz_counts_by_edge": {
+        "53-54": 3,
+        "39-53": 1
+      },
+      "final_logical_to_physical": [
+        54,
+        53,
+        39
+      ]
+    },
+    "backend": "ibm_marrakesh",
+    "calibration_captured_utc": "2026-10-15T04:06:15.181358+00:00",
+    "calibration_last_update": "2026-10-14 20:23:28-07:00",
+    "rank": 5
+  }
+]

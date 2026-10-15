@@ -1,0 +1,28 @@
+{
+  "devices": [
+    {
+      "name": "ibm_fez",
+      "operational": true,
+      "pending_jobs": 77,
+      "status_msg": "maintenance",
+      "simulator": false
+    },
+    {
+      "name": "ibm_kingston",
+      "operational": true,
+      "pending_jobs": 9,
+      "status_msg": "active",
+      "simulator": false
+    },
+    {
+      "name": "ibm_marrakesh",
+      "operational": true,
+      "pending_jobs": 3,
+      "status_msg": "active",
+      "simulator": false
+    }
+  ],
+  "selected": "ibm_marrakesh",
+  "criterion": "Fewest pending jobs among operational active real devices.",
+  "website_remaining_seconds_before_submission": 600
+}

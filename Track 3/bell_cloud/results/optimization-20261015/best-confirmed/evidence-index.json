@@ -1,0 +1,152 @@
+[
+  {
+    "source": "confirmation-attempt-01.json",
+    "packaged_file": "confirmation-attempt-01.json",
+    "sha256": "574e06350b4dd1c5ff2bf7341fc07f1dbd9c8d043f64aedd9b8d9217c6847f10"
+  },
+  {
+    "source": "confirmation-plan-01.json",
+    "packaged_file": "confirmation-plan-01.json",
+    "sha256": "772527333108d27fbac131f9e48019d4429efe766b7569ad3c33912b01ecd779"
+  },
+  {
+    "source": "confirm-01-a\\spec.json",
+    "packaged_file": "confirm-01-a/spec.json",
+    "sha256": "5f55044da9a0525c25f2d10a7542fb81ae427e1d88625d58d8d0b5ecf154f699"
+  },
+  {
+    "source": "confirm-01-a\\manifest.json",
+    "packaged_file": "confirm-01-a/manifest.json",
+    "sha256": "cb236cb99ec0886d2029d4fe74444875f024e7383ff7dfb3aa35d31f35a0bbbc"
+  },
+  {
+    "source": "confirm-01-a\\hardware-results.json",
+    "packaged_file": "confirm-01-a/hardware-results.json",
+    "sha256": "9a9c250693026f331bfa3ef363c9b9c231b34db7e0b0266c70240643c992be82"
+  },
+  {
+    "source": "confirm-01-a\\hardware-usage.json",
+    "packaged_file": "confirm-01-a/hardware-usage.json",
+    "sha256": "fd0bd8d199e92ff0cbbda32f99acb749b9b9aadce8ce5c9396b1c93d5bce39da"
+  },
+  {
+    "source": "confirm-01-a\\logical\\circuits.qpy",
+    "packaged_file": "confirm-01-a/logical/circuits.qpy",
+    "sha256": "baecf295d426e6dbb7c4fde69bd955169bfa036b9e9baf1828d55348375cf885"
+  },
+  {
+    "source": "confirm-01-a\\logical\\top0_dir0_baseline_reset_XX.qasm",
+    "packaged_file": "confirm-01-a/logical/top0_dir0_baseline_reset_XX.qasm",
+    "sha256": "598113cadd7d06858407940c59ad2c9aa4e6d7872b4bc0924e1fdf28c50dca48"
+  },
+  {
+    "source": "confirm-01-a\\logical\\top0_dir0_baseline_reset_YY.qasm",
+    "packaged_file": "confirm-01-a/logical/top0_dir0_baseline_reset_YY.qasm",
+    "sha256": "7bdc1757305dddc30cde9d79349ac6d4c22e29033b11e8e0d2a0f064be8cfd45"
+  },
+  {
+    "source": "confirm-01-a\\logical\\top0_dir0_baseline_reset_ZZ.qasm",
+    "packaged_file": "confirm-01-a/logical/top0_dir0_baseline_reset_ZZ.qasm",
+    "sha256": "050e5ad98be2c0788a0a8ed7e0d2099c73e37d9b48c7151f7d38a742094512e5"
+  },
+  {
+    "source": "confirm-01-a\\logical\\resources.json",
+    "packaged_file": "confirm-01-a/logical/resources.json",
+    "sha256": "7c7a401151550b1612cf16ac899bb1235470f3c46c0ba7d383053c6e0d5c6d68"
+  },
+  {
+    "source": "confirm-01-a\\isa\\circuits.qpy",
+    "packaged_file": "confirm-01-a/isa/circuits.qpy",
+    "sha256": "b9afa3e882c3455ac2b0017e5ccc3aef67d1d46edc08d5124867ff18ce9c82c5"
+  },
+  {
+    "source": "confirm-01-a\\isa\\top0_dir0_baseline_reset_XX.qasm",
+    "packaged_file": "confirm-01-a/isa/top0_dir0_baseline_reset_XX.qasm",
+    "sha256": "f31dd9edc62fa647e533069d7600c7ec6893ced8d1ea096155047e6cdd36a569"
+  },
+  {
+    "source": "confirm-01-a\\isa\\top0_dir0_baseline_reset_YY.qasm",
+    "packaged_file": "confirm-01-a/isa/top0_dir0_baseline_reset_YY.qasm",
+    "sha256": "d1e5ef8fe220ebda7f7eaf8dc4268023cb4247b68efb2f651f2668cf007ce757"
+  },
+  {
+    "source": "confirm-01-a\\isa\\top0_dir0_baseline_reset_ZZ.qasm",
+    "packaged_file": "confirm-01-a/isa/top0_dir0_baseline_reset_ZZ.qasm",
+    "sha256": "e036a6c15dd83a1cf2afe9f56b63b6db161b2c2288689023867d4ccfaffb437d"
+  },
+  {
+    "source": "confirm-01-a\\isa\\resources.json",
+    "packaged_file": "confirm-01-a/isa/resources.json",
+    "sha256": "a5d6201c079d23a8d1b270c20d30f2d61a706ba5289a4fe1f7a09e5dbbc4d2d9"
+  },
+  {
+    "source": "confirm-01-b\\spec.json",
+    "packaged_file": "confirm-01-b/spec.json",
+    "sha256": "1a9bb5281b8cef684b32ee8acfbb1714fb6bc7faffb5598a568e87286f6ca2cf"
+  },
+  {
+    "source": "confirm-01-b\\manifest.json",
+    "packaged_file": "confirm-01-b/manifest.json",
+    "sha256": "49704d5ed9ff78bbb8e7378b33fc5b8b83ea82908225c26d7e3e5a00e1f2da54"
+  },
+  {
+    "source": "confirm-01-b\\hardware-results.json",
+    "packaged_file": "confirm-01-b/hardware-results.json",
+    "sha256": "155cbcecf2f4b60baf3346d6e896fe98fa73425f0c0acbff6437f6e6f823c006"
+  },
+  {
+    "source": "confirm-01-b\\hardware-usage.json",
+    "packaged_file": "confirm-01-b/hardware-usage.json",
+    "sha256": "c92e9ee73e7a85d4f0dde957978d80522cec39febbb86a17ee29b398e0b58983"
+  },
+  {
+    "source": "confirm-01-b\\logical\\circuits.qpy",
+    "packaged_file": "confirm-01-b/logical/circuits.qpy",
+    "sha256": "02396fbfed0453bdf7e8e7cbf3c437da5b3911e83bf0c12ee60165a858bfec68"
+  },
+  {
+    "source": "confirm-01-b\\logical\\top0_dir0_baseline_reset_XX.qasm",
+    "packaged_file": "confirm-01-b/logical/top0_dir0_baseline_reset_XX.qasm",
+    "sha256": "598113cadd7d06858407940c59ad2c9aa4e6d7872b4bc0924e1fdf28c50dca48"
+  },
+  {
+    "source": "confirm-01-b\\logical\\top0_dir0_baseline_reset_YY.qasm",
+    "packaged_file": "confirm-01-b/logical/top0_dir0_baseline_reset_YY.qasm",
+    "sha256": "7bdc1757305dddc30cde9d79349ac6d4c22e29033b11e8e0d2a0f064be8cfd45"
+  },
+  {
+    "source": "confirm-01-b\\logical\\top0_dir0_baseline_reset_ZZ.qasm",
+    "packaged_file": "confirm-01-b/logical/top0_dir0_baseline_reset_ZZ.qasm",
+    "sha256": "050e5ad98be2c0788a0a8ed7e0d2099c73e37d9b48c7151f7d38a742094512e5"
+  },
+  {
+    "source": "confirm-01-b\\logical\\resources.json",
+    "packaged_file": "confirm-01-b/logical/resources.json",
+    "sha256": "f37b72c15c345f2e4a7a0ea4a6cb3baa8e8a56d49e59f59c28a41fa27a274eff"
+  },
+  {
+    "source": "confirm-01-b\\isa\\circuits.qpy",
+    "packaged_file": "confirm-01-b/isa/circuits.qpy",
+    "sha256": "24200aeaa7a9b5d636484075ada8ad4d47f02db1206a69b00f364bc92129b787"
+  },
+  {
+    "source": "confirm-01-b\\isa\\top0_dir0_baseline_reset_XX.qasm",
+    "packaged_file": "confirm-01-b/isa/top0_dir0_baseline_reset_XX.qasm",
+    "sha256": "f31dd9edc62fa647e533069d7600c7ec6893ced8d1ea096155047e6cdd36a569"
+  },
+  {
+    "source": "confirm-01-b\\isa\\top0_dir0_baseline_reset_YY.qasm",
+    "packaged_file": "confirm-01-b/isa/top0_dir0_baseline_reset_YY.qasm",
+    "sha256": "d1e5ef8fe220ebda7f7eaf8dc4268023cb4247b68efb2f651f2668cf007ce757"
+  },
+  {
+    "source": "confirm-01-b\\isa\\top0_dir0_baseline_reset_ZZ.qasm",
+    "packaged_file": "confirm-01-b/isa/top0_dir0_baseline_reset_ZZ.qasm",
+    "sha256": "e036a6c15dd83a1cf2afe9f56b63b6db161b2c2288689023867d4ccfaffb437d"
+  },
+  {
+    "source": "confirm-01-b\\isa\\resources.json",
+    "packaged_file": "confirm-01-b/isa/resources.json",
+    "sha256": "07ac05d393312877962196c96169c24b120a00a279ceb7b229e465537e997a52"
+  }
+]

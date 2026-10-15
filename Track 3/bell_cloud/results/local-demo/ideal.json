@@ -1,0 +1,132 @@
+{
+  "raw_counts": [
+    {
+      "000": 2026,
+      "011": 2070
+    },
+    {
+      "001": 2091,
+      "010": 2005
+    },
+    {
+      "011": 2070,
+      "000": 2026
+    },
+    {
+      "000": 1975,
+      "011": 2121
+    },
+    {
+      "010": 2054,
+      "001": 2042
+    },
+    {
+      "011": 1996,
+      "000": 2100
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "fidelity": 1.0,
+      "fidelity_standard_error": 0.0,
+      "fidelity_interval_95": [
+        0.9979041266648174,
+        1.0
+      ],
+      "correlations": {
+        "XX": {
+          "value": 1.0,
+          "standard_error": 0.0,
+          "simultaneous_interval_95": [
+            0.9972055022197566,
+            1.0
+          ],
+          "even_parity_shots": 4096,
+          "accepted_shots": 4096,
+          "total_shots": 4096,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "value": -1.0,
+          "standard_error": 0.0,
+          "simultaneous_interval_95": [
+            -1.0,
+            -0.9972055022197567
+          ],
+          "even_parity_shots": 0,
+          "accepted_shots": 4096,
+          "total_shots": 4096,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "value": 1.0,
+          "standard_error": 0.0,
+          "simultaneous_interval_95": [
+            0.9972055022197566,
+            1.0
+          ],
+          "even_parity_shots": 4096,
+          "accepted_shots": 4096,
+          "total_shots": 4096,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "accepted_shots": 12288,
+      "total_shots": 12288,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Standard errors describe independent shot noise only, conditional on the accepted count; plug-in errors may be zero at boundaries. Fidelity bounds combine three Bonferroni-adjusted Wilson intervals (approximate 95% joint coverage). They exclude calibration drift, readout bias, gate errors, and other systematic uncertainty. Fidelity assumes the same prepared state across XX, YY, and ZZ settings. Raw estimates are not clipped."
+    },
+    "protected": {
+      "fidelity": 1.0,
+      "fidelity_standard_error": 0.0,
+      "fidelity_interval_95": [
+        0.9979041266648174,
+        1.0
+      ],
+      "correlations": {
+        "XX": {
+          "value": 1.0,
+          "standard_error": 0.0,
+          "simultaneous_interval_95": [
+            0.9972055022197566,
+            1.0
+          ],
+          "even_parity_shots": 4096,
+          "accepted_shots": 4096,
+          "total_shots": 4096,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "value": -1.0,
+          "standard_error": 0.0,
+          "simultaneous_interval_95": [
+            -1.0,
+            -0.9972055022197567
+          ],
+          "even_parity_shots": 0,
+          "accepted_shots": 4096,
+          "total_shots": 4096,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "value": 1.0,
+          "standard_error": 0.0,
+          "simultaneous_interval_95": [
+            0.9972055022197566,
+            1.0
+          ],
+          "even_parity_shots": 4096,
+          "accepted_shots": 4096,
+          "total_shots": 4096,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "accepted_shots": 12288,
+      "total_shots": 12288,
+      "acceptance_fraction": 1.0,
+      "postselected": true,
+      "uncertainty_note": "Standard errors describe independent shot noise only, conditional on the accepted count; plug-in errors may be zero at boundaries. Fidelity bounds combine three Bonferroni-adjusted Wilson intervals (approximate 95% joint coverage). They exclude calibration drift, readout bias, gate errors, and other systematic uncertainty. Fidelity assumes the same prepared state across XX, YY, and ZZ settings. Raw estimates are not clipped."
+    }
+  }
+}

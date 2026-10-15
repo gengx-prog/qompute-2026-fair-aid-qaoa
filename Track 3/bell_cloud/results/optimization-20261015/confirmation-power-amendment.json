@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-15T04:36:02.792436+00:00",
+  "reason": "Offline power review: conservative primary intervals at baseline F near 0.97 need about 1.25 percentage points at 8192 shots per basis. Increase prospective confirmation sample size before any candidate is frozen or any holdout job submitted.",
+  "original_shots_per_basis": 8192,
+  "revised_shots_per_basis": 16384,
+  "unchanged": [
+    "minimum point improvement 0.005",
+    "alpha per candidate attempt 0.05/3",
+    "at most 3 attempts",
+    "two new independent passing jobs",
+    "same-job original baseline control",
+    "postselected candidate also beats same-layout unprotected control",
+    "primary Bonferroni-Wilson endpoint interval lower bound greater than zero"
+  ],
+  "status_at_amendment": "Only exploratory screen-01 and scan-01 results observed; scan-02 through scan-06 submitted and pending. No confirmation results or submissions exist.",
+  "budget_rule": "All actual completed charges and pending caps plus the new job caps and 10-second reserve must stay within 600 seconds.",
+  "note": "Prospective power increase only; no significance criterion relaxed and no failed confirmation discarded."
+}

@@ -8,6 +8,7 @@ All inputs are synthetic teaching scores. The experiments use ideal simulation a
  
 ## Start here
 
+- [Track 3: Bell entanglement, hardware layout and noise experiments](Track%203/bell_cloud/README.md) — IBM QPU results, OpenQASM circuits and reproduction instructions.
 - [Project guide and reproduction instructions](Track%202/fair_aid/README.md)
 - [Executed submission notebook](Track%202/fair_aid/Track2_Submission.ipynb)
 - [HTML presentation](Track%202/fair_aid/Track2_Submission.html) - download the file to view it in a browser; figures are embedded and formulas use the MathJax CDN.

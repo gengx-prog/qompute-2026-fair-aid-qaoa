@@ -1,0 +1,2557 @@
+{
+  "created_utc": "2026-10-15T04:19:30.480169+00:00",
+  "backend": "ibm_marrakesh",
+  "source_snapshot": "Track 3/bell_cloud/results/optimization-20261015/screen-01/backend-snapshot.json",
+  "source_snapshot_sha256": "e42f0cda164efa9866dcbd9d1ff14ef5c6ba46f80c194a2fdca2fb4e7855c533",
+  "source_calibration_captured_utc": "2026-10-15T04:15:31.278883+00:00",
+  "screen_job_id": "db856uaraffc73fbo40g",
+  "total_unique_undirected_edges": 176,
+  "previously_screened_unique_data_pairs": 5,
+  "new_data_pairs": 171,
+  "batch_count": 6,
+  "candidate_instances_including_repeated_controls": 183,
+  "total_scan_circuits": 549,
+  "total_scan_raw_shots": 562176,
+  "batch_assignment_seed": 20261015,
+  "orientation_rule": "Choose lower calibrated SX-error endpoint as DATA0; ties or either missing calibration use lower numeric qubit first.",
+  "ancilla_rule": "Choose the lowest-readout-error distinct neighbor of either data endpoint; missing readout sorts after known values; ties use qubit number. Baseline never postselects ancilla.",
+  "prior_edge_exclusion_rule": "Exclude unordered data pairs already measured as baseline in screen-01; previous orientations and higher optimization-level duplicates count as the same edge.",
+  "execution_note": "Prepared specs only; each batch must independently pass local validation, remaining-budget checks, and final-charge accounting before submission. Caps are not usage predictions.",
+  "statistics_plan": {
+    "budget_seconds_total": 600,
+    "used_before_campaign": 5,
+    "maximum_candidate_confirmation_attempts": 3,
+    "confirmation_replicates_per_candidate": 2,
+    "confirmation_shots_per_basis": 8192,
+    "minimum_fidelity_improvement": 0.005,
+    "alpha_per_attempt": 0.016666666666666666,
+    "comparison": "Same-job original baseline; postselected winners additionally need same-layout baseline.",
+    "selection": "All new physical data pairs are screened; freeze one winner before two NEW independent confirmation jobs. A screening maximum is not a confirmed advantage.",
+    "scope": "All unordered hardware coupling edges, one prescribed orientation per new edge; not all orientations, pulse schedules, or circuit designs.",
+    "phase": "exploratory_full_edge_scan",
+    "batch_controls": "Repeat original_baseline and anchor_baseline within every scan job; inspect drift and compare within job.",
+    "preserve_all_results": true
+  },
+  "batches": [
+    {
+      "stage": "scan-01",
+      "spec_file": "scan-01-spec.json",
+      "new_data_pairs": 34,
+      "controls": 2,
+      "candidate_count": 36,
+      "circuit_count": 108,
+      "shots_per_circuit": 1024,
+      "total_raw_shots": 110592,
+      "cap_seconds": 90
+    },
+    {
+      "stage": "scan-02",
+      "spec_file": "scan-02-spec.json",
+      "new_data_pairs": 34,
+      "controls": 2,
+      "candidate_count": 36,
+      "circuit_count": 108,
+      "shots_per_circuit": 1024,
+      "total_raw_shots": 110592,
+      "cap_seconds": 90
+    },
+    {
+      "stage": "scan-03",
+      "spec_file": "scan-03-spec.json",
+      "new_data_pairs": 34,
+      "controls": 2,
+      "candidate_count": 36,
+      "circuit_count": 108,
+      "shots_per_circuit": 1024,
+      "total_raw_shots": 110592,
+      "cap_seconds": 90
+    },
+    {
+      "stage": "scan-04",
+      "spec_file": "scan-04-spec.json",
+      "new_data_pairs": 34,
+      "controls": 2,
+      "candidate_count": 36,
+      "circuit_count": 108,
+      "shots_per_circuit": 1024,
+      "total_raw_shots": 110592,
+      "cap_seconds": 90
+    },
+    {
+      "stage": "scan-05",
+      "spec_file": "scan-05-spec.json",
+      "new_data_pairs": 34,
+      "controls": 2,
+      "candidate_count": 36,
+      "circuit_count": 108,
+      "shots_per_circuit": 1024,
+      "total_raw_shots": 110592,
+      "cap_seconds": 90
+    },
+    {
+      "stage": "scan-06",
+      "spec_file": "scan-06-spec.json",
+      "new_data_pairs": 1,
+      "controls": 2,
+      "candidate_count": 3,
+      "circuit_count": 9,
+      "shots_per_circuit": 1024,
+      "total_raw_shots": 9216,
+      "cap_seconds": 90
+    }
+  ],
+  "coverage": [
+    {
+      "data_pair": [
+        0,
+        1
+      ],
+      "status": "previously_screened",
+      "screen_candidate_ids": [
+        "original_baseline"
+      ],
+      "screen_job_id": "db856uaraffc73fbo40g"
+    },
+    {
+      "data_pair": [
+        1,
+        2
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_001_002_baseline",
+      "layout": [
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "data_pair": [
+        2,
+        3
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_002_003_baseline",
+      "layout": [
+        2,
+        3,
+        16
+      ]
+    },
+    {
+      "data_pair": [
+        3,
+        4
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_003_004_baseline",
+      "layout": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "data_pair": [
+        3,
+        16
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_003_016_baseline",
+      "layout": [
+        3,
+        16,
+        2
+      ]
+    },
+    {
+      "data_pair": [
+        4,
+        5
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_004_005_baseline",
+      "layout": [
+        5,
+        4,
+        6
+      ]
+    },
+    {
+      "data_pair": [
+        5,
+        6
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_005_006_baseline",
+      "layout": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "data_pair": [
+        6,
+        7
+      ],
+      "status": "previously_screened",
+      "screen_candidate_ids": [
+        "layout3_baseline"
+      ],
+      "screen_job_id": "db856uaraffc73fbo40g"
+    },
+    {
+      "data_pair": [
+        7,
+        8
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_007_008_baseline",
+      "layout": [
+        7,
+        8,
+        6
+      ]
+    },
+    {
+      "data_pair": [
+        7,
+        17
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_007_017_baseline",
+      "layout": [
+        7,
+        17,
+        6
+      ]
+    },
+    {
+      "data_pair": [
+        8,
+        9
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_008_009_baseline",
+      "layout": [
+        9,
+        8,
+        10
+      ]
+    },
+    {
+      "data_pair": [
+        9,
+        10
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_009_010_baseline",
+      "layout": [
+        9,
+        10,
+        8
+      ]
+    },
+    {
+      "data_pair": [
+        10,
+        11
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_010_011_baseline",
+      "layout": [
+        10,
+        11,
+        18
+      ]
+    },
+    {
+      "data_pair": [
+        11,
+        12
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_011_012_baseline",
+      "layout": [
+        12,
+        11,
+        10
+      ]
+    },
+    {
+      "data_pair": [
+        11,
+        18
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_011_018_baseline",
+      "layout": [
+        11,
+        18,
+        10
+      ]
+    },
+    {
+      "data_pair": [
+        12,
+        13
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_012_013_baseline",
+      "layout": [
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "data_pair": [
+        13,
+        14
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_013_014_baseline",
+      "layout": [
+        14,
+        13,
+        15
+      ]
+    },
+    {
+      "data_pair": [
+        14,
+        15
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_014_015_baseline",
+      "layout": [
+        14,
+        15,
+        19
+      ]
+    },
+    {
+      "data_pair": [
+        15,
+        19
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_015_019_baseline",
+      "layout": [
+        19,
+        15,
+        35
+      ]
+    },
+    {
+      "data_pair": [
+        16,
+        23
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_016_023_baseline",
+      "layout": [
+        23,
+        16,
+        3
+      ]
+    },
+    {
+      "data_pair": [
+        17,
+        27
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_017_027_baseline",
+      "layout": [
+        27,
+        17,
+        7
+      ]
+    },
+    {
+      "data_pair": [
+        18,
+        31
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_018_031_baseline",
+      "layout": [
+        31,
+        18,
+        30
+      ]
+    },
+    {
+      "data_pair": [
+        19,
+        35
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_019_035_baseline",
+      "layout": [
+        19,
+        35,
+        15
+      ]
+    },
+    {
+      "data_pair": [
+        20,
+        21
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_020_021_baseline",
+      "layout": [
+        21,
+        20,
+        22
+      ]
+    },
+    {
+      "data_pair": [
+        21,
+        22
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_021_022_baseline",
+      "layout": [
+        21,
+        22,
+        20
+      ]
+    },
+    {
+      "data_pair": [
+        21,
+        36
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_021_036_baseline",
+      "layout": [
+        21,
+        36,
+        20
+      ]
+    },
+    {
+      "data_pair": [
+        22,
+        23
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_022_023_baseline",
+      "layout": [
+        23,
+        22,
+        16
+      ]
+    },
+    {
+      "data_pair": [
+        23,
+        24
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_023_024_baseline",
+      "layout": [
+        23,
+        24,
+        16
+      ]
+    },
+    {
+      "data_pair": [
+        24,
+        25
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_024_025_baseline",
+      "layout": [
+        25,
+        24,
+        23
+      ]
+    },
+    {
+      "data_pair": [
+        25,
+        26
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_025_026_baseline",
+      "layout": [
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "data_pair": [
+        25,
+        37
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_025_037_baseline",
+      "layout": [
+        25,
+        37,
+        45
+      ]
+    },
+    {
+      "data_pair": [
+        26,
+        27
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_026_027_baseline",
+      "layout": [
+        27,
+        26,
+        25
+      ]
+    },
+    {
+      "data_pair": [
+        27,
+        28
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_027_028_baseline",
+      "layout": [
+        27,
+        28,
+        17
+      ]
+    },
+    {
+      "data_pair": [
+        28,
+        29
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_028_029_baseline",
+      "layout": [
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "data_pair": [
+        29,
+        30
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_029_030_baseline",
+      "layout": [
+        29,
+        30,
+        38
+      ]
+    },
+    {
+      "data_pair": [
+        29,
+        38
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_029_038_baseline",
+      "layout": [
+        29,
+        38,
+        30
+      ]
+    },
+    {
+      "data_pair": [
+        30,
+        31
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_030_031_baseline",
+      "layout": [
+        31,
+        30,
+        18
+      ]
+    },
+    {
+      "data_pair": [
+        31,
+        32
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_031_032_baseline",
+      "layout": [
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "data_pair": [
+        32,
+        33
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_032_033_baseline",
+      "layout": [
+        33,
+        32,
+        39
+      ]
+    },
+    {
+      "data_pair": [
+        33,
+        34
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_033_034_baseline",
+      "layout": [
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "data_pair": [
+        33,
+        39
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_033_039_baseline",
+      "layout": [
+        33,
+        39,
+        53
+      ]
+    },
+    {
+      "data_pair": [
+        34,
+        35
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_034_035_baseline",
+      "layout": [
+        35,
+        34,
+        33
+      ]
+    },
+    {
+      "data_pair": [
+        36,
+        41
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_036_041_baseline",
+      "layout": [
+        41,
+        36,
+        21
+      ]
+    },
+    {
+      "data_pair": [
+        37,
+        45
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_037_045_baseline",
+      "layout": [
+        45,
+        37,
+        25
+      ]
+    },
+    {
+      "data_pair": [
+        38,
+        49
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_038_049_baseline",
+      "layout": [
+        49,
+        38,
+        50
+      ]
+    },
+    {
+      "data_pair": [
+        39,
+        53
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_039_053_baseline",
+      "layout": [
+        53,
+        39,
+        54
+      ]
+    },
+    {
+      "data_pair": [
+        40,
+        41
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_040_041_baseline",
+      "layout": [
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "data_pair": [
+        41,
+        42
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_041_042_baseline",
+      "layout": [
+        42,
+        41,
+        40
+      ]
+    },
+    {
+      "data_pair": [
+        42,
+        43
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_042_043_baseline",
+      "layout": [
+        43,
+        42,
+        56
+      ]
+    },
+    {
+      "data_pair": [
+        43,
+        44
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_043_044_baseline",
+      "layout": [
+        44,
+        43,
+        42
+      ]
+    },
+    {
+      "data_pair": [
+        43,
+        56
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_043_056_baseline",
+      "layout": [
+        43,
+        56,
+        42
+      ]
+    },
+    {
+      "data_pair": [
+        44,
+        45
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_044_045_baseline",
+      "layout": [
+        45,
+        44,
+        43
+      ]
+    },
+    {
+      "data_pair": [
+        45,
+        46
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_045_046_baseline",
+      "layout": [
+        45,
+        46,
+        44
+      ]
+    },
+    {
+      "data_pair": [
+        46,
+        47
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_046_047_baseline",
+      "layout": [
+        47,
+        46,
+        57
+      ]
+    },
+    {
+      "data_pair": [
+        47,
+        48
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_047_048_baseline",
+      "layout": [
+        47,
+        48,
+        57
+      ]
+    },
+    {
+      "data_pair": [
+        47,
+        57
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_047_057_baseline",
+      "layout": [
+        47,
+        57,
+        46
+      ]
+    },
+    {
+      "data_pair": [
+        48,
+        49
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-06",
+      "candidate_id": "edge_048_049_baseline",
+      "layout": [
+        49,
+        48,
+        50
+      ]
+    },
+    {
+      "data_pair": [
+        49,
+        50
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_049_050_baseline",
+      "layout": [
+        50,
+        49,
+        38
+      ]
+    },
+    {
+      "data_pair": [
+        50,
+        51
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_050_051_baseline",
+      "layout": [
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "data_pair": [
+        51,
+        52
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_051_052_baseline",
+      "layout": [
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "data_pair": [
+        51,
+        58
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_051_058_baseline",
+      "layout": [
+        58,
+        51,
+        52
+      ]
+    },
+    {
+      "data_pair": [
+        52,
+        53
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_052_053_baseline",
+      "layout": [
+        53,
+        52,
+        54
+      ]
+    },
+    {
+      "data_pair": [
+        53,
+        54
+      ],
+      "status": "previously_screened",
+      "screen_candidate_ids": [
+        "layout0_baseline",
+        "layout1_baseline",
+        "layout4_baseline",
+        "layout0_baseline_opt3"
+      ],
+      "screen_job_id": "db856uaraffc73fbo40g"
+    },
+    {
+      "data_pair": [
+        54,
+        55
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_054_055_baseline",
+      "layout": [
+        55,
+        54,
+        53
+      ]
+    },
+    {
+      "data_pair": [
+        55,
+        59
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_055_059_baseline",
+      "layout": [
+        55,
+        59,
+        54
+      ]
+    },
+    {
+      "data_pair": [
+        56,
+        63
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_056_063_baseline",
+      "layout": [
+        63,
+        56,
+        43
+      ]
+    },
+    {
+      "data_pair": [
+        57,
+        67
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_057_067_baseline",
+      "layout": [
+        57,
+        67,
+        66
+      ]
+    },
+    {
+      "data_pair": [
+        58,
+        71
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_058_071_baseline",
+      "layout": [
+        58,
+        71,
+        70
+      ]
+    },
+    {
+      "data_pair": [
+        59,
+        75
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_059_075_baseline",
+      "layout": [
+        75,
+        59,
+        55
+      ]
+    },
+    {
+      "data_pair": [
+        60,
+        61
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_060_061_baseline",
+      "layout": [
+        61,
+        60,
+        76
+      ]
+    },
+    {
+      "data_pair": [
+        61,
+        62
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_061_062_baseline",
+      "layout": [
+        61,
+        62,
+        60
+      ]
+    },
+    {
+      "data_pair": [
+        61,
+        76
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_061_076_baseline",
+      "layout": [
+        61,
+        76,
+        60
+      ]
+    },
+    {
+      "data_pair": [
+        62,
+        63
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_062_063_baseline",
+      "layout": [
+        63,
+        62,
+        56
+      ]
+    },
+    {
+      "data_pair": [
+        63,
+        64
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_063_064_baseline",
+      "layout": [
+        63,
+        64,
+        56
+      ]
+    },
+    {
+      "data_pair": [
+        64,
+        65
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_064_065_baseline",
+      "layout": [
+        64,
+        65,
+        66
+      ]
+    },
+    {
+      "data_pair": [
+        65,
+        66
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_065_066_baseline",
+      "layout": [
+        66,
+        65,
+        64
+      ]
+    },
+    {
+      "data_pair": [
+        65,
+        77
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_065_077_baseline",
+      "layout": [
+        77,
+        65,
+        66
+      ]
+    },
+    {
+      "data_pair": [
+        66,
+        67
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_066_067_baseline",
+      "layout": [
+        67,
+        66,
+        57
+      ]
+    },
+    {
+      "data_pair": [
+        67,
+        68
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_067_068_baseline",
+      "layout": [
+        67,
+        68,
+        66
+      ]
+    },
+    {
+      "data_pair": [
+        68,
+        69
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_068_069_baseline",
+      "layout": [
+        69,
+        68,
+        78
+      ]
+    },
+    {
+      "data_pair": [
+        69,
+        70
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_069_070_baseline",
+      "layout": [
+        69,
+        70,
+        78
+      ]
+    },
+    {
+      "data_pair": [
+        69,
+        78
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_069_078_baseline",
+      "layout": [
+        69,
+        78,
+        89
+      ]
+    },
+    {
+      "data_pair": [
+        70,
+        71
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_070_071_baseline",
+      "layout": [
+        71,
+        70,
+        72
+      ]
+    },
+    {
+      "data_pair": [
+        71,
+        72
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_071_072_baseline",
+      "layout": [
+        71,
+        72,
+        73
+      ]
+    },
+    {
+      "data_pair": [
+        72,
+        73
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_072_073_baseline",
+      "layout": [
+        73,
+        72,
+        71
+      ]
+    },
+    {
+      "data_pair": [
+        73,
+        74
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_073_074_baseline",
+      "layout": [
+        74,
+        73,
+        75
+      ]
+    },
+    {
+      "data_pair": [
+        73,
+        79
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_073_079_baseline",
+      "layout": [
+        79,
+        73,
+        93
+      ]
+    },
+    {
+      "data_pair": [
+        74,
+        75
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_074_075_baseline",
+      "layout": [
+        75,
+        74,
+        73
+      ]
+    },
+    {
+      "data_pair": [
+        76,
+        81
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_076_081_baseline",
+      "layout": [
+        81,
+        76,
+        61
+      ]
+    },
+    {
+      "data_pair": [
+        77,
+        85
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_077_085_baseline",
+      "layout": [
+        85,
+        77,
+        65
+      ]
+    },
+    {
+      "data_pair": [
+        78,
+        89
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_078_089_baseline",
+      "layout": [
+        78,
+        89,
+        90
+      ]
+    },
+    {
+      "data_pair": [
+        79,
+        93
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_079_093_baseline",
+      "layout": [
+        93,
+        79,
+        73
+      ]
+    },
+    {
+      "data_pair": [
+        80,
+        81
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_080_081_baseline",
+      "layout": [
+        81,
+        80,
+        76
+      ]
+    },
+    {
+      "data_pair": [
+        81,
+        82
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_081_082_baseline",
+      "layout": [
+        81,
+        82,
+        80
+      ]
+    },
+    {
+      "data_pair": [
+        82,
+        83
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_082_083_baseline",
+      "layout": [
+        83,
+        82,
+        84
+      ]
+    },
+    {
+      "data_pair": [
+        83,
+        84
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_083_084_baseline",
+      "layout": [
+        83,
+        84,
+        85
+      ]
+    },
+    {
+      "data_pair": [
+        83,
+        96
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_083_096_baseline",
+      "layout": [
+        96,
+        83,
+        103
+      ]
+    },
+    {
+      "data_pair": [
+        84,
+        85
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_084_085_baseline",
+      "layout": [
+        85,
+        84,
+        86
+      ]
+    },
+    {
+      "data_pair": [
+        85,
+        86
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_085_086_baseline",
+      "layout": [
+        85,
+        86,
+        87
+      ]
+    },
+    {
+      "data_pair": [
+        86,
+        87
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_086_087_baseline",
+      "layout": [
+        87,
+        86,
+        97
+      ]
+    },
+    {
+      "data_pair": [
+        87,
+        88
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_087_088_baseline",
+      "layout": [
+        87,
+        88,
+        97
+      ]
+    },
+    {
+      "data_pair": [
+        87,
+        97
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_087_097_baseline",
+      "layout": [
+        97,
+        87,
+        107
+      ]
+    },
+    {
+      "data_pair": [
+        88,
+        89
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_088_089_baseline",
+      "layout": [
+        89,
+        88,
+        78
+      ]
+    },
+    {
+      "data_pair": [
+        89,
+        90
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_089_090_baseline",
+      "layout": [
+        89,
+        90,
+        91
+      ]
+    },
+    {
+      "data_pair": [
+        90,
+        91
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_090_091_baseline",
+      "layout": [
+        90,
+        91,
+        98
+      ]
+    },
+    {
+      "data_pair": [
+        91,
+        92
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_091_092_baseline",
+      "layout": [
+        92,
+        91,
+        98
+      ]
+    },
+    {
+      "data_pair": [
+        91,
+        98
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_091_098_baseline",
+      "layout": [
+        98,
+        91,
+        90
+      ]
+    },
+    {
+      "data_pair": [
+        92,
+        93
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_092_093_baseline",
+      "layout": [
+        93,
+        92,
+        91
+      ]
+    },
+    {
+      "data_pair": [
+        93,
+        94
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_093_094_baseline",
+      "layout": [
+        93,
+        94,
+        95
+      ]
+    },
+    {
+      "data_pair": [
+        94,
+        95
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_094_095_baseline",
+      "layout": [
+        95,
+        94,
+        93
+      ]
+    },
+    {
+      "data_pair": [
+        95,
+        99
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_095_099_baseline",
+      "layout": [
+        99,
+        95,
+        115
+      ]
+    },
+    {
+      "data_pair": [
+        96,
+        103
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_096_103_baseline",
+      "layout": [
+        103,
+        96,
+        104
+      ]
+    },
+    {
+      "data_pair": [
+        97,
+        107
+      ],
+      "status": "previously_screened",
+      "screen_candidate_ids": [
+        "layout2_baseline"
+      ],
+      "screen_job_id": "db856uaraffc73fbo40g"
+    },
+    {
+      "data_pair": [
+        98,
+        111
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_098_111_baseline",
+      "layout": [
+        111,
+        98,
+        112
+      ]
+    },
+    {
+      "data_pair": [
+        99,
+        115
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_099_115_baseline",
+      "layout": [
+        115,
+        99,
+        95
+      ]
+    },
+    {
+      "data_pair": [
+        100,
+        101
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_100_101_baseline",
+      "layout": [
+        101,
+        100,
+        116
+      ]
+    },
+    {
+      "data_pair": [
+        101,
+        102
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_101_102_baseline",
+      "layout": [
+        101,
+        102,
+        103
+      ]
+    },
+    {
+      "data_pair": [
+        101,
+        116
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_101_116_baseline",
+      "layout": [
+        101,
+        116,
+        100
+      ]
+    },
+    {
+      "data_pair": [
+        102,
+        103
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_102_103_baseline",
+      "layout": [
+        103,
+        102,
+        104
+      ]
+    },
+    {
+      "data_pair": [
+        103,
+        104
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_103_104_baseline",
+      "layout": [
+        103,
+        104,
+        105
+      ]
+    },
+    {
+      "data_pair": [
+        104,
+        105
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_104_105_baseline",
+      "layout": [
+        105,
+        104,
+        117
+      ]
+    },
+    {
+      "data_pair": [
+        105,
+        106
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_105_106_baseline",
+      "layout": [
+        105,
+        106,
+        107
+      ]
+    },
+    {
+      "data_pair": [
+        105,
+        117
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_105_117_baseline",
+      "layout": [
+        105,
+        117,
+        104
+      ]
+    },
+    {
+      "data_pair": [
+        106,
+        107
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_106_107_baseline",
+      "layout": [
+        107,
+        106,
+        105
+      ]
+    },
+    {
+      "data_pair": [
+        107,
+        108
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_107_108_baseline",
+      "layout": [
+        107,
+        108,
+        97
+      ]
+    },
+    {
+      "data_pair": [
+        108,
+        109
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_108_109_baseline",
+      "layout": [
+        109,
+        108,
+        107
+      ]
+    },
+    {
+      "data_pair": [
+        109,
+        110
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_109_110_baseline",
+      "layout": [
+        109,
+        110,
+        118
+      ]
+    },
+    {
+      "data_pair": [
+        109,
+        118
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_109_118_baseline",
+      "layout": [
+        109,
+        118,
+        110
+      ]
+    },
+    {
+      "data_pair": [
+        110,
+        111
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_110_111_baseline",
+      "layout": [
+        111,
+        110,
+        112
+      ]
+    },
+    {
+      "data_pair": [
+        111,
+        112
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_111_112_baseline",
+      "layout": [
+        111,
+        112,
+        98
+      ]
+    },
+    {
+      "data_pair": [
+        112,
+        113
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_112_113_baseline",
+      "layout": [
+        112,
+        113,
+        111
+      ]
+    },
+    {
+      "data_pair": [
+        113,
+        114
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_113_114_baseline",
+      "layout": [
+        114,
+        113,
+        112
+      ]
+    },
+    {
+      "data_pair": [
+        113,
+        119
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_113_119_baseline",
+      "layout": [
+        119,
+        113,
+        112
+      ]
+    },
+    {
+      "data_pair": [
+        114,
+        115
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_114_115_baseline",
+      "layout": [
+        115,
+        114,
+        99
+      ]
+    },
+    {
+      "data_pair": [
+        116,
+        121
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_116_121_baseline",
+      "layout": [
+        121,
+        116,
+        120
+      ]
+    },
+    {
+      "data_pair": [
+        117,
+        125
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_117_125_baseline",
+      "layout": [
+        125,
+        117,
+        105
+      ]
+    },
+    {
+      "data_pair": [
+        118,
+        129
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_118_129_baseline",
+      "layout": [
+        129,
+        118,
+        128
+      ]
+    },
+    {
+      "data_pair": [
+        119,
+        133
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_119_133_baseline",
+      "layout": [
+        133,
+        119,
+        132
+      ]
+    },
+    {
+      "data_pair": [
+        120,
+        121
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_120_121_baseline",
+      "layout": [
+        120,
+        121,
+        122
+      ]
+    },
+    {
+      "data_pair": [
+        121,
+        122
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_121_122_baseline",
+      "layout": [
+        122,
+        121,
+        120
+      ]
+    },
+    {
+      "data_pair": [
+        122,
+        123
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_122_123_baseline",
+      "layout": [
+        122,
+        123,
+        136
+      ]
+    },
+    {
+      "data_pair": [
+        123,
+        124
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_123_124_baseline",
+      "layout": [
+        124,
+        123,
+        122
+      ]
+    },
+    {
+      "data_pair": [
+        123,
+        136
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_123_136_baseline",
+      "layout": [
+        123,
+        136,
+        122
+      ]
+    },
+    {
+      "data_pair": [
+        124,
+        125
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_124_125_baseline",
+      "layout": [
+        124,
+        125,
+        117
+      ]
+    },
+    {
+      "data_pair": [
+        125,
+        126
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_125_126_baseline",
+      "layout": [
+        125,
+        126,
+        117
+      ]
+    },
+    {
+      "data_pair": [
+        126,
+        127
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_126_127_baseline",
+      "layout": [
+        127,
+        126,
+        137
+      ]
+    },
+    {
+      "data_pair": [
+        127,
+        128
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_127_128_baseline",
+      "layout": [
+        127,
+        128,
+        137
+      ]
+    },
+    {
+      "data_pair": [
+        127,
+        137
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_127_137_baseline",
+      "layout": [
+        127,
+        137,
+        147
+      ]
+    },
+    {
+      "data_pair": [
+        128,
+        129
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_128_129_baseline",
+      "layout": [
+        129,
+        128,
+        118
+      ]
+    },
+    {
+      "data_pair": [
+        129,
+        130
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_129_130_baseline",
+      "layout": [
+        129,
+        130,
+        118
+      ]
+    },
+    {
+      "data_pair": [
+        130,
+        131
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_130_131_baseline",
+      "layout": [
+        131,
+        130,
+        132
+      ]
+    },
+    {
+      "data_pair": [
+        131,
+        132
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_131_132_baseline",
+      "layout": [
+        131,
+        132,
+        133
+      ]
+    },
+    {
+      "data_pair": [
+        131,
+        138
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_131_138_baseline",
+      "layout": [
+        131,
+        138,
+        132
+      ]
+    },
+    {
+      "data_pair": [
+        132,
+        133
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_132_133_baseline",
+      "layout": [
+        133,
+        132,
+        134
+      ]
+    },
+    {
+      "data_pair": [
+        133,
+        134
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_133_134_baseline",
+      "layout": [
+        133,
+        134,
+        132
+      ]
+    },
+    {
+      "data_pair": [
+        134,
+        135
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_134_135_baseline",
+      "layout": [
+        135,
+        134,
+        139
+      ]
+    },
+    {
+      "data_pair": [
+        135,
+        139
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_135_139_baseline",
+      "layout": [
+        135,
+        139,
+        155
+      ]
+    },
+    {
+      "data_pair": [
+        136,
+        143
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_136_143_baseline",
+      "layout": [
+        143,
+        136,
+        123
+      ]
+    },
+    {
+      "data_pair": [
+        137,
+        147
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_137_147_baseline",
+      "layout": [
+        147,
+        137,
+        146
+      ]
+    },
+    {
+      "data_pair": [
+        138,
+        151
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_138_151_baseline",
+      "layout": [
+        151,
+        138,
+        152
+      ]
+    },
+    {
+      "data_pair": [
+        139,
+        155
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_139_155_baseline",
+      "layout": [
+        155,
+        139,
+        154
+      ]
+    },
+    {
+      "data_pair": [
+        140,
+        141
+      ],
+      "status": "previously_screened",
+      "screen_candidate_ids": [
+        "pair140_baseline"
+      ],
+      "screen_job_id": "db856uaraffc73fbo40g"
+    },
+    {
+      "data_pair": [
+        141,
+        142
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_141_142_baseline",
+      "layout": [
+        142,
+        141,
+        140
+      ]
+    },
+    {
+      "data_pair": [
+        142,
+        143
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_142_143_baseline",
+      "layout": [
+        142,
+        143,
+        141
+      ]
+    },
+    {
+      "data_pair": [
+        143,
+        144
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_143_144_baseline",
+      "layout": [
+        143,
+        144,
+        136
+      ]
+    },
+    {
+      "data_pair": [
+        144,
+        145
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_144_145_baseline",
+      "layout": [
+        145,
+        144,
+        146
+      ]
+    },
+    {
+      "data_pair": [
+        145,
+        146
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_145_146_baseline",
+      "layout": [
+        145,
+        146,
+        147
+      ]
+    },
+    {
+      "data_pair": [
+        146,
+        147
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_146_147_baseline",
+      "layout": [
+        147,
+        146,
+        137
+      ]
+    },
+    {
+      "data_pair": [
+        147,
+        148
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_147_148_baseline",
+      "layout": [
+        147,
+        148,
+        137
+      ]
+    },
+    {
+      "data_pair": [
+        148,
+        149
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-02",
+      "candidate_id": "edge_148_149_baseline",
+      "layout": [
+        149,
+        148,
+        147
+      ]
+    },
+    {
+      "data_pair": [
+        149,
+        150
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-01",
+      "candidate_id": "edge_149_150_baseline",
+      "layout": [
+        149,
+        150,
+        151
+      ]
+    },
+    {
+      "data_pair": [
+        150,
+        151
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-04",
+      "candidate_id": "edge_150_151_baseline",
+      "layout": [
+        151,
+        150,
+        152
+      ]
+    },
+    {
+      "data_pair": [
+        151,
+        152
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_151_152_baseline",
+      "layout": [
+        152,
+        151,
+        153
+      ]
+    },
+    {
+      "data_pair": [
+        152,
+        153
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-05",
+      "candidate_id": "edge_152_153_baseline",
+      "layout": [
+        152,
+        153,
+        154
+      ]
+    },
+    {
+      "data_pair": [
+        153,
+        154
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_153_154_baseline",
+      "layout": [
+        153,
+        154,
+        152
+      ]
+    },
+    {
+      "data_pair": [
+        154,
+        155
+      ],
+      "status": "scheduled_exploratory",
+      "stage": "scan-03",
+      "candidate_id": "edge_154_155_baseline",
+      "layout": [
+        155,
+        154,
+        139
+      ]
+    }
+  ]
+}

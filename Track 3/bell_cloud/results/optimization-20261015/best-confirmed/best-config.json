@@ -1,0 +1,81 @@
+{
+  "backend": "ibm_marrakesh",
+  "candidate": {
+    "id": "top0_dir0_baseline_reset",
+    "variant": "baseline_reset",
+    "layout": [
+      7,
+      6,
+      5
+    ],
+    "optimization_level": 1
+  },
+  "confirmed_against": [
+    "original_baseline"
+  ],
+  "secondary_attribution_control": "top0_dir0_baseline",
+  "secondary_attribution_comparisons": [
+    {
+      "candidate_id": "top0_dir0_baseline_reset",
+      "baseline_id": "top0_dir0_baseline",
+      "confidence": 0.9833333333333333,
+      "alpha": 0.01666666666666672,
+      "comparison_count": 2,
+      "interval_method": "bonferroni_wilson",
+      "improvement": -0.00152587890625,
+      "improvement_standard_error": 0.0011723115479346838,
+      "improvement_interval": [
+        -0.01066773514356667,
+        0.007617879859007193
+      ],
+      "improvement_lower": -0.01066773514356667,
+      "improvement_normal_interval": [
+        -0.004618738374369468,
+        0.0015669805618694684
+      ]
+    },
+    {
+      "candidate_id": "top0_dir0_baseline_reset",
+      "baseline_id": "top0_dir0_baseline",
+      "confidence": 0.9833333333333333,
+      "alpha": 0.01666666666666672,
+      "comparison_count": 2,
+      "interval_method": "bonferroni_wilson",
+      "improvement": 0.000823974609375,
+      "improvement_standard_error": 0.001177396231405314,
+      "improvement_interval": [
+        -0.008375241615303342,
+        0.010022163468965672
+      ],
+      "improvement_lower": -0.008375241615303342,
+      "improvement_normal_interval": [
+        -0.0022822995618941855,
+        0.0039302487806441855
+      ]
+    }
+  ],
+  "confirmation_report": "confirmation-attempt-01.json",
+  "replications": [
+    {
+      "stage": "confirm-01-a",
+      "job_id": "db8627eil99s73fpco30",
+      "shots_per_basis": 16384,
+      "rep_delay_seconds": 0.00025,
+      "execution_cap_seconds": 120,
+      "charged_seconds": 41
+    },
+    {
+      "stage": "confirm-01-b",
+      "job_id": "db8627gr1c5c738lqgr0",
+      "shots_per_basis": 16384,
+      "rep_delay_seconds": 0.00025,
+      "execution_cap_seconds": 120,
+      "charged_seconds": 41
+    }
+  ],
+  "language": "OpenQASM 3; logical and IBM native ISA circuits included for XX, YY and ZZ",
+  "interpretation": "Independently confirmed measured improvement among tested configurations; not a global optimum or an isolated preparation-fidelity claim.",
+  "reproduction": "The per-replication spec records candidate and controls. Use a new stage name when preparing a new run with optimize_bell.py; authenticate locally and check the remaining quota. Do not resubmit an existing manifest.",
+  "postselection": "Only protected/bridge variants filter ancilla-zero shots. All baseline variants retain every shot. baseline_quiet does not measure the auxiliary qubit.",
+  "credentials_included": false
+}

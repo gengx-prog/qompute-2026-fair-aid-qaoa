@@ -1,0 +1,192 @@
+{
+  "stage": "screen-01",
+  "backend": "ibm_marrakesh",
+  "shots": 1024,
+  "local_shots": 4096,
+  "cap_seconds": 90,
+  "order_seed": 731,
+  "candidates": [
+    {
+      "id": "original_baseline",
+      "variant": "baseline",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "original_protected",
+      "variant": "protected",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "original_bridge",
+      "variant": "bridge",
+      "layout": [
+        0,
+        1,
+        2
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "layout0_baseline",
+      "variant": "baseline",
+      "layout": [
+        53,
+        54,
+        55
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "layout0_bridge",
+      "variant": "bridge",
+      "layout": [
+        53,
+        54,
+        55
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "layout1_baseline",
+      "variant": "baseline",
+      "layout": [
+        54,
+        53,
+        52
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "layout1_bridge",
+      "variant": "bridge",
+      "layout": [
+        54,
+        53,
+        52
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "layout2_baseline",
+      "variant": "baseline",
+      "layout": [
+        107,
+        97,
+        87
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "layout2_bridge",
+      "variant": "bridge",
+      "layout": [
+        107,
+        97,
+        87
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "layout3_baseline",
+      "variant": "baseline",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "layout3_bridge",
+      "variant": "bridge",
+      "layout": [
+        7,
+        6,
+        5
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "layout4_baseline",
+      "variant": "baseline",
+      "layout": [
+        54,
+        53,
+        39
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "layout4_bridge",
+      "variant": "bridge",
+      "layout": [
+        54,
+        53,
+        39
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "pair140_baseline",
+      "variant": "baseline",
+      "layout": [
+        141,
+        140,
+        142
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "layout0_protected",
+      "variant": "protected",
+      "layout": [
+        53,
+        54,
+        55
+      ],
+      "optimization_level": 1
+    },
+    {
+      "id": "layout0_baseline_opt3",
+      "variant": "baseline",
+      "layout": [
+        53,
+        54,
+        55
+      ],
+      "optimization_level": 3
+    },
+    {
+      "id": "layout0_bridge_opt3",
+      "variant": "bridge",
+      "layout": [
+        53,
+        54,
+        55
+      ],
+      "optimization_level": 3
+    }
+  ],
+  "statistics_plan": {
+    "budget_seconds_total": 600,
+    "used_before_campaign": 5,
+    "maximum_candidate_confirmation_attempts": 3,
+    "confirmation_replicates_per_candidate": 2,
+    "confirmation_shots_per_basis": 8192,
+    "minimum_fidelity_improvement": 0.005,
+    "alpha_per_attempt": 0.016666666666666666,
+    "comparison": "Same-job original baseline; postselected winners additionally need same-layout baseline.",
+    "selection": "Exploratory screen, freeze candidate before independent confirmation, preserve all failures.",
+    "scope": "Best among tested layouts and circuits, not a global optimum proof."
+  }
+}

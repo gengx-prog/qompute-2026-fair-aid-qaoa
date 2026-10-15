@@ -1,0 +1,494 @@
+{
+  "phase": "controlled_noise",
+  "protocol_id": "b806b21f0e34685407f1fde45155387a3d7165571dd094a31b716011abdbe7b7",
+  "scope": "Controlled X-noise mechanism verification only; not ambient optimization.",
+  "stage": "stress-01",
+  "job_id": "db86286r6oqs7388qudg",
+  "backend": "ibm_marrakesh",
+  "layout": [
+    6,
+    7,
+    8
+  ],
+  "ambient_optimization_success": false,
+  "primary": {
+    "p": 0.1,
+    "delta_fidelity": 0.0894864880759969,
+    "confidence_interval_99": [
+      0.08355282829205112,
+      0.09520436203526665
+    ],
+    "minimum_delta": 0.005,
+    "passes": true
+  },
+  "scenarios": {
+    "p0": {
+      "delta_fidelity": -0.004748522153918744,
+      "delta_interval_99": [
+        -0.010446044642862445,
+        0.0012423052097328352
+      ],
+      "baseline": {
+        "fidelity": 0.9794921875,
+        "fidelity_kind": "all shots",
+        "fidelity_interval_99": [
+          0.9755859375000001,
+          0.9832904730902778
+        ],
+        "postselected": false,
+        "retention": 1.0,
+        "retention_interval_99": [
+          1.0,
+          1.0
+        ],
+        "accepted_shots": 13824,
+        "discarded_shots": 0,
+        "total_shots": 13824,
+        "per_basis": {
+          "XX": {
+            "correlation": 0.9713541666666666,
+            "accepted_shots": 4608,
+            "total_shots": 4608,
+            "raw_counts_before_postselection": {
+              "000": 2273,
+              "001": 25,
+              "010": 41,
+              "011": 2265,
+              "100": 1,
+              "101": 0,
+              "110": 0,
+              "111": 3
+            }
+          },
+          "YY": {
+            "correlation": -0.9704861111111112,
+            "accepted_shots": 4608,
+            "total_shots": 4608,
+            "raw_counts_before_postselection": {
+              "000": 38,
+              "001": 2261,
+              "010": 2271,
+              "011": 30,
+              "100": 0,
+              "101": 3,
+              "110": 5,
+              "111": 0
+            }
+          },
+          "ZZ": {
+            "correlation": 0.9761284722222222,
+            "accepted_shots": 4608,
+            "total_shots": 4608,
+            "raw_counts_before_postselection": {
+              "000": 2334,
+              "001": 35,
+              "010": 20,
+              "011": 2214,
+              "100": 4,
+              "101": 0,
+              "110": 0,
+              "111": 1
+            }
+          }
+        }
+      },
+      "bridge": {
+        "fidelity": 0.9747436653460813,
+        "fidelity_kind": "conditional on measured ancilla=0",
+        "fidelity_interval_99": [
+          0.9703833866669966,
+          0.9790020521863833
+        ],
+        "postselected": true,
+        "retention": 0.9841579861111112,
+        "retention_interval_99": [
+          0.9812644675925926,
+          0.9868344907407407
+        ],
+        "accepted_shots": 13605,
+        "discarded_shots": 219,
+        "total_shots": 13824,
+        "per_basis": {
+          "XX": {
+            "correlation": 0.9616655651024455,
+            "accepted_shots": 4539,
+            "total_shots": 4608,
+            "raw_counts_before_postselection": {
+              "000": 2243,
+              "001": 56,
+              "010": 31,
+              "011": 2209,
+              "100": 30,
+              "101": 6,
+              "110": 8,
+              "111": 25
+            }
+          },
+          "YY": {
+            "correlation": -0.9597612204289189,
+            "accepted_shots": 4523,
+            "total_shots": 4608,
+            "raw_counts_before_postselection": {
+              "000": 53,
+              "001": 2221,
+              "010": 2211,
+              "011": 38,
+              "100": 24,
+              "101": 25,
+              "110": 20,
+              "111": 16
+            }
+          },
+          "ZZ": {
+            "correlation": 0.9775478758529605,
+            "accepted_shots": 4543,
+            "total_shots": 4608,
+            "raw_counts_before_postselection": {
+              "000": 2326,
+              "001": 28,
+              "010": 23,
+              "011": 2166,
+              "100": 11,
+              "101": 19,
+              "110": 20,
+              "111": 15
+            }
+          }
+        }
+      }
+    },
+    "p10": {
+      "delta_fidelity": 0.0894864880759969,
+      "delta_interval_99": [
+        0.08355282829205112,
+        0.09520436203526665
+      ],
+      "baseline": {
+        "fidelity": 0.8828125,
+        "fidelity_kind": "all shots",
+        "fidelity_interval_99": [
+          0.8791015625,
+          0.8865234375
+        ],
+        "postselected": false,
+        "retention": 1.0,
+        "retention_interval_99": [
+          1.0,
+          1.0
+        ],
+        "accepted_shots": 15360,
+        "discarded_shots": 0,
+        "total_shots": 15360,
+        "per_basis": {
+          "XX": {
+            "correlation": 0.97109375,
+            "accepted_shots": 5120,
+            "total_shots": 5120,
+            "raw_counts_before_postselection": {
+              "000": 2531,
+              "001": 28,
+              "010": 46,
+              "011": 2511,
+              "100": 1,
+              "101": 0,
+              "110": 0,
+              "111": 3
+            }
+          },
+          "YY": {
+            "correlation": -0.777734375,
+            "accepted_shots": 5120,
+            "total_shots": 5120,
+            "raw_counts_before_postselection": {
+              "000": 287,
+              "001": 2269,
+              "010": 2274,
+              "011": 281,
+              "100": 0,
+              "101": 3,
+              "110": 5,
+              "111": 1
+            }
+          },
+          "ZZ": {
+            "correlation": 0.782421875,
+            "accepted_shots": 5120,
+            "total_shots": 5120,
+            "raw_counts_before_postselection": {
+              "000": 2341,
+              "001": 269,
+              "010": 287,
+              "011": 2217,
+              "100": 4,
+              "101": 0,
+              "110": 1,
+              "111": 1
+            }
+          }
+        }
+      },
+      "bridge": {
+        "fidelity": 0.9722989880759969,
+        "fidelity_kind": "conditional on measured ancilla=0",
+        "fidelity_interval_99": [
+          0.9678521071398318,
+          0.9768046392359948
+        ],
+        "postselected": true,
+        "retention": 0.888671875,
+        "retention_interval_99": [
+          0.8858723958333333,
+          0.8912760416666666
+        ],
+        "accepted_shots": 13650,
+        "discarded_shots": 1710,
+        "total_shots": 15360,
+        "per_basis": {
+          "XX": {
+            "correlation": 0.961352657004831,
+            "accepted_shots": 4554,
+            "total_shots": 5120,
+            "raw_counts_before_postselection": {
+              "000": 2251,
+              "001": 57,
+              "010": 31,
+              "011": 2215,
+              "100": 274,
+              "101": 12,
+              "110": 11,
+              "111": 269
+            }
+          },
+          "YY": {
+            "correlation": -0.9554869986778316,
+            "accepted_shots": 4538,
+            "total_shots": 5120,
+            "raw_counts_before_postselection": {
+              "000": 59,
+              "001": 2223,
+              "010": 2214,
+              "011": 42,
+              "100": 278,
+              "101": 29,
+              "110": 22,
+              "111": 253
+            }
+          },
+          "ZZ": {
+            "correlation": 0.9723562966213252,
+            "accepted_shots": 4558,
+            "total_shots": 5120,
+            "raw_counts_before_postselection": {
+              "000": 2328,
+              "001": 36,
+              "010": 27,
+              "011": 2167,
+              "100": 14,
+              "101": 283,
+              "110": 248,
+              "111": 17
+            }
+          }
+        }
+      }
+    }
+  },
+  "shared_samples": {
+    "p0_is_subset_of_p10": true,
+    "delta_bootstrap_correlation": 0.9439827893956844,
+    "note": "The same resampled no-fault counts enter both p values; p0 is descriptive, not a second test."
+  },
+  "bootstrap": {
+    "replicates": 5000,
+    "seed": 246810,
+    "method": "Independent multinomial resampling within variant x basis x fault-branch, then combine shared draws.",
+    "interval": "two-sided 99% percentile; approximate, may degenerate at observed boundaries",
+    "pairing": "Same-job matched protocol; distinct circuits are not per-shot paired observations.",
+    "limits": "Assumes exchangeability within branch; excludes time drift, systematic readout bias and calibration uncertainty."
+  },
+  "cost": {
+    "circuit_count": 60,
+    "total_shots": 30720,
+    "p0_subset_shots": 27648,
+    "p10_shots": 30720,
+    "subset_costs_are_not_additive": true,
+    "logical_qubits": 3,
+    "logical_cx_per_circuit": {
+      "baseline": 1,
+      "bridge": 4
+    },
+    "native_resources": "Use the saved ISA resources; routing may change physical gate and qubit costs.",
+    "extra_x_gates_per_fault_branch_circuit": 1,
+    "runtime_usage": {
+      "captured_utc": "2026-10-15T05:22:43.696166+00:00",
+      "metrics": {
+        "caller": "qiskit",
+        "qiskit_version": "qiskit_ibm_runtime-0.50.0,qiskit-2.5.2*,qiskit_aer-0.17.2*",
+        "timestamps": {
+          "created": "2026-10-15T05:14:08.895462Z",
+          "finished": "2026-10-15T05:22:22.635765Z",
+          "running": "2026-10-15T05:20:51.92371Z"
+        },
+        "usage": {
+          "qpu_charge_time_seconds": 10,
+          "value": 0.1655,
+          "unit": "resource_units",
+          "status": "complete",
+          "details": [
+            {
+              "value": 0.1655,
+              "unit": "resource_units",
+              "metric": {
+                "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "circuits_execution_time_ns": 8111249408
+      },
+      "usage_method_seconds": 10,
+      "usage_status": "complete",
+      "reported_qpu_charge_time_seconds": 10,
+      "note": "Usage can remain pending after results arrive; a zero from usage() is not proof of zero charge. Fetch again to update billing metrics."
+    }
+  },
+  "branch_counts": {
+    "baseline": {
+      "XX": {
+        "nofault": {
+          "000": 2273,
+          "001": 25,
+          "010": 41,
+          "011": 2265,
+          "100": 1,
+          "101": 0,
+          "110": 0,
+          "111": 3
+        },
+        "X": {
+          "000": 258,
+          "001": 3,
+          "010": 5,
+          "011": 246,
+          "100": 0,
+          "101": 0,
+          "110": 0,
+          "111": 0
+        }
+      },
+      "YY": {
+        "nofault": {
+          "000": 38,
+          "001": 2261,
+          "010": 2271,
+          "011": 30,
+          "100": 0,
+          "101": 3,
+          "110": 5,
+          "111": 0
+        },
+        "X": {
+          "000": 249,
+          "001": 8,
+          "010": 3,
+          "011": 251,
+          "100": 0,
+          "101": 0,
+          "110": 0,
+          "111": 1
+        }
+      },
+      "ZZ": {
+        "nofault": {
+          "000": 2334,
+          "001": 35,
+          "010": 20,
+          "011": 2214,
+          "100": 4,
+          "101": 0,
+          "110": 0,
+          "111": 1
+        },
+        "X": {
+          "000": 7,
+          "001": 234,
+          "010": 267,
+          "011": 3,
+          "100": 0,
+          "101": 0,
+          "110": 1,
+          "111": 0
+        }
+      }
+    },
+    "bridge": {
+      "XX": {
+        "nofault": {
+          "000": 2243,
+          "001": 56,
+          "010": 31,
+          "011": 2209,
+          "100": 30,
+          "101": 6,
+          "110": 8,
+          "111": 25
+        },
+        "X": {
+          "000": 8,
+          "001": 1,
+          "010": 0,
+          "011": 6,
+          "100": 244,
+          "101": 6,
+          "110": 3,
+          "111": 244
+        }
+      },
+      "YY": {
+        "nofault": {
+          "000": 53,
+          "001": 2221,
+          "010": 2211,
+          "011": 38,
+          "100": 24,
+          "101": 25,
+          "110": 20,
+          "111": 16
+        },
+        "X": {
+          "000": 6,
+          "001": 2,
+          "010": 3,
+          "011": 4,
+          "100": 254,
+          "101": 4,
+          "110": 2,
+          "111": 237
+        }
+      },
+      "ZZ": {
+        "nofault": {
+          "000": 2326,
+          "001": 28,
+          "010": 23,
+          "011": 2166,
+          "100": 11,
+          "101": 19,
+          "110": 20,
+          "111": 15
+        },
+        "X": {
+          "000": 2,
+          "001": 8,
+          "010": 4,
+          "011": 1,
+          "100": 3,
+          "101": 264,
+          "110": 228,
+          "111": 2
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1091 @@
+{
+  "phase": "replicated_confirmation",
+  "candidate_id": "top0_dir0_baseline_reset",
+  "job_ids": [
+    "db8627eil99s73fpco30",
+    "db8627gr1c5c738lqgr0"
+  ],
+  "required_replicates": 2,
+  "max_candidate_attempts": 3,
+  "family_alpha": 0.05,
+  "alpha_per_attempt": 0.016666666666666666,
+  "confirmed_improvement": true,
+  "replications": [
+    {
+      "phase": "independent_confirmation",
+      "candidate_id": "top0_dir0_baseline_reset",
+      "job_id": "db8627eil99s73fpco30",
+      "screening_job_ids": [
+        "db856uaraffc73fbo40g",
+        "db8592qraffc73fbo710",
+        "db85a5ur6oqs7388p7o0",
+        "db85e0qraffc73fboi00",
+        "db85e0ur6oqs7388pgc0",
+        "db85e10r1c5c738lp3tg",
+        "db85e12raffc73fboi0g",
+        "db85stmr6oqs7388qi20"
+      ],
+      "minimum_improvement": 0.005,
+      "confidence": 0.9833333333333333,
+      "alpha": 0.01666666666666672,
+      "primary_interval": "bonferroni_wilson",
+      "comparisons": {
+        "original_baseline": {
+          "candidate_id": "top0_dir0_baseline_reset",
+          "baseline_id": "original_baseline",
+          "confidence": 0.9833333333333333,
+          "alpha": 0.01666666666666672,
+          "comparison_count": 1,
+          "interval_method": "bonferroni_wilson",
+          "improvement": 0.018280029296875,
+          "improvement_standard_error": 0.0013976898523413936,
+          "improvement_interval": [
+            0.008131063217851953,
+            0.02840903933230754
+          ],
+          "improvement_lower": 0.008131063217851953,
+          "improvement_normal_interval": [
+            0.014933988023958388,
+            0.021626070569791614
+          ],
+          "passes": true
+        }
+      },
+      "confirmed_improvement": true,
+      "interpretation": "This replication passes the prespecified shot-noise criterion.",
+      "scope": "One replication of a previously frozen candidate. Aggregate the prespecified independent replications before declaring success. This does not establish the globally optimal method.",
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "stage": "confirm-01-a",
+      "frozen_plan_file": "G:\\Qompute-2026-main\\Track 3\\bell_cloud\\results\\optimization-20261015\\confirmation-plan-01.json",
+      "attempt": 1,
+      "records_sha256": "15761c403814c2590cdc356d5a61d4726f2722fff79e5054311c8b7662b687f2",
+      "shots_per_basis": 16384,
+      "candidate_summaries": {
+        "original_baseline": {
+          "fidelity": 0.95806884765625,
+          "fidelity_standard_error": 0.0011152236935009596,
+          "fidelity_interval": [
+            0.9531933592162516,
+            0.9624491429594442
+          ],
+          "fidelity_normal_interval": [
+            0.9558830493822824,
+            0.9602546459302176
+          ],
+          "confidence": 0.95,
+          "alpha": 0.050000000000000044,
+          "interval_method": "bonferroni_wilson",
+          "correlations": {
+            "XX": {
+              "raw_counts": {
+                "000": 8213,
+                "011": 7750,
+                "010": 119,
+                "001": 300,
+                "100": 1,
+                "111": 1
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 15965,
+              "successes": 15965,
+              "success_probability": 0.97442626953125,
+              "value": 0.9488525390625,
+              "standard_error": 0.0024665592919863514,
+              "acceptance_fraction": 1.0
+            },
+            "YY": {
+              "raw_counts": {
+                "001": 8242,
+                "010": 7674,
+                "000": 404,
+                "011": 63,
+                "110": 1
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 467,
+              "successes": 15917,
+              "success_probability": 0.97149658203125,
+              "value": -0.9429931640625,
+              "standard_error": 0.0026000945151113063,
+              "acceptance_fraction": 1.0
+            },
+            "ZZ": {
+              "raw_counts": {
+                "000": 8256,
+                "011": 7640,
+                "001": 330,
+                "010": 158
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 15896,
+              "successes": 15896,
+              "success_probability": 0.97021484375,
+              "value": 0.9404296875,
+              "standard_error": 0.0026561581196040728,
+              "acceptance_fraction": 1.0
+            }
+          },
+          "raw_counts": {
+            "XX": {
+              "000": 8213,
+              "011": 7750,
+              "010": 119,
+              "001": 300,
+              "100": 1,
+              "111": 1
+            },
+            "YY": {
+              "001": 8242,
+              "010": 7674,
+              "000": 404,
+              "011": 63,
+              "110": 1
+            },
+            "ZZ": {
+              "000": 8256,
+              "011": 7640,
+              "001": 330,
+              "010": 158
+            }
+          },
+          "total_shots": 49152,
+          "accepted_shots": 49152,
+          "retention": 1.0,
+          "acceptance_fraction": 1.0,
+          "postselected": false,
+          "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+          "candidate_id": "original_baseline",
+          "job_id": "db8627eil99s73fpco30",
+          "layout": [
+            0,
+            1,
+            2
+          ],
+          "variant": "baseline"
+        },
+        "top0_dir0_baseline": {
+          "fidelity": 0.977874755859375,
+          "fidelity_standard_error": 0.0008151695091383328,
+          "fidelity_interval": [
+            0.9742662252273566,
+            0.9809742419475642
+          ],
+          "fidelity_normal_interval": [
+            0.9762770529801686,
+            0.9794724587385814
+          ],
+          "confidence": 0.95,
+          "alpha": 0.050000000000000044,
+          "interval_method": "bonferroni_wilson",
+          "correlations": {
+            "XX": {
+              "raw_counts": {
+                "000": 8247,
+                "100": 157,
+                "011": 7517,
+                "001": 120,
+                "111": 174,
+                "010": 159,
+                "110": 5,
+                "101": 5
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 16095,
+              "successes": 16095,
+              "success_probability": 0.98236083984375,
+              "value": 0.9647216796875,
+              "standard_error": 0.0020568115319676704,
+              "acceptance_fraction": 1.0
+            },
+            "YY": {
+              "raw_counts": {
+                "001": 7934,
+                "010": 7818,
+                "011": 109,
+                "110": 168,
+                "101": 176,
+                "111": 8,
+                "000": 171
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 288,
+              "successes": 16096,
+              "success_probability": 0.982421875,
+              "value": -0.96484375,
+              "standard_error": 0.0020533137352300238,
+              "acceptance_fraction": 1.0
+            },
+            "ZZ": {
+              "raw_counts": {
+                "011": 7679,
+                "111": 165,
+                "000": 8242,
+                "001": 58,
+                "100": 150,
+                "010": 84,
+                "101": 4,
+                "110": 2
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 16236,
+              "successes": 16236,
+              "success_probability": 0.990966796875,
+              "value": 0.98193359375,
+              "standard_error": 0.0014783268531491332,
+              "acceptance_fraction": 1.0
+            }
+          },
+          "raw_counts": {
+            "XX": {
+              "000": 8247,
+              "100": 157,
+              "011": 7517,
+              "001": 120,
+              "111": 174,
+              "010": 159,
+              "110": 5,
+              "101": 5
+            },
+            "YY": {
+              "001": 7934,
+              "010": 7818,
+              "011": 109,
+              "110": 168,
+              "101": 176,
+              "111": 8,
+              "000": 171
+            },
+            "ZZ": {
+              "011": 7679,
+              "111": 165,
+              "000": 8242,
+              "001": 58,
+              "100": 150,
+              "010": 84,
+              "101": 4,
+              "110": 2
+            }
+          },
+          "total_shots": 49152,
+          "accepted_shots": 49152,
+          "retention": 1.0,
+          "acceptance_fraction": 1.0,
+          "postselected": false,
+          "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+          "candidate_id": "top0_dir0_baseline",
+          "job_id": "db8627eil99s73fpco30",
+          "layout": [
+            7,
+            6,
+            5
+          ],
+          "variant": "baseline"
+        },
+        "top0_dir0_baseline_reset": {
+          "fidelity": 0.976348876953125,
+          "fidelity_standard_error": 0.0008425040277602144,
+          "fidelity_interval": [
+            0.9726166574291084,
+            0.9795731190679065
+          ],
+          "fidelity_normal_interval": [
+            0.974697599401885,
+            0.978000154504365
+          ],
+          "confidence": 0.95,
+          "alpha": 0.050000000000000044,
+          "interval_method": "bonferroni_wilson",
+          "correlations": {
+            "XX": {
+              "raw_counts": {
+                "011": 7545,
+                "000": 8225,
+                "100": 161,
+                "010": 162,
+                "001": 137,
+                "111": 148,
+                "101": 5,
+                "110": 1
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 16079,
+              "successes": 16079,
+              "success_probability": 0.98138427734375,
+              "value": 0.9627685546875,
+              "standard_error": 0.0021119300223944705,
+              "acceptance_fraction": 1.0
+            },
+            "YY": {
+              "raw_counts": {
+                "001": 7959,
+                "010": 7820,
+                "101": 159,
+                "011": 143,
+                "110": 152,
+                "000": 142,
+                "111": 4,
+                "100": 5
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 294,
+              "successes": 16090,
+              "success_probability": 0.9820556640625,
+              "value": -0.964111328125,
+              "standard_error": 0.0020742054640147793,
+              "acceptance_fraction": 1.0
+            },
+            "ZZ": {
+              "raw_counts": {
+                "011": 7646,
+                "000": 8241,
+                "100": 173,
+                "111": 148,
+                "010": 90,
+                "001": 79,
+                "110": 5,
+                "101": 2
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 16208,
+              "successes": 16208,
+              "success_probability": 0.9892578125,
+              "value": 0.978515625,
+              "standard_error": 0.0016107240180226621,
+              "acceptance_fraction": 1.0
+            }
+          },
+          "raw_counts": {
+            "XX": {
+              "011": 7545,
+              "000": 8225,
+              "100": 161,
+              "010": 162,
+              "001": 137,
+              "111": 148,
+              "101": 5,
+              "110": 1
+            },
+            "YY": {
+              "001": 7959,
+              "010": 7820,
+              "101": 159,
+              "011": 143,
+              "110": 152,
+              "000": 142,
+              "111": 4,
+              "100": 5
+            },
+            "ZZ": {
+              "011": 7646,
+              "000": 8241,
+              "100": 173,
+              "111": 148,
+              "010": 90,
+              "001": 79,
+              "110": 5,
+              "101": 2
+            }
+          },
+          "total_shots": 49152,
+          "accepted_shots": 49152,
+          "retention": 1.0,
+          "acceptance_fraction": 1.0,
+          "postselected": false,
+          "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+          "candidate_id": "top0_dir0_baseline_reset",
+          "job_id": "db8627eil99s73fpco30",
+          "layout": [
+            7,
+            6,
+            5
+          ],
+          "variant": "baseline_reset"
+        }
+      },
+      "compiled_resources": {
+        "original_baseline": {
+          "XX": {
+            "native_two_qubit_gates": 1,
+            "depth": 11,
+            "measured_output_wires": {
+              "meas[0]": 0,
+              "meas[1]": 1,
+              "meas[2]": 2
+            }
+          },
+          "YY": {
+            "native_two_qubit_gates": 1,
+            "depth": 10,
+            "measured_output_wires": {
+              "meas[0]": 0,
+              "meas[1]": 1,
+              "meas[2]": 2
+            }
+          },
+          "ZZ": {
+            "native_two_qubit_gates": 1,
+            "depth": 8,
+            "measured_output_wires": {
+              "meas[0]": 0,
+              "meas[1]": 1,
+              "meas[2]": 2
+            }
+          }
+        },
+        "top0_dir0_baseline_reset": {
+          "XX": {
+            "native_two_qubit_gates": 1,
+            "depth": 12,
+            "measured_output_wires": {
+              "meas[0]": 7,
+              "meas[1]": 6,
+              "meas[2]": 5
+            }
+          },
+          "YY": {
+            "native_two_qubit_gates": 1,
+            "depth": 11,
+            "measured_output_wires": {
+              "meas[0]": 7,
+              "meas[1]": 6,
+              "meas[2]": 5
+            }
+          },
+          "ZZ": {
+            "native_two_qubit_gates": 1,
+            "depth": 9,
+            "measured_output_wires": {
+              "meas[0]": 7,
+              "meas[1]": 6,
+              "meas[2]": 5
+            }
+          }
+        },
+        "top0_dir0_baseline": {
+          "XX": {
+            "native_two_qubit_gates": 1,
+            "depth": 11,
+            "measured_output_wires": {
+              "meas[0]": 7,
+              "meas[1]": 6,
+              "meas[2]": 5
+            }
+          },
+          "YY": {
+            "native_two_qubit_gates": 1,
+            "depth": 10,
+            "measured_output_wires": {
+              "meas[0]": 7,
+              "meas[1]": 6,
+              "meas[2]": 5
+            }
+          },
+          "ZZ": {
+            "native_two_qubit_gates": 1,
+            "depth": 8,
+            "measured_output_wires": {
+              "meas[0]": 7,
+              "meas[1]": 6,
+              "meas[2]": 5
+            }
+          }
+        }
+      },
+      "attribution_comparison": {
+        "candidate_id": "top0_dir0_baseline_reset",
+        "baseline_id": "top0_dir0_baseline",
+        "confidence": 0.9833333333333333,
+        "alpha": 0.01666666666666672,
+        "comparison_count": 2,
+        "interval_method": "bonferroni_wilson",
+        "improvement": -0.00152587890625,
+        "improvement_standard_error": 0.0011723115479346838,
+        "improvement_interval": [
+          -0.01066773514356667,
+          0.007617879859007193
+        ],
+        "improvement_lower": -0.01066773514356667,
+        "improvement_normal_interval": [
+          -0.004618738374369468,
+          0.0015669805618694684
+        ]
+      },
+      "attribution_note": "Secondary same-layout comparison for interpretation; not an extra primary success requirement or a separate multiplicity-controlled discovery claim. If its difference does not support improvement, do not attribute the combined configuration's gain to the added operation or readout change."
+    },
+    {
+      "phase": "independent_confirmation",
+      "candidate_id": "top0_dir0_baseline_reset",
+      "job_id": "db8627gr1c5c738lqgr0",
+      "screening_job_ids": [
+        "db856uaraffc73fbo40g",
+        "db8592qraffc73fbo710",
+        "db85a5ur6oqs7388p7o0",
+        "db85e0qraffc73fboi00",
+        "db85e0ur6oqs7388pgc0",
+        "db85e10r1c5c738lp3tg",
+        "db85e12raffc73fboi0g",
+        "db85stmr6oqs7388qi20"
+      ],
+      "minimum_improvement": 0.005,
+      "confidence": 0.9833333333333333,
+      "alpha": 0.01666666666666672,
+      "primary_interval": "bonferroni_wilson",
+      "comparisons": {
+        "original_baseline": {
+          "candidate_id": "top0_dir0_baseline_reset",
+          "baseline_id": "original_baseline",
+          "confidence": 0.9833333333333333,
+          "alpha": 0.01666666666666672,
+          "comparison_count": 1,
+          "interval_method": "bonferroni_wilson",
+          "improvement": 0.072021484375,
+          "improvement_standard_error": 0.0018407246870020375,
+          "improvement_interval": [
+            0.059193042084834335,
+            0.08477130185235526
+          ],
+          "improvement_lower": 0.059193042084834335,
+          "improvement_normal_interval": [
+            0.06761482665728988,
+            0.07642814209271012
+          ],
+          "passes": true
+        }
+      },
+      "confirmed_improvement": true,
+      "interpretation": "This replication passes the prespecified shot-noise criterion.",
+      "scope": "One replication of a previously frozen candidate. Aggregate the prespecified independent replications before declaring success. This does not establish the globally optimal method.",
+      "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+      "stage": "confirm-01-b",
+      "frozen_plan_file": "G:\\Qompute-2026-main\\Track 3\\bell_cloud\\results\\optimization-20261015\\confirmation-plan-01.json",
+      "attempt": 1,
+      "records_sha256": "619030fedc7e1df483d416a2db057beb274ff3cef3ab4e96b6bddf531d938eda",
+      "shots_per_basis": 16384,
+      "candidate_summaries": {
+        "top0_dir0_baseline_reset": {
+          "fidelity": 0.977325439453125,
+          "fidelity_standard_error": 0.0008251550602525624,
+          "fidelity_interval": [
+            0.9736675092718943,
+            0.9804747092589805
+          ],
+          "fidelity_normal_interval": [
+            0.975708165253369,
+            0.978942713652881
+          ],
+          "confidence": 0.95,
+          "alpha": 0.050000000000000044,
+          "interval_method": "bonferroni_wilson",
+          "correlations": {
+            "XX": {
+              "raw_counts": {
+                "000": 8118,
+                "100": 161,
+                "011": 7668,
+                "111": 175,
+                "001": 123,
+                "010": 130,
+                "110": 4,
+                "101": 5
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 16122,
+              "successes": 16122,
+              "success_probability": 0.9840087890625,
+              "value": 0.968017578125,
+              "standard_error": 0.0019600185913607004,
+              "acceptance_fraction": 1.0
+            },
+            "YY": {
+              "raw_counts": {
+                "001": 7934,
+                "010": 7801,
+                "110": 162,
+                "011": 149,
+                "000": 152,
+                "101": 173,
+                "100": 5,
+                "111": 8
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 314,
+              "successes": 16070,
+              "success_probability": 0.9808349609375,
+              "value": -0.961669921875,
+              "standard_error": 0.002142263306704421,
+              "acceptance_fraction": 1.0
+            },
+            "ZZ": {
+              "raw_counts": {
+                "011": 7707,
+                "000": 8151,
+                "100": 169,
+                "111": 190,
+                "010": 95,
+                "110": 1,
+                "001": 69,
+                "101": 2
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 16217,
+              "successes": 16217,
+              "success_probability": 0.98980712890625,
+              "value": 0.9796142578125,
+              "standard_error": 0.0015694358928082452,
+              "acceptance_fraction": 1.0
+            }
+          },
+          "raw_counts": {
+            "XX": {
+              "000": 8118,
+              "100": 161,
+              "011": 7668,
+              "111": 175,
+              "001": 123,
+              "010": 130,
+              "110": 4,
+              "101": 5
+            },
+            "YY": {
+              "001": 7934,
+              "010": 7801,
+              "110": 162,
+              "011": 149,
+              "000": 152,
+              "101": 173,
+              "100": 5,
+              "111": 8
+            },
+            "ZZ": {
+              "011": 7707,
+              "000": 8151,
+              "100": 169,
+              "111": 190,
+              "010": 95,
+              "110": 1,
+              "001": 69,
+              "101": 2
+            }
+          },
+          "total_shots": 49152,
+          "accepted_shots": 49152,
+          "retention": 1.0,
+          "acceptance_fraction": 1.0,
+          "postselected": false,
+          "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+          "candidate_id": "top0_dir0_baseline_reset",
+          "job_id": "db8627gr1c5c738lqgr0",
+          "layout": [
+            7,
+            6,
+            5
+          ],
+          "variant": "baseline_reset"
+        },
+        "top0_dir0_baseline": {
+          "fidelity": 0.97650146484375,
+          "fidelity_standard_error": 0.0008398696400436354,
+          "fidelity_interval": [
+            0.9727767413617108,
+            0.9797181042030947
+          ],
+          "fidelity_normal_interval": [
+            0.9748553505975559,
+            0.9781475790899441
+          ],
+          "confidence": 0.95,
+          "alpha": 0.050000000000000044,
+          "interval_method": "bonferroni_wilson",
+          "correlations": {
+            "XX": {
+              "raw_counts": {
+                "000": 8086,
+                "011": 7653,
+                "111": 186,
+                "010": 151,
+                "100": 176,
+                "001": 123,
+                "101": 6,
+                "110": 3
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 16101,
+              "successes": 16101,
+              "success_probability": 0.98272705078125,
+              "value": 0.9654541015625,
+              "standard_error": 0.002035727903401777,
+              "acceptance_fraction": 1.0
+            },
+            "YY": {
+              "raw_counts": {
+                "010": 7847,
+                "000": 157,
+                "001": 7894,
+                "011": 138,
+                "110": 161,
+                "101": 176,
+                "100": 7,
+                "111": 4
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 306,
+              "successes": 16078,
+              "success_probability": 0.9813232421875,
+              "value": -0.962646484375,
+              "standard_error": 0.002115323587402687,
+              "acceptance_fraction": 1.0
+            },
+            "ZZ": {
+              "raw_counts": {
+                "000": 8310,
+                "011": 7534,
+                "111": 209,
+                "010": 105,
+                "100": 150,
+                "001": 68,
+                "110": 5,
+                "101": 3
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 16203,
+              "successes": 16203,
+              "success_probability": 0.98895263671875,
+              "value": 0.9779052734375,
+              "standard_error": 0.0016331914217756725,
+              "acceptance_fraction": 1.0
+            }
+          },
+          "raw_counts": {
+            "XX": {
+              "000": 8086,
+              "011": 7653,
+              "111": 186,
+              "010": 151,
+              "100": 176,
+              "001": 123,
+              "101": 6,
+              "110": 3
+            },
+            "YY": {
+              "010": 7847,
+              "000": 157,
+              "001": 7894,
+              "011": 138,
+              "110": 161,
+              "101": 176,
+              "100": 7,
+              "111": 4
+            },
+            "ZZ": {
+              "000": 8310,
+              "011": 7534,
+              "111": 209,
+              "010": 105,
+              "100": 150,
+              "001": 68,
+              "110": 5,
+              "101": 3
+            }
+          },
+          "total_shots": 49152,
+          "accepted_shots": 49152,
+          "retention": 1.0,
+          "acceptance_fraction": 1.0,
+          "postselected": false,
+          "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+          "candidate_id": "top0_dir0_baseline",
+          "job_id": "db8627gr1c5c738lqgr0",
+          "layout": [
+            7,
+            6,
+            5
+          ],
+          "variant": "baseline"
+        },
+        "original_baseline": {
+          "fidelity": 0.905303955078125,
+          "fidelity_standard_error": 0.0016454137777101355,
+          "fidelity_interval": [
+            0.8982497238719169,
+            0.9118998946617749
+          ],
+          "fidelity_normal_interval": [
+            0.9020790033341471,
+            0.9085289068221029
+          ],
+          "confidence": 0.95,
+          "alpha": 0.050000000000000044,
+          "interval_method": "bonferroni_wilson",
+          "correlations": {
+            "XX": {
+              "raw_counts": {
+                "000": 8399,
+                "011": 6972,
+                "001": 877,
+                "010": 135,
+                "100": 1
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 15372,
+              "successes": 15372,
+              "success_probability": 0.938232421875,
+              "value": 0.87646484375,
+              "standard_error": 0.0037614520582244957,
+              "acceptance_fraction": 1.0
+            },
+            "YY": {
+              "raw_counts": {
+                "001": 8072,
+                "010": 7250,
+                "000": 962,
+                "011": 97,
+                "101": 2,
+                "111": 1
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 1060,
+              "successes": 15324,
+              "success_probability": 0.935302734375,
+              "value": -0.87060546875,
+              "standard_error": 0.0038436080209311736,
+              "acceptance_fraction": 1.0
+            },
+            "ZZ": {
+              "raw_counts": {
+                "011": 7000,
+                "000": 8351,
+                "010": 175,
+                "001": 855,
+                "110": 1,
+                "111": 2
+              },
+              "total_shots": 16384,
+              "accepted_shots": 16384,
+              "even_parity_shots": 15353,
+              "successes": 15353,
+              "success_probability": 0.93707275390625,
+              "value": 0.8741455078125,
+              "standard_error": 0.003794250886955906,
+              "acceptance_fraction": 1.0
+            }
+          },
+          "raw_counts": {
+            "XX": {
+              "000": 8399,
+              "011": 6972,
+              "001": 877,
+              "010": 135,
+              "100": 1
+            },
+            "YY": {
+              "001": 8072,
+              "010": 7250,
+              "000": 962,
+              "011": 97,
+              "101": 2,
+              "111": 1
+            },
+            "ZZ": {
+              "011": 7000,
+              "000": 8351,
+              "010": 175,
+              "001": 855,
+              "110": 1,
+              "111": 2
+            }
+          },
+          "total_shots": 49152,
+          "accepted_shots": 49152,
+          "retention": 1.0,
+          "acceptance_fraction": 1.0,
+          "postselected": false,
+          "uncertainty_note": "Finite independent-shot uncertainty, conditional on accepted counts. Wilson intervals have approximate coverage; Bonferroni adjustment and endpoint propagation are conservative. Plug-in SE can be zero at sample boundaries. Excludes drift, measurement bias, and other systematic errors. Postselected fidelity describes retained trials, not all attempted trials. The three bases must measure the same prepared state. Estimates are not clipped.",
+          "candidate_id": "original_baseline",
+          "job_id": "db8627gr1c5c738lqgr0",
+          "layout": [
+            0,
+            1,
+            2
+          ],
+          "variant": "baseline"
+        }
+      },
+      "compiled_resources": {
+        "original_baseline": {
+          "XX": {
+            "native_two_qubit_gates": 1,
+            "depth": 11,
+            "measured_output_wires": {
+              "meas[0]": 0,
+              "meas[1]": 1,
+              "meas[2]": 2
+            }
+          },
+          "YY": {
+            "native_two_qubit_gates": 1,
+            "depth": 10,
+            "measured_output_wires": {
+              "meas[0]": 0,
+              "meas[1]": 1,
+              "meas[2]": 2
+            }
+          },
+          "ZZ": {
+            "native_two_qubit_gates": 1,
+            "depth": 8,
+            "measured_output_wires": {
+              "meas[0]": 0,
+              "meas[1]": 1,
+              "meas[2]": 2
+            }
+          }
+        },
+        "top0_dir0_baseline_reset": {
+          "XX": {
+            "native_two_qubit_gates": 1,
+            "depth": 12,
+            "measured_output_wires": {
+              "meas[0]": 7,
+              "meas[1]": 6,
+              "meas[2]": 5
+            }
+          },
+          "YY": {
+            "native_two_qubit_gates": 1,
+            "depth": 11,
+            "measured_output_wires": {
+              "meas[0]": 7,
+              "meas[1]": 6,
+              "meas[2]": 5
+            }
+          },
+          "ZZ": {
+            "native_two_qubit_gates": 1,
+            "depth": 9,
+            "measured_output_wires": {
+              "meas[0]": 7,
+              "meas[1]": 6,
+              "meas[2]": 5
+            }
+          }
+        },
+        "top0_dir0_baseline": {
+          "XX": {
+            "native_two_qubit_gates": 1,
+            "depth": 11,
+            "measured_output_wires": {
+              "meas[0]": 7,
+              "meas[1]": 6,
+              "meas[2]": 5
+            }
+          },
+          "YY": {
+            "native_two_qubit_gates": 1,
+            "depth": 10,
+            "measured_output_wires": {
+              "meas[0]": 7,
+              "meas[1]": 6,
+              "meas[2]": 5
+            }
+          },
+          "ZZ": {
+            "native_two_qubit_gates": 1,
+            "depth": 8,
+            "measured_output_wires": {
+              "meas[0]": 7,
+              "meas[1]": 6,
+              "meas[2]": 5
+            }
+          }
+        }
+      },
+      "attribution_comparison": {
+        "candidate_id": "top0_dir0_baseline_reset",
+        "baseline_id": "top0_dir0_baseline",
+        "confidence": 0.9833333333333333,
+        "alpha": 0.01666666666666672,
+        "comparison_count": 2,
+        "interval_method": "bonferroni_wilson",
+        "improvement": 0.000823974609375,
+        "improvement_standard_error": 0.001177396231405314,
+        "improvement_interval": [
+          -0.008375241615303342,
+          0.010022163468965672
+        ],
+        "improvement_lower": -0.008375241615303342,
+        "improvement_normal_interval": [
+          -0.0022822995618941855,
+          0.0039302487806441855
+        ]
+      },
+      "attribution_note": "Secondary same-layout comparison for interpretation; not an extra primary success requirement or a separate multiplicity-controlled discovery claim. If its difference does not support improvement, do not attribute the combined configuration's gain to the added operation or readout change."
+    }
+  ],
+  "interpretation": "Both independent replications pass the prespecified improvement criterion.",
+  "multiplicity_note": "At most three prespecified candidate attempts; Bonferroni alpha across attempts. Every replication must pass. All failed attempts must remain in the report; the caller enforces the attempt limit.",
+  "scope": "Best supported tested candidate, not proof of a globally optimal method.",
+  "attempt": 1,
+  "frozen_plan_file": "G:\\Qompute-2026-main\\Track 3\\bell_cloud\\results\\optimization-20261015\\confirmation-plan-01.json",
+  "frozen_plan_sha256": "678a4c9983c884caca4bed501698cede19623d43d17a022ae2e1f1789ab6009f",
+  "source_stage": "refine-01",
+  "screening_job_ids": [
+    "db856uaraffc73fbo40g",
+    "db8592qraffc73fbo710",
+    "db85a5ur6oqs7388p7o0",
+    "db85e0qraffc73fboi00",
+    "db85e0ur6oqs7388pgc0",
+    "db85e10r1c5c738lp3tg",
+    "db85e12raffc73fboi0g",
+    "db85stmr6oqs7388qi20"
+  ],
+  "prior_confirmation_job_ids": [],
+  "shots_per_basis": 16384,
+  "sample_size_amendment": {
+    "original_proposed_shots": 8192,
+    "frozen_shots": 16384,
+    "timing": "Frozen before the first holdout job, then unchanged across candidate attempts.",
+    "rationale": "Additional independent samples improve power under the conservative interval; alpha, improvement threshold, and maximum attempts are unchanged."
+  },
+  "registered_power_amendment": {
+    "file": "confirmation-power-amendment.json",
+    "sha256": "e5203010147dd45872af6da729c77b875aeb996b63b054ea7da590c7982a4ce6",
+    "content": {
+      "created_utc": "2026-10-15T04:36:02.792436+00:00",
+      "reason": "Offline power review: conservative primary intervals at baseline F near 0.97 need about 1.25 percentage points at 8192 shots per basis. Increase prospective confirmation sample size before any candidate is frozen or any holdout job submitted.",
+      "original_shots_per_basis": 8192,
+      "revised_shots_per_basis": 16384,
+      "unchanged": [
+        "minimum point improvement 0.005",
+        "alpha per candidate attempt 0.05/3",
+        "at most 3 attempts",
+        "two new independent passing jobs",
+        "same-job original baseline control",
+        "postselected candidate also beats same-layout unprotected control",
+        "primary Bonferroni-Wilson endpoint interval lower bound greater than zero"
+      ],
+      "status_at_amendment": "Only exploratory screen-01 and scan-01 results observed; scan-02 through scan-06 submitted and pending. No confirmation results or submissions exist.",
+      "budget_rule": "All actual completed charges and pending caps plus the new job caps and 10-second reserve must stay within 600 seconds.",
+      "note": "Prospective power increase only; no significance criterion relaxed and no failed confirmation discarded."
+    }
+  },
+  "attribution_note": "The combined configuration can succeed against the original baseline. Its same-layout ordinary baseline is an additional comparison to assess the added operation or readout change, not an extra primary success requirement.",
+  "quiet_attribution_note": null,
+  "evaluated_utc": "2026-10-15T05:22:58.230011+00:00"
+}

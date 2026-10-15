@@ -1,0 +1,2298 @@
+{
+  "created_utc": "2026-10-15T05:08:37.732717+00:00",
+  "scope": "Read-only local artifact audit; no account calls or hardware jobs. One new audit JSON written.",
+  "compared_stages": [
+    "scan-05",
+    "refine-01"
+  ],
+  "qasm_identity": [
+    {
+      "representation": "logical",
+      "basis": "XX",
+      "scan05_sha256": "7d4ff4f1af101a959eb3967138d3a8425c889477c3f16e378dd23979ad6d4868",
+      "refine01_sha256": "7d4ff4f1af101a959eb3967138d3a8425c889477c3f16e378dd23979ad6d4868",
+      "byte_identical": true,
+      "scan05_file": "Track 3/bell_cloud/results/optimization-20261015/scan-05/logical/original_baseline_XX.qasm",
+      "refine01_file": "Track 3/bell_cloud/results/optimization-20261015/refine-01/logical/original_baseline_XX.qasm"
+    },
+    {
+      "representation": "logical",
+      "basis": "YY",
+      "scan05_sha256": "6cf316ee0abf9b860a9ef0fb19bfee10e978023adb0b22e3515f947e5fdc6e67",
+      "refine01_sha256": "6cf316ee0abf9b860a9ef0fb19bfee10e978023adb0b22e3515f947e5fdc6e67",
+      "byte_identical": true,
+      "scan05_file": "Track 3/bell_cloud/results/optimization-20261015/scan-05/logical/original_baseline_YY.qasm",
+      "refine01_file": "Track 3/bell_cloud/results/optimization-20261015/refine-01/logical/original_baseline_YY.qasm"
+    },
+    {
+      "representation": "logical",
+      "basis": "ZZ",
+      "scan05_sha256": "d060818522b346006011cb88eb05837ce11977b699ad6a7996559251397e6719",
+      "refine01_sha256": "d060818522b346006011cb88eb05837ce11977b699ad6a7996559251397e6719",
+      "byte_identical": true,
+      "scan05_file": "Track 3/bell_cloud/results/optimization-20261015/scan-05/logical/original_baseline_ZZ.qasm",
+      "refine01_file": "Track 3/bell_cloud/results/optimization-20261015/refine-01/logical/original_baseline_ZZ.qasm"
+    },
+    {
+      "representation": "isa",
+      "basis": "XX",
+      "scan05_sha256": "4c2282fa60a239cb9e44c15e4caecad2d53319adb88f7d5496c0ac621399146a",
+      "refine01_sha256": "4c2282fa60a239cb9e44c15e4caecad2d53319adb88f7d5496c0ac621399146a",
+      "byte_identical": true,
+      "scan05_file": "Track 3/bell_cloud/results/optimization-20261015/scan-05/isa/original_baseline_XX.qasm",
+      "refine01_file": "Track 3/bell_cloud/results/optimization-20261015/refine-01/isa/original_baseline_XX.qasm"
+    },
+    {
+      "representation": "isa",
+      "basis": "YY",
+      "scan05_sha256": "c2ea16b8103e813460683754708b2ecd08478a46d70e4fde9bd7eccad911d27d",
+      "refine01_sha256": "c2ea16b8103e813460683754708b2ecd08478a46d70e4fde9bd7eccad911d27d",
+      "byte_identical": true,
+      "scan05_file": "Track 3/bell_cloud/results/optimization-20261015/scan-05/isa/original_baseline_YY.qasm",
+      "refine01_file": "Track 3/bell_cloud/results/optimization-20261015/refine-01/isa/original_baseline_YY.qasm"
+    },
+    {
+      "representation": "isa",
+      "basis": "ZZ",
+      "scan05_sha256": "f0db5713c2f3cc7fb02930425b4a3f0aa66a4004f8ffdbb953ed04a872a7ba7e",
+      "refine01_sha256": "f0db5713c2f3cc7fb02930425b4a3f0aa66a4004f8ffdbb953ed04a872a7ba7e",
+      "byte_identical": true,
+      "scan05_file": "Track 3/bell_cloud/results/optimization-20261015/scan-05/isa/original_baseline_ZZ.qasm",
+      "refine01_file": "Track 3/bell_cloud/results/optimization-20261015/refine-01/isa/original_baseline_ZZ.qasm"
+    }
+  ],
+  "result_integrity": [
+    {
+      "stage": "scan-05",
+      "job_id": "db85e10r1c5c738lp3tg",
+      "backend": "ibm_marrakesh",
+      "circuit_count": 108,
+      "candidate_count": 36,
+      "shots_per_circuit": 1024,
+      "runtime_shots": 1024,
+      "all_metadata_and_record_matches": true,
+      "all_counts_match_shots": true,
+      "all_fidelities_and_retentions_recomputed": true,
+      "original_baseline_details": [
+        {
+          "pub_index": 3,
+          "basis": "YY",
+          "raw_counts": {
+            "001": 521,
+            "010": 485,
+            "011": 4,
+            "000": 14
+          },
+          "correlation": -0.96484375,
+          "logical_metadata": {
+            "variant": "baseline",
+            "basis": "YY",
+            "postselect": false,
+            "postselect_bit": 2,
+            "accepted_syndrome": 0,
+            "injected_fault": null,
+            "candidate_id": "original_baseline",
+            "initial_layout": [
+              0,
+              1,
+              2
+            ],
+            "optimization_level": 1
+          },
+          "returned_metadata": {
+            "accepted_syndrome": 0,
+            "basis": "YY",
+            "candidate_id": "original_baseline",
+            "initial_layout": [
+              0,
+              1,
+              2
+            ],
+            "injected_fault": null,
+            "optimization_level": 1,
+            "postselect": false,
+            "postselect_bit": 2,
+            "variant": "baseline"
+          }
+        },
+        {
+          "pub_index": 74,
+          "basis": "XX",
+          "raw_counts": {
+            "000": 511,
+            "011": 494,
+            "001": 11,
+            "010": 8
+          },
+          "correlation": 0.962890625,
+          "logical_metadata": {
+            "variant": "baseline",
+            "basis": "XX",
+            "postselect": false,
+            "postselect_bit": 2,
+            "accepted_syndrome": 0,
+            "injected_fault": null,
+            "candidate_id": "original_baseline",
+            "initial_layout": [
+              0,
+              1,
+              2
+            ],
+            "optimization_level": 1
+          },
+          "returned_metadata": {
+            "accepted_syndrome": 0,
+            "basis": "XX",
+            "candidate_id": "original_baseline",
+            "initial_layout": [
+              0,
+              1,
+              2
+            ],
+            "injected_fault": null,
+            "optimization_level": 1,
+            "postselect": false,
+            "postselect_bit": 2,
+            "variant": "baseline"
+          }
+        },
+        {
+          "pub_index": 107,
+          "basis": "ZZ",
+          "raw_counts": {
+            "011": 485,
+            "000": 524,
+            "010": 9,
+            "001": 6
+          },
+          "correlation": 0.970703125,
+          "logical_metadata": {
+            "variant": "baseline",
+            "basis": "ZZ",
+            "postselect": false,
+            "postselect_bit": 2,
+            "accepted_syndrome": 0,
+            "injected_fault": null,
+            "candidate_id": "original_baseline",
+            "initial_layout": [
+              0,
+              1,
+              2
+            ],
+            "optimization_level": 1
+          },
+          "returned_metadata": {
+            "accepted_syndrome": 0,
+            "basis": "ZZ",
+            "candidate_id": "original_baseline",
+            "initial_layout": [
+              0,
+              1,
+              2
+            ],
+            "injected_fault": null,
+            "optimization_level": 1,
+            "postselect": false,
+            "postselect_bit": 2,
+            "variant": "baseline"
+          }
+        }
+      ],
+      "timestamps": {
+        "created": "2026-10-15T04:31:00.506159Z",
+        "finished": "2026-10-15T04:58:17.254922Z",
+        "running": "2026-10-15T04:56:17.388444Z"
+      },
+      "runtime_options": {
+        "default_shots": 4096,
+        "dynamical_decoupling": {
+          "enable": false,
+          "extra_slack_distribution": "middle",
+          "scheduling_method": "alap",
+          "sequence_type": "XX",
+          "skip_reset_qubits": false
+        },
+        "environment": {
+          "image": null,
+          "job_tags": [],
+          "log_level": "WARNING",
+          "max_execution_time": null,
+          "private": false
+        },
+        "execution": {
+          "init_qubits": true,
+          "meas_type": "classified",
+          "rep_delay": 0.00025,
+          "scheduler_timing": false,
+          "stretch_values": false
+        },
+        "experimental": {},
+        "max_execution_time": 90,
+        "simulator": {
+          "angle_decimals": 5,
+          "layer_noise_model": null,
+          "seed_simulator": null,
+          "warn_absent": true
+        },
+        "twirling": {
+          "enable_gates": false,
+          "enable_measure": false,
+          "group": "pauli",
+          "num_randomizations": "auto",
+          "shots_per_randomization": "auto",
+          "strategy": "active-accum"
+        }
+      },
+      "batch_id": "993d2d66-c897-4510-8037-8e6ba9103135"
+    },
+    {
+      "stage": "refine-01",
+      "job_id": "db85stmr6oqs7388qi20",
+      "backend": "ibm_marrakesh",
+      "circuit_count": 84,
+      "candidate_count": 28,
+      "shots_per_circuit": 2048,
+      "runtime_shots": 2048,
+      "all_metadata_and_record_matches": true,
+      "all_counts_match_shots": true,
+      "all_fidelities_and_retentions_recomputed": true,
+      "original_baseline_details": [
+        {
+          "pub_index": 7,
+          "basis": "XX",
+          "raw_counts": {
+            "000": 1053,
+            "011": 860,
+            "010": 29,
+            "001": 106
+          },
+          "correlation": 0.8681640625,
+          "logical_metadata": {
+            "variant": "baseline",
+            "basis": "XX",
+            "postselect": false,
+            "postselect_bit": 2,
+            "accepted_syndrome": 0,
+            "injected_fault": null,
+            "candidate_id": "original_baseline",
+            "initial_layout": [
+              0,
+              1,
+              2
+            ],
+            "optimization_level": 1
+          },
+          "returned_metadata": {
+            "accepted_syndrome": 0,
+            "basis": "XX",
+            "candidate_id": "original_baseline",
+            "initial_layout": [
+              0,
+              1,
+              2
+            ],
+            "injected_fault": null,
+            "optimization_level": 1,
+            "postselect": false,
+            "postselect_bit": 2,
+            "variant": "baseline"
+          }
+        },
+        {
+          "pub_index": 25,
+          "basis": "ZZ",
+          "raw_counts": {
+            "011": 903,
+            "000": 1006,
+            "001": 119,
+            "010": 20
+          },
+          "correlation": 0.8642578125,
+          "logical_metadata": {
+            "variant": "baseline",
+            "basis": "ZZ",
+            "postselect": false,
+            "postselect_bit": 2,
+            "accepted_syndrome": 0,
+            "injected_fault": null,
+            "candidate_id": "original_baseline",
+            "initial_layout": [
+              0,
+              1,
+              2
+            ],
+            "optimization_level": 1
+          },
+          "returned_metadata": {
+            "accepted_syndrome": 0,
+            "basis": "ZZ",
+            "candidate_id": "original_baseline",
+            "initial_layout": [
+              0,
+              1,
+              2
+            ],
+            "injected_fault": null,
+            "optimization_level": 1,
+            "postselect": false,
+            "postselect_bit": 2,
+            "variant": "baseline"
+          }
+        },
+        {
+          "pub_index": 26,
+          "basis": "YY",
+          "raw_counts": {
+            "010": 911,
+            "001": 1003,
+            "000": 124,
+            "011": 10
+          },
+          "correlation": -0.869140625,
+          "logical_metadata": {
+            "variant": "baseline",
+            "basis": "YY",
+            "postselect": false,
+            "postselect_bit": 2,
+            "accepted_syndrome": 0,
+            "injected_fault": null,
+            "candidate_id": "original_baseline",
+            "initial_layout": [
+              0,
+              1,
+              2
+            ],
+            "optimization_level": 1
+          },
+          "returned_metadata": {
+            "accepted_syndrome": 0,
+            "basis": "YY",
+            "candidate_id": "original_baseline",
+            "initial_layout": [
+              0,
+              1,
+              2
+            ],
+            "injected_fault": null,
+            "optimization_level": 1,
+            "postselect": false,
+            "postselect_bit": 2,
+            "variant": "baseline"
+          }
+        }
+      ],
+      "timestamps": {
+        "created": "2026-10-15T05:02:46.730758Z",
+        "finished": "2026-10-15T05:04:23.838176Z",
+        "running": "2026-10-15T05:03:01.068905Z"
+      },
+      "runtime_options": {
+        "default_shots": 4096,
+        "dynamical_decoupling": {
+          "enable": false,
+          "extra_slack_distribution": "middle",
+          "scheduling_method": "alap",
+          "sequence_type": "XX",
+          "skip_reset_qubits": false
+        },
+        "environment": {
+          "image": null,
+          "job_tags": [],
+          "log_level": "WARNING",
+          "max_execution_time": null,
+          "private": false
+        },
+        "execution": {
+          "init_qubits": true,
+          "meas_type": "classified",
+          "rep_delay": 0.00025,
+          "scheduler_timing": false,
+          "stretch_values": false
+        },
+        "experimental": {},
+        "max_execution_time": 120,
+        "simulator": {
+          "angle_decimals": 5,
+          "layer_noise_model": null,
+          "seed_simulator": null,
+          "warn_absent": true
+        },
+        "twirling": {
+          "enable_gates": false,
+          "enable_measure": false,
+          "group": "pauli",
+          "num_randomizations": "auto",
+          "shots_per_randomization": "auto",
+          "strategy": "active-accum"
+        }
+      },
+      "batch_id": null
+    }
+  ],
+  "baseline_history": [
+    {
+      "stage": "refine-01",
+      "job_id": "db85stmr6oqs7388qi20",
+      "fidelity": 0.900390625,
+      "standard_error": 0.004764805795659435,
+      "correlations": {
+        "XX": 0.8681640625,
+        "YY": -0.869140625,
+        "ZZ": 0.8642578125
+      },
+      "shots_per_basis": {
+        "XX": 2048,
+        "YY": 2048,
+        "ZZ": 2048
+      }
+    },
+    {
+      "stage": "scan-01",
+      "job_id": "db8592qraffc73fbo710",
+      "fidelity": 0.9697265625,
+      "standard_error": 0.003805347428475982,
+      "correlations": {
+        "XX": 0.958984375,
+        "YY": -0.96484375,
+        "ZZ": 0.955078125
+      },
+      "shots_per_basis": {
+        "XX": 1024,
+        "YY": 1024,
+        "ZZ": 1024
+      },
+      "anchor_fidelity": 0.97119140625
+    },
+    {
+      "stage": "scan-02",
+      "job_id": "db85a5ur6oqs7388p7o0",
+      "fidelity": 0.97412109375,
+      "standard_error": 0.0035228641470658804,
+      "correlations": {
+        "XX": 0.97265625,
+        "YY": -0.95703125,
+        "ZZ": 0.966796875
+      },
+      "shots_per_basis": {
+        "XX": 1024,
+        "YY": 1024,
+        "ZZ": 1024
+      },
+      "anchor_fidelity": 0.97412109375
+    },
+    {
+      "stage": "scan-03",
+      "job_id": "db85e0ur6oqs7388pgc0",
+      "fidelity": 0.97216796875,
+      "standard_error": 0.0036520183132652297,
+      "correlations": {
+        "XX": 0.96484375,
+        "YY": -0.962890625,
+        "ZZ": 0.9609375
+      },
+      "shots_per_basis": {
+        "XX": 1024,
+        "YY": 1024,
+        "ZZ": 1024
+      },
+      "anchor_fidelity": 0.97265625
+    },
+    {
+      "stage": "scan-04",
+      "job_id": "db85e0qraffc73fboi00",
+      "fidelity": 0.97412109375,
+      "standard_error": 0.0035235910762803618,
+      "correlations": {
+        "XX": 0.962890625,
+        "YY": -0.970703125,
+        "ZZ": 0.962890625
+      },
+      "shots_per_basis": {
+        "XX": 1024,
+        "YY": 1024,
+        "ZZ": 1024
+      },
+      "anchor_fidelity": 0.970703125
+    },
+    {
+      "stage": "scan-05",
+      "job_id": "db85e10r1c5c738lp3tg",
+      "fidelity": 0.974609375,
+      "standard_error": 0.003490829446930375,
+      "correlations": {
+        "XX": 0.962890625,
+        "YY": -0.96484375,
+        "ZZ": 0.970703125
+      },
+      "shots_per_basis": {
+        "XX": 1024,
+        "YY": 1024,
+        "ZZ": 1024
+      },
+      "anchor_fidelity": 0.97412109375
+    },
+    {
+      "stage": "scan-06",
+      "job_id": "db85e12raffc73fboi0g",
+      "fidelity": 0.9716796875,
+      "standard_error": 0.00368208207132389,
+      "correlations": {
+        "XX": 0.970703125,
+        "YY": -0.962890625,
+        "ZZ": 0.953125
+      },
+      "shots_per_basis": {
+        "XX": 1024,
+        "YY": 1024,
+        "ZZ": 1024
+      },
+      "anchor_fidelity": 0.97412109375
+    },
+    {
+      "stage": "screen-01",
+      "job_id": "db856uaraffc73fbo40g",
+      "fidelity": 0.97314453125,
+      "standard_error": 0.003587827726590491,
+      "correlations": {
+        "XX": 0.95703125,
+        "YY": -0.96484375,
+        "ZZ": 0.970703125
+      },
+      "shots_per_basis": {
+        "XX": 1024,
+        "YY": 1024,
+        "ZZ": 1024
+      }
+    }
+  ],
+  "q1_calibration_snapshots": [
+    {
+      "stage": "refine-01",
+      "captured_utc": "2026-10-15T05:01:59.938363+00:00",
+      "properties_last_update_date": "2026-10-14 20:23:28-07:00",
+      "q1_parameter_sha256": "78fb21fc768541087fc1d11da73679df77d99cc940f5df60c2675bc79b664466",
+      "q1_parameters": [
+        {
+          "date": "2026-10-14 01:40:55-07:00",
+          "name": "T1",
+          "unit": "us",
+          "value": 115.4393270197745
+        },
+        {
+          "date": "2026-10-14 01:41:01-07:00",
+          "name": "T2",
+          "unit": "us",
+          "value": 125.56019283328958
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_error",
+          "unit": "",
+          "value": 0.0164794921875
+        },
+        {
+          "date": "2026-10-14 19:45:02-07:00",
+          "name": "init_error",
+          "unit": "",
+          "value": 0.0110310344697058
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas0_prep1",
+          "unit": "",
+          "value": 0.01513671875
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas1_prep0",
+          "unit": "",
+          "value": 0.017822265625
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_length",
+          "unit": "ns",
+          "value": 2684
+        }
+      ],
+      "q1_sx_x_cz_sha256": "d744f9a48c257a7255652eec130bed9582734fa49f0902bca102e850b4a66ac0",
+      "q1_sx_x_cz_gates": [
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "sx",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "sx1"
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "x",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "x1"
+        },
+        {
+          "qubits": [
+            1,
+            2
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_2"
+        },
+        {
+          "qubits": [
+            2,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz2_1"
+        },
+        {
+          "qubits": [
+            0,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz0_1"
+        },
+        {
+          "qubits": [
+            1,
+            0
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_0"
+        }
+      ]
+    },
+    {
+      "stage": "scan-01",
+      "captured_utc": "2026-10-15T04:20:15.029391+00:00",
+      "properties_last_update_date": "2026-10-14 20:23:28-07:00",
+      "q1_parameter_sha256": "78fb21fc768541087fc1d11da73679df77d99cc940f5df60c2675bc79b664466",
+      "q1_parameters": [
+        {
+          "date": "2026-10-14 01:40:55-07:00",
+          "name": "T1",
+          "unit": "us",
+          "value": 115.4393270197745
+        },
+        {
+          "date": "2026-10-14 01:41:01-07:00",
+          "name": "T2",
+          "unit": "us",
+          "value": 125.56019283328958
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_error",
+          "unit": "",
+          "value": 0.0164794921875
+        },
+        {
+          "date": "2026-10-14 19:45:02-07:00",
+          "name": "init_error",
+          "unit": "",
+          "value": 0.0110310344697058
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas0_prep1",
+          "unit": "",
+          "value": 0.01513671875
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas1_prep0",
+          "unit": "",
+          "value": 0.017822265625
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_length",
+          "unit": "ns",
+          "value": 2684
+        }
+      ],
+      "q1_sx_x_cz_sha256": "d744f9a48c257a7255652eec130bed9582734fa49f0902bca102e850b4a66ac0",
+      "q1_sx_x_cz_gates": [
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "sx",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "sx1"
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "x",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "x1"
+        },
+        {
+          "qubits": [
+            1,
+            2
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_2"
+        },
+        {
+          "qubits": [
+            2,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz2_1"
+        },
+        {
+          "qubits": [
+            0,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz0_1"
+        },
+        {
+          "qubits": [
+            1,
+            0
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_0"
+        }
+      ]
+    },
+    {
+      "stage": "scan-02",
+      "captured_utc": "2026-10-15T04:22:34.536440+00:00",
+      "properties_last_update_date": "2026-10-14 20:23:28-07:00",
+      "q1_parameter_sha256": "78fb21fc768541087fc1d11da73679df77d99cc940f5df60c2675bc79b664466",
+      "q1_parameters": [
+        {
+          "date": "2026-10-14 01:40:55-07:00",
+          "name": "T1",
+          "unit": "us",
+          "value": 115.4393270197745
+        },
+        {
+          "date": "2026-10-14 01:41:01-07:00",
+          "name": "T2",
+          "unit": "us",
+          "value": 125.56019283328958
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_error",
+          "unit": "",
+          "value": 0.0164794921875
+        },
+        {
+          "date": "2026-10-14 19:45:02-07:00",
+          "name": "init_error",
+          "unit": "",
+          "value": 0.0110310344697058
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas0_prep1",
+          "unit": "",
+          "value": 0.01513671875
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas1_prep0",
+          "unit": "",
+          "value": 0.017822265625
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_length",
+          "unit": "ns",
+          "value": 2684
+        }
+      ],
+      "q1_sx_x_cz_sha256": "d744f9a48c257a7255652eec130bed9582734fa49f0902bca102e850b4a66ac0",
+      "q1_sx_x_cz_gates": [
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "sx",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "sx1"
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "x",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "x1"
+        },
+        {
+          "qubits": [
+            1,
+            2
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_2"
+        },
+        {
+          "qubits": [
+            2,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz2_1"
+        },
+        {
+          "qubits": [
+            0,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz0_1"
+        },
+        {
+          "qubits": [
+            1,
+            0
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_0"
+        }
+      ]
+    },
+    {
+      "stage": "scan-03",
+      "captured_utc": "2026-10-15T04:27:58.057882+00:00",
+      "properties_last_update_date": "2026-10-14 20:23:28-07:00",
+      "q1_parameter_sha256": "78fb21fc768541087fc1d11da73679df77d99cc940f5df60c2675bc79b664466",
+      "q1_parameters": [
+        {
+          "date": "2026-10-14 01:40:55-07:00",
+          "name": "T1",
+          "unit": "us",
+          "value": 115.4393270197745
+        },
+        {
+          "date": "2026-10-14 01:41:01-07:00",
+          "name": "T2",
+          "unit": "us",
+          "value": 125.56019283328958
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_error",
+          "unit": "",
+          "value": 0.0164794921875
+        },
+        {
+          "date": "2026-10-14 19:45:02-07:00",
+          "name": "init_error",
+          "unit": "",
+          "value": 0.0110310344697058
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas0_prep1",
+          "unit": "",
+          "value": 0.01513671875
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas1_prep0",
+          "unit": "",
+          "value": 0.017822265625
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_length",
+          "unit": "ns",
+          "value": 2684
+        }
+      ],
+      "q1_sx_x_cz_sha256": "d744f9a48c257a7255652eec130bed9582734fa49f0902bca102e850b4a66ac0",
+      "q1_sx_x_cz_gates": [
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "sx",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "sx1"
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "x",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "x1"
+        },
+        {
+          "qubits": [
+            1,
+            2
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_2"
+        },
+        {
+          "qubits": [
+            2,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz2_1"
+        },
+        {
+          "qubits": [
+            0,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz0_1"
+        },
+        {
+          "qubits": [
+            1,
+            0
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_0"
+        }
+      ]
+    },
+    {
+      "stage": "scan-04",
+      "captured_utc": "2026-10-15T04:27:56.646556+00:00",
+      "properties_last_update_date": "2026-10-14 20:23:28-07:00",
+      "q1_parameter_sha256": "78fb21fc768541087fc1d11da73679df77d99cc940f5df60c2675bc79b664466",
+      "q1_parameters": [
+        {
+          "date": "2026-10-14 01:40:55-07:00",
+          "name": "T1",
+          "unit": "us",
+          "value": 115.4393270197745
+        },
+        {
+          "date": "2026-10-14 01:41:01-07:00",
+          "name": "T2",
+          "unit": "us",
+          "value": 125.56019283328958
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_error",
+          "unit": "",
+          "value": 0.0164794921875
+        },
+        {
+          "date": "2026-10-14 19:45:02-07:00",
+          "name": "init_error",
+          "unit": "",
+          "value": 0.0110310344697058
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas0_prep1",
+          "unit": "",
+          "value": 0.01513671875
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas1_prep0",
+          "unit": "",
+          "value": 0.017822265625
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_length",
+          "unit": "ns",
+          "value": 2684
+        }
+      ],
+      "q1_sx_x_cz_sha256": "d744f9a48c257a7255652eec130bed9582734fa49f0902bca102e850b4a66ac0",
+      "q1_sx_x_cz_gates": [
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "sx",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "sx1"
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "x",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "x1"
+        },
+        {
+          "qubits": [
+            1,
+            2
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_2"
+        },
+        {
+          "qubits": [
+            2,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz2_1"
+        },
+        {
+          "qubits": [
+            0,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz0_1"
+        },
+        {
+          "qubits": [
+            1,
+            0
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_0"
+        }
+      ]
+    },
+    {
+      "stage": "scan-05",
+      "captured_utc": "2026-10-15T04:27:58.282964+00:00",
+      "properties_last_update_date": "2026-10-14 20:23:28-07:00",
+      "q1_parameter_sha256": "78fb21fc768541087fc1d11da73679df77d99cc940f5df60c2675bc79b664466",
+      "q1_parameters": [
+        {
+          "date": "2026-10-14 01:40:55-07:00",
+          "name": "T1",
+          "unit": "us",
+          "value": 115.4393270197745
+        },
+        {
+          "date": "2026-10-14 01:41:01-07:00",
+          "name": "T2",
+          "unit": "us",
+          "value": 125.56019283328958
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_error",
+          "unit": "",
+          "value": 0.0164794921875
+        },
+        {
+          "date": "2026-10-14 19:45:02-07:00",
+          "name": "init_error",
+          "unit": "",
+          "value": 0.0110310344697058
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas0_prep1",
+          "unit": "",
+          "value": 0.01513671875
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas1_prep0",
+          "unit": "",
+          "value": 0.017822265625
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_length",
+          "unit": "ns",
+          "value": 2684
+        }
+      ],
+      "q1_sx_x_cz_sha256": "d744f9a48c257a7255652eec130bed9582734fa49f0902bca102e850b4a66ac0",
+      "q1_sx_x_cz_gates": [
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "sx",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "sx1"
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "x",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "x1"
+        },
+        {
+          "qubits": [
+            1,
+            2
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_2"
+        },
+        {
+          "qubits": [
+            2,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz2_1"
+        },
+        {
+          "qubits": [
+            0,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz0_1"
+        },
+        {
+          "qubits": [
+            1,
+            0
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_0"
+        }
+      ]
+    },
+    {
+      "stage": "scan-06",
+      "captured_utc": "2026-10-15T04:27:56.780943+00:00",
+      "properties_last_update_date": "2026-10-14 20:23:28-07:00",
+      "q1_parameter_sha256": "78fb21fc768541087fc1d11da73679df77d99cc940f5df60c2675bc79b664466",
+      "q1_parameters": [
+        {
+          "date": "2026-10-14 01:40:55-07:00",
+          "name": "T1",
+          "unit": "us",
+          "value": 115.4393270197745
+        },
+        {
+          "date": "2026-10-14 01:41:01-07:00",
+          "name": "T2",
+          "unit": "us",
+          "value": 125.56019283328958
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_error",
+          "unit": "",
+          "value": 0.0164794921875
+        },
+        {
+          "date": "2026-10-14 19:45:02-07:00",
+          "name": "init_error",
+          "unit": "",
+          "value": 0.0110310344697058
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas0_prep1",
+          "unit": "",
+          "value": 0.01513671875
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas1_prep0",
+          "unit": "",
+          "value": 0.017822265625
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_length",
+          "unit": "ns",
+          "value": 2684
+        }
+      ],
+      "q1_sx_x_cz_sha256": "d744f9a48c257a7255652eec130bed9582734fa49f0902bca102e850b4a66ac0",
+      "q1_sx_x_cz_gates": [
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "sx",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "sx1"
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "x",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "x1"
+        },
+        {
+          "qubits": [
+            1,
+            2
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_2"
+        },
+        {
+          "qubits": [
+            2,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz2_1"
+        },
+        {
+          "qubits": [
+            0,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz0_1"
+        },
+        {
+          "qubits": [
+            1,
+            0
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_0"
+        }
+      ]
+    },
+    {
+      "stage": "screen-01",
+      "captured_utc": "2026-10-15T04:15:31.278883+00:00",
+      "properties_last_update_date": "2026-10-14 20:23:28-07:00",
+      "q1_parameter_sha256": "78fb21fc768541087fc1d11da73679df77d99cc940f5df60c2675bc79b664466",
+      "q1_parameters": [
+        {
+          "date": "2026-10-14 01:40:55-07:00",
+          "name": "T1",
+          "unit": "us",
+          "value": 115.4393270197745
+        },
+        {
+          "date": "2026-10-14 01:41:01-07:00",
+          "name": "T2",
+          "unit": "us",
+          "value": 125.56019283328958
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_error",
+          "unit": "",
+          "value": 0.0164794921875
+        },
+        {
+          "date": "2026-10-14 19:45:02-07:00",
+          "name": "init_error",
+          "unit": "",
+          "value": 0.0110310344697058
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas0_prep1",
+          "unit": "",
+          "value": 0.01513671875
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "prob_meas1_prep0",
+          "unit": "",
+          "value": 0.017822265625
+        },
+        {
+          "date": "2026-10-14 19:31:57-07:00",
+          "name": "readout_length",
+          "unit": "ns",
+          "value": 2684
+        }
+      ],
+      "q1_sx_x_cz_sha256": "d744f9a48c257a7255652eec130bed9582734fa49f0902bca102e850b4a66ac0",
+      "q1_sx_x_cz_gates": [
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "sx",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "sx1"
+        },
+        {
+          "qubits": [
+            1
+          ],
+          "gate": "x",
+          "parameters": [
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.00022928070453089464
+            },
+            {
+              "date": "2026-10-14 02:26:21-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 36
+            }
+          ],
+          "name": "x1"
+        },
+        {
+          "qubits": [
+            1,
+            2
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_2"
+        },
+        {
+          "qubits": [
+            2,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.0013785354091961632
+            },
+            {
+              "date": "2026-10-14 03:10:53-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz2_1"
+        },
+        {
+          "qubits": [
+            0,
+            1
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz0_1"
+        },
+        {
+          "qubits": [
+            1,
+            0
+          ],
+          "gate": "cz",
+          "parameters": [
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_error",
+              "unit": "",
+              "value": 0.004145329778106166
+            },
+            {
+              "date": "2026-10-14 03:10:41-07:00",
+              "name": "gate_length",
+              "unit": "ns",
+              "value": 68
+            }
+          ],
+          "name": "cz1_0"
+        }
+      ]
+    }
+  ],
+  "preparation_variant_audit": [
+    {
+      "candidate_id": "top0_dir0_baseline_relax_200us",
+      "basis": "ZZ",
+      "name": "top0_dir0_baseline_relax_200us_ZZ",
+      "gate_counts": {
+        "rz": 6,
+        "barrier": 5,
+        "sx": 3,
+        "measure": 3,
+        "delay": 2,
+        "cz": 1
+      },
+      "reset_qubits": [],
+      "delays": [
+        {
+          "qubits": [
+            6
+          ],
+          "duration": 50000.0,
+          "unit": "dt",
+          "seconds": 0.0002
+        },
+        {
+          "qubits": [
+            7
+          ],
+          "duration": 50000.0,
+          "unit": "dt",
+          "seconds": 0.0002
+        }
+      ],
+      "delay_only_dag_depth": 1,
+      "two_qubit_gates": 1,
+      "measured_output_wires": {
+        "meas[0]": 7,
+        "meas[1]": 6,
+        "meas[2]": 5
+      },
+      "qasm_sha256": "aa3d3167e99e3d797f3e8a959ff59c7950465ef9b0df0babd75bc1f50d87e072"
+    },
+    {
+      "candidate_id": "top0_dir0_baseline_relax_200us",
+      "basis": "YY",
+      "name": "top0_dir0_baseline_relax_200us_YY",
+      "gate_counts": {
+        "rz": 8,
+        "barrier": 5,
+        "sx": 5,
+        "measure": 3,
+        "delay": 2,
+        "cz": 1
+      },
+      "reset_qubits": [],
+      "delays": [
+        {
+          "qubits": [
+            6
+          ],
+          "duration": 50000.0,
+          "unit": "dt",
+          "seconds": 0.0002
+        },
+        {
+          "qubits": [
+            7
+          ],
+          "duration": 50000.0,
+          "unit": "dt",
+          "seconds": 0.0002
+        }
+      ],
+      "delay_only_dag_depth": 1,
+      "two_qubit_gates": 1,
+      "measured_output_wires": {
+        "meas[0]": 7,
+        "meas[1]": 6,
+        "meas[2]": 5
+      },
+      "qasm_sha256": "95bf2ef958bb81e05fa726b9c6c6aad45f227664f6103b525143aaac510e62f0"
+    },
+    {
+      "candidate_id": "top0_dir0_baseline_reset",
+      "basis": "ZZ",
+      "name": "top0_dir0_baseline_reset_ZZ",
+      "gate_counts": {
+        "rz": 6,
+        "barrier": 5,
+        "sx": 3,
+        "measure": 3,
+        "reset": 2,
+        "cz": 1
+      },
+      "reset_qubits": [
+        6,
+        7
+      ],
+      "delays": [],
+      "delay_only_dag_depth": 0,
+      "two_qubit_gates": 1,
+      "measured_output_wires": {
+        "meas[0]": 7,
+        "meas[1]": 6,
+        "meas[2]": 5
+      },
+      "qasm_sha256": "e036a6c15dd83a1cf2afe9f56b63b6db161b2c2288689023867d4ccfaffb437d"
+    },
+    {
+      "candidate_id": "top0_dir0_baseline_reset",
+      "basis": "YY",
+      "name": "top0_dir0_baseline_reset_YY",
+      "gate_counts": {
+        "rz": 8,
+        "barrier": 5,
+        "sx": 5,
+        "measure": 3,
+        "reset": 2,
+        "cz": 1
+      },
+      "reset_qubits": [
+        6,
+        7
+      ],
+      "delays": [],
+      "delay_only_dag_depth": 0,
+      "two_qubit_gates": 1,
+      "measured_output_wires": {
+        "meas[0]": 7,
+        "meas[1]": 6,
+        "meas[2]": 5
+      },
+      "qasm_sha256": "d1e5ef8fe220ebda7f7eaf8dc4268023cb4247b68efb2f651f2668cf007ce757"
+    },
+    {
+      "candidate_id": "top0_dir0_baseline_relax_200us",
+      "basis": "XX",
+      "name": "top0_dir0_baseline_relax_200us_XX",
+      "gate_counts": {
+        "rz": 10,
+        "barrier": 5,
+        "sx": 5,
+        "measure": 3,
+        "delay": 2,
+        "cz": 1
+      },
+      "reset_qubits": [],
+      "delays": [
+        {
+          "qubits": [
+            6
+          ],
+          "duration": 50000.0,
+          "unit": "dt",
+          "seconds": 0.0002
+        },
+        {
+          "qubits": [
+            7
+          ],
+          "duration": 50000.0,
+          "unit": "dt",
+          "seconds": 0.0002
+        }
+      ],
+      "delay_only_dag_depth": 1,
+      "two_qubit_gates": 1,
+      "measured_output_wires": {
+        "meas[0]": 7,
+        "meas[1]": 6,
+        "meas[2]": 5
+      },
+      "qasm_sha256": "a5c363e070074ca6342b6054593196bed1b2d1eea28854e6d19f3ff39d699c33"
+    },
+    {
+      "candidate_id": "top0_dir0_baseline_reset",
+      "basis": "XX",
+      "name": "top0_dir0_baseline_reset_XX",
+      "gate_counts": {
+        "rz": 10,
+        "barrier": 5,
+        "sx": 5,
+        "measure": 3,
+        "reset": 2,
+        "cz": 1
+      },
+      "reset_qubits": [
+        6,
+        7
+      ],
+      "delays": [],
+      "delay_only_dag_depth": 0,
+      "two_qubit_gates": 1,
+      "measured_output_wires": {
+        "meas[0]": 7,
+        "meas[1]": 6,
+        "meas[2]": 5
+      },
+      "qasm_sha256": "f31dd9edc62fa647e533069d7600c7ec6893ced8d1ea096155047e6cdd36a569"
+    }
+  ],
+  "runtime_option_differences": [
+    {
+      "key": "max_execution_time",
+      "scan05": 90,
+      "refine01": 120
+    }
+  ],
+  "q1_all_recorded_parameter_values_and_dates_identical": true,
+  "q1_all_recorded_sx_x_cz_calibrations_identical": true,
+  "dt_reference": {
+    "backend": "ibm_marrakesh",
+    "dt_seconds": 4e-09,
+    "source": "Track 3/bell_cloud/results/ibm-20261015/backend-snapshot.json",
+    "note": "Delay conversion uses the recorded same-device initial snapshot; refine snapshot did not repeat dt."
+  },
+  "effect_decomposition": {
+    "original_baseline_scan05": 0.974609375,
+    "original_baseline_refine01": 0.900390625,
+    "original_baseline_change": -0.07421875,
+    "same_layout_baseline_refine01": 0.9736328125,
+    "reset_refine01": 0.978759765625,
+    "reset_minus_same_layout_baseline": 0.005126953125,
+    "reset_minus_original_layout_baseline": 0.078369140625,
+    "relax_refine01": 0.97705078125,
+    "relax_minus_same_layout_baseline": 0.00341796875,
+    "same_job_q1_data_pairs": [
+      {
+        "candidate_id": "original_baseline",
+        "layout": [
+          0,
+          1,
+          2
+        ],
+        "fidelity": 0.900390625
+      },
+      {
+        "candidate_id": "top2_dir0_baseline",
+        "layout": [
+          2,
+          1,
+          0
+        ],
+        "fidelity": 0.89501953125
+      },
+      {
+        "candidate_id": "top2_dir1_baseline",
+        "layout": [
+          1,
+          2,
+          3
+        ],
+        "fidelity": 0.888671875
+      }
+    ]
+  },
+  "supported_interpretation": [
+    "The original baseline uses byte-identical logical and native ISA OpenQASM in all three bases in scan-05 and refine-01; no circuit rewrite explains its lower score.",
+    "Record/PUB/QPY metadata, shot counts, and independent raw-count estimates agree. The three original-baseline correlations all deteriorate, and two other orientations on data pair 1-2 also perform poorly in refine-01.",
+    "The recorded q1 calibration values and dates do not change. These are compilation-time snapshots, not contemporaneous evidence that the device remained unchanged during execution.",
+    "The result supports a temporal or workload-dependent change in measured device performance, consistent with hardware drift; it does not identify a unique causal error channel or prove q1 itself was the cause.",
+    "The workloads differ in candidate mix, randomized ordering, shots per circuit, execution time, and Batch versus job context. Exact circuit identity alone does not control these job-level conditions.",
+    "The approximately 7.84-percentage-point reset-minus-original gap combines a different physical layout with a degraded reference; the same-layout reset increment is approximately 0.513 percentage points and remains exploratory.",
+    "Reset and delay variants remain distinct native circuits: both explicit resets survive; the two 200us delays act on separate physical data qubits with one delay-only DAG layer."
+  ]
+}

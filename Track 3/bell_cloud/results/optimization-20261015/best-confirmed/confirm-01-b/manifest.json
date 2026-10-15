@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-10-15T05:13:06.288210+00:00",
+  "stage": "confirm-01-b",
+  "backend": "ibm_marrakesh",
+  "shots": 16384,
+  "circuit_count": 9,
+  "cap_seconds": 120,
+  "rep_delay_seconds": 0.00025,
+  "estimated_system_seconds": 94.83529625599999,
+  "estimate_note": "20s overhead + 2 * shots * sum(circuit duration + explicitly set repetition delay); heuristic, not guarantee",
+  "remaining_seconds_before_submission": 364.0,
+  "source_sha256": {
+    "optimize_bell.py": "c37fc9f6915a1ec8766b7743bf3152110acbe956792093b94b0c891dffc23698",
+    "optimization_circuits.py": "e1018c4e7d9e48ec619c231a87e695012d3217a16349d1989bbef29c56369e6a",
+    "optimization_analysis.py": "04b22a86e3d7f89c2bd166df73644826c29644bfb0e4ba70978742d33337ca94"
+  },
+  "budget_value_kind": "Uncommitted lower bound after reserving caps of known pending jobs; submission checks again.",
+  "isa_qpy_sha256": "24200aeaa7a9b5d636484075ada8ad4d47f02db1206a69b00f364bc92129b787",
+  "submission_state": "submitted",
+  "job_id": "db8627gr1c5c738lqgr0",
+  "local_validation_passed": true,
+  "statistics_plan": {
+    "phase": "independent_confirmation",
+    "attempt": 1,
+    "maximum_candidate_confirmation_attempts": 3,
+    "confirmation_replicates_per_candidate": 2,
+    "confirmation_shots_per_basis": 16384,
+    "minimum_fidelity_improvement": 0.005,
+    "alpha_per_attempt": 0.016666666666666666,
+    "comparison": "Same-job original baseline; postselected candidate additionally compares with the frozen same-layout baseline.",
+    "selection": "Candidate and both confirmation stages frozen before either new job; both replications must pass.",
+    "scope": "Independent confirmation among tested configurations, not proof of global optimality."
+  },
+  "job_options": {},
+  "attempted_utc": "2026-10-15T05:14:05.782009+00:00",
+  "batch_id": "87885632-0ed4-47f2-9227-dab01caf0984",
+  "batch_ledger": "G:\\Qompute-2026-main\\Track 3\\bell_cloud\\results\\optimization-20261015\\batch-20261015T051404535677Z.json"
+}

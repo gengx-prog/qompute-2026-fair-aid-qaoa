@@ -1,0 +1,1508 @@
+[
+  {
+    "name": "layout0_baseline_opt3_ZZ",
+    "depth": 7,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 53,
+      "meas[1]": 54,
+      "meas[2]": 55
+    },
+    "used_physical_qubits": [
+      53,
+      54,
+      55
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 5,
+      "barrier": 4,
+      "sx": 3,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout0_bridge_XX",
+    "depth": 26,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54,
+      55
+    ],
+    "measured_output_wires": {
+      "meas[0]": 53,
+      "meas[1]": 54,
+      "meas[2]": 55
+    },
+    "used_physical_qubits": [
+      53,
+      54,
+      55
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 22,
+      "sx": 11,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout0_baseline_ZZ",
+    "depth": 8,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 53,
+      "meas[1]": 54,
+      "meas[2]": 55
+    },
+    "used_physical_qubits": [
+      53,
+      54,
+      55
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 6,
+      "barrier": 4,
+      "sx": 3,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "original_baseline_ZZ",
+    "depth": 8,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      0,
+      1
+    ],
+    "measured_output_wires": {
+      "meas[0]": 0,
+      "meas[1]": 1,
+      "meas[2]": 2
+    },
+    "used_physical_qubits": [
+      0,
+      1,
+      2
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 6,
+      "barrier": 4,
+      "sx": 3,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout1_baseline_XX",
+    "depth": 11,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 54,
+      "meas[1]": 53,
+      "meas[2]": 52
+    },
+    "used_physical_qubits": [
+      52,
+      53,
+      54
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 10,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout2_baseline_YY",
+    "depth": 10,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      97,
+      107
+    ],
+    "measured_output_wires": {
+      "meas[0]": 107,
+      "meas[1]": 97,
+      "meas[2]": 87
+    },
+    "used_physical_qubits": [
+      87,
+      97,
+      107
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 8,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout0_protected_YY",
+    "depth": 24,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54,
+      55
+    ],
+    "measured_output_wires": {
+      "meas[0]": 53,
+      "meas[1]": 55,
+      "meas[2]": 54
+    },
+    "used_physical_qubits": [
+      53,
+      54,
+      55
+    ],
+    "two_qubit_gates": 6,
+    "gate_counts": {
+      "sx": 13,
+      "rz": 12,
+      "cz": 6,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "pair140_baseline_YY",
+    "depth": 10,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      140,
+      141
+    ],
+    "measured_output_wires": {
+      "meas[0]": 141,
+      "meas[1]": 140,
+      "meas[2]": 142
+    },
+    "used_physical_qubits": [
+      140,
+      141,
+      142
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 8,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout1_bridge_YY",
+    "depth": 25,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      52,
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 54,
+      "meas[1]": 53,
+      "meas[2]": 52
+    },
+    "used_physical_qubits": [
+      52,
+      53,
+      54
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 20,
+      "sx": 11,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout2_baseline_ZZ",
+    "depth": 8,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      97,
+      107
+    ],
+    "measured_output_wires": {
+      "meas[0]": 107,
+      "meas[1]": 97,
+      "meas[2]": 87
+    },
+    "used_physical_qubits": [
+      87,
+      97,
+      107
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 6,
+      "barrier": 4,
+      "sx": 3,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "original_baseline_YY",
+    "depth": 10,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      0,
+      1
+    ],
+    "measured_output_wires": {
+      "meas[0]": 0,
+      "meas[1]": 1,
+      "meas[2]": 2
+    },
+    "used_physical_qubits": [
+      0,
+      1,
+      2
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 8,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout3_bridge_YY",
+    "depth": 25,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      5,
+      6,
+      7
+    ],
+    "measured_output_wires": {
+      "meas[0]": 7,
+      "meas[1]": 6,
+      "meas[2]": 5
+    },
+    "used_physical_qubits": [
+      5,
+      6,
+      7
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 20,
+      "sx": 11,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout0_bridge_opt3_YY",
+    "depth": 21,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54,
+      55
+    ],
+    "measured_output_wires": {
+      "meas[0]": 53,
+      "meas[1]": 54,
+      "meas[2]": 55
+    },
+    "used_physical_qubits": [
+      53,
+      54,
+      55
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 15,
+      "sx": 11,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "pair140_baseline_XX",
+    "depth": 11,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      140,
+      141
+    ],
+    "measured_output_wires": {
+      "meas[0]": 141,
+      "meas[1]": 140,
+      "meas[2]": 142
+    },
+    "used_physical_qubits": [
+      140,
+      141,
+      142
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 10,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "original_protected_ZZ",
+    "depth": 22,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      0,
+      1,
+      2
+    ],
+    "measured_output_wires": {
+      "meas[0]": 0,
+      "meas[1]": 2,
+      "meas[2]": 1
+    },
+    "used_physical_qubits": [
+      0,
+      1,
+      2
+    ],
+    "two_qubit_gates": 6,
+    "gate_counts": {
+      "sx": 11,
+      "rz": 10,
+      "cz": 6,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout1_bridge_ZZ",
+    "depth": 23,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      52,
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 54,
+      "meas[1]": 53,
+      "meas[2]": 52
+    },
+    "used_physical_qubits": [
+      52,
+      53,
+      54
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 18,
+      "sx": 9,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout0_baseline_XX",
+    "depth": 11,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 53,
+      "meas[1]": 54,
+      "meas[2]": 55
+    },
+    "used_physical_qubits": [
+      53,
+      54,
+      55
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 10,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "original_protected_XX",
+    "depth": 25,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      0,
+      1,
+      2
+    ],
+    "measured_output_wires": {
+      "meas[0]": 0,
+      "meas[1]": 2,
+      "meas[2]": 1
+    },
+    "used_physical_qubits": [
+      0,
+      1,
+      2
+    ],
+    "two_qubit_gates": 6,
+    "gate_counts": {
+      "rz": 14,
+      "sx": 13,
+      "cz": 6,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout1_bridge_XX",
+    "depth": 26,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      52,
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 54,
+      "meas[1]": 53,
+      "meas[2]": 52
+    },
+    "used_physical_qubits": [
+      52,
+      53,
+      54
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 22,
+      "sx": 11,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout4_bridge_ZZ",
+    "depth": 23,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      39,
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 54,
+      "meas[1]": 53,
+      "meas[2]": 39
+    },
+    "used_physical_qubits": [
+      39,
+      53,
+      54
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 18,
+      "sx": 9,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "pair140_baseline_ZZ",
+    "depth": 8,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      140,
+      141
+    ],
+    "measured_output_wires": {
+      "meas[0]": 141,
+      "meas[1]": 140,
+      "meas[2]": 142
+    },
+    "used_physical_qubits": [
+      140,
+      141,
+      142
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 6,
+      "barrier": 4,
+      "sx": 3,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout0_bridge_YY",
+    "depth": 25,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54,
+      55
+    ],
+    "measured_output_wires": {
+      "meas[0]": 53,
+      "meas[1]": 54,
+      "meas[2]": 55
+    },
+    "used_physical_qubits": [
+      53,
+      54,
+      55
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 20,
+      "sx": 11,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout2_baseline_XX",
+    "depth": 11,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      97,
+      107
+    ],
+    "measured_output_wires": {
+      "meas[0]": 107,
+      "meas[1]": 97,
+      "meas[2]": 87
+    },
+    "used_physical_qubits": [
+      87,
+      97,
+      107
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 10,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout3_bridge_XX",
+    "depth": 26,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      5,
+      6,
+      7
+    ],
+    "measured_output_wires": {
+      "meas[0]": 7,
+      "meas[1]": 6,
+      "meas[2]": 5
+    },
+    "used_physical_qubits": [
+      5,
+      6,
+      7
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 22,
+      "sx": 11,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout0_baseline_YY",
+    "depth": 10,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 53,
+      "meas[1]": 54,
+      "meas[2]": 55
+    },
+    "used_physical_qubits": [
+      53,
+      54,
+      55
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 8,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "original_bridge_ZZ",
+    "depth": 23,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      0,
+      1,
+      2
+    ],
+    "measured_output_wires": {
+      "meas[0]": 0,
+      "meas[1]": 1,
+      "meas[2]": 2
+    },
+    "used_physical_qubits": [
+      0,
+      1,
+      2
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 18,
+      "sx": 9,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout0_protected_XX",
+    "depth": 25,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54,
+      55
+    ],
+    "measured_output_wires": {
+      "meas[0]": 53,
+      "meas[1]": 55,
+      "meas[2]": 54
+    },
+    "used_physical_qubits": [
+      53,
+      54,
+      55
+    ],
+    "two_qubit_gates": 6,
+    "gate_counts": {
+      "rz": 14,
+      "sx": 13,
+      "cz": 6,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout3_baseline_XX",
+    "depth": 11,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      6,
+      7
+    ],
+    "measured_output_wires": {
+      "meas[0]": 7,
+      "meas[1]": 6,
+      "meas[2]": 5
+    },
+    "used_physical_qubits": [
+      5,
+      6,
+      7
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 10,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout2_bridge_ZZ",
+    "depth": 23,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      87,
+      97,
+      107
+    ],
+    "measured_output_wires": {
+      "meas[0]": 107,
+      "meas[1]": 97,
+      "meas[2]": 87
+    },
+    "used_physical_qubits": [
+      87,
+      97,
+      107
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 18,
+      "sx": 9,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout0_bridge_ZZ",
+    "depth": 23,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54,
+      55
+    ],
+    "measured_output_wires": {
+      "meas[0]": 53,
+      "meas[1]": 54,
+      "meas[2]": 55
+    },
+    "used_physical_qubits": [
+      53,
+      54,
+      55
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 18,
+      "sx": 9,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout3_baseline_ZZ",
+    "depth": 8,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      6,
+      7
+    ],
+    "measured_output_wires": {
+      "meas[0]": 7,
+      "meas[1]": 6,
+      "meas[2]": 5
+    },
+    "used_physical_qubits": [
+      5,
+      6,
+      7
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 6,
+      "barrier": 4,
+      "sx": 3,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout0_baseline_opt3_XX",
+    "depth": 10,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 53,
+      "meas[1]": 54,
+      "meas[2]": 55
+    },
+    "used_physical_qubits": [
+      53,
+      54,
+      55
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 9,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout2_bridge_YY",
+    "depth": 25,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      87,
+      97,
+      107
+    ],
+    "measured_output_wires": {
+      "meas[0]": 107,
+      "meas[1]": 97,
+      "meas[2]": 87
+    },
+    "used_physical_qubits": [
+      87,
+      97,
+      107
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 20,
+      "sx": 11,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "original_bridge_YY",
+    "depth": 25,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      0,
+      1,
+      2
+    ],
+    "measured_output_wires": {
+      "meas[0]": 0,
+      "meas[1]": 1,
+      "meas[2]": 2
+    },
+    "used_physical_qubits": [
+      0,
+      1,
+      2
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 20,
+      "sx": 11,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout4_bridge_XX",
+    "depth": 26,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      39,
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 54,
+      "meas[1]": 53,
+      "meas[2]": 39
+    },
+    "used_physical_qubits": [
+      39,
+      53,
+      54
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 22,
+      "sx": 11,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout1_baseline_ZZ",
+    "depth": 8,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 54,
+      "meas[1]": 53,
+      "meas[2]": 52
+    },
+    "used_physical_qubits": [
+      52,
+      53,
+      54
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 6,
+      "barrier": 4,
+      "sx": 3,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout4_baseline_ZZ",
+    "depth": 8,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 54,
+      "meas[1]": 53,
+      "meas[2]": 39
+    },
+    "used_physical_qubits": [
+      39,
+      53,
+      54
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 6,
+      "barrier": 4,
+      "sx": 3,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout4_baseline_XX",
+    "depth": 11,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 54,
+      "meas[1]": 53,
+      "meas[2]": 39
+    },
+    "used_physical_qubits": [
+      39,
+      53,
+      54
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 10,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout1_baseline_YY",
+    "depth": 10,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 54,
+      "meas[1]": 53,
+      "meas[2]": 52
+    },
+    "used_physical_qubits": [
+      52,
+      53,
+      54
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 8,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout4_bridge_YY",
+    "depth": 25,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      39,
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 54,
+      "meas[1]": 53,
+      "meas[2]": 39
+    },
+    "used_physical_qubits": [
+      39,
+      53,
+      54
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 20,
+      "sx": 11,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout0_bridge_opt3_XX",
+    "depth": 22,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54,
+      55
+    ],
+    "measured_output_wires": {
+      "meas[0]": 53,
+      "meas[1]": 54,
+      "meas[2]": 55
+    },
+    "used_physical_qubits": [
+      53,
+      54,
+      55
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 17,
+      "sx": 11,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout3_bridge_ZZ",
+    "depth": 23,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      5,
+      6,
+      7
+    ],
+    "measured_output_wires": {
+      "meas[0]": 7,
+      "meas[1]": 6,
+      "meas[2]": 5
+    },
+    "used_physical_qubits": [
+      5,
+      6,
+      7
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 18,
+      "sx": 9,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout0_bridge_opt3_ZZ",
+    "depth": 19,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54,
+      55
+    ],
+    "measured_output_wires": {
+      "meas[0]": 53,
+      "meas[1]": 54,
+      "meas[2]": 55
+    },
+    "used_physical_qubits": [
+      53,
+      54,
+      55
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 13,
+      "sx": 9,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout3_baseline_YY",
+    "depth": 10,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      6,
+      7
+    ],
+    "measured_output_wires": {
+      "meas[0]": 7,
+      "meas[1]": 6,
+      "meas[2]": 5
+    },
+    "used_physical_qubits": [
+      5,
+      6,
+      7
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 8,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout2_bridge_XX",
+    "depth": 26,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      87,
+      97,
+      107
+    ],
+    "measured_output_wires": {
+      "meas[0]": 107,
+      "meas[1]": 97,
+      "meas[2]": 87
+    },
+    "used_physical_qubits": [
+      87,
+      97,
+      107
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 22,
+      "sx": 11,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "original_baseline_XX",
+    "depth": 11,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      0,
+      1
+    ],
+    "measured_output_wires": {
+      "meas[0]": 0,
+      "meas[1]": 1,
+      "meas[2]": 2
+    },
+    "used_physical_qubits": [
+      0,
+      1,
+      2
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 10,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "original_bridge_XX",
+    "depth": 26,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      0,
+      1,
+      2
+    ],
+    "measured_output_wires": {
+      "meas[0]": 0,
+      "meas[1]": 1,
+      "meas[2]": 2
+    },
+    "used_physical_qubits": [
+      0,
+      1,
+      2
+    ],
+    "two_qubit_gates": 4,
+    "gate_counts": {
+      "rz": 22,
+      "sx": 11,
+      "cz": 4,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout4_baseline_YY",
+    "depth": 10,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 54,
+      "meas[1]": 53,
+      "meas[2]": 39
+    },
+    "used_physical_qubits": [
+      39,
+      53,
+      54
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 8,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout0_protected_ZZ",
+    "depth": 22,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54,
+      55
+    ],
+    "measured_output_wires": {
+      "meas[0]": 53,
+      "meas[1]": 55,
+      "meas[2]": 54
+    },
+    "used_physical_qubits": [
+      53,
+      54,
+      55
+    ],
+    "two_qubit_gates": 6,
+    "gate_counts": {
+      "sx": 11,
+      "rz": 10,
+      "cz": 6,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "original_protected_YY",
+    "depth": 24,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      0,
+      1,
+      2
+    ],
+    "measured_output_wires": {
+      "meas[0]": 0,
+      "meas[1]": 2,
+      "meas[2]": 1
+    },
+    "used_physical_qubits": [
+      0,
+      1,
+      2
+    ],
+    "two_qubit_gates": 6,
+    "gate_counts": {
+      "sx": 13,
+      "rz": 12,
+      "cz": 6,
+      "barrier": 4,
+      "measure": 3
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  },
+  {
+    "name": "layout0_baseline_opt3_YY",
+    "depth": 9,
+    "allocated_qubits": 156,
+    "gate_active_qubits": [
+      53,
+      54
+    ],
+    "measured_output_wires": {
+      "meas[0]": 53,
+      "meas[1]": 54,
+      "meas[2]": 55
+    },
+    "used_physical_qubits": [
+      53,
+      54,
+      55
+    ],
+    "two_qubit_gates": 1,
+    "gate_counts": {
+      "rz": 7,
+      "sx": 5,
+      "barrier": 4,
+      "measure": 3,
+      "cz": 1
+    },
+    "explicit_swap_gates": 0,
+    "routing_note": "Native SWAPs may be decomposed; explicit SWAP count is not routing overhead."
+  }
+]

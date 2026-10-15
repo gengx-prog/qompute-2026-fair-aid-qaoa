@@ -1,0 +1,2 @@
+# Frozen source and artifact hashes require exact bytes across platforms.
+* -text

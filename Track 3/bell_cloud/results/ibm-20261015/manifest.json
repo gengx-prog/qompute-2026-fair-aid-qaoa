@@ -1,0 +1,75 @@
+{
+  "created_utc": "2026-10-15T04:06:15.255983+00:00",
+  "packages": {
+    "qiskit": "2.5.2",
+    "qiskit-aer": "0.17.2",
+    "qiskit-ibm-runtime": "0.50.0",
+    "numpy": "2.5.4"
+  },
+  "source_sha256": {
+    "bell_core.py": "70ab113ffc7cae5c6a21fc184f7fbe48642d90ce6f42f67c81f0446540b2bf95",
+    "run_bell.py": "f01fcda986783927118e9010cfb6de631ad7b037210f41b20d0f8ed2108442de"
+  },
+  "scope": "Starter Bell experiment; not the official three-model benchmark.",
+  "mode": "hardware",
+  "backend": "ibm_marrakesh",
+  "shots_per_circuit": 2048,
+  "initial_layout": [
+    0,
+    1,
+    2
+  ],
+  "seed_transpiler": 11,
+  "optimization_level": 1,
+  "circuit_order": [
+    {
+      "variant": "baseline",
+      "basis": "XX"
+    },
+    {
+      "variant": "baseline",
+      "basis": "YY"
+    },
+    {
+      "variant": "baseline",
+      "basis": "ZZ"
+    },
+    {
+      "variant": "protected",
+      "basis": "XX"
+    },
+    {
+      "variant": "protected",
+      "basis": "YY"
+    },
+    {
+      "variant": "protected",
+      "basis": "ZZ"
+    }
+  ],
+  "job_id": "db852e6il99s73fpamcg",
+  "max_execution_time_seconds": 120,
+  "usage_estimate": {
+    "kind": "conservative_planning_heuristic_not_guaranteed",
+    "estimated_system_seconds": 79.228382208,
+    "circuit_durations_seconds": [
+      2.86e-06,
+      2.86e-06,
+      2.824e-06,
+      3.38e-06,
+      3.38e-06,
+      3.344e-06
+    ],
+    "repetition_delay_assumption_seconds": 0.002,
+    "duration_fallback_circuits": [],
+    "formula": "30 seconds fixed overhead + 2 * shots * sum(circuit duration + max repetition delay)",
+    "fallback_assumption": "Unavailable circuit duration or repetition delay is assumed to be 1 millisecond each.",
+    "note": "Not a provider quote or upper bound; excludes queue and wall-clock waiting. Runtime execution cap is enforced separately."
+  },
+  "submission_policy": "One job containing six circuits; no automatic retries or sessions.",
+  "execution_limit_note": "Runtime caps system execution time, not queue time or wall-clock completion. Cancellation may produce no usable result.",
+  "port_note": "Initial placement is fixed; routed output wires are recorded in isa/resources.json. This does not implement the PDF's fixed-output-port benchmark.",
+  "statistics_note": "Raw basis-rotated estimates include preparation, analysis-gate and readout errors; no measurement mitigation.",
+  "submission_attempted_utc": "2026-10-15T04:06:15.262226+00:00",
+  "submission_state": "submitted"
+}

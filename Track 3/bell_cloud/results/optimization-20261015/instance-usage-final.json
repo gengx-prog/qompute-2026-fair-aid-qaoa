@@ -1,0 +1,10 @@
+{
+  "observed_utc": "2026-10-15T05:25:07.960003+00:00",
+  "source": "Authenticated IBM Quantum Platform instances page; open-instance row",
+  "used_seconds": 338,
+  "remaining_seconds": 262,
+  "total_seconds": 600,
+  "pending_workloads": 0,
+  "matches_final_job_usage": true,
+  "note": "Plan header lagged; these values are from the current instance row."
+}

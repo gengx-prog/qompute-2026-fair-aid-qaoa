@@ -1,0 +1,168 @@
+{
+  "raw_counts": [
+    {
+      "000": 1878,
+      "011": 1918,
+      "001": 105,
+      "010": 109,
+      "111": 39,
+      "100": 41,
+      "110": 5,
+      "101": 1
+    },
+    {
+      "001": 1941,
+      "010": 1857,
+      "011": 115,
+      "000": 102,
+      "101": 37,
+      "110": 38,
+      "100": 3,
+      "111": 3
+    },
+    {
+      "011": 1940,
+      "000": 1903,
+      "001": 89,
+      "100": 36,
+      "010": 96,
+      "111": 28,
+      "101": 2,
+      "110": 2
+    },
+    {
+      "001": 98,
+      "000": 1760,
+      "011": 1897,
+      "100": 77,
+      "010": 125,
+      "111": 66,
+      "110": 34,
+      "101": 39
+    },
+    {
+      "010": 1826,
+      "001": 1839,
+      "110": 69,
+      "101": 69,
+      "011": 129,
+      "111": 27,
+      "000": 105,
+      "100": 32
+    },
+    {
+      "011": 1784,
+      "000": 1893,
+      "111": 71,
+      "100": 66,
+      "010": 98,
+      "001": 103,
+      "101": 44,
+      "110": 37
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "fidelity": 0.9228515625,
+      "fidelity_standard_error": 0.0029884093446485025,
+      "fidelity_interval_95": [
+        0.9095005398156443,
+        0.9343223029865163
+      ],
+      "correlations": {
+        "XX": {
+          "value": 0.892578125,
+          "standard_error": 0.0070451995439541615,
+          "simultaneous_interval_95": [
+            0.874430613599086,
+            0.9082313288119077
+          ],
+          "even_parity_shots": 3876,
+          "accepted_shots": 4096,
+          "total_shots": 4096,
+          "acceptance_fraction": 1.0
+        },
+        "YY": {
+          "value": -0.89111328125,
+          "standard_error": 0.007090326816874002,
+          "simultaneous_interval_95": [
+            -0.9068760476452389,
+            -0.8728603007683627
+          ],
+          "even_parity_shots": 223,
+          "accepted_shots": 4096,
+          "total_shots": 4096,
+          "acceptance_fraction": 1.0
+        },
+        "ZZ": {
+          "value": 0.90771484375,
+          "standard_error": 0.006556056405698882,
+          "simultaneous_interval_95": [
+            0.8907112448951282,
+            0.9221818354889186
+          ],
+          "even_parity_shots": 3907,
+          "accepted_shots": 4096,
+          "total_shots": 4096,
+          "acceptance_fraction": 1.0
+        }
+      },
+      "accepted_shots": 12288,
+      "total_shots": 12288,
+      "acceptance_fraction": 1.0,
+      "postselected": false,
+      "uncertainty_note": "Standard errors describe independent shot noise only, conditional on the accepted count; plug-in errors may be zero at boundaries. Fidelity bounds combine three Bonferroni-adjusted Wilson intervals (approximate 95% joint coverage). They exclude calibration drift, readout bias, gate errors, and other systematic uncertainty. Fidelity assumes the same prepared state across XX, YY, and ZZ settings. Raw estimates are not clipped."
+    },
+    "protected": {
+      "fidelity": 0.9153397719976009,
+      "fidelity_standard_error": 0.003205577913750029,
+      "fidelity_interval_95": [
+        0.9010467040968837,
+        0.9276730124311832
+      ],
+      "correlations": {
+        "XX": {
+          "value": 0.8850515463917525,
+          "standard_error": 0.007473040208380663,
+          "simultaneous_interval_95": [
+            0.8658214620700515,
+            0.9016708717585744
+          ],
+          "even_parity_shots": 3657,
+          "accepted_shots": 3880,
+          "total_shots": 4096,
+          "acceptance_fraction": 0.947265625
+        },
+        "YY": {
+          "value": -0.879969222877661,
+          "standard_error": 0.00760755430342972,
+          "simultaneous_interval_95": [
+            -0.8969223889918798,
+            -0.860432920562644
+          ],
+          "even_parity_shots": 234,
+          "accepted_shots": 3899,
+          "total_shots": 4096,
+          "acceptance_fraction": 0.951904296875
+        },
+        "ZZ": {
+          "value": 0.8963383187209901,
+          "standard_error": 0.007119723572038852,
+          "simultaneous_interval_95": [
+            0.8779324337548398,
+            0.9120987889742784
+          ],
+          "even_parity_shots": 3677,
+          "accepted_shots": 3878,
+          "total_shots": 4096,
+          "acceptance_fraction": 0.94677734375
+        }
+      },
+      "accepted_shots": 11657,
+      "total_shots": 12288,
+      "acceptance_fraction": 0.9486490885416666,
+      "postselected": true,
+      "uncertainty_note": "Standard errors describe independent shot noise only, conditional on the accepted count; plug-in errors may be zero at boundaries. Fidelity bounds combine three Bonferroni-adjusted Wilson intervals (approximate 95% joint coverage). They exclude calibration drift, readout bias, gate errors, and other systematic uncertainty. Fidelity assumes the same prepared state across XX, YY, and ZZ settings. Raw estimates are not clipped."
+    }
+  }
+}

@@ -1,0 +1,7 @@
+﻿{
+    "source_sha256":  "e27ba1c871d3a229bd7336cd27971f04004052f802835439abeb00e0abe31ec5",
+    "submitted":  false,
+    "reason":  "Local ideal validator omitted the two newly added initialization variants. No QPU submission occurred.",
+    "stage":  "confirm-01-a",
+    "captured_utc":  "2026-10-15T05:09:21.3235979Z"
+}
