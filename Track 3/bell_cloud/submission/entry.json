@@ -1,0 +1,27 @@
+{
+  "team_name": "team-12",
+  "members": [
+    {
+      "name": "HUNG-YU LIN",
+      "role": "Acceptance review and video"
+    },
+    {
+      "name": "XINCHEN GENG",
+      "role": "Experiments and method development"
+    },
+    {
+      "name": "Daniel Cai",
+      "role": "Report/presentation"
+    }
+  ],
+  "track": "Track 3 - Can We Trust a Noisy Quantum Computer?",
+  "project_title": "Bell correlations, placement and error detection on IBM hardware",
+  "repository_url": "https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa",
+  "review_branch_url": "https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/tree/track3-submission-20261014",
+  "video_url": "https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/releases/download/track3-submission-2026-10-14/Track3_Presentation.mp4",
+  "submission_form": "https://docs.google.com/forms/d/e/1FAIpQLSffK6jWlW7L8uXGhQ_336lzX1qnckdqiC-M593KWLag3hKDBw/viewform",
+  "prior_submission": "Team explicitly confirmed no prior submission.",
+  "submission_status": "Submitted once; official Google Form displayed the receipt confirmation.",
+  "pull_request_url": "https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/pull/1",
+  "publication_status": "Submission branch and video release published; PR open, not merged."
+}
