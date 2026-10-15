@@ -21,5 +21,7 @@
   "video_url": "https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/releases/download/track3-submission-2026-10-14/Track3_Presentation.mp4",
   "submission_form": "https://docs.google.com/forms/d/e/1FAIpQLSffK6jWlW7L8uXGhQ_336lzX1qnckdqiC-M593KWLag3hKDBw/viewform",
   "prior_submission": "Team explicitly confirmed no prior submission.",
-  "submission_status": "Not submitted; Google reauthentication required."
+  "submission_status": "Not submitted; Google reauthentication required.",
+  "pull_request_url": "https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/pull/1",
+  "publication_status": "Submission branch and video release published; PR open, not merged."
 }

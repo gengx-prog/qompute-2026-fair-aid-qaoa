@@ -91,6 +91,9 @@
   ],
   "video_sha256": "04d8832496709f0222f4e2f9cd85d307acd5c9ccf8958a41777a63bc3e67d963",
   "video_bytes": 10535110,
-  "uploaded": false,
-  "script_sha256": "9e2cd893a283982304c35fed1cc3816496aeced126b1b593fac613f6fe78d924"
+  "uploaded": true,
+  "script_sha256": "9e2cd893a283982304c35fed1cc3816496aeced126b1b593fac613f6fe78d924",
+  "release_url": "https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/releases/tag/track3-submission-2026-10-14",
+  "video_url": "https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/releases/download/track3-submission-2026-10-14/Track3_Presentation.mp4",
+  "remote_sha256": "04d8832496709f0222f4e2f9cd85d307acd5c9ccf8958a41777a63bc3e67d963"
 }

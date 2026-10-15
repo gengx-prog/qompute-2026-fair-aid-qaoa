@@ -73,7 +73,7 @@ The official repository specifies a 5-10 minute video and the team GitHub link, 
 - [x] Fix relocatable export and pass its regression checks.
 - [x] Confirm team name and Daniel Cai's role.
 - [ ] Team reviews the presentation and verifies all credits.
-- [ ] Publish repository updates and make the video accessible by link.
+- [x] Publish the submission branch and video release asset. [Review PR #1](https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/pull/1) before merging into main.
 - [x] Confirm with the team that nobody has already submitted.
 - [ ] Have one member submit once.
 - [ ] Save the actual submission confirmation.
@@ -82,3 +82,5 @@ The official repository specifies a 5-10 minute video and the team GitHub link, 
 GitHub repository: https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa
 
 Video file: `Track3_Presentation.mp4`, with synthetic English narration and burned-in captions. The MP4 is distributed as the release asset linked above, rather than duplicated in Git history. Publishing files does not establish a completed competition submission.
+
+The prepared submission branch is [track3-submission-20261014](https://github.com/gengx-prog/qompute-2026-fair-aid-qaoa/tree/track3-submission-20261014). PR #1 is open and has not been merged. The competition form has not been submitted.
